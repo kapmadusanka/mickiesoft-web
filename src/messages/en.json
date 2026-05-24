@@ -1,0 +1,165 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "technologies": "Technologies",
+    "contact": "Contact",
+    "getStarted": "Get Started"
+  },
+  "hero": {
+    "title": "Outsource Software Development",
+    "subtitle": "Software development outsourcing means having a scalable developer resource pool that may be activated when you need accelerating your development output.",
+    "cta": "Get Started"
+  },
+  "about": {
+    "sectionLabel": "About Us",
+    "heading": "We Help Companies Build Better Software",
+    "paragraph1": "We are a team of passionate software engineers dedicated to delivering high-quality, scalable solutions for businesses of all sizes. Our expertise spans mobile development, web applications, ERP systems, and Microsoft add-ins.",
+    "paragraph2": "With years of experience in outsourcing software development, we provide reliable, cost-effective solutions that accelerate your digital transformation and drive business growth.",
+    "feature1Title": "Custom Solutions",
+    "feature1Desc": "Tailored software solutions designed to meet your unique business requirements and goals.",
+    "feature2Title": "Expert Team",
+    "feature2Desc": "Highly skilled developers with expertise in cutting-edge technologies and best practices.",
+    "feature3Title": "Agile Process",
+    "feature3Desc": "Iterative development approach ensuring flexibility, transparency, and timely delivery.",
+    "feature4Title": "24/7 Support",
+    "feature4Desc": "Round-the-clock technical support and maintenance to keep your systems running smoothly."
+  },
+  "services": {
+    "sectionLabel": "Services",
+    "heading": "What We Offer",
+    "subtitle": "We provide comprehensive software development services tailored to your business needs.",
+    "mobileDev": "Mobile App Development",
+    "mobileDevDesc": "Native and cross-platform mobile applications built with modern frameworks for iOS and Android.",
+    "microsoftAddin": "Microsoft Add-in Development",
+    "microsoftAddinDesc": "Custom Microsoft Office add-ins and integrations that enhance your productivity workflow.",
+    "webDev": "Web Development",
+    "webDevDesc": "Full-stack web applications built with modern technologies for performance and scalability.",
+    "erpDev": "ERP Development",
+    "erpDevDesc": "Enterprise resource planning solutions customized to streamline your business operations.",
+    "fixedBudgetTitle": "Fixed Budget Projects",
+    "fixedBudgetDesc": "Get your project delivered within a pre-agreed budget with clear milestones and deliverables.",
+    "hireProfessionalsTitle": "Hire Professionals",
+    "hireProfessionalsDesc": "Access top-tier developers who integrate seamlessly with your existing team.",
+    "hireTeamTitle": "Hire a Dedicated Team",
+    "hireTeamDesc": "Build your extended development team with dedicated professionals focused on your project.",
+    "itOpsTitle": "IT Operations",
+    "itOpsDesc": "Comprehensive IT infrastructure management and support to keep your systems running optimally."
+  },
+  "technologies": {
+    "sectionLabel": "Technologies",
+    "heading": "Technologies We Work With",
+    "subtitle": "We leverage cutting-edge technologies to build robust, scalable solutions."
+  },
+  "contact": {
+    "sectionLabel": "Contact",
+    "heading": "Contact Us",
+    "subtitle": "Have a project in mind? Get in touch with us and let's discuss how we can help.",
+    "address": "No 33, Colombo 05, Sri Lanka",
+    "phone": "+94 77 123 4567",
+    "email": "info@mickiesoft.lk",
+    "namePlaceholder": "Your Name",
+    "emailPlaceholder": "Your Email",
+    "subjectPlaceholder": "Subject",
+    "messagePlaceholder": "Your Message",
+    "submitButton": "Send Message",
+    "successMessage": "Your message has been sent. Thank you!",
+    "errorMessage": "Failed to send message. Please try again."
+  },
+  "stats": {
+    "happyClients": "Happy Clients",
+    "projects": "Projects",
+    "hoursOfSupport": "Hours Of Support",
+    "hardWorkers": "Hard Workers"
+  },
+  "clients": {
+    "sectionLabel": "Trusted By",
+    "heading": "Our Clients"
+  },
+  "footer": {
+    "copyright": "© {year} Mickiesoft (Pvt) Ltd. All Rights Reserved.",
+    "description": "Outsource software development with confidence. We build scalable, modern solutions for businesses worldwide."
+  },
+  "cms": {
+    "dashboard": {
+      "title": "Dashboard",
+      "welcome": "Welcome back",
+      "totalPages": "Total Pages",
+      "totalServices": "Total Services",
+      "totalBlog": "Blog Posts",
+      "totalMedia": "Media Files"
+    },
+    "sidebar": {
+      "dashboard": "Dashboard",
+      "pages": "Pages",
+      "services": "Services",
+      "blog": "Blog",
+      "technologies": "Technologies",
+      "team": "Team",
+      "media": "Media Library",
+      "testimonials": "Testimonials",
+      "settings": "Settings",
+      "translations": "Translations"
+    },
+    "table": {
+      "noResults": "No results found.",
+      "previous": "Previous",
+      "next": "Next",
+      "rowsPerPage": "Rows per page",
+      "of": "of",
+      "selected": "selected",
+      "columns": "Columns",
+      "search": "Search..."
+    },
+    "editor": {
+      "placeholder": "Start writing..."
+    },
+    "media": {
+      "dropzone": "Drop files here or click to upload",
+      "uploading": "Uploading...",
+      "uploadSuccess": "File uploaded successfully",
+      "uploadError": "Upload failed",
+      "copyUrl": "Copy URL",
+      "copied": "URL copied to clipboard"
+    },
+    "login": {
+      "title": "CMS Login",
+      "subtitle": "Sign in to manage your content",
+      "emailLabel": "Email",
+      "emailPlaceholder": "admin@mickiesoft.lk",
+      "passwordLabel": "Password",
+      "passwordPlaceholder": "Enter your password",
+      "submitButton": "Sign In",
+      "error": "Invalid email or password"
+    }
+  },
+  "common": {
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "create": "Create",
+    "loading": "Loading...",
+    "error": "Something went wrong",
+    "success": "Operation successful",
+    "confirm": "Are you sure?",
+    "confirmDelete": "This action cannot be undone. This will permanently delete this item.",
+    "yes": "Yes",
+    "no": "No",
+    "back": "Back",
+    "actions": "Actions",
+    "status": "Status",
+    "createdAt": "Created At",
+    "updatedAt": "Updated At",
+    "active": "Active",
+    "inactive": "Inactive",
+    "draft": "Draft",
+    "published": "Published",
+    "name": "Name",
+    "title": "Title",
+    "description": "Description",
+    "image": "Image",
+    "icon": "Icon"
+  }
+}

@@ -1,7 +1,7 @@
 "use client"
 
 import { useLocale } from "next-intl"
-import { useRouter, usePathname } from "next/navigation"
+import { useRouter, usePathname } from "@/i18n/navigation"
 import { Button } from "@/components/ui/button"
 import {
   DropdownMenu,
@@ -22,21 +22,7 @@ export function LanguageSwitcher() {
   const pathname = usePathname()
 
   function switchLocale(newLocale: string) {
-    // Remove current locale prefix if present
-    const segments = pathname.split("/")
-    const currentLocaleInPath = segments[1]
-
-    let newPath: string
-
-    if (currentLocaleInPath === "en" || currentLocaleInPath === "si") {
-      segments[1] = newLocale === "en" ? "" : newLocale
-      newPath = segments.filter(Boolean).join("/")
-      newPath = newPath ? `/${newPath}` : "/"
-    } else {
-      newPath = newLocale === "en" ? pathname : `/${newLocale}${pathname}`
-    }
-
-    router.push(newPath)
+    router.replace(pathname, { locale: newLocale })
   }
 
   return (

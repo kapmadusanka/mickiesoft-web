@@ -2,83 +2,171 @@
 
 import { useTranslations } from "next-intl"
 import { Typography } from "@/components/typography/Typography"
-import { Separator } from "@/components/ui/separator"
+import { Input } from "@/components/ui/input"
+import { Button } from "@/components/ui/button"
 import Link from "next/link"
+import { ArrowRight, Mail, MapPin, Phone } from "lucide-react"
 
 export function Footer() {
   const t = useTranslations("footer")
   const year = new Date().getFullYear()
 
   return (
-    <footer className="bg-card border-t">
-      <div className="container mx-auto px-4 max-w-7xl py-12">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          {/* Brand */}
-          <div>
-            <Typography variant="h5" className="mb-3 gradient-text">
-              Mickiesoft
-            </Typography>
-            <Typography variant="muted" className="max-w-xs">
+    <footer className="relative bg-slate-50 dark:bg-slate-950 pt-20 pb-10 border-t border-slate-200 dark:border-slate-800 overflow-hidden">
+      {/* Decorative Blur Orbs */}
+      <div className="absolute top-0 left-1/4 w-96 h-96 bg-blue-500/10 rounded-full blur-[100px] -z-10 pointer-events-none" />
+      <div className="absolute bottom-0 right-1/4 w-96 h-96 bg-purple-500/10 rounded-full blur-[100px] -z-10 pointer-events-none" />
+
+      <div className="container mx-auto px-4 max-w-7xl">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-12 lg:gap-8 mb-16">
+
+          {/* Brand & Description (Col 1-4) */}
+          <div className="lg:col-span-4">
+            <Link href="/" className="inline-block mb-6">
+              <span className="text-3xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
+                Mickiesoft
+              </span>
+            </Link>
+            <Typography variant="p" className="text-slate-500 dark:text-slate-400 leading-relaxed mb-8 pr-4">
               {t("description")}
             </Typography>
+            <div className="flex items-center gap-4">
+              <SocialLink href="https://facebook.com/mickiesoft" icon={FacebookIcon} ariaLabel="Facebook" />
+              <SocialLink href="https://linkedin.com/company/mickiesoft" icon={LinkedinIcon} ariaLabel="LinkedIn" />
+              <SocialLink href="https://twitter.com/mickiesoft" icon={TwitterIcon} ariaLabel="Twitter" />
+              <SocialLink href="https://instagram.com/mickiesoft" icon={InstagramIcon} ariaLabel="Instagram" />
+            </div>
           </div>
 
-          {/* Quick Links */}
-          <div>
-            <Typography variant="h6" className="mb-3">
-              Quick Links
+          {/* Quick Links (Col 5-6) */}
+          <div className="lg:col-span-2">
+            <Typography variant="h6" className="mb-6 font-semibold">
+              Company
             </Typography>
-            <div className="flex flex-col gap-2">
+            <ul className="space-y-4">
               {["about", "services", "technologies", "contact"].map((id) => (
-                <Link
-                  key={id}
-                  href={`#${id}`}
-                  className="text-sm text-muted-foreground hover:text-primary transition-colors capitalize"
-                >
-                  {id}
-                </Link>
+                <li key={id}>
+                  <Link
+                    href={`#${id}`}
+                    className="text-slate-500 dark:text-slate-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors capitalize text-sm flex items-center group"
+                  >
+                    <span className="w-0 overflow-hidden group-hover:w-3 transition-all duration-300 ease-out">
+                      <span className="text-blue-600 dark:text-blue-400 mr-1">-</span>
+                    </span>
+                    {id}
+                  </Link>
+                </li>
               ))}
-            </div>
+            </ul>
           </div>
 
-          {/* Social */}
-          <div>
-            <Typography variant="h6" className="mb-3">
-              Connect
+          {/* Contact Info (Col 7-9) */}
+          <div className="lg:col-span-3">
+            <Typography variant="h6" className="mb-6 font-semibold">
+              Get in Touch
             </Typography>
-            <div className="flex gap-3">
-              <Link
-                href="https://facebook.com/mickiesoft"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex items-center justify-center h-10 w-10 rounded-full bg-primary/10 text-primary hover:bg-primary hover:text-primary-foreground transition-all duration-200"
-                aria-label="Facebook"
+            <ul className="space-y-4">
+              <li className="flex items-start gap-3">
+                <MapPin className="w-5 h-5 text-blue-600 dark:text-blue-400 shrink-0 mt-0.5" />
+                <span className="text-sm text-slate-500 dark:text-slate-400 leading-relaxed">
+                  123 Tech Avenue, Innovation District<br />Colombo, Sri Lanka
+                </span>
+              </li>
+              <li className="flex items-center gap-3">
+                <Phone className="w-5 h-5 text-blue-600 dark:text-blue-400 shrink-0" />
+                <span className="text-sm text-slate-500 dark:text-slate-400">+94 77 123 4567</span>
+              </li>
+              <li className="flex items-center gap-3">
+                <Mail className="w-5 h-5 text-blue-600 dark:text-blue-400 shrink-0" />
+                <span className="text-sm text-slate-500 dark:text-slate-400">hello@mickiesoft.com</span>
+              </li>
+            </ul>
+          </div>
+
+          {/* Newsletter (Col 10-12) */}
+          <div className="lg:col-span-3">
+            <Typography variant="h6" className="mb-6 font-semibold">
+              Newsletter
+            </Typography>
+            <Typography variant="p" className="text-sm text-slate-500 dark:text-slate-400 mb-4 leading-relaxed">
+              Subscribe to our newsletter for the latest tech insights and company updates.
+            </Typography>
+            <form className="relative group" onSubmit={(e) => e.preventDefault()}>
+              <Input
+                type="email"
+                placeholder="Enter your email"
+                className="w-full pl-4 pr-12 py-6 bg-white dark:bg-slate-900 border-slate-200 dark:border-slate-800 rounded-2xl focus-visible:ring-blue-500"
+              />
+              <Button
+                type="submit"
+                size="icon"
+                className="absolute right-1.5 top-1.5 bottom-1.5 h-auto w-10 rounded-xl bg-blue-600 hover:bg-blue-700 text-white transition-all"
               >
-                <svg className="h-4 w-4" fill="currentColor" viewBox="0 0 24 24">
-                  <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" />
-                </svg>
-              </Link>
-              <Link
-                href="https://linkedin.com/company/mickiesoft"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex items-center justify-center h-10 w-10 rounded-full bg-primary/10 text-primary hover:bg-primary hover:text-primary-foreground transition-all duration-200"
-                aria-label="LinkedIn"
-              >
-                <svg className="h-4 w-4" fill="currentColor" viewBox="0 0 24 24">
-                  <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
-                </svg>
-              </Link>
-            </div>
+                <ArrowRight className="w-4 h-4" />
+              </Button>
+            </form>
+          </div>
+
+        </div>
+
+        {/* Footer Bottom */}
+        <div className="pt-8 border-t border-slate-200 dark:border-slate-800 flex flex-col md:flex-row justify-between items-center gap-4">
+          <Typography variant="small" className="text-slate-500 dark:text-slate-400">
+            {t("copyright", { year: year.toString() })}
+          </Typography>
+          <div className="flex gap-6">
+            <Link href="#" className="text-sm text-slate-500 dark:text-slate-400 hover:text-blue-600 transition-colors">Privacy Policy</Link>
+            <Link href="#" className="text-sm text-slate-500 dark:text-slate-400 hover:text-blue-600 transition-colors">Terms of Service</Link>
           </div>
         </div>
 
-        <Separator className="my-8" />
-
-        <Typography variant="caption" className="text-center block">
-          {t("copyright", { year: year.toString() })}
-        </Typography>
       </div>
     </footer>
+  )
+}
+
+function SocialLink({ href, icon: Icon, ariaLabel }: { href: string, icon: any, ariaLabel: string }) {
+  return (
+    <Link
+      href={href}
+      target="_blank"
+      rel="noopener noreferrer"
+      aria-label={ariaLabel}
+      className="flex items-center justify-center w-10 h-10 rounded-full bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 text-slate-500 dark:text-slate-400 hover:border-blue-500 hover:text-blue-600 hover:shadow-lg hover:shadow-blue-500/20 transition-all duration-300"
+    >
+      <Icon className="w-4 h-4" />
+    </Link>
+  )
+}
+
+function FacebookIcon({ className }: { className?: string }) {
+  return (
+    <svg className={className} fill="currentColor" viewBox="0 0 24 24">
+      <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" />
+    </svg>
+  )
+}
+
+function LinkedinIcon({ className }: { className?: string }) {
+  return (
+    <svg className={className} fill="currentColor" viewBox="0 0 24 24">
+      <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
+    </svg>
+  )
+}
+
+function TwitterIcon({ className }: { className?: string }) {
+  return (
+    <svg className={className} fill="currentColor" viewBox="0 0 24 24">
+      <path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z" />
+    </svg>
+  )
+}
+
+function InstagramIcon({ className }: { className?: string }) {
+  return (
+    <svg className={className} fill="currentColor" viewBox="0 0 24 24">
+      <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z" />
+    </svg>
   )
 }

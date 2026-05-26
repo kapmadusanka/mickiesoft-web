@@ -23,10 +23,50 @@ const SERVICE_CARDS = [
 ] as const
 
 const FEATURE_ROWS = [
-  { key: "fixedBudget", icon: DollarSign, color: "text-emerald-600 dark:text-emerald-400", bg: "bg-emerald-500/10" },
-  { key: "hireProfessionals", icon: UserCheck, color: "text-sky-600 dark:text-sky-400", bg: "bg-sky-500/10" },
-  { key: "hireTeam", icon: UsersRound, color: "text-violet-600 dark:text-violet-400", bg: "bg-violet-500/10" },
-  { key: "itOps", icon: Wrench, color: "text-amber-600 dark:text-amber-400", bg: "bg-amber-500/10" },
+  {
+    key: "fixedBudget",
+    icon: DollarSign,
+    reversed: false,
+    visualBg: "bg-gradient-to-br from-emerald-50 to-emerald-100 dark:from-emerald-950/50 dark:to-emerald-900/30",
+    ringBorder: "border-emerald-300 dark:border-emerald-700",
+    ringBorderOuter: "border-emerald-200 dark:border-emerald-800",
+    iconBg: "bg-emerald-500",
+    tagBg: "bg-emerald-100 dark:bg-emerald-950/60",
+    tagText: "text-emerald-800 dark:text-emerald-300",
+  },
+  {
+    key: "hireProfessionals",
+    icon: UserCheck,
+    reversed: true,
+    visualBg: "bg-gradient-to-br from-sky-50 to-sky-100 dark:from-sky-950/50 dark:to-sky-900/30",
+    ringBorder: "border-sky-300 dark:border-sky-700",
+    ringBorderOuter: "border-sky-200 dark:border-sky-800",
+    iconBg: "bg-sky-500",
+    tagBg: "bg-sky-100 dark:bg-sky-950/60",
+    tagText: "text-sky-800 dark:text-sky-300",
+  },
+  {
+    key: "hireTeam",
+    icon: UsersRound,
+    reversed: false,
+    visualBg: "bg-gradient-to-br from-violet-50 to-violet-100 dark:from-violet-950/50 dark:to-violet-900/30",
+    ringBorder: "border-violet-300 dark:border-violet-700",
+    ringBorderOuter: "border-violet-200 dark:border-violet-800",
+    iconBg: "bg-violet-500",
+    tagBg: "bg-violet-100 dark:bg-violet-950/60",
+    tagText: "text-violet-800 dark:text-violet-300",
+  },
+  {
+    key: "itOps",
+    icon: Wrench,
+    reversed: true,
+    visualBg: "bg-gradient-to-br from-amber-50 to-amber-100 dark:from-amber-950/50 dark:to-amber-900/30",
+    ringBorder: "border-amber-300 dark:border-amber-700",
+    ringBorderOuter: "border-amber-200 dark:border-amber-800",
+    iconBg: "bg-amber-500",
+    tagBg: "bg-amber-100 dark:bg-amber-950/60",
+    tagText: "text-amber-800 dark:text-amber-300",
+  },
 ] as const
 
 export function Services() {
@@ -77,37 +117,42 @@ export function Services() {
         </StaggerContainer>
 
         {/* Feature Rows */}
-        <div className="space-y-8">
+        <div className="flex flex-col gap-4">
           {FEATURE_ROWS.map((feat, i) => {
             const Icon = feat.icon
-            const isReversed = i % 2 === 1
             return (
-              <AnimatedSection key={feat.key} delay={i * 0.1}>
-                <Card className="overflow-hidden hover:shadow-lg transition-shadow duration-300">
-                  <CardContent
-                    className={`p-0 flex flex-col ${
-                      isReversed ? "md:flex-row-reverse" : "md:flex-row"
-                    } items-center`}
-                  >
-                    {/* Icon Side */}
-                    <div
-                      className={`w-full md:w-1/3 p-8 flex items-center justify-center ${feat.bg}`}
-                    >
-                      <div className="h-24 w-24 rounded-3xl bg-card/80 backdrop-blur flex items-center justify-center shadow-lg">
-                        <Icon className={`h-12 w-12 ${feat.color}`} />
+              <AnimatedSection key={feat.key} delay={i * 0.08}>
+                <div className="group border border-slate-200 dark:border-slate-800 rounded-2xl overflow-hidden transition-all duration-300 hover:shadow-lg hover:shadow-slate-200/80 dark:hover:shadow-slate-900/60">
+                  <div className={`flex flex-col ${feat.reversed ? "md:flex-row-reverse" : "md:flex-row"} items-stretch`}>
+
+                    {/* Visual side */}
+                    <div className={`relative md:w-72 shrink-0 flex items-center justify-center p-10 ${feat.visualBg}`}>
+                      <div className="relative w-24 h-24 flex items-center justify-center">
+                        {/* spinning dashed rings */}
+                        <div className={`absolute inset-[-10px] rounded-full border-2 border-dashed ${feat.ringBorder} opacity-30 animate-[spin_12s_linear_infinite]`} />
+                        <div className={`absolute inset-[-22px] rounded-full border border-dashed ${feat.ringBorderOuter} opacity-15 animate-[spin_20s_linear_infinite_reverse]`} />
+                        <div className={`w-[76px] h-[76px] rounded-full ${feat.iconBg} flex items-center justify-center shadow-md`}>
+                          <Icon className="w-9 h-9 text-white" strokeWidth={1.7} />
+                        </div>
                       </div>
                     </div>
-                    {/* Content Side */}
-                    <div className="w-full md:w-2/3 p-8">
-                      <Typography variant="h4" className="mb-3">
+
+                    {/* Content side */}
+                    <div className="flex-1 p-8 md:p-10 bg-white dark:bg-slate-950 flex flex-col justify-center">
+                      <div className={`inline-flex w-fit text-[11px] font-bold uppercase tracking-widest px-3 py-1 rounded-full ${feat.tagBg} ${feat.tagText} mb-4`}>
+                        {t(`${feat.key}Title`)}
+                      </div>
+
+                      <Typography variant="h4" className="mb-3 text-slate-900 dark:text-white leading-tight">
                         {t(`${feat.key}Title`)}
                       </Typography>
-                      <Typography variant="p" className="text-muted-foreground leading-relaxed">
+                      <Typography variant="p" className="text-slate-500 dark:text-slate-400 leading-relaxed max-w-lg">
                         {t(`${feat.key}Desc`)}
                       </Typography>
                     </div>
-                  </CardContent>
-                </Card>
+
+                  </div>
+                </div>
               </AnimatedSection>
             )
           })}

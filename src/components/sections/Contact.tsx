@@ -52,8 +52,13 @@ export function Contact() {
   }
 
   return (
-    <section id="contact" className="py-20 lg:py-28">
-      <div className="container mx-auto px-4 max-w-7xl">
+    <section
+      id="contact"
+      className="relative py-20 lg:py-28 bg-cover bg-center"
+      style={{ backgroundImage: "url('/images/contact-bg.png')" }}
+    >
+      <div className="absolute inset-0 bg-background/80 backdrop-blur-[2px]" />
+      <div className="container mx-auto px-4 max-w-7xl relative z-10">
         <AnimatedSection className="text-center mb-16">
           <Typography
             variant="caption"

@@ -7,11 +7,26 @@
     "contact": "Contact",
     "getStarted": "Get Started"
   },
-  "hero": {
-    "title": "Outsource Software Development",
-    "subtitle": "Software development outsourcing means having a scalable developer resource pool that may be activated when you need accelerating your development output.",
-    "cta": "Get Started"
-  },
+  "hero": [
+    {
+      "badge": "Software Development Partner",
+      "title": "Outsource Software Development",
+      "subtitle": "Software development outsourcing means having a scalable developer resource pool that may be activated when you need accelerating your development output.",
+      "cta": "Get Started"
+    },
+    {
+      "badge": "Mobile Application Development",
+      "title": "Build Powerful Mobile Apps",
+      "subtitle": "We craft high-performance iOS and Android applications that deliver seamless user experiences. From concept to launch, our mobile experts turn your vision into reality.",
+      "cta": "Get Started"
+    },
+    {
+      "badge": "Web Application Development",
+      "title": "Modern Web Applications",
+      "subtitle": "From sleek frontends to robust backends, we build full-stack web applications that scale with your business. Clean architecture, modern frameworks, and pixel-perfect UI.",
+      "cta": "Get Started"
+    }
+  ],
   "about": {
     "sectionLabel": "About Us",
     "heading": "We Help Companies Build Better Software",

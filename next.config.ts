@@ -24,6 +24,9 @@ const nextConfig: NextConfig = {
       },
     ],
   },
+  outputFileTracingIncludes: {
+    '/api/**/*': ['./data/**/*'],
+  },
 }
 
 export default withNextIntl(nextConfig)

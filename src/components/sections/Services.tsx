@@ -1,6 +1,4 @@
-"use client"
-
-import { useTranslations } from "next-intl"
+import { getTranslations } from "next-intl/server"
 import { Typography } from "@/components/typography/Typography"
 import { Card, CardContent } from "@/components/ui/card"
 import { AnimatedSection, StaggerContainer, StaggerItem } from "@/components/shared/PageTransition"
@@ -69,12 +67,41 @@ const FEATURE_ROWS = [
   },
 ] as const
 
-export function Services() {
-  const t = useTranslations("services")
+export async function Services() {
+  const t = await getTranslations("services")
+
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    itemListElement: [
+      ...SERVICE_CARDS.map((service, index) => ({
+        "@type": "ListItem",
+        position: index + 1,
+        item: {
+          "@type": "Service",
+          name: t(service.key as any),
+          description: t(`${service.key}Desc` as any),
+        },
+      })),
+      ...FEATURE_ROWS.map((feature, index) => ({
+        "@type": "ListItem",
+        position: SERVICE_CARDS.length + index + 1,
+        item: {
+          "@type": "Service",
+          name: t(`${feature.key}Title` as any),
+          description: t(`${feature.key}Desc` as any),
+        },
+      })),
+    ],
+  }
 
   return (
     <section id="services" className="py-20 lg:py-28">
       <div className="container mx-auto px-4 max-w-7xl">
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        />
         <AnimatedSection className="text-center mb-16">
           <Typography
             variant="caption"

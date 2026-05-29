@@ -1,6 +1,4 @@
-"use client"
-
-import { useTranslations } from "next-intl"
+import { getTranslations } from "next-intl/server"
 import { Typography } from "@/components/typography/Typography"
 import { AnimatedSection, StaggerContainer, StaggerItem } from "@/components/shared/PageTransition"
 import Image from "next/image"
@@ -24,8 +22,8 @@ const TECH_ITEMS = [
   { name: "Azure", image: "/images/technologies/azure-logo.png" },
 ]
 
-export function Technologies() {
-  const t = useTranslations("technologies")
+export async function Technologies() {
+  const t = await getTranslations("technologies")
 
   return (
     <section id="technologies" className="py-20 lg:py-28 section-light">

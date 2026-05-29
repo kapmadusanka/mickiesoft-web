@@ -1,0 +1,32 @@
+[
+    {
+        "id": "1",
+        "question": "What types of software development do you specialize in?",
+        "answer": "We specialize in full-stack web development, custom enterprise applications, e-commerce platforms, and mobile app development (iOS & Android). We work with a wide range of technologies including React, Node.js, Python, and cloud-based solutions."
+    },
+    {
+        "id": "2",
+        "question": "How do you handle project management and communication?",
+        "answer": "We use an agile development methodology with transparent project management tools. Our clients have access to regular progress updates, milestone tracking, and direct communication channels with their dedicated project manager for seamless collaboration."
+    },
+    {
+        "id": "3",
+        "question": "Do you offer maintenance and support after the project is completed?",
+        "answer": "Yes, we offer flexible maintenance and support packages. From critical updates and security patches to feature enhancements, we ensure your software continues to perform optimally long after launch."
+    },
+    {
+        "id": "4",
+        "question": "Can you work with existing codebases or legacy systems?",
+        "answer": "Absolutely. We have extensive experience in modernizing legacy systems, migrating them to current technologies, and integrating new features seamlessly into existing codebases."
+    },
+    {
+        "id": "5",
+        "question": "What is your typical development timeline?",
+        "answer": "Timelines vary based on project complexity. A standard MVP might take 4-8 weeks, while complex enterprise systems can take 3-6 months. We provide a detailed timeline during the discovery phase after thoroughly understanding your requirements."
+    },
+    {
+        "id": "6",
+        "question": "Do you provide documentation and training?",
+        "answer": "Yes, comprehensive documentation and training are standard deliverables. We provide technical documentation, user guides, and training sessions to ensure your team can effectively manage and utilize the new software."
+    }
+]

@@ -1,6 +1,4 @@
-"use client"
-
-import { useTranslations } from "next-intl"
+import { getTranslations } from "next-intl/server"
 import { Typography } from "@/components/typography/Typography"
 import { Card, CardContent } from "@/components/ui/card"
 import { AnimatedSection, StaggerContainer, StaggerItem } from "@/components/shared/PageTransition"
@@ -10,8 +8,15 @@ import Image from "next/image"
 const ICONS = [Settings, Users, Zap, HeadphonesIcon]
 const FEATURES = ["feature1", "feature2", "feature3", "feature4"] as const
 
-export function About() {
-  const t = useTranslations("about")
+export async function About() {
+  const t = await getTranslations("about")
+
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "AboutPage",
+    name: t("heading"),
+    description: t("paragraph1"),
+  }
 
   return (
     <section id="about" className="relative py-24 lg:py-32 overflow-hidden bg-gradient-to-br from-background via-background to-primary/5">
@@ -21,6 +26,10 @@ export function About() {
       <div className="absolute bottom-0 left-0 w-1/3 h-1/3 bg-primary/10 rounded-full blur-3xl translate-y-1/3" />
 
       <div className="container mx-auto px-4 max-w-7xl relative">
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        />
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-16 items-center">
 
           {/* Left Content */}

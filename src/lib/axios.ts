@@ -18,9 +18,14 @@ export const privateApi = axios.create({
   timeout: 15000,
 })
 
-// Request interceptor: attach Bearer token from NextAuth session
+import { useAppStore } from "@/store"
+
+// Request interceptor: attach Bearer token from NextAuth session and lang header
 privateApi.interceptors.request.use(
   async (config) => {
+    const lang = useAppStore.getState().selectedLocale || "en"
+    config.headers["lang"] = lang
+
     const session = await getSession()
     if (session?.accessToken) {
       config.headers.Authorization = `Bearer ${session.accessToken}`
@@ -98,6 +103,16 @@ privateApi.interceptors.response.use(
 
     return Promise.reject(error)
   }
+)
+
+// Request interceptor for public API to attach lang header
+publicApi.interceptors.request.use(
+  (config) => {
+    const lang = useAppStore.getState().selectedLocale || "en"
+    config.headers["lang"] = lang
+    return config
+  },
+  (error) => Promise.reject(error)
 )
 
 // Error interceptor for public API

@@ -91,3 +91,9 @@ export interface Testimonial {
   rating: number
   order: number
 }
+
+export interface Faqs {
+  id: string
+  question: string
+  answer: string
+}

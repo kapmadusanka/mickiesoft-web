@@ -67,6 +67,17 @@
     "heading": "Technologies We Work With",
     "subtitle": "We leverage cutting-edge technologies to build robust, scalable solutions."
   },
+  "cta": {
+    "title": "Have a project in mind?",
+    "subtitle": "Let’s build your website or software product together.",
+    "button": "Contact support"
+  },
+  "faq": {
+    "titleStart": "Frequently Asked ",
+    "titleHighlight": "Questions",
+    "subtitle": "Find answers to common questions about our services, process, and capabilities.",
+    "noFaqs": "No FAQs available at the moment."
+  },
   "contact": {
     "sectionLabel": "Contact",
     "heading": "Contact Us",

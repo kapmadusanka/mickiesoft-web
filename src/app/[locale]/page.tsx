@@ -7,6 +7,8 @@ import { Stats } from "@/components/sections/Stats"
 import { Services } from "@/components/sections/Services"
 import { Technologies } from "@/components/sections/Technologies"
 import { Contact } from "@/components/sections/Contact"
+import { FaqSection } from "@/components/sections/FaqSection"
+import CTASection from "@/components/sections/CTASection"
 
 export default function HomePage() {
   return (
@@ -19,6 +21,8 @@ export default function HomePage() {
         <Stats />
         <Services />
         <Technologies />
+        <CTASection/>
+        <FaqSection />
         <Contact />
       </main>
       <Footer />

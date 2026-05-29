@@ -26,7 +26,7 @@ export async function readJson<T = unknown>(...segments: string[]): Promise<T> {
     const fs = eval('require("fs")').promises;
     const path = eval('require("path")');
 
-    const DB_ROOT = path.join(process.cwd(), 'src', 'db');
+    const DB_ROOT = path.join(process.cwd(), 'data');
     const filePath = path.join(DB_ROOT, ...segments);
 
     const content = await fs.readFile(filePath, 'utf-8');

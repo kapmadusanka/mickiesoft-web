@@ -13,7 +13,7 @@ import { useState, useEffect } from "react"
 const titleContainerVariants = {
   initial: {},
   animate: { transition: { staggerChildren: 0.08, delayChildren: 0.1 } },
-  exit:    { transition: { staggerChildren: 0.04, staggerDirection: -1 } },
+  exit: { transition: { staggerChildren: 0.04, staggerDirection: -1 } },
 }
 
 
@@ -97,7 +97,7 @@ export function Hero() {
                   style={{ perspective: "600px" }}
                 >
                   {titleWords.map((word, i) => (
-                    <motion.span key={i}  className="inline-block">
+                    <motion.span key={i} className="inline-block">
                       {word}
                     </motion.span>
                   ))}
@@ -131,11 +131,10 @@ export function Hero() {
                 <button
                   key={i}
                   onClick={() => setIndex(i)}
-                  className={`h-1.5 rounded-full transition-all duration-500 ${
-                    i === index
-                      ? "w-8 bg-primary"
-                      : "w-2 bg-primary/30 hover:bg-primary/50"
-                  }`}
+                  className={`h-1.5 rounded-full transition-all duration-500 ${i === index
+                    ? "w-8 bg-primary"
+                    : "w-2 bg-primary/30 hover:bg-primary/50"
+                    }`}
                   aria-label={`Go to slide ${i + 1}`}
                 />
               ))}
@@ -146,7 +145,7 @@ export function Hero() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.5, duration: 0.5 }}
-              className="flex flex-wrap gap-4"
+              className="flex flex-wrap gap-4 mb-2 "
             >
               <Button
                 size="lg"
@@ -186,19 +185,19 @@ export function Hero() {
               <div className="absolute inset-8 rounded-3xl bg-gradient-to-br from-primary/20 via-primary/10 to-transparent backdrop-blur-sm border border-primary/20 animate-float" />
               <motion.div animate={{ y: [-5, 5, -5] }} transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }} className="absolute top-8 right-8 glass rounded-2xl p-4 shadow-lg">
                 <div className="flex items-center gap-3">
-                  <div className="h-10 w-10 rounded-xl bg-primary/10 flex items-center justify-center"><Globe className="h-5 w-5 text-primary" /></div>
+                  <div className="h-5 md:h-10 w-10 rounded-xl bg-primary/10 flex items-center justify-center"><Globe className="h-5 w-5 text-primary" /></div>
                   <div className="flex gap-1"><Typography variant="small" className="font-semibold">Web Apps</Typography><Typography variant="caption">Full Stack</Typography></div>
                 </div>
               </motion.div>
-              <motion.div animate={{ y: [5, -5, 5] }} transition={{ duration: 5, repeat: Infinity, ease: "easeInOut" }} className="absolute bottom-16 left-4 glass rounded-2xl p-4 shadow-lg">
+              <motion.div animate={{ y: [5, -5, 5] }} transition={{ duration: 5, repeat: Infinity, ease: "easeInOut" }} className="absolute bottom-20 md:bottom-16 left-4 glass rounded-2xl p-4 shadow-lg">
                 <div className="flex items-center gap-3">
-                  <div className="h-10 w-10 rounded-xl bg-green-500/10 flex items-center justify-center"><Smartphone className="h-5 w-5 text-green-600 dark:text-green-400" /></div>
+                  <div className="h-5 md:h-10 w-10 rounded-xl bg-green-500/10 flex items-center justify-center"><Smartphone className="h-5 w-5 text-green-600 dark:text-green-400" /></div>
                   <div className="flex gap-1"><Typography variant="small" className="font-semibold">Mobile</Typography><Typography variant="caption">iOS & Android</Typography></div>
                 </div>
               </motion.div>
-              <motion.div animate={{ y: [3, -7, 3] }} transition={{ duration: 4.5, repeat: Infinity, ease: "easeInOut" }} className="absolute bottom-8 right-16 glass rounded-2xl p-4 shadow-lg">
+              <motion.div animate={{ y: [3, -7, 3] }} transition={{ duration: 4.5, repeat: Infinity, ease: "easeInOut" }} className="absolute bottom-5 md:bottom-8 right-16 glass rounded-2xl p-4 shadow-lg">
                 <div className="flex items-center gap-3">
-                  <div className="h-10 w-10 rounded-xl bg-orange-500/10 flex items-center justify-center"><Server className="h-5 w-5 text-orange-600 dark:text-orange-400" /></div>
+                  <div className="h-5 md:h-10 w-10 rounded-xl bg-orange-500/10 flex items-center justify-center"><Server className="h-5 w-5 text-orange-600 dark:text-orange-400" /></div>
                   <div className="flex gap-1"><Typography variant="small" className="font-semibold">ERP</Typography><Typography variant="caption">Enterprise</Typography></div>
                 </div>
               </motion.div>

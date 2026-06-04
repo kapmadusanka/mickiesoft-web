@@ -1,0 +1,34 @@
+{
+  "id": "16",
+  "slug": "why-we-are-writing-our-backend-in-rust",
+  "title": "Why We Are Writing Our Backend in Rust (Sinhala)",
+  "excerpt": "Exploring the performance, safety, and productivity benefits of rewriting core services in Rust.",
+  "category": "Backend",
+  "featuredImage": "",
+  "author": {
+    "name": "Liam Wilson",
+    "avatar": "/images/blog/authors/liam-wilson.jpg",
+    "role": "Systems Engineer"
+  },
+  "publishedAt": "2025-05-11",
+  "readTime": 11,
+  "isFeatured": false,
+  "updatedAt": "2025-05-11",
+  "metaDescription": "Exploring the performance, safety, and productivity benefits of rewriting core services in Rust.",
+  "tags": [
+    "Backend",
+    "Technology",
+    "Software Engineering"
+  ],
+  "relatedSlugs": [
+    "how-ai-is-transforming-enterprise-software-development",
+    "10-performance-optimizations-for-nextjs-applications"
+  ],
+  "content": "<h2 id=\"introduction\">Why We Are Writing Our Backend in Rust පිළිබඳ හැඳින්වීම</h2><p>මෙය සවිස්තරාත්මක ලිපියකි...</p>",
+  "cta": {
+    "title": "Need expert help?",
+    "description": "Our team of engineers can help you implement these concepts.",
+    "buttonText": "Contact Us",
+    "buttonUrl": "/contact"
+  }
+}

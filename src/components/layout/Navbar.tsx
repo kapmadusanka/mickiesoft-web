@@ -1,7 +1,7 @@
 "use client"
 
 import { useState, useEffect } from "react"
-import Link from "next/link"
+import { Link, usePathname } from "@/i18n/navigation"
 import { useTranslations } from "next-intl"
 import { cn } from "@/lib/utils"
 import { useAppStore } from "@/store"
@@ -13,19 +13,27 @@ import { Sheet, SheetContent, SheetTrigger, SheetTitle } from "@/components/ui/s
 import { Typography } from "@/components/typography/Typography"
 import { Menu } from "lucide-react"
 
-const NAV_ITEMS = [
+type NavItem = {
+  id: string
+  labelKey: any
+  path?: string
+}
+
+const NAV_ITEMS: NavItem[] = [
   { id: "hero", labelKey: "home" },
   { id: "about", labelKey: "about" },
   { id: "services", labelKey: "services" },
   { id: "technologies", labelKey: "technologies" },
+  { id: "blog", labelKey: "blog", path: "/blog" },
   { id: "contact", labelKey: "contact" },
-] as const
+]
 
 export function Navbar() {
   const t = useTranslations("nav")
   const activeSection = useAppStore((s) => s.activeSection)
   const [scrolled, setScrolled] = useState(false)
   const [mobileOpen, setMobileOpen] = useState(false)
+  const pathname = usePathname()
 
   useScrollSpy()
 
@@ -43,10 +51,19 @@ export function Navbar() {
     }
   }
 
+  function handleNavClick(e: React.MouseEvent, id: string) {
+    if (pathname === "/") {
+      e.preventDefault()
+      scrollToSection(id)
+    } else {
+      setMobileOpen(false)
+    }
+  }
+
   return (
     <header
       className={cn(
-        "fixed top-0 left-0 right-0 z-50 transition-all duration-300",
+        "fixed top-0 left-0 right-0 z-50 transition-all duration-300  backdrop-blur-md",
         scrolled
           ? "glass shadow-sm py-3"
           : "bg-transparent py-4"
@@ -70,18 +87,26 @@ export function Navbar() {
         {/* Desktop Nav */}
         <nav className="hidden lg:flex items-center gap-1">
           {NAV_ITEMS.map((item) => (
-            <button
+            <Link
               key={item.id}
-              onClick={() => scrollToSection(item.id)}
+              href={item.path ? (item.path as any) : (pathname === "/" ? `#${item.id}` : `/#${item.id}`)}
+              onClick={(e) => {
+                if (item.path) {
+                  setMobileOpen(false)
+                } else {
+                  handleNavClick(e, item.id)
+                }
+              }}
               className={cn(
                 "px-4 py-2 text-sm font-medium rounded-full transition-all duration-200",
-                activeSection === item.id
-                  ? "text-primary bg-primary/10"
-                  : "text-muted-foreground hover:text-foreground hover:bg-accent/50"
+                item.path ? (pathname.startsWith(item.path) ? "text-primary bg-primary/10" : "text-muted-foreground hover:text-foreground hover:bg-accent/50")
+                  : activeSection === item.id
+                    ? "text-primary bg-primary/10"
+                    : "text-muted-foreground hover:text-foreground hover:bg-accent/50"
               )}
             >
               {t(item.labelKey)}
-            </button>
+            </Link>
           ))}
         </nav>
 
@@ -90,11 +115,16 @@ export function Navbar() {
           <LanguageSwitcher />
           <ThemeToggle />
           <Button
-            onClick={() => scrollToSection("about")}
             className="rounded-full px-6"
             size="sm"
+            asChild
           >
-            {t("getStarted")}
+            <Link
+              href={pathname === "/" ? "#about" : "/#about"}
+              onClick={(e) => handleNavClick(e, "about")}
+            >
+              {t("getStarted")}
+            </Link>
           </Button>
         </div>
 
@@ -112,24 +142,37 @@ export function Navbar() {
               <SheetTitle className="sr-only">Navigation Menu</SheetTitle>
               <div className="flex flex-col gap-2 mt-8">
                 {NAV_ITEMS.map((item) => (
-                  <button
+                  <Link
                     key={item.id}
-                    onClick={() => scrollToSection(item.id)}
+                    href={item.path ? (item.path as any) : (pathname === "/" ? `#${item.id}` : `/#${item.id}`)}
+                    onClick={(e) => {
+                      if (item.path) {
+                        setMobileOpen(false)
+                      } else {
+                        handleNavClick(e, item.id)
+                      }
+                    }}
                     className={cn(
                       "px-4 py-3 text-left text-sm font-medium rounded-lg transition-colors",
-                      activeSection === item.id
-                        ? "text-primary bg-primary/10"
-                        : "text-muted-foreground hover:text-foreground hover:bg-accent/50"
+                      item.path ? (pathname.startsWith(item.path) ? "text-primary bg-primary/10" : "text-muted-foreground hover:text-foreground hover:bg-accent/50")
+                        : activeSection === item.id
+                          ? "text-primary bg-primary/10"
+                          : "text-muted-foreground hover:text-foreground hover:bg-accent/50"
                     )}
                   >
                     {t(item.labelKey)}
-                  </button>
+                  </Link>
                 ))}
                 <Button
-                  onClick={() => scrollToSection("about")}
                   className="rounded-full mt-4"
+                  asChild
                 >
-                  {t("getStarted")}
+                  <Link
+                    href={pathname === "/" ? "#about" : "/#about"}
+                    onClick={(e) => handleNavClick(e, "about")}
+                  >
+                    {t("getStarted")}
+                  </Link>
                 </Button>
               </div>
             </SheetContent>

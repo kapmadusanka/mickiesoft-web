@@ -1,0 +1,34 @@
+{
+  "id": "8",
+  "slug": "understanding-blockchain-for-enterprise",
+  "title": "Understanding Blockchain for Enterprise",
+  "excerpt": "A deep dive into how blockchain technology and decentralized networks are transforming enterprise solutions.",
+  "category": "Web3",
+  "featuredImage": "/images/blog/web3-enterprise.png",
+  "author": {
+    "name": "Sarah Chen",
+    "avatar": "/images/blog/authors/olivia-martin.jpg",
+    "role": "Blockchain Architect"
+  },
+  "publishedAt": "2025-05-30",
+  "readTime": 10,
+  "isFeatured": false,
+  "updatedAt": "2025-05-30",
+  "metaDescription": "A deep dive into how blockchain technology and decentralized networks are transforming enterprise solutions.",
+  "tags": [
+    "Web3",
+    "Technology",
+    "Software Engineering"
+  ],
+  "relatedSlugs": [
+    "how-ai-is-transforming-enterprise-software-development",
+    "10-performance-optimizations-for-nextjs-applications"
+  ],
+  "content": "<h2 id=\"introduction\">Introduction to Understanding Blockchain for Enterprise</h2><p>This is a detailed placeholder content for Understanding Blockchain for Enterprise. It explores the fundamental concepts, best practices, and implementation details necessary for modern software development.</p><h3 id=\"key-benefits\">Key Benefits</h3><ul><li>Improved performance</li><li>Enhanced security</li><li>Better developer experience</li></ul><p>By leveraging these concepts, teams can deliver higher quality software faster than ever before.</p><h2 id=\"conclusion\">Conclusion</h2><p>The future of software architecture heavily relies on these foundational principles.</p>",
+  "cta": {
+    "title": "Need expert help?",
+    "description": "Our team of engineers can help you implement these concepts.",
+    "buttonText": "Contact Us",
+    "buttonUrl": "/contact"
+  }
+}

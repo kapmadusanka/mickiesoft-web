@@ -60,6 +60,54 @@ export interface Technology {
   order: number
 }
 
+export interface BlogAuthor {
+  name: string
+  avatar: string
+  role: string
+  bio?: string
+  socials?: {
+    linkedin?: string
+    twitter?: string
+    github?: string
+  }
+}
+
+export interface BlogPostListItem {
+  id: string
+  slug: string
+  title: string
+  excerpt: string
+  category: string
+  featuredImage: string
+  author: BlogAuthor
+  publishedAt: string
+  readTime: number
+  isFeatured: boolean
+}
+
+export interface BlogPostDetail {
+  id: string
+  slug: string
+  title: string
+  category: string
+  featuredImage: string
+  author: BlogAuthor
+  publishedAt: string
+  updatedAt: string
+  readTime: number
+  metaDescription: string
+  tags: string[]
+  relatedSlugs: string[]
+  content: string
+  cta: {
+    title: string
+    description: string
+    buttonText: string
+    buttonUrl: string
+  } | null
+}
+
+/** @deprecated Use BlogPostListItem or BlogPostDetail instead */
 export interface BlogPost {
   id: string
   title: string

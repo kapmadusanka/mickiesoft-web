@@ -6,7 +6,8 @@ import type {
   Stat,
   Service,
   Technology,
-  BlogPost,
+  BlogPostListItem,
+  BlogPostDetail,
   ContactFormData,
   Faqs,
 } from "@/types/public"
@@ -93,9 +94,9 @@ export const technologiesService = {
 
 export const blogService = {
   getAll: () =>
-    publicFetch<ApiResponse<BlogPost[]>>(`/blog`).then((r) => r.data),
+    publicFetch<ApiResponse<BlogPostListItem[]>>(`/blog`).then((r) => r.data),
   getBySlug: (slug: string) =>
-    publicFetch<ApiResponse<BlogPost>>(`/blog/${slug}`).then((r) => r.data),
+    publicFetch<ApiResponse<BlogPostDetail>>(`/blog/${slug}`).then((r) => r.data),
 }
 
 export const contactService = {

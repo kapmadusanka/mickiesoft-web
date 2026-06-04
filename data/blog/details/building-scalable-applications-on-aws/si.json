@@ -1,0 +1,30 @@
+{
+  "id": "4",
+  "slug": "building-scalable-applications-on-aws",
+  "title": "AWS මත පරිමාණය කළ හැකි යෙදුම් ගොඩනැඟීම",
+  "category": "Cloud",
+  "featuredImage": "/images/blog/aws-scalable.png",
+  "author": {
+    "name": "Daniel Lee",
+    "avatar": "/images/blog/authors/daniel-lee.png",
+    "role": "ක්ලවුඩ් ගෘහ නිර්මාණ ශිල්පී",
+    "bio": "ඔරොත්තු දෙන ක්ලවුඩ්-දේශීය (cloud-native) පද්ධති සැලසුම් කිරීමට ඇලුම් කරන, සහතිකලත් AWS විසඳුම් ගෘහ නිර්මාණ ශිල්පියෙකි.",
+    "socials": {
+      "linkedin": "https://linkedin.com/in/daniellee",
+      "twitter": "https://twitter.com/daniellee",
+      "github": "https://github.com/daniellee"
+    }
+  },
+  "publishedAt": "2025-05-12",
+  "updatedAt": "2025-05-25",
+  "readTime": 5,
+  "metaDescription": "ගෘහ නිර්මාණ රටා වල සිට යෙදවීමේ උපාය මාර්ග දක්වා AWS මත ආරක්ෂිත, පරිමාණය කළ හැකි සහ පිරිවැය-ඵලදායී යෙදුම් ගොඩනැඟීම සඳහා හොඳම භාවිතයන් ඉගෙන ගන්න.",
+  "tags": ["AWS", "Cloud", "Scalability", "Architecture", "DevOps"],
+  "relatedSlugs": [
+    "cicd-best-practices-for-modern-teams",
+    "10-performance-optimizations-for-nextjs-applications",
+    "how-ai-is-transforming-enterprise-software-development"
+  ],
+  "content": "<h2 id=\"introduction\">1. හැඳින්වීම</h2><p>Amazon Web Services (AWS) මඟින් සංවර්ධකයින්ට ඉහළ පරිමාණතාවයකින් යුත්, දෝෂ වලට ඔරොත්තු දෙන (fault-tolerant) යෙදුම් ගොඩනැගීමට හැකි වන පරිදි සවිස්තරාත්මක ක්ලවුඩ් සේවාවන් කට්ටලයක් සපයයි. මෙම මාර්ගෝපදේශය තුළ, මිලියන ගණනක පරිශීලකයින් හැසිරවිය හැකි යෙදුම් ගොඩනැගීම සඳහා ප්‍රධාන ගෘහ නිර්මාණ රටා (architectural patterns) සහ හොඳම භාවිතයන් අපි ගවේෂණය කරන්නෙමු.</p><h2 id=\"architecture-patterns\">2. ගෘහ නිර්මාණ රටා (Architecture Patterns)</h2><p>පරිමාණතාව සඳහා නිවැරදි ගෘහ නිර්මාණ ශිල්පය තෝරා ගැනීම ඉතා වැදගත් වේ. පොදු රටා අතරට:</p><ul><li><strong>Microservices</strong> — ඔබේ යෙදුම ස්වාධීනව යෙදවිය හැකි කුඩා සේවාවන් බවට පත් කරන්න</li><li><strong>Event-Driven</strong> — ලිහිල් සම්බන්ධතාවයක් (loose coupling) සඳහා SQS, SNS, සහ EventBridge වැනි සේවාවන් භාවිතා කරන්න</li><li><strong>Serverless</strong> — යටිතල පහසුකම් කළමනාකරණයෙන් තොරව Lambda, API Gateway, සහ DynamoDB භාවිතා කරන්න</li></ul><h2 id=\"auto-scaling\">3. Auto Scaling උපාය මාර්ග</h2><p>AWS Auto Scaling කණ්ඩායම් මඟින් ඉල්ලුම මත ඔබේ යෙදුමේ ධාරිතාව ස්වයංක්‍රීයව වෙනස් කිරීමට ඉඩ සලසයි. අධික රථවාහන තදබදයකදී (traffic spikes) ප්‍රශස්ත ක්‍රියාකාරිත්වයක් සහතික කිරීම සඳහා CPU භාවිතය, ඉල්ලීම් ගණන හෝ අභිරුචි CloudWatch ප්‍රමිතික මත පදනම්ව scaling ප්‍රතිපත්ති සකසන්න.</p><h2 id=\"database-scaling\">4. දත්ත සමුදාය පරිමාණය කිරීම (Database Scaling)</h2><p>ඔබේ කාර්ය භාරය සඳහා නිවැරදි දත්ත සමුදා සේවාව තෝරන්න. සබඳතා දත්ත (relational data) සඳහා read replicas සමඟ RDS ද, key-value කාර්යයන් සඳහා DynamoDB ද, සහ නිතර භාවිතා වන දත්ත caching සඳහා ElastiCache (Redis හෝ Memcached) භාවිතා කරන්න.</p><h2 id=\"cdn-and-caching\">5. CDN සහ Caching</h2><p>Amazon CloudFront අවම ප්‍රමාදයකින් (low latency) යුතුව ගෝලීයව ඔබේ අන්තර්ගතයන් බෙදා හරියි. ස්ථිතික වත්කම් (static assets) සඳහා S3 සහ යෙදුම් මට්ටමේ caching සඳහා ElastiCache සමඟ ඒකාබද්ධ කිරීමෙන් ප්‍රතිචාර දැක්වීමේ කාලය සහ සේවාදායක බර සැලකිය යුතු ලෙස අඩු කළ හැක.</p><h2 id=\"security\">6. ආරක්ෂාව සඳහා හොඳම භාවිතයන්</h2><p>VPCs, security groups, IAM roles, සහ AWS WAF භාවිතයෙන් ගැඹුරු ආරක්ෂාවක් ක්‍රියාත්මක කරන්න. රහස්‍ය තොරතුරු (credentials) සඳහා AWS Secrets Manager භාවිතා කරන්න සහ සියලුම දත්ත ගබඩා සඳහා encryption ක්‍රියාත්මක කරන්න.</p><h2 id=\"monitoring\">7. නිරීක්ෂණය සහ නිරීක්ෂණ හැකියාව (Monitoring and Observability)</h2><p>ප්‍රමිතික සඳහා CloudWatch ද, බෙදා හරින ලද ලුහුබැඳීම් (distributed tracing) සඳහා X-Ray ද, සහ විගණන ලොග් සඳහා CloudTrail ද භාවිතා කරන්න. තීරණාත්මක ප්‍රමිතික සඳහා ඇඟවීම් (alarms) සකසන්න සහ ඔබේ යෙදුමේ සෞඛ්‍යය තත්‍ය කාලීනව බැලීමට උපකරණ පුවරු (dashboards) සාදන්න.</p><h2 id=\"conclusion\">8. උපසංහාරය</h2><p>AWS මත පරිමාණය කළ හැකි යෙදුම් ගොඩනැඟීම සඳහා ප්‍රවේශම් සහගත සැලසුම්කරණයක් සහ පවතින සේවාවන් පිළිබඳ ගැඹුරු අවබෝධයක් අවශ්‍ය වේ. මෙම හොඳම භාවිතයන් අනුගමනය කිරීමෙන්, ඔබේ ව්‍යාපාරය සමඟ බාධාවකින් තොරව වර්ධනය වන යෙදුම් නිර්මාණය කළ හැකිය.</p>",
+  "cta": null
+}

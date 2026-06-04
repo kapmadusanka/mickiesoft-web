@@ -5,6 +5,7 @@
     "services": "Services",
     "technologies": "Technologies",
     "contact": "Contact",
+    "blog": "Blog",
     "getStarted": "Get Started"
   },
   "hero": [
@@ -77,6 +78,32 @@
     "titleHighlight": "Questions",
     "subtitle": "Find answers to common questions about our services, process, and capabilities.",
     "noFaqs": "No FAQs available at the moment."
+  },
+  "blog": {
+    "sectionLabel": "Blog",
+    "heading": "Insights & Resources",
+    "subtitle": "Explore our latest articles on software development, emerging technologies, digital transformation, and more.",
+    "searchPlaceholder": "Search articles...",
+    "filterAll": "All",
+    "featured": "Featured",
+    "readMore": "Read More",
+    "minRead": "min read",
+    "noResults": "No articles found matching your criteria.",
+    "backToBlog": "Back to Blog",
+    "tableOfContents": "Contents",
+    "shareArticle": "Share this article",
+    "copyLink": "Copy Link",
+    "linkCopied": "Link copied!",
+    "tags": "Tags",
+    "relatedArticles": "Related Articles",
+    "viewAllArticles": "View all articles",
+    "youMightAlsoLike": "You Might Also Like",
+    "previousArticle": "Previous article",
+    "nextArticle": "Next article",
+    "stayUpdatedTitle": "Stay Updated",
+    "stayUpdatedSubtitle": "Get the latest insights on software development and tech trends delivered to your inbox.",
+    "stayUpdatedDisclaimer": "No spam, unsubscribe anytime.",
+    "subscribe": "Subscribe"
   },
   "contact": {
     "sectionLabel": "Contact",

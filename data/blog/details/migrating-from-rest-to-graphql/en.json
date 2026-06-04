@@ -1,0 +1,34 @@
+{
+  "id": "9",
+  "slug": "migrating-from-rest-to-graphql",
+  "title": "Migrating from REST to GraphQL",
+  "excerpt": "Discover the benefits of GraphQL and a step-by-step guide on migrating your existing REST APIs.",
+  "category": "Backend",
+  "featuredImage": "/images/blog/graphql-migration.png",
+  "author": {
+    "name": "David Kim",
+    "avatar": "/images/blog/authors/daniel-lee.jpg",
+    "role": "Backend Engineer"
+  },
+  "publishedAt": "2025-05-28",
+  "readTime": 7,
+  "isFeatured": false,
+  "updatedAt": "2025-05-28",
+  "metaDescription": "Discover the benefits of GraphQL and a step-by-step guide on migrating your existing REST APIs.",
+  "tags": [
+    "Backend",
+    "Technology",
+    "Software Engineering"
+  ],
+  "relatedSlugs": [
+    "how-ai-is-transforming-enterprise-software-development",
+    "10-performance-optimizations-for-nextjs-applications"
+  ],
+  "content": "<h2 id=\"introduction\">Introduction to Migrating from REST to GraphQL</h2><p>This is a detailed placeholder content for Migrating from REST to GraphQL. It explores the fundamental concepts, best practices, and implementation details necessary for modern software development.</p><h3 id=\"key-benefits\">Key Benefits</h3><ul><li>Improved performance</li><li>Enhanced security</li><li>Better developer experience</li></ul><p>By leveraging these concepts, teams can deliver higher quality software faster than ever before.</p><h2 id=\"conclusion\">Conclusion</h2><p>The future of software architecture heavily relies on these foundational principles.</p>",
+  "cta": {
+    "title": "Need expert help?",
+    "description": "Our team of engineers can help you implement these concepts.",
+    "buttonText": "Contact Us",
+    "buttonUrl": "/contact"
+  }
+}

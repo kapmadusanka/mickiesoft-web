@@ -1,0 +1,35 @@
+{
+  "id": "2",
+  "slug": "10-performance-optimizations-for-nextjs-applications",
+  "title": "10 Performance Optimizations for Modern Web Apps with Next.js",
+  "category": "Next.js",
+  "featuredImage": "/images/blog/nextjs-performance.png",
+  "author": {
+    "name": "James Carter",
+    "avatar": "/images/blog/authors/james-carter.png",
+    "role": "Senior Frontend Engineer",
+    "bio": "Passionate about building fast and scalable web applications with modern technologies.",
+    "socials": {
+      "linkedin": "https://linkedin.com/in/jamescarter",
+      "twitter": "https://twitter.com/jamescarter",
+      "github": "https://github.com/jamescarter"
+    }
+  },
+  "publishedAt": "2025-05-18",
+  "updatedAt": "2025-05-30",
+  "readTime": 6,
+  "metaDescription": "Learn 10 actionable performance optimizations for your Next.js applications, from image optimization to code splitting and font strategies.",
+  "tags": ["Next.js", "Performance", "Web Development", "Optimization", "React", "JavaScript"],
+  "relatedSlugs": [
+    "advanced-react-patterns-every-developer-should-know",
+    "how-ai-is-transforming-enterprise-software-development",
+    "building-scalable-applications-on-aws"
+  ],
+  "content": "<h2 id=\"introduction\">1. Introduction</h2><p>Performance is a critical factor for user experience, SEO rankings, and conversion rates. Next.js offers many built-in features to help you build fast applications, but there are additional optimizations you can implement to take your app to the next level.</p><p>In this article, we'll explore 10 actionable techniques to improve the performance of your Next.js applications.</p><h2 id=\"image-optimization\">2. Image Optimization</h2><p>Images often make up the largest part of a web page. Next.js provides the <code>&lt;Image /&gt;</code> component, which automatically optimizes images.</p><p>Use it like this:</p><pre><code>import Image from 'next/image'\n\nexport default function Hero() {\n  return (\n    &lt;Image\n      src=\"/hero.png\"\n      alt=\"Hero image\"\n      width={1080}\n      height={600}\n      priority\n    /&gt;\n  )\n}</code></pre><div class=\"tip\"><p><strong>Tip:</strong> Always set width and height to prevent layout shift.</p></div><h2 id=\"code-splitting\">3. Code Splitting</h2><p>Split your code into smaller bundles and load only what's necessary. Next.js automatically code-splits by route, but you can further optimize by using dynamic imports for heavy components:</p><pre><code>import dynamic from 'next/dynamic'\n\nconst HeavyChart = dynamic(() => import('./Chart'), {\n  loading: () => &lt;p&gt;Loading chart...&lt;/p&gt;,\n  ssr: false\n})</code></pre><h2 id=\"font-optimization\">4. Font Optimization</h2><p>Use <code>next/font</code> to self-host fonts and improve performance. This eliminates external network requests and enables automatic font subsetting.</p><h2 id=\"data-fetching\">5. Data Fetching Strategies</h2><p>Choose the right data fetching method for each use case:</p><ul><li><strong>Static Generation (SSG)</strong> — For content that rarely changes</li><li><strong>Server-Side Rendering (SSR)</strong> — For personalized or frequently updated content</li><li><strong>Incremental Static Regeneration (ISR)</strong> — Best of both worlds</li></ul><h2 id=\"caching\">6. Caching</h2><p>Implement proper caching strategies using Next.js built-in caching, CDN caching, and browser caching. Set appropriate <code>Cache-Control</code> headers and use <code>revalidate</code> options wisely.</p><h2 id=\"bundle-size\">7. Reduce JavaScript Bundle Size</h2><p>Audit your dependencies regularly. Use tools like <code>@next/bundle-analyzer</code> to visualize your bundle composition and identify large dependencies that can be replaced with lighter alternatives.</p><h2 id=\"server-components\">8. Use Next.js Built-in Components</h2><p>React Server Components reduce the amount of JavaScript sent to the client. Keep components on the server unless they need interactivity. This significantly reduces bundle size and improves Time to First Byte (TTFB).</p><h2 id=\"third-party-scripts\">9. Optimize Third-party Scripts</h2><p>Load third-party scripts efficiently using the <code>next/script</code> component with appropriate loading strategies (<code>beforeInteractive</code>, <code>afterInteractive</code>, or <code>lazyOnload</code>).</p><h2 id=\"monitoring\">10. Monitoring &amp; Measuring</h2><p>Use Next.js Analytics, Lighthouse, and Web Vitals to continuously monitor your application's performance. Track Core Web Vitals (LCP, FID, CLS) and set up alerts for regressions.</p><h2 id=\"conclusion\">11. Conclusion</h2><p>Performance optimization is an ongoing process. By implementing these 10 techniques, you'll create faster, more responsive Next.js applications that delight users and rank better in search engines.</p>",
+  "cta": {
+    "title": "Want the full checklist?",
+    "description": "Download our complete performance optimization checklist and improve your Core Web Vitals.",
+    "buttonText": "Download Checklist",
+    "buttonUrl": "#"
+  }
+}

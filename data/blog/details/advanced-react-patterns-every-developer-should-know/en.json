@@ -1,0 +1,30 @@
+{
+  "id": "3",
+  "slug": "advanced-react-patterns-every-developer-should-know",
+  "title": "Advanced React Patterns Every Developer Should Know",
+  "category": "React",
+  "featuredImage": "/images/blog/react-patterns.png",
+  "author": {
+    "name": "Olivia Martin",
+    "avatar": "/images/blog/authors/olivia-martin.png",
+    "role": "Full-Stack Developer",
+    "bio": "Building elegant user interfaces and robust backends. Loves open source and the React ecosystem.",
+    "socials": {
+      "linkedin": "https://linkedin.com/in/oliviamartin",
+      "twitter": "https://twitter.com/oliviamartin",
+      "github": "https://github.com/oliviamartin"
+    }
+  },
+  "publishedAt": "2025-05-15",
+  "updatedAt": "2025-05-28",
+  "readTime": 8,
+  "metaDescription": "Master advanced React patterns including compound components, render props, custom hooks, and state machines to write cleaner, more maintainable code.",
+  "tags": ["React", "JavaScript", "Design Patterns", "Frontend", "Web Development"],
+  "relatedSlugs": [
+    "10-performance-optimizations-for-nextjs-applications",
+    "how-ai-is-transforming-enterprise-software-development",
+    "cicd-best-practices-for-modern-teams"
+  ],
+  "content": "<h2 id=\"introduction\">1. Introduction</h2><p>React's component model is powerful, but as applications grow in complexity, simple patterns can lead to messy, hard-to-maintain code. Advanced patterns help you write cleaner, more reusable, and more maintainable React applications.</p><h2 id=\"compound-components\">2. Compound Components</h2><p>The Compound Components pattern allows you to create components that work together to form a cohesive unit while giving consumers full control over rendering. Think of it like HTML's <code>&lt;select&gt;</code> and <code>&lt;option&gt;</code> relationship.</p><pre><code>function Tabs({ children }) {\n  const [activeIndex, setActiveIndex] = useState(0)\n  return (\n    &lt;TabsContext.Provider value={{ activeIndex, setActiveIndex }}&gt;\n      {children}\n    &lt;/TabsContext.Provider&gt;\n  )\n}\n\nTabs.Tab = function Tab({ index, children }) {\n  const { activeIndex, setActiveIndex } = useContext(TabsContext)\n  return (\n    &lt;button\n      className={activeIndex === index ? 'active' : ''}\n      onClick={() => setActiveIndex(index)}\n    &gt;\n      {children}\n    &lt;/button&gt;\n  )\n}</code></pre><h2 id=\"render-props\">3. Render Props</h2><p>While hooks have largely replaced render props, the pattern is still valuable for certain use cases where you need maximum flexibility in rendering. It allows a component to share its internal state with its children through a function prop.</p><h2 id=\"custom-hooks\">4. Custom Hooks for Logic Reuse</h2><p>Custom hooks are the modern way to share stateful logic between components. They keep your components clean and focused on rendering while extracting complex logic into testable, reusable functions.</p><pre><code>function useLocalStorage(key, initialValue) {\n  const [storedValue, setStoredValue] = useState(() => {\n    try {\n      const item = window.localStorage.getItem(key)\n      return item ? JSON.parse(item) : initialValue\n    } catch (error) {\n      return initialValue\n    }\n  })\n\n  const setValue = (value) => {\n    setStoredValue(value)\n    window.localStorage.setItem(key, JSON.stringify(value))\n  }\n\n  return [storedValue, setValue]\n}</code></pre><h2 id=\"state-machines\">5. State Machines</h2><p>For complex UI states with many transitions, state machines provide a predictable and visual way to manage state. Libraries like XState make this pattern accessible in React applications.</p><h2 id=\"higher-order-components\">6. Higher-Order Components (HOCs)</h2><p>While less common in modern React, HOCs are still useful for cross-cutting concerns like authentication guards, analytics tracking, and error boundaries. They wrap a component to enhance it with additional functionality.</p><h2 id=\"provider-pattern\">7. Provider Pattern</h2><p>The Provider pattern, powered by React Context, is essential for managing global state without prop drilling. Combine it with useReducer for complex state management scenarios.</p><h2 id=\"conclusion\">8. Conclusion</h2><p>Mastering these advanced React patterns will make you a more effective developer. Choose the right pattern for each situation, and remember that simplicity should always be your first choice — reach for advanced patterns only when they solve a real problem.</p>",
+  "cta": null
+}

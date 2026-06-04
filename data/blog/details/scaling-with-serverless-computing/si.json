@@ -1,0 +1,34 @@
+{
+  "id": "11",
+  "slug": "scaling-with-serverless-computing",
+  "title": "Scaling with Serverless Computing (Sinhala)",
+  "excerpt": "Embrace the serverless revolution to automatically scale your infrastructure and reduce operational costs.",
+  "category": "Cloud",
+  "featuredImage": "/images/blog/serverless-computing.png",
+  "author": {
+    "name": "Michael Chang",
+    "avatar": "/images/blog/authors/liam-wilson.jpg",
+    "role": "Cloud Architect"
+  },
+  "publishedAt": "2025-05-22",
+  "readTime": 5,
+  "isFeatured": true,
+  "updatedAt": "2025-05-22",
+  "metaDescription": "Embrace the serverless revolution to automatically scale your infrastructure and reduce operational costs.",
+  "tags": [
+    "Cloud",
+    "Technology",
+    "Software Engineering"
+  ],
+  "relatedSlugs": [
+    "how-ai-is-transforming-enterprise-software-development",
+    "10-performance-optimizations-for-nextjs-applications"
+  ],
+  "content": "<h2 id=\"introduction\">Scaling with Serverless Computing පිළිබඳ හැඳින්වීම</h2><p>මෙය සවිස්තරාත්මක ලිපියකි...</p>",
+  "cta": {
+    "title": "Need expert help?",
+    "description": "Our team of engineers can help you implement these concepts.",
+    "buttonText": "Contact Us",
+    "buttonUrl": "/contact"
+  }
+}

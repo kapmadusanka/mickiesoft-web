@@ -1,0 +1,34 @@
+{
+  "id": "14",
+  "slug": "integrating-llms-into-your-saas-product",
+  "title": "Integrating LLMs into your SaaS Product (Sinhala)",
+  "excerpt": "A practical guide to adding Large Language Models and AI capabilities into your existing software.",
+  "category": "AI",
+  "featuredImage": "/images/blog/llm-integration.png",
+  "author": {
+    "name": "Daniel Lee",
+    "avatar": "/images/blog/authors/daniel-lee.jpg",
+    "role": "Machine Learning Engineer"
+  },
+  "publishedAt": "2025-05-16",
+  "readTime": 8,
+  "isFeatured": false,
+  "updatedAt": "2025-05-16",
+  "metaDescription": "A practical guide to adding Large Language Models and AI capabilities into your existing software.",
+  "tags": [
+    "AI",
+    "Technology",
+    "Software Engineering"
+  ],
+  "relatedSlugs": [
+    "how-ai-is-transforming-enterprise-software-development",
+    "10-performance-optimizations-for-nextjs-applications"
+  ],
+  "content": "<h2 id=\"introduction\">Integrating LLMs into your SaaS Product පිළිබඳ හැඳින්වීම</h2><p>මෙය සවිස්තරාත්මක ලිපියකි...</p>",
+  "cta": {
+    "title": "Need expert help?",
+    "description": "Our team of engineers can help you implement these concepts.",
+    "buttonText": "Contact Us",
+    "buttonUrl": "/contact"
+  }
+}

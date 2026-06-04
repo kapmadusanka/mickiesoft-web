@@ -1,0 +1,34 @@
+{
+  "id": "12",
+  "slug": "monolith-to-microservices-transition",
+  "title": "Monolith to Microservices Transition (Sinhala)",
+  "excerpt": "Best practices and common pitfalls when breaking down a monolithic application into microservices.",
+  "category": "Architecture",
+  "featuredImage": "/images/blog/microservices-transition.png",
+  "author": {
+    "name": "James Carter",
+    "avatar": "/images/blog/authors/james-carter.jpg",
+    "role": "Senior Frontend Engineer"
+  },
+  "publishedAt": "2025-05-21",
+  "readTime": 9,
+  "isFeatured": false,
+  "updatedAt": "2025-05-21",
+  "metaDescription": "Best practices and common pitfalls when breaking down a monolithic application into microservices.",
+  "tags": [
+    "Architecture",
+    "Technology",
+    "Software Engineering"
+  ],
+  "relatedSlugs": [
+    "how-ai-is-transforming-enterprise-software-development",
+    "10-performance-optimizations-for-nextjs-applications"
+  ],
+  "content": "<h2 id=\"introduction\">Monolith to Microservices Transition පිළිබඳ හැඳින්වීම</h2><p>මෙය සවිස්තරාත්මක ලිපියකි...</p>",
+  "cta": {
+    "title": "Need expert help?",
+    "description": "Our team of engineers can help you implement these concepts.",
+    "buttonText": "Contact Us",
+    "buttonUrl": "/contact"
+  }
+}

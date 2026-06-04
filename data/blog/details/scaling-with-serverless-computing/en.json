@@ -1,0 +1,34 @@
+{
+  "id": "11",
+  "slug": "scaling-with-serverless-computing",
+  "title": "Scaling with Serverless Computing",
+  "excerpt": "Embrace the serverless revolution to automatically scale your infrastructure and reduce operational costs.",
+  "category": "Cloud",
+  "featuredImage": "/images/blog/serverless-computing.png",
+  "author": {
+    "name": "Michael Chang",
+    "avatar": "/images/blog/authors/liam-wilson.jpg",
+    "role": "Cloud Architect"
+  },
+  "publishedAt": "2025-05-22",
+  "readTime": 5,
+  "isFeatured": true,
+  "updatedAt": "2025-05-22",
+  "metaDescription": "Embrace the serverless revolution to automatically scale your infrastructure and reduce operational costs.",
+  "tags": [
+    "Cloud",
+    "Technology",
+    "Software Engineering"
+  ],
+  "relatedSlugs": [
+    "how-ai-is-transforming-enterprise-software-development",
+    "10-performance-optimizations-for-nextjs-applications"
+  ],
+  "content": "<h2 id=\"introduction\">Introduction to Scaling with Serverless Computing</h2><p>This is a detailed placeholder content for Scaling with Serverless Computing. It explores the fundamental concepts, best practices, and implementation details necessary for modern software development.</p><h3 id=\"key-benefits\">Key Benefits</h3><ul><li>Improved performance</li><li>Enhanced security</li><li>Better developer experience</li></ul><p>By leveraging these concepts, teams can deliver higher quality software faster than ever before.</p><h2 id=\"conclusion\">Conclusion</h2><p>The future of software architecture heavily relies on these foundational principles.</p>",
+  "cta": {
+    "title": "Need expert help?",
+    "description": "Our team of engineers can help you implement these concepts.",
+    "buttonText": "Contact Us",
+    "buttonUrl": "/contact"
+  }
+}

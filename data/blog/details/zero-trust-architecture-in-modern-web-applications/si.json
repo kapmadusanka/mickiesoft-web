@@ -1,0 +1,34 @@
+{
+  "id": "7",
+  "slug": "zero-trust-architecture-in-modern-web-applications",
+  "title": "Zero-Trust Architecture in Modern Web Applications (Sinhala)",
+  "excerpt": "Learn how zero-trust security models protect modern web applications from emerging cyber threats and why you should adopt it.",
+  "category": "Security",
+  "featuredImage": "/images/blog/zero-trust-security.png",
+  "author": {
+    "name": "Alex Mercer",
+    "avatar": "/images/blog/authors/james-carter.jpg",
+    "role": "Security Engineer"
+  },
+  "publishedAt": "2025-06-01",
+  "readTime": 8,
+  "isFeatured": false,
+  "updatedAt": "2025-06-01",
+  "metaDescription": "Learn how zero-trust security models protect modern web applications from emerging cyber threats and why you should adopt it.",
+  "tags": [
+    "Security",
+    "Technology",
+    "Software Engineering"
+  ],
+  "relatedSlugs": [
+    "how-ai-is-transforming-enterprise-software-development",
+    "10-performance-optimizations-for-nextjs-applications"
+  ],
+  "content": "<h2 id=\"introduction\">Zero-Trust Architecture in Modern Web Applications පිළිබඳ හැඳින්වීම</h2><p>මෙය සවිස්තරාත්මක ලිපියකි...</p>",
+  "cta": {
+    "title": "Need expert help?",
+    "description": "Our team of engineers can help you implement these concepts.",
+    "buttonText": "Contact Us",
+    "buttonUrl": "/contact"
+  }
+}

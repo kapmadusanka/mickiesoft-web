@@ -1,7 +1,7 @@
 import { getTranslations } from "next-intl/server"
 import { Typography } from "@/components/typography/Typography"
 import { NewsletterForm } from "./NewsletterForm"
-import Link from "next/link"
+import { Link } from "@/i18n/navigation"
 import { ArrowRight, Mail, MapPin, Phone } from "lucide-react"
 
 export async function Footer() {
@@ -41,10 +41,16 @@ export async function Footer() {
               Company
             </Typography>
             <ul className="space-y-4">
-              {["about", "services", "technologies", "contact"].map((id) => (
+              {[
+                { id: "about", href: "/#about" },
+                { id: "services", href: "/#services" },
+                { id: "technologies", href: "/#technologies" },
+                { id: "blog", href: "/blog" },
+                { id: "contact", href: "/#contact" }
+              ].map(({ id, href }) => (
                 <li key={id}>
                   <Link
-                    href={`#${id}`}
+                    href={href as any}
                     className="text-slate-500 dark:text-slate-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors capitalize text-sm flex items-center group"
                   >
                     <span className="w-0 overflow-hidden group-hover:w-3 transition-all duration-300 ease-out">

@@ -1,0 +1,35 @@
+{
+  "id": "2",
+  "slug": "10-performance-optimizations-for-nextjs-applications",
+  "title": "Next.js යෙදුම් සඳහා කාර්ය සාධන ප්‍රශස්තකරණ 10ක්",
+  "category": "Next.js",
+  "featuredImage": "/images/blog/nextjs-performance.png",
+  "author": {
+    "name": "James Carter",
+    "avatar": "/images/blog/authors/james-carter.png",
+    "role": "ජ්‍යෙෂ්ඨ ෆ්‍රන්ට්එන්ඩ් ඉංජිනේරු",
+    "bio": "නවීන තාක්‍ෂණයන් භාවිතයෙන් වේගවත් සහ පරිමාණය කළ හැකි වෙබ් යෙදුම් ගොඩනැගීමට උනන්දුවක් දක්වයි.",
+    "socials": {
+      "linkedin": "https://linkedin.com/in/jamescarter",
+      "twitter": "https://twitter.com/jamescarter",
+      "github": "https://github.com/jamescarter"
+    }
+  },
+  "publishedAt": "2025-05-18",
+  "updatedAt": "2025-05-30",
+  "readTime": 6,
+  "metaDescription": "රූප ප්‍රශස්තකරණයේ සිට කේත බෙදීම (code splitting) සහ අකුරු (font) උපාය මාර්ග දක්වා, ඔබේ Next.js යෙදුම් සඳහා ක්‍රියාකාරී කාර්ය සාධන ප්‍රශස්තකරණ 10ක් ඉගෙන ගන්න.",
+  "tags": ["Next.js", "කාර්ය සාධනය", "වෙබ් සංවර්ධනය", "ප්‍රශස්තකරණය", "React", "JavaScript"],
+  "relatedSlugs": [
+    "advanced-react-patterns-every-developer-should-know",
+    "how-ai-is-transforming-enterprise-software-development",
+    "building-scalable-applications-on-aws"
+  ],
+  "content": "<h2 id=\"introduction\">1. හැඳින්වීම</h2><p>කාර්ය සාධනය (Performance) යනු පරිශීලක අත්දැකීම (user experience), SEO ශ්‍රේණිගත කිරීම් සහ පරිවර්තන අනුපාත (conversion rates) සඳහා තීරණාත්මක සාධකයකි. Next.js ඔබට වේගවත් යෙදුම් ගොඩනැගීමට උපකාර වන බොහෝ බිල්ට්-ඉන් විශේෂාංග ලබා දෙයි, නමුත් ඔබේ යෙදුම ඊළඟ මට්ටමට ගෙන යාමට ඔබට ක්‍රියාත්මක කළ හැකි අමතර ප්‍රශස්තකරණයන් ඇත.</p><p>මෙම ලිපියෙන්, අපි ඔබේ Next.js යෙදුම්වල කාර්ය සාධනය වැඩිදියුණු කිරීම සඳහා ක්‍රියාකාරී ක්‍රමවේද 10ක් ගවේෂණය කරන්නෙමු.</p><h2 id=\"image-optimization\">2. රූප ප්‍රශස්තකරණය (Image Optimization)</h2><p>වෙබ් පිටුවක විශාලතම කොටස සාමාන්‍යයෙන් රූප (images) වලින් සමන්විත වේ. Next.js විසින් <code>&lt;Image /&gt;</code> සංරචකය (component) සපයන අතර එය ස්වයංක්‍රීයව රූප ප්‍රශස්ත කරයි.</p><p>එය මෙලෙස භාවිතා කරන්න:</p><pre><code>import Image from 'next/image'\n\nexport default function Hero() {\n  return (\n    &lt;Image\n      src=\"/hero.png\"\n      alt=\"Hero image\"\n      width={1080}\n      height={600}\n      priority\n    /&gt;\n  )\n}</code></pre><div class=\"tip\"><p><strong>ඉඟිය:</strong> පිරිසැලසුම් මාරුවීම් (layout shifts) වැළැක්වීම සඳහා සෑම විටම width සහ height ලබා දෙන්න.</p></div><h2 id=\"code-splitting\">3. කේත බෙදීම (Code Splitting)</h2><p>ඔබේ කේත කුඩා මිටිවලට (bundles) වෙන් කර අවශ්‍ය දේ පමණක් පටවන්න. Next.js ස්වයංක්‍රීයව මාර්ගය (route) අනුව කේතය බෙදයි, නමුත් බරැති සංරචක සඳහා ගතික ආනයන (dynamic imports) භාවිතා කිරීමෙන් ඔබට එය තවදුරටත් ප්‍රශස්ත කළ හැකිය:</p><pre><code>import dynamic from 'next/dynamic'\n\nconst HeavyChart = dynamic(() => import('./Chart'), {\n  loading: () => &lt;p&gt;Loading chart...&lt;/p&gt;,\n  ssr: false\n})</code></pre><h2 id=\"font-optimization\">4. අකුරු ප්‍රශස්තකරණය (Font Optimization)</h2><p>අකුරු (fonts) ස්වයං-ධාරක (self-host) කිරීමට සහ කාර්ය සාධනය වැඩිදියුණු කිරීමට <code>next/font</code> භාවිතා කරන්න. මෙය බාහිර ජාල ඉල්ලීම් ඉවත් කරන අතර ස්වයංක්‍රීය අකුරු උප කුලකකරණය සක්‍රීය කරයි.</p><h2 id=\"data-fetching\">5. දත්ත ලබා ගැනීමේ උපාය මාර්ග (Data Fetching Strategies)</h2><p>එක් එක් භාවිත අවස්ථාව සඳහා නිවැරදි දත්ත ලබා ගැනීමේ ක්‍රමය තෝරන්න:</p><ul><li><strong>ස්ථිතික උත්පාදනය (SSG)</strong> — කලාතුරකින් වෙනස් වන අන්තර්ගතයන් සඳහා</li><li><strong>සේවාදායක පාර්ශවීය විදැහුම්කරණය (SSR)</strong> — පුද්ගලීකරණය කළ හෝ නිතර යාවත්කාලීන වන අන්තර්ගතයන් සඳහා</li><li><strong>වැඩිවන ස්ථිතික පුනර්ජනනය (ISR)</strong> — දෙකෙහිම හොඳම සංකලනය</li></ul><h2 id=\"caching\">6. පූර්වාපේක්ෂී ගබඩා කිරීම (Caching)</h2><p>Next.js හි බිල්ට්-ඉන් පූර්වාපේක්ෂී ගබඩා කිරීම් (caching), CDN caching සහ බ්‍රවුසර caching භාවිතයෙන් නිසි caching උපාය මාර්ග ක්‍රියාත්මක කරන්න. සුදුසු <code>Cache-Control</code> ශීර්ෂයන් සකසා <code>revalidate</code> විකල්ප ඥානවන්තව භාවිතා කරන්න.</p><h2 id=\"bundle-size\">7. JavaScript මිටි ප්‍රමාණය (Bundle Size) අඩු කිරීම</h2><p>ඔබේ පරායත්තතා (dependencies) නිතර විගණනය කරන්න. ඔබේ bundle සැකැස්ම දෘශ්‍යමාන කිරීමට සහ සැහැල්ලු විකල්ප සමඟ ප්‍රතිස්ථාපනය කළ හැකි විශාල පරායත්තතා හඳුනා ගැනීමට <code>@next/bundle-analyzer</code> වැනි මෙවලම් භාවිතා කරන්න.</p><h2 id=\"server-components\">8. Next.js බිල්ට්-ඉන් සංරචක භාවිතා කරන්න</h2><p>React Server Components සේවාදායකයා වෙත යවන JavaScript ප්‍රමාණය අඩු කරයි. අන්තර්ක්‍රියාකාරිත්වයක් (interactivity) අවශ්‍ය නොවන තාක් සංරචක සේවාදායකයේ තබා ගන්න. මෙය bundle ප්‍රමාණය සැලකිය යුතු ලෙස අඩු කරන අතර ප්‍රථම බයිටය දක්වා කාලය (TTFB) වැඩිදියුණු කරයි.</p><h2 id=\"third-party-scripts\">9. තෙවන පාර්ශවීය ස්ක්‍රිප්ට් ප්‍රශස්තකරණය</h2><p>සුදුසු පැටවීමේ උපාය මාර්ග (<code>beforeInteractive</code>, <code>afterInteractive</code>, හෝ <code>lazyOnload</code>) සහිත <code>next/script</code> සංරචකය භාවිතයෙන් තෙවන පාර්ශවීය ස්ක්‍රිප්ට් කාර්යක්ෂමව පටවන්න.</p><h2 id=\"monitoring\">10. නිරීක්ෂණය සහ මැනීම</h2><p>ඔබේ යෙදුමේ කාර්ය සාධනය අඛණ්ඩව නිරීක්ෂණය කිරීමට Next.js Analytics, Lighthouse, සහ Web Vitals භාවිතා කරන්න. Core Web Vitals (LCP, FID, CLS) නිරීක්ෂණය කර පිරිහීමක් සිදු වුවහොත් දැනුම් දීම් සකසන්න.</p><h2 id=\"conclusion\">11. Conclusion</h2><p>කාර්ය සාධන ප්‍රශස්තකරණය යනු අඛණ්ඩව සිදුවන ක්‍රියාවලියකි. මෙම ශිල්පීය ක්‍රම 10 ක්‍රියාත්මක කිරීමෙන්, ඔබ පරිශීලකයින් සතුටු කරන සහ සෙවුම් යන්ත්‍රවල වඩා හොඳින් ශ්‍රේණිගත වන වේගවත් Next.js යෙදුම් නිර්මාණය කරනු ඇත.</p>",
+  "cta": {
+    "title": "සම්පූර්ණ පරීක්ෂණ ලැයිස්තුව අවශ්‍යද?",
+    "description": "අපගේ සම්පූර්ණ කාර්ය සාධන ප්‍රශස්තකරණ පරීක්ෂණ ලැයිස්තුව බාගත කර ඔබේ Core Web Vitals වැඩිදියුණු කරන්න.",
+    "buttonText": "පරීක්ෂණ ලැයිස්තුව බාගන්න",
+    "buttonUrl": "#"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "id": "3",
+  "slug": "advanced-react-patterns-every-developer-should-know",
+  "title": "සෑම සංවර්ධකයෙකුම දැනගත යුතු උසස් React රටා",
+  "category": "React",
+  "featuredImage": "/images/blog/react-patterns.png",
+  "author": {
+    "name": "Olivia Martin",
+    "avatar": "/images/blog/authors/oliviamartin.png",
+    "role": "සම්පූර්ණ-ස්ටැක් සංවර්ධක",
+    "bio": "නම්‍යශීලී පරිශීලක අතුරුමුහුණත් සහ ශක්තිමත් පසුබිම් (backends) ගොඩනැගීම. විවෘත මූලාශ්‍ර (open source) සහ React පරිසර පද්ධතියට ප්‍රිය කරයි.",
+    "socials": {
+      "linkedin": "https://linkedin.com/in/oliviamartin",
+      "twitter": "https://twitter.com/oliviamartin",
+      "github": "https://github.com/oliviamartin"
+    }
+  },
+  "publishedAt": "2025-05-15",
+  "updatedAt": "2025-05-28",
+  "readTime": 8,
+  "metaDescription": "පිරිසිදු හා වඩාත් නඩත්තු කළ හැකි කේත ලිවීම සඳහා compound components, render props, custom hooks, සහ state machines ඇතුළු උසස් React රටා ප්‍රගුණ කරන්න.",
+  "tags": ["React", "JavaScript", "සැලසුම් රටා", "Frontend", "වෙබ් සංවර්ධනය"],
+  "relatedSlugs": [
+    "10-performance-optimizations-for-nextjs-applications",
+    "how-ai-is-transforming-enterprise-software-development",
+    "cicd-best-practices-for-modern-teams"
+  ],
+  "content": "<h2 id=\"introduction\">1. හැඳින්වීම</h2><p>React හි සංරචක ආකෘතිය (component model) ඉතා බලවත් ය, නමුත් යෙදුම්වල සංකීර්ණත්වය වැඩි වන විට, සරල රටා මඟින් අවුල් සහගත සහ නඩත්තු කිරීමට අපහසු කේත බිහි විය හැක. උසස් සැලසුම් රටා (advanced patterns) මඟින් පිරිසිදු, නැවත භාවිතා කළ හැකි සහ පහසුවෙන් නඩත්තු කළ හැකි React යෙදුම් ලිවීමට ඔබට උපකාර කරයි.</p><h2 id=\"compound-components\">2. Compound Components</h2><p>Compound Components රටාව මඟින් එකිනෙකට සම්බන්ධ සංරචක එකම ඒකකයක් ලෙස ක්‍රියා කිරීමට ඉඩ සලසන අතරම, ඒවා විදැහුම්කරණය (rendering) කිරීමේ පූර්ණ පාලනය පරිශීලකයාට ලබා දෙයි. HTML හි <code>&lt;select&gt;</code> සහ <code>&lt;option&gt;</code> අතර ඇති සම්බන්ධතාවය වැනි සම්බන්ධතාවක් මෙහිදී දැකිය හැකිය.</p><pre><code>function Tabs({ children }) {\n  const [activeIndex, setActiveIndex] = useState(0)\n  return (\n    &lt;TabsContext.Provider value={{ activeIndex, setActiveIndex }}&gt;\n      {children}\n    &lt;/TabsContext.Provider&gt;\n  )\n}\n\nTabs.Tab = function Tab({ index, children }) {\n  const { activeIndex, setActiveIndex } = useContext(TabsContext)\n  return (\n    &lt;button\n      className={activeIndex === index ? 'active' : ''}\n      onClick={() => setActiveIndex(index)}\n    &gt;\n      {children}\n    &lt;/button&gt;\n  )\n}</code></pre><h2 id=\"render-props\">3. Render Props</h2><p>Hooks මඟින් render props රටාව බොහෝ දුරට ප්‍රතිස්ථාපනය කර ඇති අතර, විදැහුම්කරණයේදී උපරිම නම්‍යශීලී බවක් අවශ්‍ය වන ඇතැම් භාවිතයන් සඳහා මෙම රටාව තවමත් වටිනා වේ. එය සංරචකයකට එහි අභ්‍යන්තර තත්ත්වය (internal state) ශ්‍රිත ප්‍රොප් එකක් (function prop) හරහා එහි ළමා සංරචක සමඟ බෙදා ගැනීමට ඉඩ සලසයි.</p><h2 id=\"custom-hooks\">4. තර්කන නැවත භාවිතය සඳහා Custom Hooks</h2><p>සංරචක අතර තත්ත්ව තර්කනය (stateful logic) බෙදා ගැනීමට නවීන ක්‍රමය වන්නේ Custom Hooks ය. ඒවා සංරචක පිරිසිදුව තබා ගන්නා අතර සංකීර්ණ තර්කනය නැවත භාවිතා කළ හැකි, පරීක්ෂා කළ හැකි ශ්‍රිත (functions) බවට වෙන් කරයි.</p><pre><code>function useLocalStorage(key, initialValue) {\n  const [storedValue, setStoredValue] = useState(() => {\n    try {\n      const item = window.localStorage.getItem(key)\n      return item ? JSON.parse(item) : initialValue\n    } catch (error) {\n      return initialValue\n    }\n  })\n\n  const setValue = (value) => {\n    setStoredValue(value)\n    window.localStorage.setItem(key, JSON.stringify(value))\n  }\n\n  return [storedValue, setValue]\n}</code></pre><h2 id=\"state-machines\">5. State Machines</h2><p>බොහෝ සංක්‍රාන්ති (transitions) සහිත සංකීර්ණ UI තත්ත්වයන් සඳහා, state machines මඟින් තත්ත්වය කළමනාකරණය කිරීමට පුරෝකථනය කළ හැකි ක්‍රමයක් සපයයි. XState වැනි පුස්තකාල (libraries) මඟින් React යෙදුම්වල මෙම රටාව භාවිතය පහසු කරයි.</p><h2 id=\"higher-order-components\">6. Higher-Order Components (HOCs)</h2><p>නවීන React වල අඩු වශයෙන් භාවිත වුවද, authentication guards, analytics tracking, සහ error boundaries වැනි පොදු අවශ්‍යතා සඳහා HOCs තවමත් ප්‍රයෝජනවත් වේ. අමතර ක්‍රියාකාරීත්වයන් ඇතුළත් කරමින් ඒවා සංරචකයක් වටා දවටනු ලබයි.</p><h2 id=\"provider-pattern\">7. Provider Pattern</h2><p>React Context මඟින් ක්‍රියාත්මක වන Provider රටාව, prop drilling වලින් තොරව ගෝලීය තත්ත්වයන් (global state) කළමනාකරණය කිරීමට අත්‍යවශ්‍ය වේ. සංකීර්ණ තත්ත්ව කළමනාකරණ අවස්ථා සඳහා එය useReducer සමඟ ඒකාබද්ධ කරන්න.</p><h2 id=\"conclusion\">8. උපසංහාරය</h2><p>මෙම උසස් React රටා ප්‍රගුණ කිරීමෙන් ඔබ වඩාත් කාර්යක්ෂම සංවර්ධකයෙකු වනු ඇත. එක් එක් අවස්ථාව සඳහා නිවැරදි රටාව තෝරා ගන්න, සහ සරල බව සැමවිටම ඔබේ පළමු තේරීම විය යුතු බව මතක තබා ගන්න - උසස් රටා වෙත යොමු විය යුත්තේ ඒවායින් සැබෑ ගැටළුවක් විසඳන්නේ නම් පමණි.</p>",
+  "cta": null
+}

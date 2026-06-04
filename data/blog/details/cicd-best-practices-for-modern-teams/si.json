@@ -1,0 +1,30 @@
+{
+  "id": "5",
+  "slug": "cicd-best-practices-for-modern-teams",
+  "title": "නවීන කණ්ඩායම් සඳහා CI/CD හොඳම භාවිතයන්",
+  "category": "DevOps",
+  "featuredImage": "/images/blog/cicd-practices.png",
+  "author": {
+    "name": "Sophia Nguyen",
+    "avatar": "/images/blog/authors/sophia-nguyen.png",
+    "role": "DevOps ඉංජිනේරු",
+    "bio": "සෑම දෙයක්ම ස්වයංක්‍රීයකරණය කිරීම. CI/CD නල මාර්ග (pipelines), කේතයක් ලෙස යටිතල පහසුකම් (Infrastructure as Code) සහ cloud-native යෙදවුම් උපාය මාර්ග පිළිබඳ විශේෂඥතාවයක් දක්වයි.",
+    "socials": {
+      "linkedin": "https://linkedin.com/in/sophianguyen",
+      "twitter": "https://twitter.com/sophianguyen",
+      "github": "https://github.com/sophianguyen"
+    }
+  },
+  "publishedAt": "2025-05-10",
+  "updatedAt": "2025-05-22",
+  "readTime": 6,
+  "metaDescription": "ඔබේ බෙදාහැරීමේ නාලිකාව විධිමත් කිරීමට, යෙදවීමේ විශ්වාසනීයත්වය වැඩිදියුණු කිරීමට සහ ඔබේ කණ්ඩායමේ සංවර්ධන වේගය වැඩි කිරීමට CI/CD හොඳම භාවිතයන් ප්‍රගුණ කරන්න.",
+  "tags": ["DevOps", "CI/CD", "Automation", "Deployment", "GitHub Actions"],
+  "relatedSlugs": [
+    "building-scalable-applications-on-aws",
+    "10-performance-optimizations-for-nextjs-applications",
+    "cross-platform-mobile-development-with-flutter"
+  ],
+  "content": "<h2 id=\"introduction\">1. හැඳින්වීම</h2><p>අඛණ්ඩ ඒකාබද්ධතාවය සහ අඛණ්ඩ යෙදවීම (Continuous Integration and Continuous Deployment - CI/CD) යනු නවීන මෘදුකාංග කණ්ඩායම් සඳහා මූලික භාවිතයන් වේ. මැනවින් සැලසුම් කරන ලද CI/CD නල මාර්ගයක් (pipeline) මඟින් මෘදුකාංග ගොඩනැඟීම, පරීක්ෂා කිරීම සහ යෙදවීමේ ක්‍රියාවලිය ස්වයංක්‍රීය කරයි, එමඟින් වැඩි විශ්වාසයකින් යුතුව විශේෂාංග වේගවත්ව නිකුත් කිරීමට කණ්ඩායම්වලට හැකි වේ.</p><h2 id=\"continuous-integration\">2. Continuous Integration</h2><p>CI මඟින් කේත වෙනස්කම් කේත ගබඩාවට (repository) ඇතුළත් කරන සෑම අවස්ථාවකදීම ඒවා ස්වයංක්‍රීයව ගොඩනැඟීම සහ පරීක්ෂා කිරීම සහතික කරයි. ප්‍රධාන භාවිතයන් අතරට:</p><ul><li>නිතර කේත ඇතුළත් කිරීම (අවම වශයෙන් දිනපතා)</li><li>සෑම කේත ඇතුළත් කිරීමකදීම (push) ස්වයංක්‍රීය පරීක්ෂණ ක්‍රියාත්මක කිරීම</li><li>මෘදුකාංග ගොඩනැඟීමේ කාලය වේගවත්ව තබා ගැනීම (විනාඩි 10 ට අඩු)</li><li>අසාර්ථක වූ ගොඩනැඟීම් (broken builds) වහාම නිවැරදි කිරීම</li></ul><h2 id=\"continuous-deployment\">3. Continuous Deployment</h2><p>CD මඟින් නිකුත් කිරීමේ ක්‍රියාවලිය ස්වයංක්‍රීය කරයි, එවිට ඔබේ පරීක්ෂණ කට්ටලයෙන් සමත් වන සෑම වෙනස්කමක්ම ස්වයංක්‍රීයව සජීවී පරිසරයට (production) යොදවනු ලැබේ. මේ සඳහා ඔබේ පරීක්ෂණ ආවරණය සහ නිරීක්ෂණ පද්ධති කෙරෙහි ඉහළ විශ්වාසයක් තිබීම අවශ්‍ය වේ.</p><h2 id=\"pipeline-design\">4. Pipeline Design</h2><p>මැනවින් ව්‍යුහගත කරන ලද නල මාර්ගයක සාමාන්‍යයෙන් මෙම අදියරයන් ඇතුළත් වේ:</p><ol><li><strong>Build</strong> — කේතය සම්පාදනය කිරීම සහ නිෂ්පාදන (artifacts) නිර්මාණය කිරීම</li><li><strong>Unit Tests</strong> — වේගවත්, හුදකලා පරීක්ෂණ ක්‍රියාත්මක කිරීම</li><li><strong>Integration Tests</strong> — සංරචක අතර අන්තර්ක්‍රියා පරීක්ෂා කිරීම</li><li><strong>Security Scan</strong> — ආරක්ෂක දුර්වලතා පරීක්ෂා කිරීම</li><li><strong>Deploy to Staging</strong> — සජීවී වැනි පරිසරයක (production-like environment) වලංගු කිරීම</li><li><strong>Deploy to Production</strong> — විශ්වාසයෙන් යුතුව සජීවී පරිසරයට මුදා හැරීම</li></ol><h2 id=\"infrastructure-as-code\">5. Infrastructure as Code</h2><p>Terraform, AWS CDK, හෝ Pulumi වැනි මෙවලම් භාවිතයෙන් ඔබේ යටිතල පහසුකම් කේතයෙන් අර්ථ දක්වන්න. මෙමඟින් පරිසරයන් නැවත නිර්මාණය කළ හැකි බව, සංස්කරණ පාලනය සහ යෙදුම් කේතය මෙන්ම PR ක්‍රියාවලිය හරහා සමාලෝචනය කළ හැකි බව සහතික කරයි.</p><h2 id=\"monitoring\">6. Monitoring and Rollbacks</h2><p>විස්තීර්ණ නිරීක්ෂණ ක්‍රියාත්මක කරන්න සහ ස්වයංක්‍රීයව පැරණි තත්ත්වයට පත් කිරීමේ යාන්ත්‍රණ සකසන්න. අසාර්ථක වීම්වල බලපෑම අවම කිරීම සඳහා canary deployments හෝ blue-green deployments භාවිතා කරන්න.</p><h2 id=\"conclusion\">7. Conclusion</h2><p>ශක්තිමත් CI/CD නල මාර්ගයක් යනු කාර්යක්ෂම මෘදුකාංග බෙදා හැරීමේ කොඳු නාරටියයි. ඔබේ නල මාර්ගය ගොඩනැඟීමට සහ නඩත්තු කිරීමට කාලය ආයෝජනය කරන්න — එය වේගවත් නිකුත් කිරීම්, අඩු දෝෂ සහ වඩාත් තෘප්තිමත් සංවර්ධකයින් බිහි කිරීමට හේතු වනු ඇත.</p>",
+  "cta": null
+}

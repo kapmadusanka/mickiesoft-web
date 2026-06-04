@@ -1,0 +1,30 @@
+{
+  "id": "6",
+  "slug": "cross-platform-mobile-development-with-flutter",
+  "title": "Flutter සමඟ හරස්-වේදිකා ජංගම සංවර්ධනය",
+  "category": "Mobile",
+  "featuredImage": "/images/blog/flutter-mobile.png",
+  "author": {
+    "name": "Liam Wilson",
+    "avatar": "/images/blog/authors/liam-wilson.png",
+    "role": "ජංගම සංවර්ධක",
+    "bio": "ලස්සන හරස්-වේදිකා ජංගම යෙදුම් ගොඩනැඟීම. Flutter උද්‍යෝගිමත් සහ Dart හිතවාදියෙකි.",
+    "socials": {
+      "linkedin": "https://linkedin.com/in/liamwilson",
+      "twitter": "https://twitter.com/liamwilson",
+      "github": "https://github.com/liamwilson"
+    }
+  },
+  "publishedAt": "2025-05-08",
+  "updatedAt": "2025-05-20",
+  "readTime": 7,
+  "metaDescription": "එක් කේත පදනමකින් (codebase) iOS සහ Android සඳහා Flutter සමඟ ලස්සන, කාර්ය සාධනවත් හරස්-වේදිකා ජංගම යෙදුම් ගොඩනඟන ආකාරය ඉගෙන ගන්න.",
+  "tags": ["Flutter", "Mobile", "Dart", "iOS", "Android", "Cross-Platform"],
+  "relatedSlugs": [
+    "advanced-react-patterns-every-developer-should-know",
+    "cicd-best-practices-for-modern-teams",
+    "10-performance-optimizations-for-nextjs-applications"
+  ],
+  "content": "<h2 id=\"introduction\">1. හැඳින්වීම</h2><p>Flutter යනු හරස්-වේදිකා (cross-platform) ජංගම යෙදුම් ගොඩනැඟීම සඳහා වඩාත් ජනප්‍රිය රාමුවක් (frameworks) ලෙස මතු වී ඇත. එක් කේත පදනමකින් (single codebase), ඔබට 60fps වේගයකින් ක්‍රියා කරන iOS සහ Android සඳහා ලස්සන, දේශීයව සම්පාදනය කරන ලද (natively compiled) යෙදුම් නිර්මාණය කළ හැකිය.</p><h2 id=\"why-flutter\">2. ඇයි Flutter?</h2><p>Flutter අනෙකුත් හරස්-වේදිකා රාමු වලට වඩා වාසි කිහිපයක් ලබා දෙයි:</p><ul><li><strong>Hot Reload</strong> — තත්ත්වය (state) අහිමි නොවී ක්ෂණිකව වෙනස්කම් දැකීම</li><li><strong>Rich Widget Library</strong> — මනරම් Material Design සහ Cupertino widgets සෘජුවම ලබා දීම</li><li><strong>Native Performance</strong> — සෘජුවම native ARM කේතයට සම්පාදනය කිරීම</li><li><strong>Single Codebase</strong> — iOS, Android, web, සහ desktop සඳහා එකම කේත පදනම</li></ul><h2 id=\"architecture\">3. යෙදුම් ගෘහ නිර්මාණ ශිල්පය (App Architecture)</h2><p>මැනවින් ව්‍යුහගත කරන ලද Flutter යෙදුමක් පිරිසිදු ගෘහ නිර්මාණ මූලධර්ම (clean architecture principles) අනුගමනය කරයි. ජනප්‍රිය තත්ත්ව කළමනාකරණ (state management) විසඳුම් අතර Provider, Riverpod, සහ BLoC රටාව ඇතුළත් වේ. ඔබේ යෙදවුමේ සංකීර්ණත්වය සහ කණ්ඩායමේ හුරුපුරුදු බව මත පදනම්ව තෝරා ගන්න.</p><h2 id=\"ui-design\">4. ලස්සන පරිශීලක අතුරුමුහුණත් ගොඩනැඟීම</h2><p>Flutter හි widget මත පදනම් වූ ප්‍රවේශය මඟින් සිත් ඇදගන්නාසුළු පරිශීලක අතුරුමුහුණත් නිර්මාණය කිරීම පහසු කරයි. ඔබේ නිර්මාණකරුගේ දැක්මට ගැළපෙන පරිදි පරිපූර්ණ මෝස්තර නිර්මාණය කිරීම සඳහා Flutter හි බිල්ට්-ඉන් සජීවීකරණ (animations), custom painters සහ පුළුල් widget නාමාවලිය භාවිතා කරන්න.</p><h2 id=\"platform-integration\">5. වේදිකාවට-විශේෂිත ඒකාබද්ධතාවය (Platform-Specific Integration)</h2><p>Flutter මඟින් බොහෝ හරස්-වේදිකා අවශ්‍යතා සපුරාලන අතරම, සමහර විට ඔබට වේදිකාවට-විශේෂිත API වෙත ප්‍රවේශ වීමට අවශ්‍ය වේ. Flutter හි platform channels මඟින් Dart සහ native කේතය (Swift/Kotlin) අතර බාධාවකින් තොරව සන්නිවේදනය කිරීමට ඉඩ සලසයි.</p><h2 id=\"testing\">6. පරීක්ෂණ උපාය මාර්ග (Testing Strategies)</h2><p>Flutter විසින් සියලුම මට්ටම්වලදී විශිෂ්ට පරීක්ෂණ සහාය ලබා දෙයි - ඒකක පරීක්ෂණ (unit tests), widget පරීක්ෂණ සහ ඒකාබද්ධ පරීක්ෂණ (integration tests). සවිස්තරාත්මක පරීක්ෂණ සඳහා <code>flutter_test</code> පැකේජය ද, end-to-end පරීක්ෂණ සඳහා <code>integration_test</code> පැකේජය ද භාවිතා කරන්න.</p><h2 id=\"deployment\">7. යෙදවීම සහ බෙදා හැරීම (Deployment and Distribution)</h2><p>Fastlane, Codemagic, හෝ GitHub Actions භාවිතයෙන් ඔබේ Flutter යෙදුම් යෙදවීම ස්වයංක්‍රීය කරන්න. App Store සහ Google Play වෙත ඔබේ යෙදුම ස්වයංක්‍රීයව ගොඩනැඟීමට, පරීක්ෂා කිරීමට සහ බෙදා හැරීමට CI/CD නල මාර්ග සකසන්න.</p><h2 id=\"conclusion\">8. Conclusion</h2><p>Flutter යනු හරස්-වේදිකා ජංගම සංවර්ධනය සඳහා ඉතා බලවත් තේරීමකි. එහි පොහොසත් පරිසර පද්ධතිය, විශිෂ්ට කාර්ය සාධනය සහ ලස්සන UI හැකියාවන් නිෂ්පාදනයට සූදානම් ජංගම යෙදුම් ගොඩනැගීම සඳහා කදිම රාමුවක් බවට පත් කරයි.</p>",
+  "cta": null
+}

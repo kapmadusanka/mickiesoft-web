@@ -26,6 +26,8 @@ const nextConfig: NextConfig = {
   },
   outputFileTracingIncludes: {
     '/api/**/*': ['./data/**/*'],
+    // Sitemap reads blog JSON directly — include data dir for serverless tracing
+    '/sitemap': ['./data/blog/list/**/*'],
   },
 }
 

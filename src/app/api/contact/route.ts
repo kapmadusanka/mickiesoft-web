@@ -36,7 +36,7 @@ export async function POST(req: Request) {
     // Send email using Resend
     const { data, error } = await resend.emails.send({
       from: "Mickiesoft <info@welcomesrilanka.com>", // Replace with your verified domain
-      to: ["kapmadusanka95@gmail.com"], // Replace with your email address to receive contacts
+      to: ["shanuka@mickiesoft.lk"], // Replace with your email address to receive contacts
       subject: `New Contact Form Submission: ${subject}`,
       html: `
         <h2>New Contact Form Submission</h2>

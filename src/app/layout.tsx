@@ -79,7 +79,7 @@ export const metadata: Metadata = {
     url: "https://mickiesoft.lk",
     images: [
       {
-        url: "/images/og-image.jpg", // Update with your actual OG image
+        url: "/images/og-image.png",
         width: 1200,
         height: 630,
         alt: "Mickiesoft Software Development",

@@ -20,6 +20,8 @@ const TECH_ITEMS = [
   { name: "MongoDB", image: "/images/technologies/mongodb-logo.svg" },
   { name: "AWS", image: "/images/technologies/aws-logo.png" },
   { name: "Azure", image: "/images/technologies/azure-logo.png" },
+  { name: "TypeScript", image: "/images/technologies/typescript-logo.svg" },
+  { name: "Docker", image: "/images/technologies/docker-logo.svg" },
 ]
 
 export async function Technologies() {

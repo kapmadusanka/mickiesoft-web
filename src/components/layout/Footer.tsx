@@ -6,6 +6,8 @@ import { ArrowRight, Mail, MapPin, Phone } from "lucide-react"
 
 export async function Footer() {
   const t = await getTranslations("footer")
+  const tContact = await getTranslations("contact")
+  const tNav = await getTranslations("nav")
   const year = new Date().getFullYear()
 
   return (
@@ -38,16 +40,16 @@ export async function Footer() {
           {/* Quick Links (Col 5-6) */}
           <div className="lg:col-span-2">
             <Typography variant="h6" className="mb-6 font-semibold">
-              Company
+              {t("company")}
             </Typography>
             <ul className="space-y-4">
               {[
-                { id: "about", href: "/#about" },
-                { id: "services", href: "/#services" },
-                { id: "technologies", href: "/#technologies" },
-                { id: "blog", href: "/blog" },
-                { id: "contact", href: "/#contact" }
-              ].map(({ id, href }) => (
+                { id: "about", href: "/#about", label: tNav("about") },
+                { id: "services", href: "/#services", label: tNav("services") },
+                { id: "technologies", href: "/#technologies", label: tNav("technologies") },
+                { id: "blog", href: "/blog", label: tNav("blog") },
+                { id: "contact", href: "/#contact", label: tNav("contact") }
+              ].map(({ id, href, label }) => (
                 <li key={id}>
                   <Link
                     href={href as any}
@@ -56,7 +58,7 @@ export async function Footer() {
                     <span className="w-0 overflow-hidden group-hover:w-3 transition-all duration-300 ease-out">
                       <span className="text-blue-600 dark:text-blue-400 mr-1">-</span>
                     </span>
-                    {id}
+                    {label || id}
                   </Link>
                 </li>
               ))}
@@ -66,22 +68,22 @@ export async function Footer() {
           {/* Contact Info (Col 7-9) */}
           <div className="lg:col-span-3">
             <Typography variant="h6" className="mb-6 font-semibold">
-              Get in Touch
+              {t("getInTouch")}
             </Typography>
             <ul className="space-y-4">
               <li className="flex items-start gap-3">
                 <MapPin className="w-5 h-5 text-blue-600 dark:text-blue-400 shrink-0 mt-0.5" />
-                <span className="text-sm text-slate-500 dark:text-slate-400 leading-relaxed">
-                  123 Tech Avenue, Innovation District<br />Colombo, Sri Lanka
+                <span className="text-sm text-slate-500 dark:text-slate-400 leading-relaxed whitespace-pre-line">
+                  {tContact("address")}
                 </span>
               </li>
               <li className="flex items-center gap-3">
                 <Phone className="w-5 h-5 text-blue-600 dark:text-blue-400 shrink-0" />
-                <span className="text-sm text-slate-500 dark:text-slate-400">+94 77 123 4567</span>
+                <span className="text-sm text-slate-500 dark:text-slate-400">{tContact("phone")}</span>
               </li>
               <li className="flex items-center gap-3">
                 <Mail className="w-5 h-5 text-blue-600 dark:text-blue-400 shrink-0" />
-                <span className="text-sm text-slate-500 dark:text-slate-400">hello@mickiesoft.com</span>
+                <span className="text-sm text-slate-500 dark:text-slate-400">{tContact("email")}</span>
               </li>
             </ul>
           </div>
@@ -89,10 +91,10 @@ export async function Footer() {
           {/* Newsletter (Col 10-12) */}
           <div className="lg:col-span-3">
             <Typography variant="h6" className="mb-6 font-semibold">
-              Newsletter
+              {t("newsletter")}
             </Typography>
             <Typography variant="p" className="text-sm text-slate-500 dark:text-slate-400 mb-4 leading-relaxed">
-              Subscribe to our newsletter for the latest tech insights and company updates.
+              {t("newsletterDesc")}
             </Typography>
             <NewsletterForm />
           </div>
@@ -105,8 +107,8 @@ export async function Footer() {
             {t("copyright", { year: year.toString() })}
           </Typography>
           <div className="flex gap-6">
-            <Link href="#" className="text-sm text-slate-500 dark:text-slate-400 hover:text-blue-600 transition-colors">Privacy Policy</Link>
-            <Link href="#" className="text-sm text-slate-500 dark:text-slate-400 hover:text-blue-600 transition-colors">Terms of Service</Link>
+            <Link href="#" className="text-sm text-slate-500 dark:text-slate-400 hover:text-blue-600 transition-colors">{t("privacyPolicy")}</Link>
+            <Link href="#" className="text-sm text-slate-500 dark:text-slate-400 hover:text-blue-600 transition-colors">{t("termsOfService")}</Link>
           </div>
         </div>
 

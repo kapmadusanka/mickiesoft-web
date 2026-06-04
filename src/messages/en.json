@@ -109,9 +109,9 @@
     "sectionLabel": "Contact",
     "heading": "Contact Us",
     "subtitle": "Have a project in mind? Get in touch with us and let's discuss how we can help.",
-    "address": "No 33, Colombo 05, Sri Lanka",
-    "phone": "+94 77 123 4567",
-    "email": "info@mickiesoft.lk",
+    "address": "No 112, Kaldemulla rd, Moratuwa, Sri Lanka",
+    "phone": "+94 77 229 6180",
+    "email": "shanuka@mickiesoft.lk",
     "namePlaceholder": "Your Name",
     "emailPlaceholder": "Your Email",
     "subjectPlaceholder": "Subject",
@@ -132,7 +132,13 @@
   },
   "footer": {
     "copyright": "© {year} Mickiesoft (Pvt) Ltd. All Rights Reserved.",
-    "description": "Outsource software development with confidence. We build scalable, modern solutions for businesses worldwide."
+    "description": "Outsource software development with confidence. We build scalable, modern solutions for businesses worldwide.",
+    "company": "Company",
+    "getInTouch": "Get in Touch",
+    "newsletter": "Newsletter",
+    "newsletterDesc": "Subscribe to our newsletter for the latest tech insights and company updates.",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfService": "Terms of Service"
   },
   "cms": {
     "dashboard": {

@@ -14,7 +14,8 @@ import { ExtendedButton } from "@/components/shared/ExtendedButton"
 import { AnimatedSection } from "@/components/shared/PageTransition"
 import { contactService } from "@/services/api/public"
 import { MapPin, Phone, Mail } from "lucide-react"
-import { useState } from "react"
+import { useState, useRef } from "react"
+import ReCAPTCHA from "react-google-recaptcha"
 
 const contactSchema = z.object({
   name: z.string().min(2, "Name must be at least 2 characters"),
@@ -28,6 +29,7 @@ type ContactFormValues = z.infer<typeof contactSchema>
 export function Contact() {
   const t = useTranslations("contact")
   const [isSubmitting, setIsSubmitting] = useState(false)
+  const recaptchaRef = useRef<ReCAPTCHA>(null)
 
   const {
     register,
@@ -41,9 +43,18 @@ export function Contact() {
   async function onSubmit(data: ContactFormValues) {
     setIsSubmitting(true)
     try {
-      await contactService.submit(data)
+      const recaptchaToken = recaptchaRef.current?.getValue()
+      
+      if (!recaptchaToken) {
+        toast.error("Please verify you are not a robot")
+        setIsSubmitting(false)
+        return
+      }
+
+      await contactService.submit({ ...data, recaptchaToken })
       toast.success(t("successMessage"))
       reset()
+      recaptchaRef.current?.reset()
     } catch {
       toast.error(t("errorMessage"))
     } finally {
@@ -187,6 +198,11 @@ export function Contact() {
                       </Typography>
                     )}
                   </div>
+                  <ReCAPTCHA
+                    ref={recaptchaRef}
+                    size="normal"
+                    sitekey={process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY || ""}
+                  />
 
                   <ExtendedButton
                     type="submit"
@@ -196,6 +212,8 @@ export function Contact() {
                   >
                     {t("submitButton")}
                   </ExtendedButton>
+
+
                 </form>
               </CardContent>
             </Card>

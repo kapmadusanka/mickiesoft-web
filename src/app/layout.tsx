@@ -102,6 +102,15 @@ export const metadata: Metadata = {
       "max-snippet": -1,
     },
   },
+  icons: {
+    icon: "/images/favicon.png",
+    apple: "/images/favicon.png",
+  },
+  verification: {
+    other: {
+      "yandex-verification": "71bb5bedd4b5ecf2",
+    },
+  },
 }
 
 export default function RootLayout({

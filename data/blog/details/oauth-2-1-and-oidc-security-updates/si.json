@@ -1,0 +1,38 @@
+{
+  "id": "48",
+  "slug": "oauth-2-1-and-oidc-security-updates",
+  "title": "OAuth 2.1 and OIDC Security Updates (Sinhala)",
+  "category": "Security",
+  "featuredImage": "",
+  "author": {
+    "name": "Emma Wright",
+    "avatar": "/images/blog/authors/sophia-nguyen.jpg",
+    "role": "UX Researcher",
+    "bio": "Bridges user research and engineering to ship accessible, intuitive product experiences.",
+    "socials": {
+      "linkedin": "https://linkedin.com/in/emmawright"
+    }
+  },
+  "publishedAt": "2026-04-06",
+  "updatedAt": "2026-04-06",
+  "readTime": 5,
+  "metaDescription": "OAuth 2.1 පිළිබඳ සවිස්තරාත්මක මාර්ගෝපදේශයක්.",
+  "tags": [
+    "Security",
+    "OAuth 2.1",
+    "Software Engineering",
+    "2026 Trends"
+  ],
+  "relatedSlugs": [
+    "the-psychology-of-user-interface-design",
+    "understanding-blockchain-for-enterprise",
+    "observability-with-opentelemetry"
+  ],
+  "content": "<h2 id=\"introduction\">හැඳින්වීම</h2><p>මෙම ලිපිය OAuth 2.1 පිළිබඳව නවීන තාක්ෂණික ප්‍රවණතා අනුව විස්තර කරයි. PKCE, token rotation, and session hardening සඳහා ප්‍රායෝගික උපදෙස් මෙහි ඇතුළත් වේ.</p><h2 id=\"summary\">සාරාංශය</h2><p>වැඩිදුර විස්තර සඳහා ඉංග්‍රීසි සංස්කරණය කියවන්න.</p>",
+  "cta": {
+    "title": "Need help implementing this?",
+    "description": "Mickiesoft engineers can help you design, build, and scale modern software solutions.",
+    "buttonText": "Contact Us",
+    "buttonUrl": "/contact"
+  }
+}

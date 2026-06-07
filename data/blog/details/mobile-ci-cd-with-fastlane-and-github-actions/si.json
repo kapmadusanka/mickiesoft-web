@@ -1,0 +1,39 @@
+{
+  "id": "76",
+  "slug": "mobile-ci-cd-with-fastlane-and-github-actions",
+  "title": "Mobile CI/CD with Fastlane and GitHub Actions (Sinhala)",
+  "category": "Mobile",
+  "featuredImage": "",
+  "author": {
+    "name": "Sophia Nguyen",
+    "avatar": "/images/blog/authors/sophia-nguyen.png",
+    "role": "DevOps Engineer",
+    "bio": "Helps teams ship faster with automation, observability, and platform engineering practices.",
+    "socials": {
+      "linkedin": "https://linkedin.com/in/sophianguyen",
+      "github": "https://github.com/sophianguyen"
+    }
+  },
+  "publishedAt": "2026-02-09",
+  "updatedAt": "2026-02-09",
+  "readTime": 5,
+  "metaDescription": "mobile CI/CD පිළිබඳ සවිස්තරාත්මක මාර්ගෝපදේශයක්.",
+  "tags": [
+    "Mobile",
+    "mobile CI/CD",
+    "Software Engineering",
+    "2026 Trends"
+  ],
+  "relatedSlugs": [
+    "platform-engineering-and-internal-developer-portals",
+    "end-to-end-testing-strategies-with-cypress",
+    "how-ai-is-transforming-enterprise-software-development"
+  ],
+  "content": "<h2 id=\"introduction\">හැඳින්වීම</h2><p>මෙම ලිපිය mobile CI/CD පිළිබඳව නවීන තාක්ෂණික ප්‍රවණතා අනුව විස්තර කරයි. signing, test flights, and store releases සඳහා ප්‍රායෝගික උපදෙස් මෙහි ඇතුළත් වේ.</p><h2 id=\"summary\">සාරාංශය</h2><p>වැඩිදුර විස්තර සඳහා ඉංග්‍රීසි සංස්කරණය කියවන්න.</p>",
+  "cta": {
+    "title": "Need help implementing this?",
+    "description": "Mickiesoft engineers can help you design, build, and scale modern software solutions.",
+    "buttonText": "Contact Us",
+    "buttonUrl": "/contact"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "id": "95",
+  "slug": "nx-for-large-scale-frontend-codebases",
+  "title": "Nx for Large-Scale Frontend Codebases (Sinhala)",
+  "category": "DevOps",
+  "featuredImage": "",
+  "author": {
+    "name": "Alex Mercer",
+    "avatar": "/images/blog/authors/james-carter.jpg",
+    "role": "Security Engineer",
+    "bio": "Specializes in application security, identity systems, and secure SDLC practices.",
+    "socials": {
+      "linkedin": "https://linkedin.com/in/alexmercer",
+      "github": "https://github.com/alexmercer"
+    }
+  },
+  "publishedAt": "2026-01-02",
+  "updatedAt": "2026-01-02",
+  "readTime": 5,
+  "metaDescription": "Nx monorepos පිළිබඳ සවිස්තරාත්මක මාර්ගෝපදේශයක්.",
+  "tags": [
+    "DevOps",
+    "Nx monorepos",
+    "Software Engineering",
+    "2026 Trends"
+  ],
+  "relatedSlugs": [
+    "svelte-5-runes-a-complete-guide",
+    "understanding-blockchain-for-enterprise",
+    "deno-2-0-for-modern-web-development"
+  ],
+  "content": "<h2 id=\"introduction\">හැඳින්වීම</h2><p>මෙම ලිපිය Nx monorepos පිළිබඳව නවීන තාක්ෂණික ප්‍රවණතා අනුව විස්තර කරයි. affected builds, generators, and module boundaries සඳහා ප්‍රායෝගික උපදෙස් මෙහි ඇතුළත් වේ.</p><h2 id=\"summary\">සාරාංශය</h2><p>වැඩිදුර විස්තර සඳහා ඉංග්‍රීසි සංස්කරණය කියවන්න.</p>",
+  "cta": {
+    "title": "Need help implementing this?",
+    "description": "Mickiesoft engineers can help you design, build, and scale modern software solutions.",
+    "buttonText": "Contact Us",
+    "buttonUrl": "/contact"
+  }
+}

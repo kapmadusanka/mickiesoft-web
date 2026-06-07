@@ -1,0 +1,39 @@
+{
+  "id": "59",
+  "slug": "api-gateway-patterns-with-kong-and-envoy",
+  "title": "API Gateway Patterns with Kong and Envoy (Sinhala)",
+  "category": "Backend",
+  "featuredImage": "",
+  "author": {
+    "name": "Daniel Lee",
+    "avatar": "/images/blog/authors/daniel-lee.png",
+    "role": "Cloud Architect",
+    "bio": "Designs cloud-native systems that balance performance, cost, and operational simplicity.",
+    "socials": {
+      "linkedin": "https://linkedin.com/in/daniellee",
+      "github": "https://github.com/daniellee"
+    }
+  },
+  "publishedAt": "2026-03-15",
+  "updatedAt": "2026-03-15",
+  "readTime": 5,
+  "metaDescription": "API gateways පිළිබඳ සවිස්තරාත්මක මාර්ගෝපදේශයක්.",
+  "tags": [
+    "Backend",
+    "API gateways",
+    "Software Engineering",
+    "2026 Trends"
+  ],
+  "relatedSlugs": [
+    "integrating-llms-into-your-saas-product",
+    "ddos-protection-strategies-for-modern-apps",
+    "10-performance-optimizations-for-nextjs-applications"
+  ],
+  "content": "<h2 id=\"introduction\">හැඳින්වීම</h2><p>මෙම ලිපිය API gateways පිළිබඳව නවීන තාක්ෂණික ප්‍රවණතා අනුව විස්තර කරයි. routing, auth termination, and rate policies සඳහා ප්‍රායෝගික උපදෙස් මෙහි ඇතුළත් වේ.</p><h2 id=\"summary\">සාරාංශය</h2><p>වැඩිදුර විස්තර සඳහා ඉංග්‍රීසි සංස්කරණය කියවන්න.</p>",
+  "cta": {
+    "title": "Need help implementing this?",
+    "description": "Mickiesoft engineers can help you design, build, and scale modern software solutions.",
+    "buttonText": "Contact Us",
+    "buttonUrl": "/contact"
+  }
+}

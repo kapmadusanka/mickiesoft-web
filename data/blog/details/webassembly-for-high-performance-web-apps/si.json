@@ -1,0 +1,39 @@
+{
+  "id": "97",
+  "slug": "webassembly-for-high-performance-web-apps",
+  "title": "WebAssembly for High-Performance Web Apps (Sinhala)",
+  "category": "Frontend",
+  "featuredImage": "",
+  "author": {
+    "name": "James Carter",
+    "avatar": "/images/blog/authors/james-carter.png",
+    "role": "Senior Frontend Engineer",
+    "bio": "Passionate about building fast and scalable web applications with modern technologies.",
+    "socials": {
+      "linkedin": "https://linkedin.com/in/jamescarter",
+      "github": "https://github.com/jamescarter"
+    }
+  },
+  "publishedAt": "2025-12-29",
+  "updatedAt": "2025-12-29",
+  "readTime": 5,
+  "metaDescription": "WebAssembly පිළිබඳ සවිස්තරාත්මක මාර්ගෝපදේශයක්.",
+  "tags": [
+    "Frontend",
+    "WebAssembly",
+    "Software Engineering",
+    "2026 Trends"
+  ],
+  "relatedSlugs": [
+    "understanding-blockchain-for-enterprise",
+    "cross-platform-mobile-development-with-flutter",
+    "ebpf-for-cloud-native-monitoring"
+  ],
+  "content": "<h2 id=\"introduction\">හැඳින්වීම</h2><p>මෙම ලිපිය WebAssembly පිළිබඳව නවීන තාක්ෂණික ප්‍රවණතා අනුව විස්තර කරයි. Wasm modules, JS interop, and compute-heavy workloads සඳහා ප්‍රායෝගික උපදෙස් මෙහි ඇතුළත් වේ.</p><h2 id=\"summary\">සාරාංශය</h2><p>වැඩිදුර විස්තර සඳහා ඉංග්‍රීසි සංස්කරණය කියවන්න.</p>",
+  "cta": {
+    "title": "Need help implementing this?",
+    "description": "Mickiesoft engineers can help you design, build, and scale modern software solutions.",
+    "buttonText": "Contact Us",
+    "buttonUrl": "/contact"
+  }
+}

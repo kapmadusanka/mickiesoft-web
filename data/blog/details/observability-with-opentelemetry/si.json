@@ -1,0 +1,39 @@
+{
+  "id": "45",
+  "slug": "observability-with-opentelemetry",
+  "title": "Observability with OpenTelemetry (Sinhala)",
+  "category": "DevOps",
+  "featuredImage": "",
+  "author": {
+    "name": "Liam Wilson",
+    "avatar": "/images/blog/authors/liam-wilson.png",
+    "role": "Systems Engineer",
+    "bio": "Works on high-performance backends, distributed systems, and low-level runtime optimization.",
+    "socials": {
+      "linkedin": "https://linkedin.com/in/liamwilson",
+      "github": "https://github.com/liamwilson"
+    }
+  },
+  "publishedAt": "2026-04-12",
+  "updatedAt": "2026-04-12",
+  "readTime": 5,
+  "metaDescription": "OpenTelemetry පිළිබඳ සවිස්තරාත්මක මාර්ගෝපදේශයක්.",
+  "tags": [
+    "DevOps",
+    "OpenTelemetry",
+    "Software Engineering",
+    "2026 Trends"
+  ],
+  "relatedSlugs": [
+    "turbopack-vs-webpack-in-2026",
+    "astro-islands-architecture-for-content-sites",
+    "infrastructure-as-code-with-pulumi"
+  ],
+  "content": "<h2 id=\"introduction\">හැඳින්වීම</h2><p>මෙම ලිපිය OpenTelemetry පිළිබඳව නවීන තාක්ෂණික ප්‍රවණතා අනුව විස්තර කරයි. traces, metrics, logs, and vendor-neutral pipelines සඳහා ප්‍රායෝගික උපදෙස් මෙහි ඇතුළත් වේ.</p><h2 id=\"summary\">සාරාංශය</h2><p>වැඩිදුර විස්තර සඳහා ඉංග්‍රීසි සංස්කරණය කියවන්න.</p>",
+  "cta": {
+    "title": "Need help implementing this?",
+    "description": "Mickiesoft engineers can help you design, build, and scale modern software solutions.",
+    "buttonText": "Contact Us",
+    "buttonUrl": "/contact"
+  }
+}

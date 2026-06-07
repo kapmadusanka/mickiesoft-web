@@ -1,0 +1,39 @@
+{
+  "id": "25",
+  "slug": "running-local-llms-with-ollama-and-llama-3",
+  "title": "Running Local LLMs with Ollama and Llama 3 (Sinhala)",
+  "category": "AI",
+  "featuredImage": "",
+  "author": {
+    "name": "James Carter",
+    "avatar": "/images/blog/authors/james-carter.png",
+    "role": "Senior Frontend Engineer",
+    "bio": "Passionate about building fast and scalable web applications with modern technologies.",
+    "socials": {
+      "linkedin": "https://linkedin.com/in/jamescarter",
+      "github": "https://github.com/jamescarter"
+    }
+  },
+  "publishedAt": "2026-05-22",
+  "updatedAt": "2026-05-22",
+  "readTime": 5,
+  "metaDescription": "local LLMs පිළිබඳ සවිස්තරාත්මක මාර්ගෝපදේශයක්.",
+  "tags": [
+    "AI",
+    "local LLMs",
+    "Software Engineering",
+    "2026 Trends"
+  ],
+  "relatedSlugs": [
+    "ai-powered-code-review-tools-compared",
+    "monolith-to-microservices-transition",
+    "why-we-are-writing-our-backend-in-rust"
+  ],
+  "content": "<h2 id=\"introduction\">හැඳින්වීම</h2><p>මෙම ලිපිය local LLMs පිළිබඳව නවීන තාක්ෂණික ප්‍රවණතා අනුව විස්තර කරයි. on-prem inference, privacy, and hardware sizing සඳහා ප්‍රායෝගික උපදෙස් මෙහි ඇතුළත් වේ.</p><h2 id=\"summary\">සාරාංශය</h2><p>වැඩිදුර විස්තර සඳහා ඉංග්‍රීසි සංස්කරණය කියවන්න.</p>",
+  "cta": {
+    "title": "Need help implementing this?",
+    "description": "Mickiesoft engineers can help you design, build, and scale modern software solutions.",
+    "buttonText": "Contact Us",
+    "buttonUrl": "/contact"
+  }
+}

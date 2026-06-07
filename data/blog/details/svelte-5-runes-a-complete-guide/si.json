@@ -1,0 +1,39 @@
+{
+  "id": "35",
+  "slug": "svelte-5-runes-a-complete-guide",
+  "title": "Svelte 5 Runes: A Complete Guide (Sinhala)",
+  "category": "Frontend",
+  "featuredImage": "",
+  "author": {
+    "name": "Daniel Lee",
+    "avatar": "/images/blog/authors/daniel-lee.png",
+    "role": "Cloud Architect",
+    "bio": "Designs cloud-native systems that balance performance, cost, and operational simplicity.",
+    "socials": {
+      "linkedin": "https://linkedin.com/in/daniellee",
+      "github": "https://github.com/daniellee"
+    }
+  },
+  "publishedAt": "2026-05-02",
+  "updatedAt": "2026-05-02",
+  "readTime": 5,
+  "metaDescription": "Svelte 5 පිළිබඳ සවිස්තරාත්මක මාර්ගෝපදේශයක්.",
+  "tags": [
+    "Frontend",
+    "Svelte 5",
+    "Software Engineering",
+    "2026 Trends"
+  ],
+  "relatedSlugs": [
+    "scaling-with-serverless-computing",
+    "fine-tuning-llms-for-enterprise-use-cases",
+    "next-js-15-app-router-a-production-deep-dive"
+  ],
+  "content": "<h2 id=\"introduction\">හැඳින්වීම</h2><p>මෙම ලිපිය Svelte 5 පිළිබඳව නවීන තාක්ෂණික ප්‍රවණතා අනුව විස්තර කරයි. reactivity model and component architecture සඳහා ප්‍රායෝගික උපදෙස් මෙහි ඇතුළත් වේ.</p><h2 id=\"summary\">සාරාංශය</h2><p>වැඩිදුර විස්තර සඳහා ඉංග්‍රීසි සංස්කරණය කියවන්න.</p>",
+  "cta": {
+    "title": "Need help implementing this?",
+    "description": "Mickiesoft engineers can help you design, build, and scale modern software solutions.",
+    "buttonText": "Contact Us",
+    "buttonUrl": "/contact"
+  }
+}

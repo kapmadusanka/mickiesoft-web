@@ -1,0 +1,39 @@
+{
+  "id": "26",
+  "slug": "vector-databases-pinecone-vs-weaviate-vs-pgvector",
+  "title": "Vector Databases: Pinecone vs Weaviate vs pgvector (Sinhala)",
+  "category": "AI",
+  "featuredImage": "",
+  "author": {
+    "name": "Olivia Martin",
+    "avatar": "/images/blog/authors/olivia-martin.png",
+    "role": "Full-Stack Developer",
+    "bio": "Full-stack engineer focused on developer experience and reliable delivery pipelines.",
+    "socials": {
+      "linkedin": "https://linkedin.com/in/oliviamartin",
+      "github": "https://github.com/oliviamartin"
+    }
+  },
+  "publishedAt": "2026-05-20",
+  "updatedAt": "2026-05-20",
+  "readTime": 5,
+  "metaDescription": "vector databases පිළිබඳ සවිස්තරාත්මක මාර්ගෝපදේශයක්.",
+  "tags": [
+    "AI",
+    "vector databases",
+    "Software Engineering",
+    "2026 Trends"
+  ],
+  "relatedSlugs": [
+    "cross-platform-mobile-development-with-flutter",
+    "building-scalable-applications-on-aws",
+    "rag-in-production-architecture-and-pitfalls"
+  ],
+  "content": "<h2 id=\"introduction\">හැඳින්වීම</h2><p>මෙම ලිපිය vector databases පිළිබඳව නවීන තාක්ෂණික ප්‍රවණතා අනුව විස්තර කරයි. indexing strategies, hybrid search, and ops trade-offs සඳහා ප්‍රායෝගික උපදෙස් මෙහි ඇතුළත් වේ.</p><h2 id=\"summary\">සාරාංශය</h2><p>වැඩිදුර විස්තර සඳහා ඉංග්‍රීසි සංස්කරණය කියවන්න.</p>",
+  "cta": {
+    "title": "Need help implementing this?",
+    "description": "Mickiesoft engineers can help you design, build, and scale modern software solutions.",
+    "buttonText": "Contact Us",
+    "buttonUrl": "/contact"
+  }
+}

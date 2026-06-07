@@ -1,0 +1,39 @@
+{
+  "id": "100",
+  "slug": "sustainable-software-engineering-practices",
+  "title": "Sustainable Software Engineering Practices (Sinhala)",
+  "category": "Emerging Tech",
+  "featuredImage": "",
+  "author": {
+    "name": "Sophia Nguyen",
+    "avatar": "/images/blog/authors/sophia-nguyen.png",
+    "role": "DevOps Engineer",
+    "bio": "Helps teams ship faster with automation, observability, and platform engineering practices.",
+    "socials": {
+      "linkedin": "https://linkedin.com/in/sophianguyen",
+      "github": "https://github.com/sophianguyen"
+    }
+  },
+  "publishedAt": "2025-12-23",
+  "updatedAt": "2025-12-23",
+  "readTime": 5,
+  "metaDescription": "green software පිළිබඳ සවිස්තරාත්මක මාර්ගෝපදේශයක්.",
+  "tags": [
+    "Emerging Tech",
+    "green software",
+    "Software Engineering",
+    "2026 Trends"
+  ],
+  "relatedSlugs": [
+    "advanced-react-patterns-every-developer-should-know",
+    "integrating-llms-into-your-saas-product",
+    "container-image-scanning-in-ci-cd-pipelines"
+  ],
+  "content": "<h2 id=\"introduction\">හැඳින්වීම</h2><p>මෙම ලිපිය green software පිළිබඳව නවීන තාක්ෂණික ප්‍රවණතා අනුව විස්තර කරයි. energy-aware architecture and carbon-aware scheduling සඳහා ප්‍රායෝගික උපදෙස් මෙහි ඇතුළත් වේ.</p><h2 id=\"summary\">සාරාංශය</h2><p>වැඩිදුර විස්තර සඳහා ඉංග්‍රීසි සංස්කරණය කියවන්න.</p>",
+  "cta": {
+    "title": "Need help implementing this?",
+    "description": "Mickiesoft engineers can help you design, build, and scale modern software solutions.",
+    "buttonText": "Contact Us",
+    "buttonUrl": "/contact"
+  }
+}

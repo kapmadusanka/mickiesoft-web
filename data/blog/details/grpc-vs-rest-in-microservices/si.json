@@ -1,0 +1,39 @@
+{
+  "id": "60",
+  "slug": "grpc-vs-rest-in-microservices",
+  "title": "gRPC vs REST in Microservices (Sinhala)",
+  "category": "Backend",
+  "featuredImage": "",
+  "author": {
+    "name": "Sophia Nguyen",
+    "avatar": "/images/blog/authors/sophia-nguyen.png",
+    "role": "DevOps Engineer",
+    "bio": "Helps teams ship faster with automation, observability, and platform engineering practices.",
+    "socials": {
+      "linkedin": "https://linkedin.com/in/sophianguyen",
+      "github": "https://github.com/sophianguyen"
+    }
+  },
+  "publishedAt": "2026-03-13",
+  "updatedAt": "2026-03-13",
+  "readTime": 5,
+  "metaDescription": "gRPC පිළිබඳ සවිස්තරාත්මක මාර්ගෝපදේශයක්.",
+  "tags": [
+    "Backend",
+    "gRPC",
+    "Software Engineering",
+    "2026 Trends"
+  ],
+  "relatedSlugs": [
+    "scaling-with-serverless-computing",
+    "cross-platform-mobile-development-with-flutter",
+    "ai-powered-code-review-tools-compared"
+  ],
+  "content": "<h2 id=\"introduction\">හැඳින්වීම</h2><p>මෙම ලිපිය gRPC පිළිබඳව නවීන තාක්ෂණික ප්‍රවණතා අනුව විස්තර කරයි. serialization, streaming, and service mesh fit සඳහා ප්‍රායෝගික උපදෙස් මෙහි ඇතුළත් වේ.</p><h2 id=\"summary\">සාරාංශය</h2><p>වැඩිදුර විස්තර සඳහා ඉංග්‍රීසි සංස්කරණය කියවන්න.</p>",
+  "cta": {
+    "title": "Need help implementing this?",
+    "description": "Mickiesoft engineers can help you design, build, and scale modern software solutions.",
+    "buttonText": "Contact Us",
+    "buttonUrl": "/contact"
+  }
+}

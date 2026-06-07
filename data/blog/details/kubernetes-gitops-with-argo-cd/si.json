@@ -1,0 +1,39 @@
+{
+  "id": "37",
+  "slug": "kubernetes-gitops-with-argo-cd",
+  "title": "Kubernetes GitOps with Argo CD (Sinhala)",
+  "category": "DevOps",
+  "featuredImage": "",
+  "author": {
+    "name": "Liam Wilson",
+    "avatar": "/images/blog/authors/liam-wilson.png",
+    "role": "Systems Engineer",
+    "bio": "Works on high-performance backends, distributed systems, and low-level runtime optimization.",
+    "socials": {
+      "linkedin": "https://linkedin.com/in/liamwilson",
+      "github": "https://github.com/liamwilson"
+    }
+  },
+  "publishedAt": "2026-04-28",
+  "updatedAt": "2026-04-28",
+  "readTime": 5,
+  "metaDescription": "GitOps පිළිබඳ සවිස්තරාත්මක මාර්ගෝපදේශයක්.",
+  "tags": [
+    "DevOps",
+    "GitOps",
+    "Software Engineering",
+    "2026 Trends"
+  ],
+  "relatedSlugs": [
+    "next-js-15-app-router-a-production-deep-dive",
+    "running-local-llms-with-ollama-and-llama-3",
+    "building-scalable-applications-on-aws"
+  ],
+  "content": "<h2 id=\"introduction\">හැඳින්වීම</h2><p>මෙම ලිපිය GitOps පිළිබඳව නවීන තාක්ෂණික ප්‍රවණතා අනුව විස්තර කරයි. declarative deploys, rollbacks, and drift detection සඳහා ප්‍රායෝගික උපදෙස් මෙහි ඇතුළත් වේ.</p><h2 id=\"summary\">සාරාංශය</h2><p>වැඩිදුර විස්තර සඳහා ඉංග්‍රීසි සංස්කරණය කියවන්න.</p>",
+  "cta": {
+    "title": "Need help implementing this?",
+    "description": "Mickiesoft engineers can help you design, build, and scale modern software solutions.",
+    "buttonText": "Contact Us",
+    "buttonUrl": "/contact"
+  }
+}

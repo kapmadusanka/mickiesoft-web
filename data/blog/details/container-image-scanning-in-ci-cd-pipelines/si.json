@@ -1,0 +1,39 @@
+{
+  "id": "52",
+  "slug": "container-image-scanning-in-ci-cd-pipelines",
+  "title": "Container Image Scanning in CI/CD Pipelines (Sinhala)",
+  "category": "Security",
+  "featuredImage": "",
+  "author": {
+    "name": "Sophia Nguyen",
+    "avatar": "/images/blog/authors/sophia-nguyen.png",
+    "role": "DevOps Engineer",
+    "bio": "Helps teams ship faster with automation, observability, and platform engineering practices.",
+    "socials": {
+      "linkedin": "https://linkedin.com/in/sophianguyen",
+      "github": "https://github.com/sophianguyen"
+    }
+  },
+  "publishedAt": "2026-03-29",
+  "updatedAt": "2026-03-29",
+  "readTime": 5,
+  "metaDescription": "container scanning පිළිබඳ සවිස්තරාත්මක මාර්ගෝපදේශයක්.",
+  "tags": [
+    "Security",
+    "container scanning",
+    "Software Engineering",
+    "2026 Trends"
+  ],
+  "relatedSlugs": [
+    "building-with-the-claude-api-and-anthropic-sdk",
+    "understanding-blockchain-for-enterprise",
+    "advanced-react-patterns-every-developer-should-know"
+  ],
+  "content": "<h2 id=\"introduction\">හැඳින්වීම</h2><p>මෙම ලිපිය container scanning පිළිබඳව නවීන තාක්ෂණික ප්‍රවණතා අනුව විස්තර කරයි. CVE triage, policy gates, and base image hygiene සඳහා ප්‍රායෝගික උපදෙස් මෙහි ඇතුළත් වේ.</p><h2 id=\"summary\">සාරාංශය</h2><p>වැඩිදුර විස්තර සඳහා ඉංග්‍රීසි සංස්කරණය කියවන්න.</p>",
+  "cta": {
+    "title": "Need help implementing this?",
+    "description": "Mickiesoft engineers can help you design, build, and scale modern software solutions.",
+    "buttonText": "Contact Us",
+    "buttonUrl": "/contact"
+  }
+}

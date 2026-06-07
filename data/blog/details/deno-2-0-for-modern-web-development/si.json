@@ -1,0 +1,39 @@
+{
+  "id": "34",
+  "slug": "deno-2-0-for-modern-web-development",
+  "title": "Deno 2.0 for Modern Web Development (Sinhala)",
+  "category": "Backend",
+  "featuredImage": "",
+  "author": {
+    "name": "Olivia Martin",
+    "avatar": "/images/blog/authors/olivia-martin.png",
+    "role": "Full-Stack Developer",
+    "bio": "Full-stack engineer focused on developer experience and reliable delivery pipelines.",
+    "socials": {
+      "linkedin": "https://linkedin.com/in/oliviamartin",
+      "github": "https://github.com/oliviamartin"
+    }
+  },
+  "publishedAt": "2026-05-04",
+  "updatedAt": "2026-05-04",
+  "readTime": 5,
+  "metaDescription": "Deno 2 පිළිබඳ සවිස්තරාත්මක මාර්ගෝපදේශයක්.",
+  "tags": [
+    "Backend",
+    "Deno 2",
+    "Software Engineering",
+    "2026 Trends"
+  ],
+  "relatedSlugs": [
+    "advanced-react-patterns-every-developer-should-know",
+    "react-server-components-in-production",
+    "understanding-blockchain-for-enterprise"
+  ],
+  "content": "<h2 id=\"introduction\">හැඳින්වීම</h2><p>මෙම ලිපිය Deno 2 පිළිබඳව නවීන තාක්ෂණික ප්‍රවණතා අනුව විස්තර කරයි. npm compatibility, security defaults, and deploy සඳහා ප්‍රායෝගික උපදෙස් මෙහි ඇතුළත් වේ.</p><h2 id=\"summary\">සාරාංශය</h2><p>වැඩිදුර විස්තර සඳහා ඉංග්‍රීසි සංස්කරණය කියවන්න.</p>",
+  "cta": {
+    "title": "Need help implementing this?",
+    "description": "Mickiesoft engineers can help you design, build, and scale modern software solutions.",
+    "buttonText": "Contact Us",
+    "buttonUrl": "/contact"
+  }
+}

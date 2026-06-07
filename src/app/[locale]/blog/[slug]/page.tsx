@@ -26,6 +26,7 @@ export async function generateMetadata({
     return {
       title: post.title,
       description: post.metaDescription,
+      keywords: post.tags,
       openGraph: {
         title: `${post.title} | Mickiesoft Blog`,
         description: post.metaDescription,
@@ -35,6 +36,9 @@ export async function generateMetadata({
         authors: [post.author.name],
         tags: post.tags,
         url: `/blog/${slug}`,
+        ...(post.featuredImage
+          ? { images: [{ url: post.featuredImage, alt: post.title }] }
+          : {}),
       },
       alternates: {
         canonical: `/blog/${slug}`,

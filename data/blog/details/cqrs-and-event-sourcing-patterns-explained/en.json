@@ -3,7 +3,7 @@
   "slug": "cqrs-and-event-sourcing-patterns-explained",
   "title": "CQRS and Event Sourcing Patterns Explained",
   "category": "Architecture",
-  "featuredImage": "",
+  "featuredImage": "/images/blog/microservices-transition.png",
   "author": {
     "name": "Olivia Martin",
     "avatar": "/images/blog/authors/olivia-martin.png",

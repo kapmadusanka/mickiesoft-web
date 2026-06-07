@@ -3,7 +3,7 @@
   "slug": "migrating-from-docker-compose-to-kubernetes",
   "title": "Migrating from Docker Compose to Kubernetes",
   "category": "Cloud",
-  "featuredImage": "",
+  "featuredImage": "/images/blog/aws-scalable.png",
   "author": {
     "name": "Alex Mercer",
     "avatar": "/images/blog/authors/james-carter.jpg",

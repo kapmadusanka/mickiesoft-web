@@ -3,7 +3,7 @@
   "slug": "kubernetes-gitops-with-argo-cd",
   "title": "Kubernetes GitOps with Argo CD",
   "category": "DevOps",
-  "featuredImage": "",
+  "featuredImage": "/images/blog/cicd-practices.png",
   "author": {
     "name": "Liam Wilson",
     "avatar": "/images/blog/authors/liam-wilson.png",

@@ -1,6 +1,7 @@
 import type { Metadata } from "next"
 import Image from "next/image"
 import { getTranslations } from "next-intl/server"
+import { BLOG_DESCRIPTION, SEO_KEYWORDS } from "@/lib/seo-keywords"
 import { Navbar } from "@/components/layout/Navbar"
 import { Footer } from "@/components/layout/Footer"
 import { blogService } from "@/services/api/public"
@@ -10,15 +11,15 @@ import { Typography } from "@/components/typography/Typography"
 
 export async function generateMetadata(): Promise<Metadata> {
   return {
-    title: "Blog — Insights & Resources",
-    description:
-      "Explore our latest articles on software development, emerging technologies, digital transformation, and more.",
+    title: "Blog — Software Development & Outsourcing Insights",
+    description: BLOG_DESCRIPTION,
+    keywords: [...SEO_KEYWORDS],
     openGraph: {
-      title: "Blog — Insights & Resources | Mickiesoft",
-      description:
-        "Explore our latest articles on software development, emerging technologies, digital transformation, and more.",
+      title: "Blog — Software Development & Outsourcing Insights | Mickiesoft",
+      description: BLOG_DESCRIPTION,
       type: "website",
       url: "/blog",
+      images: [{ url: "/images/blog/hero-bg.png", width: 1200, height: 630, alt: "Mickiesoft Blog" }],
     },
     alternates: {
       canonical: "/blog",
@@ -54,6 +55,7 @@ export default async function BlogListPage({
       headline: post.title,
       description: post.excerpt,
       datePublished: post.publishedAt,
+      image: post.featuredImage ? `https://mickiesoft.lk${post.featuredImage}` : undefined,
       author: {
         "@type": "Person",
         name: post.author.name,

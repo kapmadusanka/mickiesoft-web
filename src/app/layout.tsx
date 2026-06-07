@@ -1,6 +1,8 @@
 import type { Metadata } from "next"
 import { Geist, Geist_Mono } from "next/font/google"
 import Script from "next/script"
+import MicrosoftClarity from "@/components/MicrosoftClarity"
+import { SEO_KEYWORDS, SITE_DESCRIPTION } from "@/lib/seo-keywords"
 import "./globals.css"
 
 const geistSans = Geist({
@@ -38,7 +40,16 @@ const structuredData = {
       "@id": `${SITE_URL}/#organization`,
       name: "Mickiesoft (Pvt) Ltd",
       alternateName: "Mickiesoft",
+      slogan: "Software Development Company Sri Lanka — Hire Developers",
       url: SITE_URL,
+      knowsAbout: [
+        "Software Development Outsourcing",
+        "Offshore Software Development",
+        "Hire Developers Sri Lanka",
+        "Web Development",
+        "Mobile App Development",
+        "ERP Solutions",
+      ],
       logo: {
         "@type": "ImageObject",
         url: `${SITE_URL}/images/logo.png`,
@@ -79,7 +90,7 @@ const structuredData = {
       image: `${SITE_URL}/images/og-image.png`,
       logo: `${SITE_URL}/images/logo.png`,
       description:
-        "Sri Lanka-based software outsourcing company specialising in mobile app development, custom web solutions, Microsoft add-ins, and enterprise ERP systems.",
+        "Software development company in Sri Lanka. Hire dedicated developers for offshore outsourcing — web, mobile, Microsoft add-ins, and ERP solutions for global clients.",
       address: businessAddress,
       geo: {
         "@type": "GeoCoordinates",
@@ -158,20 +169,11 @@ const structuredData = {
 export const metadata: Metadata = {
   metadataBase: new URL('https://mickiesoft.lk'),
   title: {
-    default: "Mickiesoft — Outsource Software Development",
+    default: "Software Development Company Sri Lanka | Hire Developers — Mickiesoft",
     template: "%s | Mickiesoft",
   },
-  description:
-    "Software development outsourcing partner. Mobile apps, web development, Microsoft add-ins, and ERP solutions.",
-  keywords: [
-    "software development",
-    "outsourcing",
-    "web development",
-    "mobile apps",
-    "ERP",
-    "Sri Lanka",
-    "Mickiesoft",
-  ],
+  description: SITE_DESCRIPTION,
+  keywords: [...SEO_KEYWORDS],
   // Essential for AI Citations (Perplexity/Gemini/Claude)
   authors: [{ name: "Mickiesoft", url: "https://mickiesoft.lk" }],
   creator: "Mickiesoft",
@@ -187,9 +189,9 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     siteName: "Mickiesoft",
-    title: "Mickiesoft — Outsource Software Development",
-    description:
-      "Software development outsourcing partner. Mobile apps, web development, Microsoft add-ins, and ERP solutions.",
+    title: "Software Development Company Sri Lanka | Hire Developers — Mickiesoft",
+    description: SITE_DESCRIPTION,
+    locale: "en_LK",
     url: "https://mickiesoft.lk",
     images: [
       {
@@ -259,15 +261,7 @@ export default function RootLayout({
         </Script>
 
         {/* Microsoft Clarity */}
-        <Script id="microsoft-clarity" strategy="afterInteractive">
-          {`
-            (function(c,l,a,r,i,t,y){
-                c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
-                t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
-                y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
-            })(window, document, "clarity", "script", "x34ffk76cq");
-          `}
-        </Script>
+        <MicrosoftClarity />
       </body>
     </html>
   )

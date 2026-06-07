@@ -8,6 +8,19 @@ const intlMiddleware = createIntlMiddleware(routing)
 export function proxy(request: NextRequest) {
   const { pathname } = request.nextUrl
 
+  // Redirect section routes
+  if (pathname === "/contact") {
+    return NextResponse.redirect(
+      new URL("/#contact", request.url)
+    )
+  }
+
+  if (pathname === "/about") {
+    return NextResponse.redirect(
+      new URL("/#about", request.url)
+    )
+  }
+
   // Protect CMS routes — redirect to /cms/login if no auth cookie
   const isCMSRoute = pathname.includes("/cms")
   const isLoginPage = pathname.includes("/cms/login")

@@ -1,0 +1,39 @@
+{
+  "id": "90",
+  "slug": "load-testing-with-k6-and-grafana",
+  "title": "Load Testing with k6 and Grafana (Sinhala)",
+  "category": "Testing",
+  "featuredImage": "",
+  "author": {
+    "name": "Olivia Martin",
+    "avatar": "/images/blog/authors/olivia-martin.png",
+    "role": "Full-Stack Developer",
+    "bio": "Full-stack engineer focused on developer experience and reliable delivery pipelines.",
+    "socials": {
+      "linkedin": "https://linkedin.com/in/oliviamartin",
+      "github": "https://github.com/oliviamartin"
+    }
+  },
+  "publishedAt": "2026-01-12",
+  "updatedAt": "2026-01-12",
+  "readTime": 5,
+  "metaDescription": "load testing පිළිබඳ සවිස්තරාත්මක මාර්ගෝපදේශයක්.",
+  "tags": [
+    "Testing",
+    "load testing",
+    "Software Engineering",
+    "2026 Trends"
+  ],
+  "relatedSlugs": [
+    "svelte-5-runes-a-complete-guide",
+    "building-with-the-claude-api-and-anthropic-sdk",
+    "how-ai-is-transforming-enterprise-software-development"
+  ],
+  "content": "<h2 id=\"introduction\">හැඳින්වීම</h2><p>මෙම ලිපිය load testing පිළිබඳව නවීන තාක්ෂණික ප්‍රවණතා අනුව විස්තර කරයි. scenario design, thresholds, and capacity planning සඳහා ප්‍රායෝගික උපදෙස් මෙහි ඇතුළත් වේ.</p><h2 id=\"summary\">සාරාංශය</h2><p>වැඩිදුර විස්තර සඳහා ඉංග්‍රීසි සංස්කරණය කියවන්න.</p>",
+  "cta": {
+    "title": "Need help implementing this?",
+    "description": "Mickiesoft engineers can help you design, build, and scale modern software solutions.",
+    "buttonText": "Contact Us",
+    "buttonUrl": "/contact"
+  }
+}

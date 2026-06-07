@@ -1,0 +1,39 @@
+{
+  "id": "65",
+  "slug": "graphql-federation-at-enterprise-scale",
+  "title": "GraphQL Federation at Enterprise Scale (Sinhala)",
+  "category": "Backend",
+  "featuredImage": "",
+  "author": {
+    "name": "James Carter",
+    "avatar": "/images/blog/authors/james-carter.png",
+    "role": "Senior Frontend Engineer",
+    "bio": "Passionate about building fast and scalable web applications with modern technologies.",
+    "socials": {
+      "linkedin": "https://linkedin.com/in/jamescarter",
+      "github": "https://github.com/jamescarter"
+    }
+  },
+  "publishedAt": "2026-03-03",
+  "updatedAt": "2026-03-03",
+  "readTime": 5,
+  "metaDescription": "GraphQL federation පිළිබඳ සවිස්තරාත්මක මාර්ගෝපදේශයක්.",
+  "tags": [
+    "Backend",
+    "GraphQL federation",
+    "Software Engineering",
+    "2026 Trends"
+  ],
+  "relatedSlugs": [
+    "terraform-state-management-at-scale",
+    "zero-trust-architecture-in-modern-web-applications",
+    "turbopack-vs-webpack-in-2026"
+  ],
+  "content": "<h2 id=\"introduction\">හැඳින්වීම</h2><p>මෙම ලිපිය GraphQL federation පිළිබඳව නවීන තාක්ෂණික ප්‍රවණතා අනුව විස්තර කරයි. subgraphs, schema composition, and governance සඳහා ප්‍රායෝගික උපදෙස් මෙහි ඇතුළත් වේ.</p><h2 id=\"summary\">සාරාංශය</h2><p>වැඩිදුර විස්තර සඳහා ඉංග්‍රීසි සංස්කරණය කියවන්න.</p>",
+  "cta": {
+    "title": "Need help implementing this?",
+    "description": "Mickiesoft engineers can help you design, build, and scale modern software solutions.",
+    "buttonText": "Contact Us",
+    "buttonUrl": "/contact"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "id": "29",
+  "slug": "react-19-actions-and-useoptimistic-explained",
+  "title": "React 19 Actions and useOptimistic Explained (Sinhala)",
+  "category": "React",
+  "featuredImage": "",
+  "author": {
+    "name": "Liam Wilson",
+    "avatar": "/images/blog/authors/liam-wilson.png",
+    "role": "Systems Engineer",
+    "bio": "Works on high-performance backends, distributed systems, and low-level runtime optimization.",
+    "socials": {
+      "linkedin": "https://linkedin.com/in/liamwilson",
+      "github": "https://github.com/liamwilson"
+    }
+  },
+  "publishedAt": "2026-05-14",
+  "updatedAt": "2026-05-14",
+  "readTime": 5,
+  "metaDescription": "React 19 පිළිබඳ සවිස්තරාත්මක මාර්ගෝපදේශයක්.",
+  "tags": [
+    "React",
+    "React 19",
+    "Software Engineering",
+    "2026 Trends"
+  ],
+  "relatedSlugs": [
+    "how-ai-is-transforming-enterprise-software-development",
+    "cross-platform-mobile-development-with-flutter",
+    "openai-gpt-4o-integration-patterns-for-saas"
+  ],
+  "content": "<h2 id=\"introduction\">හැඳින්වීම</h2><p>මෙම ලිපිය React 19 පිළිබඳව නවීන තාක්ෂණික ප්‍රවණතා අනුව විස්තර කරයි. form actions, optimistic UI, and transitions සඳහා ප්‍රායෝගික උපදෙස් මෙහි ඇතුළත් වේ.</p><h2 id=\"summary\">සාරාංශය</h2><p>වැඩිදුර විස්තර සඳහා ඉංග්‍රීසි සංස්කරණය කියවන්න.</p>",
+  "cta": {
+    "title": "Need help implementing this?",
+    "description": "Mickiesoft engineers can help you design, build, and scale modern software solutions.",
+    "buttonText": "Contact Us",
+    "buttonUrl": "/contact"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "id": "43",
+  "slug": "infrastructure-as-code-with-pulumi",
+  "title": "Infrastructure as Code with Pulumi (Sinhala)",
+  "category": "DevOps",
+  "featuredImage": "",
+  "author": {
+    "name": "Daniel Lee",
+    "avatar": "/images/blog/authors/daniel-lee.png",
+    "role": "Cloud Architect",
+    "bio": "Designs cloud-native systems that balance performance, cost, and operational simplicity.",
+    "socials": {
+      "linkedin": "https://linkedin.com/in/daniellee",
+      "github": "https://github.com/daniellee"
+    }
+  },
+  "publishedAt": "2026-04-16",
+  "updatedAt": "2026-04-16",
+  "readTime": 5,
+  "metaDescription": "Pulumi පිළිබඳ සවිස්තරාත්මක මාර්ගෝපදේශයක්.",
+  "tags": [
+    "DevOps",
+    "Pulumi",
+    "Software Engineering",
+    "2026 Trends"
+  ],
+  "relatedSlugs": [
+    "integrating-llms-into-your-saas-product",
+    "building-ai-agents-for-autonomous-workflows",
+    "typescript-5-5-advanced-features-you-should-use"
+  ],
+  "content": "<h2 id=\"introduction\">හැඳින්වීම</h2><p>මෙම ලිපිය Pulumi පිළිබඳව නවීන තාක්ෂණික ප්‍රවණතා අනුව විස්තර කරයි. TypeScript IaC, state, and team workflows සඳහා ප්‍රායෝගික උපදෙස් මෙහි ඇතුළත් වේ.</p><h2 id=\"summary\">සාරාංශය</h2><p>වැඩිදුර විස්තර සඳහා ඉංග්‍රීසි සංස්කරණය කියවන්න.</p>",
+  "cta": {
+    "title": "Need help implementing this?",
+    "description": "Mickiesoft engineers can help you design, build, and scale modern software solutions.",
+    "buttonText": "Contact Us",
+    "buttonUrl": "/contact"
+  }
+}

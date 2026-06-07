@@ -1,0 +1,39 @@
+{
+  "id": "17",
+  "slug": "building-ai-agents-for-autonomous-workflows",
+  "title": "Building AI Agents for Autonomous Workflows (Sinhala)",
+  "category": "AI",
+  "featuredImage": "",
+  "author": {
+    "name": "James Carter",
+    "avatar": "/images/blog/authors/james-carter.png",
+    "role": "Senior Frontend Engineer",
+    "bio": "Passionate about building fast and scalable web applications with modern technologies.",
+    "socials": {
+      "linkedin": "https://linkedin.com/in/jamescarter",
+      "github": "https://github.com/jamescarter"
+    }
+  },
+  "publishedAt": "2026-06-07",
+  "updatedAt": "2026-06-07",
+  "readTime": 5,
+  "metaDescription": "AI agents පිළිබඳ සවිස්තරාත්මක මාර්ගෝපදේශයක්.",
+  "tags": [
+    "AI",
+    "AI agents",
+    "Software Engineering",
+    "2026 Trends"
+  ],
+  "relatedSlugs": [
+    "how-ai-is-transforming-enterprise-software-development",
+    "why-we-are-writing-our-backend-in-rust",
+    "10-performance-optimizations-for-nextjs-applications"
+  ],
+  "content": "<h2 id=\"introduction\">හැඳින්වීම</h2><p>මෙම ලිපිය AI agents පිළිබඳව නවීන තාක්ෂණික ප්‍රවණතා අනුව විස්තර කරයි. orchestrating multi-step tasks with tool use and memory සඳහා ප්‍රායෝගික උපදෙස් මෙහි ඇතුළත් වේ.</p><h2 id=\"summary\">සාරාංශය</h2><p>වැඩිදුර විස්තර සඳහා ඉංග්‍රීසි සංස්කරණය කියවන්න.</p>",
+  "cta": {
+    "title": "Need help implementing this?",
+    "description": "Mickiesoft engineers can help you design, build, and scale modern software solutions.",
+    "buttonText": "Contact Us",
+    "buttonUrl": "/contact"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "id": "91",
+  "slug": "feature-flags-with-launchdarkly-and-open-source-alternatives",
+  "title": "Feature Flags with LaunchDarkly and Open Source Alternatives (Sinhala)",
+  "category": "DevOps",
+  "featuredImage": "",
+  "author": {
+    "name": "Daniel Lee",
+    "avatar": "/images/blog/authors/daniel-lee.png",
+    "role": "Cloud Architect",
+    "bio": "Designs cloud-native systems that balance performance, cost, and operational simplicity.",
+    "socials": {
+      "linkedin": "https://linkedin.com/in/daniellee",
+      "github": "https://github.com/daniellee"
+    }
+  },
+  "publishedAt": "2026-01-10",
+  "updatedAt": "2026-01-10",
+  "readTime": 5,
+  "metaDescription": "feature flags පිළිබඳ සවිස්තරාත්මක මාර්ගෝපදේශයක්.",
+  "tags": [
+    "DevOps",
+    "feature flags",
+    "Software Engineering",
+    "2026 Trends"
+  ],
+  "relatedSlugs": [
+    "cross-platform-mobile-development-with-flutter",
+    "oauth-2-1-and-oidc-security-updates",
+    "how-ai-is-transforming-enterprise-software-development"
+  ],
+  "content": "<h2 id=\"introduction\">හැඳින්වීම</h2><p>මෙම ලිපිය feature flags පිළිබඳව නවීන තාක්ෂණික ප්‍රවණතා අනුව විස්තර කරයි. rollouts, targeting, and kill switches සඳහා ප්‍රායෝගික උපදෙස් මෙහි ඇතුළත් වේ.</p><h2 id=\"summary\">සාරාංශය</h2><p>වැඩිදුර විස්තර සඳහා ඉංග්‍රීසි සංස්කරණය කියවන්න.</p>",
+  "cta": {
+    "title": "Need help implementing this?",
+    "description": "Mickiesoft engineers can help you design, build, and scale modern software solutions.",
+    "buttonText": "Contact Us",
+    "buttonUrl": "/contact"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "id": "47",
+  "slug": "implementing-passkeys-and-webauthn",
+  "title": "Implementing Passkeys and WebAuthn (Sinhala)",
+  "category": "Security",
+  "featuredImage": "",
+  "author": {
+    "name": "Alex Mercer",
+    "avatar": "/images/blog/authors/james-carter.jpg",
+    "role": "Security Engineer",
+    "bio": "Specializes in application security, identity systems, and secure SDLC practices.",
+    "socials": {
+      "linkedin": "https://linkedin.com/in/alexmercer",
+      "github": "https://github.com/alexmercer"
+    }
+  },
+  "publishedAt": "2026-04-08",
+  "updatedAt": "2026-04-08",
+  "readTime": 5,
+  "metaDescription": "passkeys පිළිබඳ සවිස්තරාත්මක මාර්ගෝපදේශයක්.",
+  "tags": [
+    "Security",
+    "passkeys",
+    "Software Engineering",
+    "2026 Trends"
+  ],
+  "relatedSlugs": [
+    "mastering-zustand-for-react-state-management",
+    "platform-engineering-and-internal-developer-portals",
+    "building-with-the-claude-api-and-anthropic-sdk"
+  ],
+  "content": "<h2 id=\"introduction\">හැඳින්වීම</h2><p>මෙම ලිපිය passkeys පිළිබඳව නවීන තාක්ෂණික ප්‍රවණතා අනුව විස්තර කරයි. phishing-resistant auth and cross-device flows සඳහා ප්‍රායෝගික උපදෙස් මෙහි ඇතුළත් වේ.</p><h2 id=\"summary\">සාරාංශය</h2><p>වැඩිදුර විස්තර සඳහා ඉංග්‍රීසි සංස්කරණය කියවන්න.</p>",
+  "cta": {
+    "title": "Need help implementing this?",
+    "description": "Mickiesoft engineers can help you design, build, and scale modern software solutions.",
+    "buttonText": "Contact Us",
+    "buttonUrl": "/contact"
+  }
+}

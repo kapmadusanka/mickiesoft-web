@@ -1,0 +1,39 @@
+{
+  "id": "28",
+  "slug": "react-server-components-in-production",
+  "title": "React Server Components in Production (Sinhala)",
+  "category": "React",
+  "featuredImage": "",
+  "author": {
+    "name": "Sophia Nguyen",
+    "avatar": "/images/blog/authors/sophia-nguyen.png",
+    "role": "DevOps Engineer",
+    "bio": "Helps teams ship faster with automation, observability, and platform engineering practices.",
+    "socials": {
+      "linkedin": "https://linkedin.com/in/sophianguyen",
+      "github": "https://github.com/sophianguyen"
+    }
+  },
+  "publishedAt": "2026-05-16",
+  "updatedAt": "2026-05-16",
+  "readTime": 5,
+  "metaDescription": "React Server Components පිළිබඳ සවිස්තරාත්මක මාර්ගෝපදේශයක්.",
+  "tags": [
+    "React",
+    "React Server Components",
+    "Software Engineering",
+    "2026 Trends"
+  ],
+  "relatedSlugs": [
+    "openai-gpt-4o-integration-patterns-for-saas",
+    "how-ai-is-transforming-enterprise-software-development",
+    "understanding-blockchain-for-enterprise"
+  ],
+  "content": "<h2 id=\"introduction\">හැඳින්වීම</h2><p>මෙම ලිපිය React Server Components පිළිබඳව නවීන තාක්ෂණික ප්‍රවණතා අනුව විස්තර කරයි. server/client boundaries and data fetching සඳහා ප්‍රායෝගික උපදෙස් මෙහි ඇතුළත් වේ.</p><h2 id=\"summary\">සාරාංශය</h2><p>වැඩිදුර විස්තර සඳහා ඉංග්‍රීසි සංස්කරණය කියවන්න.</p>",
+  "cta": {
+    "title": "Need help implementing this?",
+    "description": "Mickiesoft engineers can help you design, build, and scale modern software solutions.",
+    "buttonText": "Contact Us",
+    "buttonUrl": "/contact"
+  }
+}

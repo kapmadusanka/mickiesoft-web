@@ -1,0 +1,38 @@
+{
+  "id": "96",
+  "slug": "trunk-based-development-best-practices",
+  "title": "Trunk-Based Development Best Practices (Sinhala)",
+  "category": "DevOps",
+  "featuredImage": "",
+  "author": {
+    "name": "Emma Wright",
+    "avatar": "/images/blog/authors/sophia-nguyen.jpg",
+    "role": "UX Researcher",
+    "bio": "Bridges user research and engineering to ship accessible, intuitive product experiences.",
+    "socials": {
+      "linkedin": "https://linkedin.com/in/emmawright"
+    }
+  },
+  "publishedAt": "2025-12-31",
+  "updatedAt": "2025-12-31",
+  "readTime": 5,
+  "metaDescription": "trunk-based development පිළිබඳ සවිස්තරාත්මක මාර්ගෝපදේශයක්.",
+  "tags": [
+    "DevOps",
+    "trunk-based development",
+    "Software Engineering",
+    "2026 Trends"
+  ],
+  "relatedSlugs": [
+    "postgresql-16-features-every-team-should-know",
+    "implementing-passkeys-and-webauthn",
+    "cross-platform-mobile-development-with-flutter"
+  ],
+  "content": "<h2 id=\"introduction\">හැඳින්වීම</h2><p>මෙම ලිපිය trunk-based development පිළිබඳව නවීන තාක්ෂණික ප්‍රවණතා අනුව විස්තර කරයි. short-lived branches, CI discipline, and release trains සඳහා ප්‍රායෝගික උපදෙස් මෙහි ඇතුළත් වේ.</p><h2 id=\"summary\">සාරාංශය</h2><p>වැඩිදුර විස්තර සඳහා ඉංග්‍රීසි සංස්කරණය කියවන්න.</p>",
+  "cta": {
+    "title": "Need help implementing this?",
+    "description": "Mickiesoft engineers can help you design, build, and scale modern software solutions.",
+    "buttonText": "Contact Us",
+    "buttonUrl": "/contact"
+  }
+}

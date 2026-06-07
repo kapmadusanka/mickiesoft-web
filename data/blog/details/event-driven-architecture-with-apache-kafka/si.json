@@ -1,0 +1,39 @@
+{
+  "id": "57",
+  "slug": "event-driven-architecture-with-apache-kafka",
+  "title": "Event-Driven Architecture with Apache Kafka (Sinhala)",
+  "category": "Architecture",
+  "featuredImage": "",
+  "author": {
+    "name": "James Carter",
+    "avatar": "/images/blog/authors/james-carter.png",
+    "role": "Senior Frontend Engineer",
+    "bio": "Passionate about building fast and scalable web applications with modern technologies.",
+    "socials": {
+      "linkedin": "https://linkedin.com/in/jamescarter",
+      "github": "https://github.com/jamescarter"
+    }
+  },
+  "publishedAt": "2026-03-19",
+  "updatedAt": "2026-03-19",
+  "readTime": 5,
+  "metaDescription": "event-driven architecture පිළිබඳ සවිස්තරාත්මක මාර්ගෝපදේශයක්.",
+  "tags": [
+    "Architecture",
+    "event-driven architecture",
+    "Software Engineering",
+    "2026 Trends"
+  ],
+  "relatedSlugs": [
+    "supply-chain-security-for-npm-packages",
+    "zero-trust-architecture-in-modern-web-applications",
+    "penetration-testing-for-web-apis"
+  ],
+  "content": "<h2 id=\"introduction\">හැඳින්වීම</h2><p>මෙම ලිපිය event-driven architecture පිළිබඳව නවීන තාක්ෂණික ප්‍රවණතා අනුව විස්තර කරයි. topics, partitions, and consumer groups සඳහා ප්‍රායෝගික උපදෙස් මෙහි ඇතුළත් වේ.</p><h2 id=\"summary\">සාරාංශය</h2><p>වැඩිදුර විස්තර සඳහා ඉංග්‍රීසි සංස්කරණය කියවන්න.</p>",
+  "cta": {
+    "title": "Need help implementing this?",
+    "description": "Mickiesoft engineers can help you design, build, and scale modern software solutions.",
+    "buttonText": "Contact Us",
+    "buttonUrl": "/contact"
+  }
+}

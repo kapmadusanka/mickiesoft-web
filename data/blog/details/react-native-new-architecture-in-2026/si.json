@@ -1,0 +1,39 @@
+{
+  "id": "67",
+  "slug": "react-native-new-architecture-in-2026",
+  "title": "React Native New Architecture in 2026 (Sinhala)",
+  "category": "Mobile",
+  "featuredImage": "",
+  "author": {
+    "name": "Daniel Lee",
+    "avatar": "/images/blog/authors/daniel-lee.png",
+    "role": "Cloud Architect",
+    "bio": "Designs cloud-native systems that balance performance, cost, and operational simplicity.",
+    "socials": {
+      "linkedin": "https://linkedin.com/in/daniellee",
+      "github": "https://github.com/daniellee"
+    }
+  },
+  "publishedAt": "2026-02-27",
+  "updatedAt": "2026-02-27",
+  "readTime": 5,
+  "metaDescription": "React Native පිළිබඳ සවිස්තරාත්මක මාර්ගෝපදේශයක්.",
+  "tags": [
+    "Mobile",
+    "React Native",
+    "Software Engineering",
+    "2026 Trends"
+  ],
+  "relatedSlugs": [
+    "ddos-protection-strategies-for-modern-apps",
+    "react-server-components-in-production",
+    "multi-modal-ai-combining-vision-and-language"
+  ],
+  "content": "<h2 id=\"introduction\">හැඳින්වීම</h2><p>මෙම ලිපිය React Native පිළිබඳව නවීන තාක්ෂණික ප්‍රවණතා අනුව විස්තර කරයි. Fabric, TurboModules, and migration steps සඳහා ප්‍රායෝගික උපදෙස් මෙහි ඇතුළත් වේ.</p><h2 id=\"summary\">සාරාංශය</h2><p>වැඩිදුර විස්තර සඳහා ඉංග්‍රීසි සංස්කරණය කියවන්න.</p>",
+  "cta": {
+    "title": "Need help implementing this?",
+    "description": "Mickiesoft engineers can help you design, build, and scale modern software solutions.",
+    "buttonText": "Contact Us",
+    "buttonUrl": "/contact"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "id": "22",
+  "slug": "ai-powered-code-review-tools-compared",
+  "title": "AI-Powered Code Review Tools Compared (Sinhala)",
+  "category": "AI",
+  "featuredImage": "",
+  "author": {
+    "name": "Sarah Chen",
+    "avatar": "/images/blog/authors/olivia-martin.jpg",
+    "role": "Machine Learning Engineer",
+    "bio": "Builds production ML systems with a focus on retrieval, evaluation, and safe deployment.",
+    "socials": {
+      "linkedin": "https://linkedin.com/in/sarahchen",
+      "github": "https://github.com/sarahchen"
+    }
+  },
+  "publishedAt": "2026-05-28",
+  "updatedAt": "2026-05-28",
+  "readTime": 5,
+  "metaDescription": "AI code review පිළිබඳ සවිස්තරාත්මක මාර්ගෝපදේශයක්.",
+  "tags": [
+    "AI",
+    "AI code review",
+    "Software Engineering",
+    "2026 Trends"
+  ],
+  "relatedSlugs": [
+    "zero-trust-architecture-in-modern-web-applications",
+    "how-ai-is-transforming-enterprise-software-development",
+    "why-we-are-writing-our-backend-in-rust"
+  ],
+  "content": "<h2 id=\"introduction\">හැඳින්වීම</h2><p>මෙම ලිපිය AI code review පිළිබඳව නවීන තාක්ෂණික ප්‍රවණතා අනුව විස්තර කරයි. accuracy, security scanning, and team workflows සඳහා ප්‍රායෝගික උපදෙස් මෙහි ඇතුළත් වේ.</p><h2 id=\"summary\">සාරාංශය</h2><p>වැඩිදුර විස්තර සඳහා ඉංග්‍රීසි සංස්කරණය කියවන්න.</p>",
+  "cta": {
+    "title": "Need help implementing this?",
+    "description": "Mickiesoft engineers can help you design, build, and scale modern software solutions.",
+    "buttonText": "Contact Us",
+    "buttonUrl": "/contact"
+  }
+}

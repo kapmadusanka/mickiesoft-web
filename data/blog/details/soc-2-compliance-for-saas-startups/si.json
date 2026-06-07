@@ -1,0 +1,39 @@
+{
+  "id": "53",
+  "slug": "soc-2-compliance-for-saas-startups",
+  "title": "SOC 2 Compliance for SaaS Startups (Sinhala)",
+  "category": "Security",
+  "featuredImage": "",
+  "author": {
+    "name": "Liam Wilson",
+    "avatar": "/images/blog/authors/liam-wilson.png",
+    "role": "Systems Engineer",
+    "bio": "Works on high-performance backends, distributed systems, and low-level runtime optimization.",
+    "socials": {
+      "linkedin": "https://linkedin.com/in/liamwilson",
+      "github": "https://github.com/liamwilson"
+    }
+  },
+  "publishedAt": "2026-03-27",
+  "updatedAt": "2026-03-27",
+  "readTime": 5,
+  "metaDescription": "SOC 2 පිළිබඳ සවිස්තරාත්මක මාර්ගෝපදේශයක්.",
+  "tags": [
+    "Security",
+    "SOC 2",
+    "Software Engineering",
+    "2026 Trends"
+  ],
+  "relatedSlugs": [
+    "implementing-passkeys-and-webauthn",
+    "aws-lambda-snapstart-for-faster-cold-starts",
+    "secrets-management-with-hashicorp-vault"
+  ],
+  "content": "<h2 id=\"introduction\">හැඳින්වීම</h2><p>මෙම ලිපිය SOC 2 පිළිබඳව නවීන තාක්ෂණික ප්‍රවණතා අනුව විස්තර කරයි. control mapping, evidence collection, and automation සඳහා ප්‍රායෝගික උපදෙස් මෙහි ඇතුළත් වේ.</p><h2 id=\"summary\">සාරාංශය</h2><p>වැඩිදුර විස්තර සඳහා ඉංග්‍රීසි සංස්කරණය කියවන්න.</p>",
+  "cta": {
+    "title": "Need help implementing this?",
+    "description": "Mickiesoft engineers can help you design, build, and scale modern software solutions.",
+    "buttonText": "Contact Us",
+    "buttonUrl": "/contact"
+  }
+}

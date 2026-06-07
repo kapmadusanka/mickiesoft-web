@@ -1,0 +1,39 @@
+{
+  "id": "39",
+  "slug": "migrating-from-docker-compose-to-kubernetes",
+  "title": "Migrating from Docker Compose to Kubernetes (Sinhala)",
+  "category": "Cloud",
+  "featuredImage": "",
+  "author": {
+    "name": "Alex Mercer",
+    "avatar": "/images/blog/authors/james-carter.jpg",
+    "role": "Security Engineer",
+    "bio": "Specializes in application security, identity systems, and secure SDLC practices.",
+    "socials": {
+      "linkedin": "https://linkedin.com/in/alexmercer",
+      "github": "https://github.com/alexmercer"
+    }
+  },
+  "publishedAt": "2026-04-24",
+  "updatedAt": "2026-04-24",
+  "readTime": 5,
+  "metaDescription": "Kubernetes migration පිළිබඳ සවිස්තරාත්මක මාර්ගෝපදේශයක්.",
+  "tags": [
+    "Cloud",
+    "Kubernetes migration",
+    "Software Engineering",
+    "2026 Trends"
+  ],
+  "relatedSlugs": [
+    "prompt-engineering-best-practices-in-2026",
+    "astro-islands-architecture-for-content-sites",
+    "10-performance-optimizations-for-nextjs-applications"
+  ],
+  "content": "<h2 id=\"introduction\">හැඳින්වීම</h2><p>මෙම ලිපිය Kubernetes migration පිළිබඳව නවීන තාක්ෂණික ප්‍රවණතා අනුව විස්තර කරයි. service mapping, config, and rollout strategy සඳහා ප්‍රායෝගික උපදෙස් මෙහි ඇතුළත් වේ.</p><h2 id=\"summary\">සාරාංශය</h2><p>වැඩිදුර විස්තර සඳහා ඉංග්‍රීසි සංස්කරණය කියවන්න.</p>",
+  "cta": {
+    "title": "Need help implementing this?",
+    "description": "Mickiesoft engineers can help you design, build, and scale modern software solutions.",
+    "buttonText": "Contact Us",
+    "buttonUrl": "/contact"
+  }
+}

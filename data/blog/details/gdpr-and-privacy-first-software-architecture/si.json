@@ -1,0 +1,39 @@
+{
+  "id": "54",
+  "slug": "gdpr-and-privacy-first-software-architecture",
+  "title": "GDPR and Privacy-First Software Architecture (Sinhala)",
+  "category": "Security",
+  "featuredImage": "",
+  "author": {
+    "name": "Sarah Chen",
+    "avatar": "/images/blog/authors/olivia-martin.jpg",
+    "role": "Machine Learning Engineer",
+    "bio": "Builds production ML systems with a focus on retrieval, evaluation, and safe deployment.",
+    "socials": {
+      "linkedin": "https://linkedin.com/in/sarahchen",
+      "github": "https://github.com/sarahchen"
+    }
+  },
+  "publishedAt": "2026-03-25",
+  "updatedAt": "2026-03-25",
+  "readTime": 5,
+  "metaDescription": "privacy engineering පිළිබඳ සවිස්තරාත්මක මාර්ගෝපදේශයක්.",
+  "tags": [
+    "Security",
+    "privacy engineering",
+    "Software Engineering",
+    "2026 Trends"
+  ],
+  "relatedSlugs": [
+    "container-image-scanning-in-ci-cd-pipelines",
+    "building-scalable-applications-on-aws",
+    "advanced-react-patterns-every-developer-should-know"
+  ],
+  "content": "<h2 id=\"introduction\">හැඳින්වීම</h2><p>මෙම ලිපිය privacy engineering පිළිබඳව නවීන තාක්ෂණික ප්‍රවණතා අනුව විස්තර කරයි. data minimization, consent, and retention සඳහා ප්‍රායෝගික උපදෙස් මෙහි ඇතුළත් වේ.</p><h2 id=\"summary\">සාරාංශය</h2><p>වැඩිදුර විස්තර සඳහා ඉංග්‍රීසි සංස්කරණය කියවන්න.</p>",
+  "cta": {
+    "title": "Need help implementing this?",
+    "description": "Mickiesoft engineers can help you design, build, and scale modern software solutions.",
+    "buttonText": "Contact Us",
+    "buttonUrl": "/contact"
+  }
+}

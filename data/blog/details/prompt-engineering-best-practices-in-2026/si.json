@@ -1,0 +1,39 @@
+{
+  "id": "21",
+  "slug": "prompt-engineering-best-practices-in-2026",
+  "title": "Prompt Engineering Best Practices in 2026 (Sinhala)",
+  "category": "AI",
+  "featuredImage": "",
+  "author": {
+    "name": "Liam Wilson",
+    "avatar": "/images/blog/authors/liam-wilson.png",
+    "role": "Systems Engineer",
+    "bio": "Works on high-performance backends, distributed systems, and low-level runtime optimization.",
+    "socials": {
+      "linkedin": "https://linkedin.com/in/liamwilson",
+      "github": "https://github.com/liamwilson"
+    }
+  },
+  "publishedAt": "2026-05-30",
+  "updatedAt": "2026-05-30",
+  "readTime": 5,
+  "metaDescription": "prompt engineering පිළිබඳ සවිස්තරාත්මක මාර්ගෝපදේශයක්.",
+  "tags": [
+    "AI",
+    "prompt engineering",
+    "Software Engineering",
+    "2026 Trends"
+  ],
+  "relatedSlugs": [
+    "advanced-react-patterns-every-developer-should-know",
+    "mastering-zustand-for-react-state-management",
+    "10-performance-optimizations-for-nextjs-applications"
+  ],
+  "content": "<h2 id=\"introduction\">හැඳින්වීම</h2><p>මෙම ලිපිය prompt engineering පිළිබඳව නවීන තාක්ෂණික ප්‍රවණතා අනුව විස්තර කරයි. structured prompts, evals, and guardrails සඳහා ප්‍රායෝගික උපදෙස් මෙහි ඇතුළත් වේ.</p><h2 id=\"summary\">සාරාංශය</h2><p>වැඩිදුර විස්තර සඳහා ඉංග්‍රීසි සංස්කරණය කියවන්න.</p>",
+  "cta": {
+    "title": "Need help implementing this?",
+    "description": "Mickiesoft engineers can help you design, build, and scale modern software solutions.",
+    "buttonText": "Contact Us",
+    "buttonUrl": "/contact"
+  }
+}

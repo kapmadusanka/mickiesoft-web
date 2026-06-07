@@ -1,0 +1,39 @@
+{
+  "id": "23",
+  "slug": "building-with-the-claude-api-and-anthropic-sdk",
+  "title": "Building with the Claude API and Anthropic SDK (Sinhala)",
+  "category": "AI",
+  "featuredImage": "",
+  "author": {
+    "name": "Alex Mercer",
+    "avatar": "/images/blog/authors/james-carter.jpg",
+    "role": "Security Engineer",
+    "bio": "Specializes in application security, identity systems, and secure SDLC practices.",
+    "socials": {
+      "linkedin": "https://linkedin.com/in/alexmercer",
+      "github": "https://github.com/alexmercer"
+    }
+  },
+  "publishedAt": "2026-05-26",
+  "updatedAt": "2026-05-26",
+  "readTime": 5,
+  "metaDescription": "Claude API පිළිබඳ සවිස්තරාත්මක මාර්ගෝපදේශයක්.",
+  "tags": [
+    "AI",
+    "Claude API",
+    "Software Engineering",
+    "2026 Trends"
+  ],
+  "relatedSlugs": [
+    "advanced-react-patterns-every-developer-should-know",
+    "building-scalable-applications-on-aws",
+    "why-we-are-writing-our-backend-in-rust"
+  ],
+  "content": "<h2 id=\"introduction\">හැඳින්වීම</h2><p>මෙම ලිපිය Claude API පිළිබඳව නවීන තාක්ෂණික ප්‍රවණතා අනුව විස්තර කරයි. tool calling, streaming, and cost control සඳහා ප්‍රායෝගික උපදෙස් මෙහි ඇතුළත් වේ.</p><h2 id=\"summary\">සාරාංශය</h2><p>වැඩිදුර විස්තර සඳහා ඉංග්‍රීසි සංස්කරණය කියවන්න.</p>",
+  "cta": {
+    "title": "Need help implementing this?",
+    "description": "Mickiesoft engineers can help you design, build, and scale modern software solutions.",
+    "buttonText": "Contact Us",
+    "buttonUrl": "/contact"
+  }
+}

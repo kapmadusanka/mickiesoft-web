@@ -1,0 +1,39 @@
+{
+  "id": "31",
+  "slug": "tanstack-query-v5-data-fetching-patterns",
+  "title": "TanStack Query v5 Data Fetching Patterns (Sinhala)",
+  "category": "Frontend",
+  "featuredImage": "",
+  "author": {
+    "name": "Alex Mercer",
+    "avatar": "/images/blog/authors/james-carter.jpg",
+    "role": "Security Engineer",
+    "bio": "Specializes in application security, identity systems, and secure SDLC practices.",
+    "socials": {
+      "linkedin": "https://linkedin.com/in/alexmercer",
+      "github": "https://github.com/alexmercer"
+    }
+  },
+  "publishedAt": "2026-05-10",
+  "updatedAt": "2026-05-10",
+  "readTime": 5,
+  "metaDescription": "TanStack Query පිළිබඳ සවිස්තරාත්මක මාර්ගෝපදේශයක්.",
+  "tags": [
+    "Frontend",
+    "TanStack Query",
+    "Software Engineering",
+    "2026 Trends"
+  ],
+  "relatedSlugs": [
+    "rag-in-production-architecture-and-pitfalls",
+    "monolith-to-microservices-transition",
+    "openai-gpt-4o-integration-patterns-for-saas"
+  ],
+  "content": "<h2 id=\"introduction\">හැඳින්වීම</h2><p>මෙම ලිපිය TanStack Query පිළිබඳව නවීන තාක්ෂණික ප්‍රවණතා අනුව විස්තර කරයි. cache keys, suspense, and invalidation සඳහා ප්‍රායෝගික උපදෙස් මෙහි ඇතුළත් වේ.</p><h2 id=\"summary\">සාරාංශය</h2><p>වැඩිදුර විස්තර සඳහා ඉංග්‍රීසි සංස්කරණය කියවන්න.</p>",
+  "cta": {
+    "title": "Need help implementing this?",
+    "description": "Mickiesoft engineers can help you design, build, and scale modern software solutions.",
+    "buttonText": "Contact Us",
+    "buttonUrl": "/contact"
+  }
+}

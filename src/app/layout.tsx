@@ -13,32 +13,146 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 })
 
-// Global Organization Schema for rich search results and AI understanding
-const organizationJsonLd = {
+const SITE_URL = "https://mickiesoft.lk"
+
+const businessAddress = {
+  "@type": "PostalAddress" as const,
+  streetAddress: "No 112, Kaldemulla rd",
+  addressLocality: "Moratuwa",
+  postalCode: "10400",
+  addressRegion: "Western Province",
+  addressCountry: "LK",
+}
+
+const socialProfiles = [
+  "https://facebook.com/mickiesoft",
+  "https://linkedin.com/company/mickiesoft",
+]
+
+// Global Schema.org structured data — Organization, LocalBusiness & Services
+const structuredData = {
   "@context": "https://schema.org",
-  "@type": "Organization",
-  name: "Mickiesoft (Pvt) Ltd",
-  url: "https://mickiesoft.lk",
-  logo: "https://mickiesoft.lk/images/logo.png", // Ensure you have this logo, or update the path
-  description: "Software development outsourcing partner. Mobile apps, web development, Microsoft add-ins, and ERP solutions.",
-  address: {
-    "@type": "PostalAddress",
-    streetAddress: "No 33",
-    addressLocality: "Colombo 05",
-    addressCountry: "LK"
-  },
-  contactPoint: {
-    "@type": "ContactPoint",
-    telephone: "+94 77 123 4567",
-    contactType: "customer service",
-    email: "info@mickiesoft.lk"
-  },
-  sameAs: [
-    "https://facebook.com/mickiesoft",
-    "https://linkedin.com/company/mickiesoft",
-    "https://twitter.com/mickiesoft",
-    "https://instagram.com/mickiesoft"
-  ]
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": `${SITE_URL}/#organization`,
+      name: "Mickiesoft (Pvt) Ltd",
+      alternateName: "Mickiesoft",
+      url: SITE_URL,
+      logo: {
+        "@type": "ImageObject",
+        url: `${SITE_URL}/images/logo.png`,
+        width: 200,
+        height: 60,
+      },
+      image: `${SITE_URL}/images/og-image.png`,
+      description:
+        "Software development outsourcing partner based in Sri Lanka. We deliver mobile apps, web development, Microsoft add-ins, and ERP solutions for global clients.",
+      address: businessAddress,
+      contactPoint: {
+        "@type": "ContactPoint",
+        telephone: "+94-77-229-6180",
+        contactType: "customer service",
+        email: "shanuka@mickiesoft.lk",
+        availableLanguage: ["English", "Sinhala"],
+        areaServed: "Worldwide",
+      },
+      sameAs: socialProfiles,
+      hasOfferCatalog: {
+        "@type": "OfferCatalog",
+        name: "Software Development Services",
+        itemListElement: [
+          { "@id": `${SITE_URL}/#service-mobile` },
+          { "@id": `${SITE_URL}/#service-microsoft` },
+          { "@id": `${SITE_URL}/#service-web` },
+          { "@id": `${SITE_URL}/#service-erp` },
+        ],
+      },
+    },
+    {
+      "@type": "LocalBusiness",
+      "@id": `${SITE_URL}/#localbusiness`,
+      name: "Mickiesoft (Pvt) Ltd",
+      url: SITE_URL,
+      telephone: "+94-77-229-6180",
+      email: "shanuka@mickiesoft.lk",
+      image: `${SITE_URL}/images/og-image.png`,
+      logo: `${SITE_URL}/images/logo.png`,
+      description:
+        "Sri Lanka-based software outsourcing company specialising in mobile app development, custom web solutions, Microsoft add-ins, and enterprise ERP systems.",
+      address: businessAddress,
+      geo: {
+        "@type": "GeoCoordinates",
+        latitude: 6.773,
+        longitude: 79.882,
+      },
+      openingHoursSpecification: [
+        {
+          "@type": "OpeningHoursSpecification",
+          dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+          opens: "09:00",
+          closes: "18:00",
+        },
+      ],
+      areaServed: [
+        { "@type": "Country", name: "Sri Lanka" },
+        { "@type": "Country", name: "United States" },
+        { "@type": "Country", name: "United Kingdom" },
+        { "@type": "Country", name: "Australia" },
+        { "@type": "Country", name: "Canada" },
+      ],
+      sameAs: socialProfiles,
+      parentOrganization: { "@id": `${SITE_URL}/#organization` },
+    },
+    {
+      "@type": "Service",
+      "@id": `${SITE_URL}/#service-mobile`,
+      name: "Mobile App Development",
+      serviceType: "Mobile Application Development",
+      description:
+        "Native and cross-platform mobile applications built with modern frameworks for iOS and Android.",
+      provider: { "@id": `${SITE_URL}/#organization` },
+      areaServed: "Worldwide",
+      url: `${SITE_URL}/#services`,
+      category: "Software Development",
+    },
+    {
+      "@type": "Service",
+      "@id": `${SITE_URL}/#service-microsoft`,
+      name: "Microsoft Add-in Development",
+      serviceType: "Microsoft Office Add-in Development",
+      description:
+        "Custom Microsoft Office add-ins and integrations that enhance your productivity workflow.",
+      provider: { "@id": `${SITE_URL}/#organization` },
+      areaServed: "Worldwide",
+      url: `${SITE_URL}/#services`,
+      category: "Software Development",
+    },
+    {
+      "@type": "Service",
+      "@id": `${SITE_URL}/#service-web`,
+      name: "Web Development",
+      serviceType: "Custom Web Development",
+      description:
+        "Full-stack web applications built with modern technologies for performance and scalability.",
+      provider: { "@id": `${SITE_URL}/#organization` },
+      areaServed: "Worldwide",
+      url: `${SITE_URL}/#services`,
+      category: "Software Development",
+    },
+    {
+      "@type": "Service",
+      "@id": `${SITE_URL}/#service-erp`,
+      name: "ERP Development",
+      serviceType: "Enterprise Resource Planning Development",
+      description:
+        "Enterprise resource planning solutions customized to streamline your business operations.",
+      provider: { "@id": `${SITE_URL}/#organization` },
+      areaServed: "Worldwide",
+      url: `${SITE_URL}/#services`,
+      category: "Enterprise Software",
+    },
+  ],
 }
 
 export const metadata: Metadata = {
@@ -124,13 +238,14 @@ export default function RootLayout({
       suppressHydrationWarning
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col">
-        {children}
-        {/* Inject Organization JSON-LD globally */}
+      <head>
         <script
           type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationJsonLd) }}
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
         />
+      </head>
+      <body className="min-h-full flex flex-col">
+        {children}
 
         {/* Google Analytics */}
         <Script src="https://www.googletagmanager.com/gtag/js?id=G-7GP5GV6ECQ" strategy="afterInteractive" />

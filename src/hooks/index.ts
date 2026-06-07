@@ -39,61 +39,6 @@ export function useScrollSpy() {
   }, [setActiveSection])
 }
 
-export function useCountUp(
-  target: number,
-  duration: number = 2000,
-  startOnView: boolean = true
-) {
-  const [count, setCount] = useState(0)
-  const [hasStarted, setHasStarted] = useState(false)
-  const elementRef = useRef<HTMLElement | null>(null)
-
-  useEffect(() => {
-    if (!startOnView) {
-      animate()
-      return
-    }
-
-    const observer = new IntersectionObserver(
-      ([entry]) => {
-        if (entry.isIntersecting && !hasStarted) {
-          setHasStarted(true)
-          animate()
-        }
-      },
-      { threshold: 0.3 }
-    )
-
-    if (elementRef.current) {
-      observer.observe(elementRef.current)
-    }
-
-    return () => observer.disconnect()
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [target, hasStarted])
-
-  function animate() {
-    const start = performance.now()
-
-    function step(currentTime: number) {
-      const elapsed = currentTime - start
-      const progress = Math.min(elapsed / duration, 1)
-
-      // Ease-out cubic
-      const eased = 1 - Math.pow(1 - progress, 3)
-      setCount(Math.floor(eased * target))
-
-      if (progress < 1) {
-        requestAnimationFrame(step)
-      }
-    }
-
-    requestAnimationFrame(step)
-  }
-
-  return { count, ref: elementRef }
-}
-
 export function useMediaQuery(query: string): boolean {
   const [matches, setMatches] = useState(false)
 

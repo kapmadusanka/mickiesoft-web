@@ -1,0 +1,40 @@
+{
+  "id": "106",
+  "slug": "software-outsourcing-for-us-uk-companies",
+  "title": "Software Outsourcing for US and UK Companies from Sri Lanka (Sinhala)",
+  "category": "Outsourcing",
+  "featuredImage": "/images/blog/offshore-development.png",
+  "author": {
+    "name": "James Carter",
+    "avatar": "/images/blog/authors/james-carter.png",
+    "role": "Senior Frontend Engineer",
+    "bio": "Passionate about building fast and scalable web applications with modern technologies.",
+    "socials": {
+      "linkedin": "https://linkedin.com/in/jamescarter",
+      "github": "https://github.com/jamescarter"
+    }
+  },
+  "publishedAt": "2026-06-07",
+  "updatedAt": "2026-06-07",
+  "readTime": 7,
+  "metaDescription": "ශ්‍රී ලංකාවේ මෘදුකාංග සංවර්ධනය සහ සංවර්ධකයින් බඳවා ගැනීම පිළිබඳ මාර්ගෝපදේශය.",
+  "tags": [
+    "software outsourcing",
+    "offshore development",
+    "US companies",
+    "UK companies",
+    "Sri Lanka"
+  ],
+  "relatedSlugs": [
+    "how-ai-is-transforming-enterprise-software-development",
+    "building-scalable-applications-on-aws",
+    "cicd-best-practices-for-modern-teams"
+  ],
+  "content": "<h2 id=\"introduction\">හැඳින්වීම</h2><p>මෙම ලිපිය ශ්‍රී ලංකාවේ මෘදුකාංග සංවර්ධන සමාගම් සහ බාහිර සංවර්ධනය පිළිබඳව විස්තර කරයි. වැඩිදුර විස්තර සඳහා ඉංග්‍රීසි සංස්කරණය කියවන්න.</p>",
+  "cta": {
+    "title": "Ready to hire developers in Sri Lanka?",
+    "description": "Talk to Mickiesoft about outsourcing your next software project.",
+    "buttonText": "Contact Us",
+    "buttonUrl": "/contact"
+  }
+}

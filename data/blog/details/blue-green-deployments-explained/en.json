@@ -3,7 +3,7 @@
   "slug": "blue-green-deployments-explained",
   "title": "Blue-Green Deployments Explained",
   "category": "DevOps",
-  "featuredImage": "",
+  "featuredImage": "/images/blog/cicd-practices.png",
   "author": {
     "name": "Sophia Nguyen",
     "avatar": "/images/blog/authors/sophia-nguyen.png",

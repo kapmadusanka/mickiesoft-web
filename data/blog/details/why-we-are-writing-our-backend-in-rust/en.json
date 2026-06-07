@@ -4,7 +4,7 @@
   "title": "Why We Are Writing Our Backend in Rust",
   "excerpt": "Exploring the performance, safety, and productivity benefits of rewriting core services in Rust.",
   "category": "Backend",
-  "featuredImage": "",
+  "featuredImage": "/images/blog/graphql-migration.png",
   "author": {
     "name": "Liam Wilson",
     "avatar": "/images/blog/authors/liam-wilson.jpg",

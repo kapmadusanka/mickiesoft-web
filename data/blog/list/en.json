@@ -1,5 +1,101 @@
 [
   {
+    "id": "106",
+    "slug": "software-outsourcing-for-us-uk-companies",
+    "title": "Software Outsourcing for US and UK Companies from Sri Lanka",
+    "excerpt": "How US and UK companies benefit from software outsourcing to Sri Lanka — time zone coverage, cost savings, compliance, and real case patterns.",
+    "category": "Outsourcing",
+    "featuredImage": "/images/blog/offshore-development.png",
+    "author": {
+      "name": "James Carter",
+      "avatar": "/images/blog/authors/james-carter.png",
+      "role": "Senior Frontend Engineer"
+    },
+    "publishedAt": "2026-06-07",
+    "readTime": 7,
+    "isFeatured": false
+  },
+  {
+    "id": "105",
+    "slug": "dedicated-development-team-sri-lanka",
+    "title": "Building a Dedicated Development Team in Sri Lanka",
+    "excerpt": "Learn how a dedicated development team in Sri Lanka works — team structure, management, pricing, and when it beats staff augmentation.",
+    "category": "Outsourcing",
+    "featuredImage": "/images/blog/hire-developers.png",
+    "author": {
+      "name": "James Carter",
+      "avatar": "/images/blog/authors/james-carter.png",
+      "role": "Senior Frontend Engineer"
+    },
+    "publishedAt": "2026-06-07",
+    "readTime": 7,
+    "isFeatured": false
+  },
+  {
+    "id": "104",
+    "slug": "outsource-software-development-to-sri-lanka",
+    "title": "Outsource Software Development to Sri Lanka: Benefits and Best Practices",
+    "excerpt": "Why outsource software development to Sri Lanka? Discover the advantages, risks, and best practices for a successful outsourcing partnership.",
+    "category": "Outsourcing",
+    "featuredImage": "/images/blog/outsourcing-sri-lanka.png",
+    "author": {
+      "name": "James Carter",
+      "avatar": "/images/blog/authors/james-carter.png",
+      "role": "Senior Frontend Engineer"
+    },
+    "publishedAt": "2026-06-07",
+    "readTime": 7,
+    "isFeatured": false
+  },
+  {
+    "id": "103",
+    "slug": "offshore-software-development-sri-lanka",
+    "title": "Offshore Software Development from Sri Lanka: A Complete Guide",
+    "excerpt": "Everything you need to know about offshore software development from Sri Lanka — benefits, time zones, costs, and how to get started.",
+    "category": "Outsourcing",
+    "featuredImage": "/images/blog/offshore-development.png",
+    "author": {
+      "name": "James Carter",
+      "avatar": "/images/blog/authors/james-carter.png",
+      "role": "Senior Frontend Engineer"
+    },
+    "publishedAt": "2026-06-07",
+    "readTime": 7,
+    "isFeatured": false
+  },
+  {
+    "id": "102",
+    "slug": "hire-developers-sri-lanka",
+    "title": "How to Hire Developers in Sri Lanka for Your Next Project",
+    "excerpt": "A practical guide to hire developers in Sri Lanka — engagement models, vetting tips, costs, and how to build a productive remote team.",
+    "category": "Outsourcing",
+    "featuredImage": "/images/blog/hire-developers.png",
+    "author": {
+      "name": "James Carter",
+      "avatar": "/images/blog/authors/james-carter.png",
+      "role": "Senior Frontend Engineer"
+    },
+    "publishedAt": "2026-06-07",
+    "readTime": 7,
+    "isFeatured": false
+  },
+  {
+    "id": "101",
+    "slug": "software-development-company-sri-lanka",
+    "title": "Software Development Company Sri Lanka: Why Global Businesses Choose Mickiesoft",
+    "excerpt": "Looking for a software development company in Sri Lanka? Learn why global businesses hire Mickiesoft for web, mobile, and enterprise solutions.",
+    "category": "Outsourcing",
+    "featuredImage": "/images/blog/outsourcing-sri-lanka.png",
+    "author": {
+      "name": "James Carter",
+      "avatar": "/images/blog/authors/james-carter.png",
+      "role": "Senior Frontend Engineer"
+    },
+    "publishedAt": "2026-06-07",
+    "readTime": 7,
+    "isFeatured": true
+  },
+  {
     "id": "1",
     "slug": "how-ai-is-transforming-enterprise-software-development",
     "title": "How AI is Transforming Enterprise Software Development",
@@ -245,7 +341,7 @@
     "title": "Why We Are Writing Our Backend in Rust",
     "excerpt": "Exploring the performance, safety, and productivity benefits of rewriting core services in Rust.",
     "category": "Backend",
-    "featuredImage": "",
+    "featuredImage": "/images/blog/graphql-migration.png",
     "author": {
       "name": "Liam Wilson",
       "avatar": "/images/blog/authors/liam-wilson.jpg",
@@ -261,7 +357,7 @@
     "title": "Building AI Agents for Autonomous Workflows",
     "excerpt": "A practical guide to AI agents: orchestrating multi-step tasks with tool use and memory.",
     "category": "AI",
-    "featuredImage": "",
+    "featuredImage": "/images/blog/ai-enterprise.png",
     "author": {
       "name": "James Carter",
       "avatar": "/images/blog/authors/james-carter.png",
@@ -277,7 +373,7 @@
     "title": "RAG in Production: Architecture and Pitfalls",
     "excerpt": "A practical guide to retrieval-augmented generation: chunking, embeddings, and evaluation in real systems.",
     "category": "AI",
-    "featuredImage": "",
+    "featuredImage": "/images/blog/ai-enterprise.png",
     "author": {
       "name": "Olivia Martin",
       "avatar": "/images/blog/authors/olivia-martin.png",
@@ -293,7 +389,7 @@
     "title": "Fine-Tuning LLMs for Enterprise Use Cases",
     "excerpt": "A practical guide to LLM fine-tuning: when to fine-tune versus prompt or RAG.",
     "category": "AI",
-    "featuredImage": "",
+    "featuredImage": "/images/blog/ai-enterprise.png",
     "author": {
       "name": "Daniel Lee",
       "avatar": "/images/blog/authors/daniel-lee.png",
@@ -309,7 +405,7 @@
     "title": "Multi-Modal AI: Combining Vision and Language",
     "excerpt": "A practical guide to multi-modal models: image understanding, document AI, and visual search.",
     "category": "AI",
-    "featuredImage": "",
+    "featuredImage": "/images/blog/ai-enterprise.png",
     "author": {
       "name": "Sophia Nguyen",
       "avatar": "/images/blog/authors/sophia-nguyen.png",
@@ -325,7 +421,7 @@
     "title": "Prompt Engineering Best Practices in 2026",
     "excerpt": "A practical guide to prompt engineering: structured prompts, evals, and guardrails.",
     "category": "AI",
-    "featuredImage": "",
+    "featuredImage": "/images/blog/ai-enterprise.png",
     "author": {
       "name": "Liam Wilson",
       "avatar": "/images/blog/authors/liam-wilson.png",
@@ -341,7 +437,7 @@
     "title": "AI-Powered Code Review Tools Compared",
     "excerpt": "A practical guide to AI code review: accuracy, security scanning, and team workflows.",
     "category": "AI",
-    "featuredImage": "",
+    "featuredImage": "/images/blog/ai-enterprise.png",
     "author": {
       "name": "Sarah Chen",
       "avatar": "/images/blog/authors/olivia-martin.jpg",
@@ -357,7 +453,7 @@
     "title": "Building with the Claude API and Anthropic SDK",
     "excerpt": "A practical guide to Claude API: tool calling, streaming, and cost control.",
     "category": "AI",
-    "featuredImage": "",
+    "featuredImage": "/images/blog/ai-enterprise.png",
     "author": {
       "name": "Alex Mercer",
       "avatar": "/images/blog/authors/james-carter.jpg",
@@ -373,7 +469,7 @@
     "title": "OpenAI GPT-4o Integration Patterns for SaaS",
     "excerpt": "A practical guide to GPT-4o integration: structured outputs, function calling, and caching.",
     "category": "AI",
-    "featuredImage": "",
+    "featuredImage": "/images/blog/ai-enterprise.png",
     "author": {
       "name": "Emma Wright",
       "avatar": "/images/blog/authors/sophia-nguyen.jpg",
@@ -389,7 +485,7 @@
     "title": "Running Local LLMs with Ollama and Llama 3",
     "excerpt": "A practical guide to local LLMs: on-prem inference, privacy, and hardware sizing.",
     "category": "AI",
-    "featuredImage": "",
+    "featuredImage": "/images/blog/ai-enterprise.png",
     "author": {
       "name": "James Carter",
       "avatar": "/images/blog/authors/james-carter.png",
@@ -405,7 +501,7 @@
     "title": "Vector Databases: Pinecone vs Weaviate vs pgvector",
     "excerpt": "A practical guide to vector databases: indexing strategies, hybrid search, and ops trade-offs.",
     "category": "AI",
-    "featuredImage": "",
+    "featuredImage": "/images/blog/ai-enterprise.png",
     "author": {
       "name": "Olivia Martin",
       "avatar": "/images/blog/authors/olivia-martin.png",
@@ -421,7 +517,7 @@
     "title": "Next.js 15 App Router: A Production Deep Dive",
     "excerpt": "A practical guide to Next.js 15: routing, caching, and partial prerendering.",
     "category": "Next.js",
-    "featuredImage": "",
+    "featuredImage": "/images/blog/nextjs-performance.png",
     "author": {
       "name": "Daniel Lee",
       "avatar": "/images/blog/authors/daniel-lee.png",
@@ -437,7 +533,7 @@
     "title": "React Server Components in Production",
     "excerpt": "A practical guide to React Server Components: server/client boundaries and data fetching.",
     "category": "React",
-    "featuredImage": "",
+    "featuredImage": "/images/blog/react-patterns.png",
     "author": {
       "name": "Sophia Nguyen",
       "avatar": "/images/blog/authors/sophia-nguyen.png",
@@ -453,7 +549,7 @@
     "title": "React 19 Actions and useOptimistic Explained",
     "excerpt": "A practical guide to React 19: form actions, optimistic UI, and transitions.",
     "category": "React",
-    "featuredImage": "",
+    "featuredImage": "/images/blog/react-patterns.png",
     "author": {
       "name": "Liam Wilson",
       "avatar": "/images/blog/authors/liam-wilson.png",
@@ -469,7 +565,7 @@
     "title": "Turbopack vs Webpack in 2026",
     "excerpt": "A practical guide to Turbopack: build performance and migration planning.",
     "category": "Frontend",
-    "featuredImage": "",
+    "featuredImage": "/images/blog/react-patterns.png",
     "author": {
       "name": "Sarah Chen",
       "avatar": "/images/blog/authors/olivia-martin.jpg",
@@ -485,7 +581,7 @@
     "title": "TanStack Query v5 Data Fetching Patterns",
     "excerpt": "A practical guide to TanStack Query: cache keys, suspense, and invalidation.",
     "category": "Frontend",
-    "featuredImage": "",
+    "featuredImage": "/images/blog/react-patterns.png",
     "author": {
       "name": "Alex Mercer",
       "avatar": "/images/blog/authors/james-carter.jpg",
@@ -501,7 +597,7 @@
     "title": "TypeScript 5.5 Advanced Features You Should Use",
     "excerpt": "A practical guide to TypeScript 5.5: inferred types, decorators, and strictness.",
     "category": "TypeScript",
-    "featuredImage": "",
+    "featuredImage": "/images/blog/nextjs-performance.png",
     "author": {
       "name": "Emma Wright",
       "avatar": "/images/blog/authors/sophia-nguyen.jpg",
@@ -517,7 +613,7 @@
     "title": "Bun Runtime for JavaScript Backends",
     "excerpt": "A practical guide to Bun: HTTP server performance and package compatibility.",
     "category": "Backend",
-    "featuredImage": "",
+    "featuredImage": "/images/blog/graphql-migration.png",
     "author": {
       "name": "James Carter",
       "avatar": "/images/blog/authors/james-carter.png",
@@ -533,7 +629,7 @@
     "title": "Deno 2.0 for Modern Web Development",
     "excerpt": "A practical guide to Deno 2: npm compatibility, security defaults, and deploy.",
     "category": "Backend",
-    "featuredImage": "",
+    "featuredImage": "/images/blog/graphql-migration.png",
     "author": {
       "name": "Olivia Martin",
       "avatar": "/images/blog/authors/olivia-martin.png",
@@ -549,7 +645,7 @@
     "title": "Svelte 5 Runes: A Complete Guide",
     "excerpt": "A practical guide to Svelte 5: reactivity model and component architecture.",
     "category": "Frontend",
-    "featuredImage": "",
+    "featuredImage": "/images/blog/react-patterns.png",
     "author": {
       "name": "Daniel Lee",
       "avatar": "/images/blog/authors/daniel-lee.png",
@@ -565,7 +661,7 @@
     "title": "Astro Islands Architecture for Content Sites",
     "excerpt": "A practical guide to Astro: partial hydration and performance budgets.",
     "category": "Frontend",
-    "featuredImage": "",
+    "featuredImage": "/images/blog/react-patterns.png",
     "author": {
       "name": "Sophia Nguyen",
       "avatar": "/images/blog/authors/sophia-nguyen.png",
@@ -581,7 +677,7 @@
     "title": "Kubernetes GitOps with Argo CD",
     "excerpt": "A practical guide to GitOps: declarative deploys, rollbacks, and drift detection.",
     "category": "DevOps",
-    "featuredImage": "",
+    "featuredImage": "/images/blog/cicd-practices.png",
     "author": {
       "name": "Liam Wilson",
       "avatar": "/images/blog/authors/liam-wilson.png",
@@ -597,7 +693,7 @@
     "title": "Platform Engineering and Internal Developer Portals",
     "excerpt": "A practical guide to platform engineering: golden paths, self-service, and developer productivity.",
     "category": "DevOps",
-    "featuredImage": "",
+    "featuredImage": "/images/blog/cicd-practices.png",
     "author": {
       "name": "Sarah Chen",
       "avatar": "/images/blog/authors/olivia-martin.jpg",
@@ -613,7 +709,7 @@
     "title": "Migrating from Docker Compose to Kubernetes",
     "excerpt": "A practical guide to Kubernetes migration: service mapping, config, and rollout strategy.",
     "category": "Cloud",
-    "featuredImage": "",
+    "featuredImage": "/images/blog/aws-scalable.png",
     "author": {
       "name": "Alex Mercer",
       "avatar": "/images/blog/authors/james-carter.jpg",
@@ -629,7 +725,7 @@
     "title": "AWS Lambda SnapStart for Faster Cold Starts",
     "excerpt": "A practical guide to Lambda SnapStart: JVM startup optimization and cost impact.",
     "category": "Cloud",
-    "featuredImage": "",
+    "featuredImage": "/images/blog/aws-scalable.png",
     "author": {
       "name": "Emma Wright",
       "avatar": "/images/blog/authors/sophia-nguyen.jpg",
@@ -645,7 +741,7 @@
     "title": "Google Cloud Run vs AWS Fargate Compared",
     "excerpt": "A practical guide to serverless containers: scaling models, networking, and pricing.",
     "category": "Cloud",
-    "featuredImage": "",
+    "featuredImage": "/images/blog/aws-scalable.png",
     "author": {
       "name": "James Carter",
       "avatar": "/images/blog/authors/james-carter.png",
@@ -661,7 +757,7 @@
     "title": "Edge Computing with Cloudflare Workers",
     "excerpt": "A practical guide to edge computing: global latency, KV storage, and Durable Objects.",
     "category": "Cloud",
-    "featuredImage": "",
+    "featuredImage": "/images/blog/aws-scalable.png",
     "author": {
       "name": "Olivia Martin",
       "avatar": "/images/blog/authors/olivia-martin.png",
@@ -677,7 +773,7 @@
     "title": "Infrastructure as Code with Pulumi",
     "excerpt": "A practical guide to Pulumi: TypeScript IaC, state, and team workflows.",
     "category": "DevOps",
-    "featuredImage": "",
+    "featuredImage": "/images/blog/cicd-practices.png",
     "author": {
       "name": "Daniel Lee",
       "avatar": "/images/blog/authors/daniel-lee.png",
@@ -693,7 +789,7 @@
     "title": "Terraform State Management at Scale",
     "excerpt": "A practical guide to Terraform: remote state, workspaces, and module design.",
     "category": "DevOps",
-    "featuredImage": "",
+    "featuredImage": "/images/blog/cicd-practices.png",
     "author": {
       "name": "Sophia Nguyen",
       "avatar": "/images/blog/authors/sophia-nguyen.png",
@@ -709,7 +805,7 @@
     "title": "Observability with OpenTelemetry",
     "excerpt": "A practical guide to OpenTelemetry: traces, metrics, logs, and vendor-neutral pipelines.",
     "category": "DevOps",
-    "featuredImage": "",
+    "featuredImage": "/images/blog/cicd-practices.png",
     "author": {
       "name": "Liam Wilson",
       "avatar": "/images/blog/authors/liam-wilson.png",
@@ -725,7 +821,7 @@
     "title": "eBPF for Cloud-Native Monitoring",
     "excerpt": "A practical guide to eBPF: kernel-level visibility without instrumentation overhead.",
     "category": "DevOps",
-    "featuredImage": "",
+    "featuredImage": "/images/blog/cicd-practices.png",
     "author": {
       "name": "Sarah Chen",
       "avatar": "/images/blog/authors/olivia-martin.jpg",
@@ -741,7 +837,7 @@
     "title": "Implementing Passkeys and WebAuthn",
     "excerpt": "A practical guide to passkeys: phishing-resistant auth and cross-device flows.",
     "category": "Security",
-    "featuredImage": "",
+    "featuredImage": "/images/blog/zero-trust-security.png",
     "author": {
       "name": "Alex Mercer",
       "avatar": "/images/blog/authors/james-carter.jpg",
@@ -757,7 +853,7 @@
     "title": "OAuth 2.1 and OIDC Security Updates",
     "excerpt": "A practical guide to OAuth 2.1: PKCE, token rotation, and session hardening.",
     "category": "Security",
-    "featuredImage": "",
+    "featuredImage": "/images/blog/zero-trust-security.png",
     "author": {
       "name": "Emma Wright",
       "avatar": "/images/blog/authors/sophia-nguyen.jpg",
@@ -773,7 +869,7 @@
     "title": "API Security with Rate Limiting and Throttling",
     "excerpt": "A practical guide to API rate limiting: token buckets, abuse detection, and edge policies.",
     "category": "Security",
-    "featuredImage": "",
+    "featuredImage": "/images/blog/zero-trust-security.png",
     "author": {
       "name": "James Carter",
       "avatar": "/images/blog/authors/james-carter.png",
@@ -789,7 +885,7 @@
     "title": "Supply Chain Security for npm Packages",
     "excerpt": "A practical guide to supply chain security: SBOMs, provenance, and dependency pinning.",
     "category": "Security",
-    "featuredImage": "",
+    "featuredImage": "/images/blog/zero-trust-security.png",
     "author": {
       "name": "Olivia Martin",
       "avatar": "/images/blog/authors/olivia-martin.png",
@@ -805,7 +901,7 @@
     "title": "Secrets Management with HashiCorp Vault",
     "excerpt": "A practical guide to secrets management: dynamic credentials and rotation policies.",
     "category": "Security",
-    "featuredImage": "",
+    "featuredImage": "/images/blog/zero-trust-security.png",
     "author": {
       "name": "Daniel Lee",
       "avatar": "/images/blog/authors/daniel-lee.png",
@@ -821,7 +917,7 @@
     "title": "Container Image Scanning in CI/CD Pipelines",
     "excerpt": "A practical guide to container scanning: CVE triage, policy gates, and base image hygiene.",
     "category": "Security",
-    "featuredImage": "",
+    "featuredImage": "/images/blog/zero-trust-security.png",
     "author": {
       "name": "Sophia Nguyen",
       "avatar": "/images/blog/authors/sophia-nguyen.png",
@@ -837,7 +933,7 @@
     "title": "SOC 2 Compliance for SaaS Startups",
     "excerpt": "A practical guide to SOC 2: control mapping, evidence collection, and automation.",
     "category": "Security",
-    "featuredImage": "",
+    "featuredImage": "/images/blog/zero-trust-security.png",
     "author": {
       "name": "Liam Wilson",
       "avatar": "/images/blog/authors/liam-wilson.png",
@@ -853,7 +949,7 @@
     "title": "GDPR and Privacy-First Software Architecture",
     "excerpt": "A practical guide to privacy engineering: data minimization, consent, and retention.",
     "category": "Security",
-    "featuredImage": "",
+    "featuredImage": "/images/blog/zero-trust-security.png",
     "author": {
       "name": "Sarah Chen",
       "avatar": "/images/blog/authors/olivia-martin.jpg",
@@ -869,7 +965,7 @@
     "title": "Penetration Testing for Web APIs",
     "excerpt": "A practical guide to API pentesting: auth bypass, injection, and business logic flaws.",
     "category": "Security",
-    "featuredImage": "",
+    "featuredImage": "/images/blog/zero-trust-security.png",
     "author": {
       "name": "Alex Mercer",
       "avatar": "/images/blog/authors/james-carter.jpg",
@@ -885,7 +981,7 @@
     "title": "DDoS Protection Strategies for Modern Apps",
     "excerpt": "A practical guide to DDoS mitigation: WAF rules, CDN shielding, and autoscaling.",
     "category": "Security",
-    "featuredImage": "",
+    "featuredImage": "/images/blog/zero-trust-security.png",
     "author": {
       "name": "Emma Wright",
       "avatar": "/images/blog/authors/sophia-nguyen.jpg",
@@ -901,7 +997,7 @@
     "title": "Event-Driven Architecture with Apache Kafka",
     "excerpt": "A practical guide to event-driven architecture: topics, partitions, and consumer groups.",
     "category": "Architecture",
-    "featuredImage": "",
+    "featuredImage": "/images/blog/microservices-transition.png",
     "author": {
       "name": "James Carter",
       "avatar": "/images/blog/authors/james-carter.png",
@@ -917,7 +1013,7 @@
     "title": "CQRS and Event Sourcing Patterns Explained",
     "excerpt": "A practical guide to CQRS: read/write separation and event stores.",
     "category": "Architecture",
-    "featuredImage": "",
+    "featuredImage": "/images/blog/microservices-transition.png",
     "author": {
       "name": "Olivia Martin",
       "avatar": "/images/blog/authors/olivia-martin.png",
@@ -933,7 +1029,7 @@
     "title": "API Gateway Patterns with Kong and Envoy",
     "excerpt": "A practical guide to API gateways: routing, auth termination, and rate policies.",
     "category": "Backend",
-    "featuredImage": "",
+    "featuredImage": "/images/blog/graphql-migration.png",
     "author": {
       "name": "Daniel Lee",
       "avatar": "/images/blog/authors/daniel-lee.png",
@@ -949,7 +1045,7 @@
     "title": "gRPC vs REST in Microservices",
     "excerpt": "A practical guide to gRPC: serialization, streaming, and service mesh fit.",
     "category": "Backend",
-    "featuredImage": "",
+    "featuredImage": "/images/blog/graphql-migration.png",
     "author": {
       "name": "Sophia Nguyen",
       "avatar": "/images/blog/authors/sophia-nguyen.png",
@@ -965,7 +1061,7 @@
     "title": "Database Sharding Strategies for Scale",
     "excerpt": "A practical guide to database sharding: shard keys, rebalancing, and query routing.",
     "category": "Backend",
-    "featuredImage": "",
+    "featuredImage": "/images/blog/graphql-migration.png",
     "author": {
       "name": "Liam Wilson",
       "avatar": "/images/blog/authors/liam-wilson.png",
@@ -981,7 +1077,7 @@
     "title": "PostgreSQL 16 Features Every Team Should Know",
     "excerpt": "A practical guide to PostgreSQL 16: logical replication, performance, and JSON improvements.",
     "category": "Backend",
-    "featuredImage": "",
+    "featuredImage": "/images/blog/graphql-migration.png",
     "author": {
       "name": "Sarah Chen",
       "avatar": "/images/blog/authors/olivia-martin.jpg",
@@ -997,7 +1093,7 @@
     "title": "Redis Caching Patterns at Scale",
     "excerpt": "A practical guide to Redis caching: cache-aside, TTL strategy, and stampede prevention.",
     "category": "Backend",
-    "featuredImage": "",
+    "featuredImage": "/images/blog/graphql-migration.png",
     "author": {
       "name": "Alex Mercer",
       "avatar": "/images/blog/authors/james-carter.jpg",
@@ -1013,7 +1109,7 @@
     "title": "MongoDB Atlas Vector Search in Practice",
     "excerpt": "A practical guide to MongoDB vector search: hybrid queries and operational considerations.",
     "category": "Backend",
-    "featuredImage": "",
+    "featuredImage": "/images/blog/graphql-migration.png",
     "author": {
       "name": "Emma Wright",
       "avatar": "/images/blog/authors/sophia-nguyen.jpg",
@@ -1029,7 +1125,7 @@
     "title": "GraphQL Federation at Enterprise Scale",
     "excerpt": "A practical guide to GraphQL federation: subgraphs, schema composition, and governance.",
     "category": "Backend",
-    "featuredImage": "",
+    "featuredImage": "/images/blog/graphql-migration.png",
     "author": {
       "name": "James Carter",
       "avatar": "/images/blog/authors/james-carter.png",
@@ -1045,7 +1141,7 @@
     "title": "Building Real-Time Apps with WebSockets",
     "excerpt": "A practical guide to WebSockets: connection management, backpressure, and fallbacks.",
     "category": "Backend",
-    "featuredImage": "",
+    "featuredImage": "/images/blog/graphql-migration.png",
     "author": {
       "name": "Olivia Martin",
       "avatar": "/images/blog/authors/olivia-martin.png",
@@ -1061,7 +1157,7 @@
     "title": "React Native New Architecture in 2026",
     "excerpt": "A practical guide to React Native: Fabric, TurboModules, and migration steps.",
     "category": "Mobile",
-    "featuredImage": "",
+    "featuredImage": "/images/blog/flutter-mobile.png",
     "author": {
       "name": "Daniel Lee",
       "avatar": "/images/blog/authors/daniel-lee.png",
@@ -1077,7 +1173,7 @@
     "title": "Flutter 3.x for Enterprise Mobile Apps",
     "excerpt": "A practical guide to Flutter enterprise: state management, testing, and release pipelines.",
     "category": "Mobile",
-    "featuredImage": "",
+    "featuredImage": "/images/blog/flutter-mobile.png",
     "author": {
       "name": "Sophia Nguyen",
       "avatar": "/images/blog/authors/sophia-nguyen.png",
@@ -1093,7 +1189,7 @@
     "title": "SwiftUI for Cross-Platform Apple Development",
     "excerpt": "A practical guide to SwiftUI: shared UI layers across iOS and macOS.",
     "category": "Mobile",
-    "featuredImage": "",
+    "featuredImage": "/images/blog/flutter-mobile.png",
     "author": {
       "name": "Liam Wilson",
       "avatar": "/images/blog/authors/liam-wilson.png",
@@ -1109,7 +1205,7 @@
     "title": "Kotlin Multiplatform for Mobile Teams",
     "excerpt": "A practical guide to Kotlin Multiplatform: shared business logic and platform-specific UI.",
     "category": "Mobile",
-    "featuredImage": "",
+    "featuredImage": "/images/blog/flutter-mobile.png",
     "author": {
       "name": "Sarah Chen",
       "avatar": "/images/blog/authors/olivia-martin.jpg",
@@ -1125,7 +1221,7 @@
     "title": "Progressive Web Apps in 2026",
     "excerpt": "A practical guide to PWAs: installability, offline sync, and push APIs.",
     "category": "Mobile",
-    "featuredImage": "",
+    "featuredImage": "/images/blog/flutter-mobile.png",
     "author": {
       "name": "Alex Mercer",
       "avatar": "/images/blog/authors/james-carter.jpg",
@@ -1141,7 +1237,7 @@
     "title": "Mobile App Performance Optimization Guide",
     "excerpt": "A practical guide to mobile performance: startup time, memory, and frame rates.",
     "category": "Mobile",
-    "featuredImage": "",
+    "featuredImage": "/images/blog/flutter-mobile.png",
     "author": {
       "name": "Emma Wright",
       "avatar": "/images/blog/authors/sophia-nguyen.jpg",
@@ -1157,7 +1253,7 @@
     "title": "App Store Optimization for Developer Products",
     "excerpt": "A practical guide to ASO: metadata, screenshots, and conversion testing.",
     "category": "Mobile",
-    "featuredImage": "",
+    "featuredImage": "/images/blog/flutter-mobile.png",
     "author": {
       "name": "James Carter",
       "avatar": "/images/blog/authors/james-carter.png",
@@ -1173,7 +1269,7 @@
     "title": "Push Notifications with FCM and APNs",
     "excerpt": "A practical guide to push notifications: token lifecycle, segmentation, and delivery metrics.",
     "category": "Mobile",
-    "featuredImage": "",
+    "featuredImage": "/images/blog/flutter-mobile.png",
     "author": {
       "name": "Olivia Martin",
       "avatar": "/images/blog/authors/olivia-martin.png",
@@ -1189,7 +1285,7 @@
     "title": "Offline-First Mobile Architecture Patterns",
     "excerpt": "A practical guide to offline-first apps: sync engines, conflict resolution, and local storage.",
     "category": "Mobile",
-    "featuredImage": "",
+    "featuredImage": "/images/blog/flutter-mobile.png",
     "author": {
       "name": "Daniel Lee",
       "avatar": "/images/blog/authors/daniel-lee.png",
@@ -1205,7 +1301,7 @@
     "title": "Mobile CI/CD with Fastlane and GitHub Actions",
     "excerpt": "A practical guide to mobile CI/CD: signing, test flights, and store releases.",
     "category": "Mobile",
-    "featuredImage": "",
+    "featuredImage": "/images/blog/flutter-mobile.png",
     "author": {
       "name": "Sophia Nguyen",
       "avatar": "/images/blog/authors/sophia-nguyen.png",
@@ -1221,7 +1317,7 @@
     "title": "Tailwind CSS v4 Migration Guide",
     "excerpt": "A practical guide to Tailwind CSS v4: config changes, performance, and design tokens.",
     "category": "Design",
-    "featuredImage": "",
+    "featuredImage": "/images/blog/uiux-psychology.png",
     "author": {
       "name": "Liam Wilson",
       "avatar": "/images/blog/authors/liam-wilson.png",
@@ -1237,7 +1333,7 @@
     "title": "Building Design Systems with Storybook",
     "excerpt": "A practical guide to design systems: component APIs, documentation, and adoption.",
     "category": "Design",
-    "featuredImage": "",
+    "featuredImage": "/images/blog/uiux-psychology.png",
     "author": {
       "name": "Sarah Chen",
       "avatar": "/images/blog/authors/olivia-martin.jpg",
@@ -1253,7 +1349,7 @@
     "title": "Figma to Code Workflows for Engineering Teams",
     "excerpt": "A practical guide to design handoff: tokens, variants, and automated exports.",
     "category": "Design",
-    "featuredImage": "",
+    "featuredImage": "/images/blog/uiux-psychology.png",
     "author": {
       "name": "Alex Mercer",
       "avatar": "/images/blog/authors/james-carter.jpg",
@@ -1269,7 +1365,7 @@
     "title": "WCAG 2.2 Accessibility Compliance Guide",
     "excerpt": "A practical guide to accessibility: focus management, contrast, and keyboard flows.",
     "category": "Design",
-    "featuredImage": "",
+    "featuredImage": "/images/blog/uiux-psychology.png",
     "author": {
       "name": "Emma Wright",
       "avatar": "/images/blog/authors/sophia-nguyen.jpg",
@@ -1285,7 +1381,7 @@
     "title": "Dark Mode Implementation Patterns",
     "excerpt": "A practical guide to dark mode: theme tokens, SSR considerations, and user preference.",
     "category": "Design",
-    "featuredImage": "",
+    "featuredImage": "/images/blog/uiux-psychology.png",
     "author": {
       "name": "James Carter",
       "avatar": "/images/blog/authors/james-carter.png",
@@ -1301,7 +1397,7 @@
     "title": "Micro-Interactions in Modern User Interfaces",
     "excerpt": "A practical guide to micro-interactions: motion budgets, feedback loops, and performance.",
     "category": "Design",
-    "featuredImage": "",
+    "featuredImage": "/images/blog/uiux-psychology.png",
     "author": {
       "name": "Olivia Martin",
       "avatar": "/images/blog/authors/olivia-martin.png",
@@ -1317,7 +1413,7 @@
     "title": "CSS Container Queries in Production",
     "excerpt": "A practical guide to container queries: component-responsive layouts without media queries.",
     "category": "Frontend",
-    "featuredImage": "",
+    "featuredImage": "/images/blog/react-patterns.png",
     "author": {
       "name": "Daniel Lee",
       "avatar": "/images/blog/authors/daniel-lee.png",
@@ -1333,7 +1429,7 @@
     "title": "Web Animations with Framer Motion",
     "excerpt": "A practical guide to Framer Motion: layout animations, gestures, and reduced motion.",
     "category": "Frontend",
-    "featuredImage": "",
+    "featuredImage": "/images/blog/react-patterns.png",
     "author": {
       "name": "Sophia Nguyen",
       "avatar": "/images/blog/authors/sophia-nguyen.png",
@@ -1349,7 +1445,7 @@
     "title": "Responsive Design for Foldable Devices",
     "excerpt": "A practical guide to foldable UI: dual-screen layouts and continuity APIs.",
     "category": "Design",
-    "featuredImage": "",
+    "featuredImage": "/images/blog/uiux-psychology.png",
     "author": {
       "name": "Liam Wilson",
       "avatar": "/images/blog/authors/liam-wilson.png",
@@ -1365,7 +1461,7 @@
     "title": "UX Writing for Developer Tools",
     "excerpt": "A practical guide to UX writing: error messages, onboarding copy, and docs UX.",
     "category": "Design",
-    "featuredImage": "",
+    "featuredImage": "/images/blog/uiux-psychology.png",
     "author": {
       "name": "Sarah Chen",
       "avatar": "/images/blog/authors/olivia-martin.jpg",
@@ -1381,7 +1477,7 @@
     "title": "Playwright vs Cypress in 2026",
     "excerpt": "A practical guide to E2E testing: parallelization, debugging, and CI integration.",
     "category": "Testing",
-    "featuredImage": "",
+    "featuredImage": "/images/blog/cypress-testing.png",
     "author": {
       "name": "Alex Mercer",
       "avatar": "/images/blog/authors/james-carter.jpg",
@@ -1397,7 +1493,7 @@
     "title": "Contract Testing with Pact for Microservices",
     "excerpt": "A practical guide to contract testing: consumer-driven contracts and broker workflows.",
     "category": "Testing",
-    "featuredImage": "",
+    "featuredImage": "/images/blog/cypress-testing.png",
     "author": {
       "name": "Emma Wright",
       "avatar": "/images/blog/authors/sophia-nguyen.jpg",
@@ -1413,7 +1509,7 @@
     "title": "Chaos Engineering for Resilient Systems",
     "excerpt": "A practical guide to chaos engineering: failure injection, blast radius, and game days.",
     "category": "Testing",
-    "featuredImage": "",
+    "featuredImage": "/images/blog/cypress-testing.png",
     "author": {
       "name": "James Carter",
       "avatar": "/images/blog/authors/james-carter.png",
@@ -1429,7 +1525,7 @@
     "title": "Load Testing with k6 and Grafana",
     "excerpt": "A practical guide to load testing: scenario design, thresholds, and capacity planning.",
     "category": "Testing",
-    "featuredImage": "",
+    "featuredImage": "/images/blog/cypress-testing.png",
     "author": {
       "name": "Olivia Martin",
       "avatar": "/images/blog/authors/olivia-martin.png",
@@ -1445,7 +1541,7 @@
     "title": "Feature Flags with LaunchDarkly and Open Source Alternatives",
     "excerpt": "A practical guide to feature flags: rollouts, targeting, and kill switches.",
     "category": "DevOps",
-    "featuredImage": "",
+    "featuredImage": "/images/blog/cicd-practices.png",
     "author": {
       "name": "Daniel Lee",
       "avatar": "/images/blog/authors/daniel-lee.png",
@@ -1461,7 +1557,7 @@
     "title": "Blue-Green Deployments Explained",
     "excerpt": "A practical guide to blue-green deployment: traffic switching, database compatibility, and rollback.",
     "category": "DevOps",
-    "featuredImage": "",
+    "featuredImage": "/images/blog/cicd-practices.png",
     "author": {
       "name": "Sophia Nguyen",
       "avatar": "/images/blog/authors/sophia-nguyen.png",
@@ -1477,7 +1573,7 @@
     "title": "Canary Releases in Kubernetes",
     "excerpt": "A practical guide to canary releases: progressive delivery and metric-based promotion.",
     "category": "DevOps",
-    "featuredImage": "",
+    "featuredImage": "/images/blog/cicd-practices.png",
     "author": {
       "name": "Liam Wilson",
       "avatar": "/images/blog/authors/liam-wilson.png",
@@ -1493,7 +1589,7 @@
     "title": "Monorepo Management with Turborepo",
     "excerpt": "A practical guide to Turborepo: task pipelines, caching, and dependency graphs.",
     "category": "DevOps",
-    "featuredImage": "",
+    "featuredImage": "/images/blog/cicd-practices.png",
     "author": {
       "name": "Sarah Chen",
       "avatar": "/images/blog/authors/olivia-martin.jpg",
@@ -1509,7 +1605,7 @@
     "title": "Nx for Large-Scale Frontend Codebases",
     "excerpt": "A practical guide to Nx monorepos: affected builds, generators, and module boundaries.",
     "category": "DevOps",
-    "featuredImage": "",
+    "featuredImage": "/images/blog/cicd-practices.png",
     "author": {
       "name": "Alex Mercer",
       "avatar": "/images/blog/authors/james-carter.jpg",
@@ -1525,7 +1621,7 @@
     "title": "Trunk-Based Development Best Practices",
     "excerpt": "A practical guide to trunk-based development: short-lived branches, CI discipline, and release trains.",
     "category": "DevOps",
-    "featuredImage": "",
+    "featuredImage": "/images/blog/cicd-practices.png",
     "author": {
       "name": "Emma Wright",
       "avatar": "/images/blog/authors/sophia-nguyen.jpg",
@@ -1541,7 +1637,7 @@
     "title": "WebAssembly for High-Performance Web Apps",
     "excerpt": "A practical guide to WebAssembly: Wasm modules, JS interop, and compute-heavy workloads.",
     "category": "Frontend",
-    "featuredImage": "",
+    "featuredImage": "/images/blog/react-patterns.png",
     "author": {
       "name": "James Carter",
       "avatar": "/images/blog/authors/james-carter.png",
@@ -1557,7 +1653,7 @@
     "title": "Quantum Computing Basics for Software Developers",
     "excerpt": "A practical guide to quantum computing: qubits, algorithms, and practical near-term use cases.",
     "category": "Emerging Tech",
-    "featuredImage": "",
+    "featuredImage": "/images/blog/ai-enterprise.png",
     "author": {
       "name": "Olivia Martin",
       "avatar": "/images/blog/authors/olivia-martin.png",
@@ -1573,7 +1669,7 @@
     "title": "5G and Edge AI Application Patterns",
     "excerpt": "A practical guide to edge AI: low-latency inference and distributed model serving.",
     "category": "Emerging Tech",
-    "featuredImage": "",
+    "featuredImage": "/images/blog/ai-enterprise.png",
     "author": {
       "name": "Daniel Lee",
       "avatar": "/images/blog/authors/daniel-lee.png",
@@ -1589,7 +1685,7 @@
     "title": "Sustainable Software Engineering Practices",
     "excerpt": "A practical guide to green software: energy-aware architecture and carbon-aware scheduling.",
     "category": "Emerging Tech",
-    "featuredImage": "",
+    "featuredImage": "/images/blog/ai-enterprise.png",
     "author": {
       "name": "Sophia Nguyen",
       "avatar": "/images/blog/authors/sophia-nguyen.png",

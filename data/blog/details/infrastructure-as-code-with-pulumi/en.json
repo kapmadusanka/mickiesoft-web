@@ -3,7 +3,7 @@
   "slug": "infrastructure-as-code-with-pulumi",
   "title": "Infrastructure as Code with Pulumi",
   "category": "DevOps",
-  "featuredImage": "",
+  "featuredImage": "/images/blog/cicd-practices.png",
   "author": {
     "name": "Daniel Lee",
     "avatar": "/images/blog/authors/daniel-lee.png",

@@ -12,7 +12,6 @@ export async function GET(request: Request) {
         // Read the json file from src/db/faqs/list/{locale}.json
         const faqs = await readJson('faqs', 'list', `${locale}.json`);
 
-      console.log("FAQ", faqs);
         return NextResponse.json({
             success: true,
             message: 'FAQs fetched successfully',

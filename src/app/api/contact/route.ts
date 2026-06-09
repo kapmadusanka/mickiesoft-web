@@ -33,6 +33,7 @@ export async function POST(req: Request) {
       console.warn("RECAPTCHA_SECRET_KEY is not set. Skipping ReCaptcha verification.");
     }
 
+    console.log("+++++++++++++++++++++++++RESEND++++++++++++++++++++++ Start Send email using Resend",process.env.RESEND_API_KEY)
     // Send email using Resend
     const { data, error } = await resend.emails.send({
       from: "Mickiesoft <info@mickiesoft.lk>", // Replace with your verified domain
@@ -47,7 +48,7 @@ export async function POST(req: Request) {
         <p>${message.replace(/\n/g, '<br>')}</p>
       `,
     });
-
+    console.log("+++++++++++++++++++++++++RESEND++++++++++++++++++++++ End",{data},{error})
     if (error) {
       console.error("Resend error:", error);
       return NextResponse.json({ message: "Failed to send email" }, { status: 500 });
@@ -55,7 +56,7 @@ export async function POST(req: Request) {
 
     return NextResponse.json({ id: data?.id, message: "Email sent successfully" }, { status: 200 });
   } catch (error) {
-    console.error("Contact API error:", error);
+    console.error("+++++++++++++++++++++++++RESEND++++++++++++++++++++++ Contact API error:", error);
     return NextResponse.json(
       { message: "Internal server error" },
       { status: 500 }

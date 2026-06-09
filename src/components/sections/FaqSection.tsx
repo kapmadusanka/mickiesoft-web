@@ -14,7 +14,7 @@ export async function FaqSection() {
   const t = await getTranslations("faq")
   // 1. Fetch data with graceful fallback
   const faqs = await faqsService.getAll().catch(() => [])
-  console.log("Fetched FAQs:", faqs) // Debug log to verify data structure
+
   // 2. Generate JSON-LD Schema for SEO rich results
   const jsonLd = {
     "@context": "https://schema.org",

@@ -1,5 +1,69 @@
 [
   {
+    "id": "107",
+    "slug": "hire-flutter-developer-sri-lanka",
+    "title": "Hire a Flutter Developer in Sri Lanka: The Ultimate Guide",
+    "excerpt": "Looking to build a cross-platform app? Learn why hiring a Flutter developer from Sri Lanka is the most cost-effective way to scale your mobile team.",
+    "category": "Mobile",
+    "featuredImage": "/images/blog/hire-flutter-developer.png",
+    "author": {
+      "name": "James Carter",
+      "avatar": "/images/blog/authors/james-carter.png",
+      "role": "Senior Frontend Engineer"
+    },
+    "publishedAt": "2026-06-11",
+    "readTime": 5,
+    "isFeatured": false
+  },
+  {
+    "id": "108",
+    "slug": "microsoft-office-add-in-development-company",
+    "title": "Top Microsoft Office Add-in Development Company",
+    "excerpt": "Discover how partnering with a specialized Microsoft Office add-in development company can automate your workflows and supercharge productivity in Excel and Word.",
+    "category": "Enterprise",
+    "featuredImage": "/images/blog/office-addin.png",
+    "author": {
+      "name": "James Carter",
+      "avatar": "/images/blog/authors/james-carter.png",
+      "role": "Senior Frontend Engineer"
+    },
+    "publishedAt": "2026-06-11",
+    "readTime": 5,
+    "isFeatured": false
+  },
+  {
+    "id": "109",
+    "slug": "dedicated-dotnet-developer-offshore",
+    "title": "Hire a Dedicated .NET Developer Offshore",
+    "excerpt": "Scale your enterprise backend by hiring a dedicated .NET developer offshore. Get expert C# and ASP.NET Core talent seamlessly integrated into your team.",
+    "category": "Outsourcing",
+    "featuredImage": "/images/blog/dotnet-developer.png",
+    "author": {
+      "name": "James Carter",
+      "avatar": "/images/blog/authors/james-carter.png",
+      "role": "Senior Frontend Engineer"
+    },
+    "publishedAt": "2026-06-11",
+    "readTime": 5,
+    "isFeatured": false
+  },
+  {
+    "id": "110",
+    "slug": "erp-development-company-sri-lanka",
+    "title": "Top ERP Development Company in Sri Lanka",
+    "excerpt": "Streamline your business operations with a leading ERP development company in Sri Lanka. We build custom ERP systems for finance, HR, and logistics.",
+    "category": "Enterprise",
+    "featuredImage": "/images/blog/erp-development.png",
+    "author": {
+      "name": "James Carter",
+      "avatar": "/images/blog/authors/james-carter.png",
+      "role": "Senior Frontend Engineer"
+    },
+    "publishedAt": "2026-06-11",
+    "readTime": 5,
+    "isFeatured": false
+  },
+  {
     "id": "106",
     "slug": "software-outsourcing-for-us-uk-companies",
     "title": "Software Outsourcing for US and UK Companies from Sri Lanka",

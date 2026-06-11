@@ -1,5 +1,69 @@
 [
   {
+    "id": "107",
+    "slug": "hire-flutter-developer-sri-lanka",
+    "title": "ශ්‍රී ලංකාවේ Flutter සංවර්ධකයෙකු බඳවා ගැනීම: අවසාන මාර්ගෝපදේශය",
+    "excerpt": "හරස්-වේදිකා ජංගම යෙදුමක් තැනීමට අවශ්‍යද? ශ්‍රී ලංකාවෙන් Flutter සංවර්ධකයෙකු බඳවා ගැනීම ලාභදායී වන්නේ මන්දැයි ඉගෙන ගන්න.",
+    "category": "ජංගම",
+    "featuredImage": "/images/blog/hire-flutter-developer.png",
+    "author": {
+      "name": "James Carter",
+      "avatar": "/images/blog/authors/james-carter.png",
+      "role": "Senior Frontend Engineer"
+    },
+    "publishedAt": "2026-06-11",
+    "readTime": 5,
+    "isFeatured": false
+  },
+  {
+    "id": "108",
+    "slug": "microsoft-office-add-in-development-company",
+    "title": "හොඳම Microsoft Office Add-in සංවර්ධන සමාගම",
+    "excerpt": "විශේෂිත Microsoft Office add-in සංවර්ධන සමාගමක් සමඟ හවුල් වීමෙන් ඔබේ කාර්ය ප්‍රවාහයන් ස්වයංක්‍රීය කරන්නේ කෙසේදැයි සොයා බලන්න.",
+    "category": "ව්‍යවසාය",
+    "featuredImage": "/images/blog/office-addin.png",
+    "author": {
+      "name": "James Carter",
+      "avatar": "/images/blog/authors/james-carter.png",
+      "role": "Senior Frontend Engineer"
+    },
+    "publishedAt": "2026-06-11",
+    "readTime": 5,
+    "isFeatured": false
+  },
+  {
+    "id": "109",
+    "slug": "dedicated-dotnet-developer-offshore",
+    "title": "කැපවූ .NET සංවර්ධකයෙකු බාහිරව බඳවා ගන්න",
+    "excerpt": "කැපවූ .NET සංවර්ධකයෙකු බාහිරව බඳවා ගැනීමෙන් ඔබේ ව්‍යවසාය පසුපෙළ පරිමාණය කරන්න.",
+    "category": "බාහිරකරණය",
+    "featuredImage": "/images/blog/dotnet-developer.png",
+    "author": {
+      "name": "James Carter",
+      "avatar": "/images/blog/authors/james-carter.png",
+      "role": "Senior Frontend Engineer"
+    },
+    "publishedAt": "2026-06-11",
+    "readTime": 5,
+    "isFeatured": false
+  },
+  {
+    "id": "110",
+    "slug": "erp-development-company-sri-lanka",
+    "title": "ශ්‍රී ලංකාවේ ප්‍රමුඛතම ERP සංවර්ධන සමාගම",
+    "excerpt": "ශ්‍රී ලංකාවේ ප්‍රමුඛතම ERP සංවර්ධන සමාගමක් සමඟ ඔබේ ව්‍යාපාර මෙහෙයුම් විධිමත් කරන්න.",
+    "category": "ව්‍යවසාය",
+    "featuredImage": "/images/blog/erp-development.png",
+    "author": {
+      "name": "James Carter",
+      "avatar": "/images/blog/authors/james-carter.png",
+      "role": "Senior Frontend Engineer"
+    },
+    "publishedAt": "2026-06-11",
+    "readTime": 5,
+    "isFeatured": false
+  },
+  {
     "id": "106",
     "slug": "software-outsourcing-for-us-uk-companies",
     "title": "Software Outsourcing for US and UK Companies from Sri Lanka (Sinhala)",

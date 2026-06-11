@@ -1,0 +1,29 @@
+{
+  "id": "110",
+  "slug": "erp-development-company-sri-lanka",
+  "title": "ශ්‍රී ලංකාවේ ප්‍රමුඛතම ERP සංවර්ධන සමාගම",
+  "category": "ව්‍යවසාය",
+  "featuredImage": "/images/blog/erp-development.png",
+  "author": {
+    "name": "James Carter",
+    "avatar": "/images/blog/authors/james-carter.png",
+    "role": "Senior Frontend Engineer",
+    "bio": "Passionate about building fast and scalable web applications with modern technologies."
+  },
+  "publishedAt": "2026-06-11",
+  "readTime": 5,
+  "metaDescription": "ශ්‍රී ලංකාවේ ප්‍රමුඛතම ERP සංවර්ධන සමාගමක් සමඟ ඔබේ ව්‍යාපාර මෙහෙයුම් විධිමත් කරන්න.",
+  "tags": [
+    "ව්‍යවසාය",
+    "Outsourcing",
+    "Sri Lanka"
+  ],
+  "relatedSlugs": [],
+  "content": "<p>සාමාන්‍ය මෘදුකාංග බොහෝ විට ව්‍යාපාරවලට ඔවුන්ගේ කාර්ය ප්‍රවාහ වෙනස් කිරීමට බල කරයි. ශ්‍රී ලංකාවේ ප්‍රමුඛතම <strong>ERP සංවර්ධන සමාගමක්</strong> ලෙස, අපි ඔබ සැබවින්ම වැඩ කරන ආකාරයට අනුගත වන අභිරුචි ERP පද්ධති ගොඩනඟමු.</p><h2>සෑම දෙපාර්තමේන්තුවක් සඳහාම අභිරුචි මොඩියුල</h2><p>මුල්‍ය සඳහා අභිරුචි උපකරණ පුවරු, සැපයුම් දාමය සඳහා ඉන්වෙන්ටරි ලුහුබැඳීම හෝ මානව සම්පත් සඳහා ස්වයංක්‍රීය වැටුප් ගෙවීම් ඔබට අවශ්‍ය වුවද, අපගේ ERPs සියලු දෙපාර්තමේන්තු තනි පද්ධතියකට ඒකාබද්ධ කරයි.</p><h2>පරිමාණය කළ හැකි ගෘහ නිර්මාණ ශිල්පය</h2><p>අපගේ ERP පද්ධති ගොඩනඟා ඇත්තේ ඉහළ ලබා ගැනීමේ හැකියාව, ශක්තිමත් ආරක්ෂාව සහ තෙවන පාර්ශවීය මෙවලම් සමඟ බාධාවකින් තොරව ඒකාබද්ධ වීම සහතික කරන පරිමාණය කළ හැකි වලාකුළු ගෘහ නිර්මාණ ශිල්පය මත ය.</p>",
+  "cta": {
+    "title": "Ready to start your project?",
+    "description": "Contact us today for a free technical consultation.",
+    "buttonText": "Contact Us",
+    "buttonUrl": "/#contact"
+  }
+}

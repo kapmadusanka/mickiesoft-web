@@ -1,0 +1,29 @@
+{
+  "id": "109",
+  "slug": "dedicated-dotnet-developer-offshore",
+  "title": "කැපවූ .NET සංවර්ධකයෙකු බාහිරව බඳවා ගන්න",
+  "category": "බාහිරකරණය",
+  "featuredImage": "/images/blog/dotnet-developer.png",
+  "author": {
+    "name": "James Carter",
+    "avatar": "/images/blog/authors/james-carter.png",
+    "role": "Senior Frontend Engineer",
+    "bio": "Passionate about building fast and scalable web applications with modern technologies."
+  },
+  "publishedAt": "2026-06-11",
+  "readTime": 5,
+  "metaDescription": "කැපවූ .NET සංවර්ධකයෙකු බාහිරව බඳවා ගැනීමෙන් ඔබේ ව්‍යවසාය පසුපෙළ පරිමාණය කරන්න.",
+  "tags": [
+    "බාහිරකරණය",
+    "Outsourcing",
+    "Sri Lanka"
+  ],
+  "relatedSlugs": [],
+  "content": "<p>ව්‍යවසාය පද්ධති ආරක්ෂිතව පරිමාණය කිරීමට අවශ්‍ය වූ විට, .NET හොඳම ප්‍රමිතිය ලෙස පවතී. <strong>කැපවූ .NET සංවර්ධකයෙකු බාහිරව බඳවා ගැනීම</strong> ඉංජිනේරු ධාරිතාව පුළුල් කිරීමට අපේක්ෂා කරන CTOs සඳහා උපායමාර්ගික පියවරකි.</p><h2>.NET Core ඇයි?</h2><p>නවීන ASP.NET Core ඇදහිය නොහැකි තරම් වේගවත් වන අතර මයික්‍රොසර්විස් ගෘහ නිර්මාණ ශිල්පය සඳහා පරිපූර්ණ වේ.</p><h2>බාහිරකරණයේ වාසිය</h2><p>කැපවූ බාහිර සංවර්ධකයෙකු ඔබේ අභ්‍යන්තර කණ්ඩායමේ දිගුවක් ලෙස ක්‍රියා කරයි. ඔවුන් ඔබේ දෛනික රැස්වීම්වලට සහභාගී වන අතර උසස් තත්ත්වයේ කේත සපයයි.</p>",
+  "cta": {
+    "title": "Ready to start your project?",
+    "description": "Contact us today for a free technical consultation.",
+    "buttonText": "Contact Us",
+    "buttonUrl": "/#contact"
+  }
+}

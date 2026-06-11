@@ -1,0 +1,29 @@
+{
+  "id": "108",
+  "slug": "microsoft-office-add-in-development-company",
+  "title": "හොඳම Microsoft Office Add-in සංවර්ධන සමාගම",
+  "category": "ව්‍යවසාය",
+  "featuredImage": "/images/blog/office-addin.png",
+  "author": {
+    "name": "James Carter",
+    "avatar": "/images/blog/authors/james-carter.png",
+    "role": "Senior Frontend Engineer",
+    "bio": "Passionate about building fast and scalable web applications with modern technologies."
+  },
+  "publishedAt": "2026-06-11",
+  "readTime": 5,
+  "metaDescription": "විශේෂිත Microsoft Office add-in සංවර්ධන සමාගමක් සමඟ හවුල් වීමෙන් ඔබේ කාර්ය ප්‍රවාහයන් ස්වයංක්‍රීය කරන්නේ කෙසේදැයි සොයා බලන්න.",
+  "tags": [
+    "ව්‍යවසාය",
+    "Outsourcing",
+    "Sri Lanka"
+  ],
+  "relatedSlugs": [],
+  "content": "<p>ව්‍යවසාය ඵලදායිතාව විශාල වශයෙන් Microsoft Office මත රඳා පවතී. ප්‍රමුඛ පෙළේ <strong>Microsoft Office add-in සංවර්ධන සමාගමක්</strong> සමඟ හවුල් වීමෙන්, ව්‍යාපාරවලට Excel, Word සහ Outlook හරහා පුනරාවර්තන කාර්යයන් ස්වයංක්‍රීය කළ හැක.</p><h2>අභිරුචි Excel Add-ins</h2><p>ඔබේ අභ්‍යන්තර API කෙලින්ම Excel වෙත ඒකාබද්ධ කරන විසඳුම් අපි ගොඩනඟමු.</p><h2>නවීන Office.js රාමුව</h2><p>නවීන Office.js API භාවිතයෙන්, අපි Windows, Mac, සහ Office on the Web මත බාධාවකින් තොරව ක්‍රියා කරන හරස්-වේදිකා add-ins නිර්මාණය කරමු.</p>",
+  "cta": {
+    "title": "Ready to start your project?",
+    "description": "Contact us today for a free technical consultation.",
+    "buttonText": "Contact Us",
+    "buttonUrl": "/#contact"
+  }
+}

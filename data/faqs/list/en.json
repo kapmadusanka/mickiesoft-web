@@ -1,32 +1,32 @@
 [
     {
         "id": "1",
-        "question": "What types of software development do you specialize in?",
-        "answer": "We specialize in full-stack web development, custom enterprise applications, e-commerce platforms, and mobile app development (iOS & Android). We work with a wide range of technologies including React, Node.js, Python, and cloud-based solutions."
+        "question": "How much does a custom web application cost to build with Mickiesoft?",
+        "answer": "Our custom web applications typically start at $5,000 for a basic Minimum Viable Product (MVP). For complex enterprise systems with advanced integrations, costs range from $15,000 to $50,000+. We provide a detailed, transparent breakdown after our initial discovery call."
     },
     {
         "id": "2",
-        "question": "How do you handle project management and communication?",
-        "answer": "We use an agile development methodology with transparent project management tools. Our clients have access to regular progress updates, milestone tracking, and direct communication channels with their dedicated project manager for seamless collaboration."
+        "question": "How long does it take from idea to launch for a mobile app?",
+        "answer": "For a standard mobile app (iOS & Android) built with React Native, the timeline is usually 2 to 4 months. Complex apps with custom backend infrastructure and third-party API integrations may take 4 to 6 months. We work in 2-week agile sprints, so you see working software regularly."
     },
     {
         "id": "3",
-        "question": "Do you offer maintenance and support after the project is completed?",
-        "answer": "Yes, we offer flexible maintenance and support packages. From critical updates and security patches to feature enhancements, we ensure your software continues to perform optimally long after launch."
+        "question": "Can Mickiesoft take over an existing codebase or rescue a failing project?",
+        "answer": "Yes, we specialize in project rescue and codebase modernization. We begin with a comprehensive technical audit to assess code quality, security, and scalability. Then, we formulate a step-by-step roadmap to stabilize, refactor, and add new features without breaking your live system."
     },
     {
         "id": "4",
-        "question": "Can you work with existing codebases or legacy systems?",
-        "answer": "Absolutely. We have extensive experience in modernizing legacy systems, migrating them to current technologies, and integrating new features seamlessly into existing codebases."
+        "question": "What technologies do you use for full-stack development?",
+        "answer": "We primarily use the modern TypeScript ecosystem: React and Next.js for high-performance frontend interfaces, and Node.js or Python for robust backend services. For databases, we leverage PostgreSQL, MongoDB, and Supabase. We host on scalable platforms like AWS, Vercel, and Google Cloud."
     },
     {
         "id": "5",
-        "question": "What is your typical development timeline?",
-        "answer": "Timelines vary based on project complexity. A standard MVP might take 4-8 weeks, while complex enterprise systems can take 3-6 months. We provide a detailed timeline during the discovery phase after thoroughly understanding your requirements."
+        "question": "Who will own the intellectual property (IP) and source code?",
+        "answer": "You do. Upon full payment for the project, all intellectual property rights and source code are entirely transferred to you. We provide full access to the Git repositories, deployment pipelines, and project documentation."
     },
     {
         "id": "6",
-        "question": "Do you provide documentation and training?",
-        "answer": "Yes, comprehensive documentation and training are standard deliverables. We provide technical documentation, user guides, and training sessions to ensure your team can effectively manage and utilize the new software."
+        "question": "Do you offer post-launch support and SLA (Service Level Agreement)?",
+        "answer": "Yes, every project comes with a 30-day warranty period for bug fixes. After that, we offer customized monthly retainer packages for continuous maintenance, security monitoring, server management, and iterative feature enhancements."
     }
 ]

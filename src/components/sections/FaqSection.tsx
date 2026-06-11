@@ -52,8 +52,8 @@ export async function FaqSection() {
 
         {faqs.length > 0 ? (
           <div className="glass rounded-2xl p-6 md:p-8 animate-fade-up shadow-sm">
-            {/* Accordion ensures only one item open at a time with type="single" */}
-            <Accordion type="single" collapsible className="w-full">
+            {/* Accordion allows multiple items to be open and defaults to having the first two items expanded */}
+            <Accordion type="multiple" defaultValue={["item-1", "item-2"]} className="w-full">
               {faqs.map((faq) => (
                 <AccordionItem key={faq.id} value={`item-${faq.id}`}>
                   <AccordionTrigger className="text-base md:text-lg hover:no-underline hover:text-brand transition-colors text-left py-4">

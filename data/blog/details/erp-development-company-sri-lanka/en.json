@@ -1,0 +1,29 @@
+{
+  "id": "110",
+  "slug": "erp-development-company-sri-lanka",
+  "title": "Top ERP Development Company in Sri Lanka",
+  "category": "Enterprise",
+  "featuredImage": "/images/blog/erp-development.png",
+  "author": {
+    "name": "James Carter",
+    "avatar": "/images/blog/authors/james-carter.png",
+    "role": "Senior Frontend Engineer",
+    "bio": "Passionate about building fast and scalable web applications with modern technologies."
+  },
+  "publishedAt": "2026-06-11",
+  "readTime": 5,
+  "metaDescription": "Streamline your business operations with a leading ERP development company in Sri Lanka. We build custom ERP systems for finance, HR, and logistics.",
+  "tags": [
+    "Enterprise",
+    "Outsourcing",
+    "Sri Lanka"
+  ],
+  "relatedSlugs": [],
+  "content": "<p>Off-the-shelf software often forces businesses to change their workflows. As a premier <strong>ERP development company in Sri Lanka</strong>, we build custom Enterprise Resource Planning systems that adapt to how you actually work.</p><h2>Custom Modules for Every Department</h2><p>Whether you need custom dashboards for Finance, inventory tracking for Supply Chain, or automated payroll for HR, our custom ERPs integrate all departments into a single, unified source of truth.</p><h2>Scalable Architecture</h2><p>Our ERP systems are built on scalable cloud architectures ensuring high availability, robust security, and seamless integration with third-party tools via secure APIs.</p>",
+  "cta": {
+    "title": "Ready to start your project?",
+    "description": "Contact us today for a free technical consultation.",
+    "buttonText": "Contact Us",
+    "buttonUrl": "/#contact"
+  }
+}

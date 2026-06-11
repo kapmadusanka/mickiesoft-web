@@ -5,11 +5,12 @@ import Image from "next/image"
 import { useRef, useEffect, useState } from "react"
 
 const CLIENTS = [
-  { id: "1", name: "TechCorp", image: "/images/clients/client-1.png" },
-  { id: "2", name: "InnoVate", image: "/images/clients/client-2.png" },
-  { id: "3", name: "DataFlow", image: "/images/clients/client-3.png" },
-  { id: "4", name: "CloudNex", image: "/images/clients/client-4.png" },
-  { id: "5", name: "SyncPro", image: "/images/clients/client-5.png" },
+  { id: "1", name: "Goddeeris ", image: "/images/clients/client-1.png" },
+  { id: "2", name: "Domex", image: "/images/clients/client-2.png" },
+  { id: "3", name: "Kromozone", image: "/images/clients/client-3.png" },
+  { id: "4", name: "Wayamba University", image: "/images/clients/client-4.png" },
+  { id: "5", name: "Aoomit", image: "/images/clients/client-5.png" },
+  { id: "5", name: "welcome srilanka", image: "/images/clients/client-8.png" },
 ]
 
 export function Clients() {

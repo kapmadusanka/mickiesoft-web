@@ -69,9 +69,9 @@
     "subtitle": "We leverage cutting-edge technologies to build robust, scalable solutions."
   },
   "cta": {
-    "title": "Have a project in mind?",
-    "subtitle": "Let’s build your website or software product together.",
-    "button": "Contact support"
+    "title": "Claim Your Free 30-Minute Technical Consultation",
+    "subtitle": "Let our experts review your project requirements and provide a high-level roadmap and cost estimate—at absolutely no cost.",
+    "button": "Book Free Consultation"
   },
   "faq": {
     "titleStart": "Frequently Asked ",
@@ -107,8 +107,8 @@
   },
   "contact": {
     "sectionLabel": "Contact",
-    "heading": "Contact Us",
-    "subtitle": "Have a project in mind? Get in touch with us and let's discuss how we can help.",
+    "heading": "Let's Talk — Get a Reply Within 24 Hours",
+    "subtitle": "Ready to scale your business with custom software? Send us your requirements today, and our senior engineers will get back to you within 24 hours with actionable insights.",
     "address": "No 112, Kaldemulla rd, Moratuwa, Sri Lanka",
     "phone": "+94 77 229 6180",
     "email": "shanuka@mickiesoft.lk",
@@ -120,11 +120,17 @@
     "successMessage": "Your message has been sent. Thank you!",
     "errorMessage": "Failed to send message. Please try again."
   },
-  "stats": {
-    "happyClients": "Happy Clients",
-    "projects": "Projects",
-    "hoursOfSupport": "Hours Of Support",
-    "hardWorkers": "Hard Workers"
+  "promise": {
+    "sectionLabel": "Our Guarantees",
+    "heading": "The Mickiesoft Promise",
+    "ipTitle": "100% IP Ownership",
+    "ipDesc": "You retain full ownership of the intellectual property and source code from day one.",
+    "deliveryTitle": "On-Time Delivery",
+    "deliveryDesc": "We stick to our agile sprint schedules, ensuring your project launches exactly when promised.",
+    "warrantyTitle": "30-Day Warranty",
+    "warrantyDesc": "Every project includes a 30-day post-launch bug fixing warranty for complete peace of mind.",
+    "supportTitle": "Dedicated Support",
+    "supportDesc": "Direct communication channels with your project manager and developers for seamless collaboration."
   },
   "clients": {
     "sectionLabel": "Trusted By",

@@ -1,0 +1,29 @@
+{
+  "id": "108",
+  "slug": "microsoft-office-add-in-development-company",
+  "title": "Top Microsoft Office Add-in Development Company",
+  "category": "Enterprise",
+  "featuredImage": "/images/blog/office-addin.png",
+  "author": {
+    "name": "James Carter",
+    "avatar": "/images/blog/authors/james-carter.png",
+    "role": "Senior Frontend Engineer",
+    "bio": "Passionate about building fast and scalable web applications with modern technologies."
+  },
+  "publishedAt": "2026-06-11",
+  "readTime": 5,
+  "metaDescription": "Discover how partnering with a specialized Microsoft Office add-in development company can automate your workflows and supercharge productivity in Excel and Word.",
+  "tags": [
+    "Enterprise",
+    "Outsourcing",
+    "Sri Lanka"
+  ],
+  "relatedSlugs": [],
+  "content": "<p>Enterprise productivity heavily relies on Microsoft Office. By partnering with a leading <strong>Microsoft Office add-in development company</strong>, businesses can automate repetitive tasks across Excel, Word, and Outlook.</p><h2>Custom Excel Add-ins</h2><p>We build tailored solutions that integrate your internal APIs directly into Excel, allowing your finance and operations teams to pull live data without leaving their spreadsheets.</p><h2>Modern Office.js Framework</h2><p>Using the modern Office.js API, we create cross-platform add-ins that work seamlessly on Windows, Mac, and Office on the Web.</p>",
+  "cta": {
+    "title": "Ready to start your project?",
+    "description": "Contact us today for a free technical consultation.",
+    "buttonText": "Contact Us",
+    "buttonUrl": "/#contact"
+  }
+}

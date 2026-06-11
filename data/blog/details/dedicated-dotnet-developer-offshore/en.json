@@ -1,0 +1,29 @@
+{
+  "id": "109",
+  "slug": "dedicated-dotnet-developer-offshore",
+  "title": "Hire a Dedicated .NET Developer Offshore",
+  "category": "Outsourcing",
+  "featuredImage": "/images/blog/dotnet-developer.png",
+  "author": {
+    "name": "James Carter",
+    "avatar": "/images/blog/authors/james-carter.png",
+    "role": "Senior Frontend Engineer",
+    "bio": "Passionate about building fast and scalable web applications with modern technologies."
+  },
+  "publishedAt": "2026-06-11",
+  "readTime": 5,
+  "metaDescription": "Scale your enterprise backend by hiring a dedicated .NET developer offshore. Get expert C# and ASP.NET Core talent seamlessly integrated into your team.",
+  "tags": [
+    "Outsourcing",
+    "Outsourcing",
+    "Sri Lanka"
+  ],
+  "relatedSlugs": [],
+  "content": "<p>When enterprise systems need to scale securely, .NET remains the gold standard. Hiring a <strong>dedicated .NET developer offshore</strong> is a strategic move for CTOs looking to expand their engineering capacity efficiently.</p><h2>Why .NET Core?</h2><p>Modern ASP.NET Core is incredibly fast, cross-platform, and perfect for microservices architecture. Our offshore .NET developers are experts in C#, Entity Framework, and Azure cloud deployments.</p><h2>The Offshore Advantage</h2><p>A dedicated offshore developer acts as an extension of your internal team. They attend your daily standups, follow your coding standards, and deliver high-quality code at a fraction of local hiring costs.</p>",
+  "cta": {
+    "title": "Ready to start your project?",
+    "description": "Contact us today for a free technical consultation.",
+    "buttonText": "Contact Us",
+    "buttonUrl": "/#contact"
+  }
+}

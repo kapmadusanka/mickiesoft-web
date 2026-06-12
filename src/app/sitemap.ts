@@ -30,6 +30,9 @@ const BASE_URL = "https://mickiesoft.lk"
 const LOCALES = ["en", "si"] as const
 type Locale = (typeof LOCALES)[number]
 
+/** Default locale — uses no URL prefix due to localePrefix: "as-needed" */
+const DEFAULT_LOCALE: Locale = "en"
+
 // ---------------------------------------------------------------------------
 // ISR revalidation — sitemap is re-generated at most once per hour.
 // This avoids a heavy file-system read on every request while ensuring
@@ -54,12 +57,16 @@ function buildEntry(
   changeFrequency: MetadataRoute.Sitemap[number]["changeFrequency"] = "monthly",
   priority = 0.8
 ): MetadataRoute.Sitemap[number] {
-  const alternateLanguages = LOCALES.reduce<Record<Locale, string>>(
+  // With localePrefix: "as-needed", the default locale has no URL prefix
+  const alternateLanguages = LOCALES.reduce<Record<string, string>>(
     (acc, locale) => {
-      acc[locale] = `${BASE_URL}/${locale}${path}`
+      acc[locale] =
+        locale === DEFAULT_LOCALE
+          ? `${BASE_URL}${path}`
+          : `${BASE_URL}/${locale}${path}`
       return acc
     },
-    {} as Record<Locale, string>
+    {}
   )
 
   return {

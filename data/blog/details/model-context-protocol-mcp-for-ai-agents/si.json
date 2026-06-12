@@ -1,0 +1,34 @@
+{
+  "id": "108",
+  "slug": "model-context-protocol-mcp-for-ai-agents",
+  "title": "Model Context Protocol (MCP): The Standard for Tool-Using AI Agents (Sinhala)",
+  "category": "AI",
+  "featuredImage": "/images/blog/ai-enterprise.png",
+  "author": {
+    "name": "Olivia Martin",
+    "avatar": "/images/blog/authors/olivia-martin.png",
+    "role": "Full-Stack Developer",
+    "bio": "Full-stack developer focused on AI-powered applications, developer tooling, and modern web platforms.",
+    "socials": {
+      "linkedin": "https://linkedin.com/in/oliviamartin",
+      "github": "https://github.com/oliviamartin"
+    }
+  },
+  "publishedAt": "2026-06-09",
+  "updatedAt": "2026-06-09",
+  "readTime": 7,
+  "metaDescription": "Model Context Protocol (MCP) — AI agents සඳහා tools, resources, සහ prompts connect කිරීමේ open standard පිළිබඳ ප්‍රායෝගික මාර්ගෝපදේශය.",
+  "tags": ["AI", "MCP", "AI agents", "Claude", "Tool Use", "2026 Trends"],
+  "relatedSlugs": [
+    "building-ai-agents-for-autonomous-workflows",
+    "building-with-the-claude-api-and-anthropic-sdk",
+    "multi-agent-systems-with-langgraph"
+  ],
+  "content": "<h2 id=\"introduction\">හැඳින්වීම</h2><p>Model Context Protocol (MCP) යනු Anthropic විසින් හඳුන්වා දෙන ලද open standard එකක් වන අතර, AI assistants external tools, data sources, සහ services සමඟ connect වන ආකාරය define කරයි. USB-C for AI agents ලෙස සිතන්න.</p><p>MCP servers tools, resources, සහ prompts ලෙස primitives තුනක් define කරයි. ඒවා TypeScript හෝ Python SDK භාවිතා කර ලිවිය හැකිය.</p><h2 id=\"summary\">සාරාංශය</h2><p>MCP AI agents real world සමඟ connect කිරීම සඳහා de-facto standard ලෙස ඉක්මනින් නිර්ණය වෙමින් පවතී. ඔබේ integrations MCP servers ලෙස build කිරීමෙන් models සහ frameworks හරහා portability ලැබේ. වැඩිදුර විස්තර සඳහා ඉංග්‍රීසි සංස්කරණය කියවන්න.</p>",
+  "cta": {
+    "title": "AI integration expertise අවශ්‍යද?",
+    "description": "Mickiesoft engineers production-ready MCP servers, AI agent pipelines, සහ enterprise products සඳහා LLM-powered features build කරයි.",
+    "buttonText": "සම්බන්ධ වන්න",
+    "buttonUrl": "/contact"
+  }
+}

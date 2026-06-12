@@ -107,6 +107,7 @@ export async function Footer() {
           <div className="flex gap-6">
             <Link href="#" className="text-sm text-slate-500 dark:text-slate-400 hover:text-blue-600 transition-colors">{t("privacyPolicy")}</Link>
             <Link href="#" className="text-sm text-slate-500 dark:text-slate-400 hover:text-blue-600 transition-colors">{t("termsOfService")}</Link>
+            <a href="https://welcomesrilanka.com" target="_blank" rel="noopener noreferrer" className="text-sm text-slate-900 dark:text-slate-100">Welcome Sri Lanka</a>
           </div>
         </div>
 

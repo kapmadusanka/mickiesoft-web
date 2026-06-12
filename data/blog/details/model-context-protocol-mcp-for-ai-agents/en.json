@@ -1,0 +1,58 @@
+{
+  "id": "108",
+  "slug": "model-context-protocol-mcp-for-ai-agents",
+  "title": "Model Context Protocol (MCP): The Standard for Tool-Using AI Agents",
+  "category": "AI",
+  "featuredImage": "/images/blog/ai-enterprise.png",
+  "author": {
+    "name": "Olivia Martin",
+    "avatar": "/images/blog/authors/olivia-martin.png",
+    "role": "Full-Stack Developer",
+    "bio": "Full-stack developer focused on AI-powered applications, developer tooling, and modern web platforms.",
+    "socials": {
+      "linkedin": "https://linkedin.com/in/oliviamartin",
+      "github": "https://github.com/oliviamartin"
+    }
+  },
+  "publishedAt": "2026-06-09",
+  "updatedAt": "2026-06-09",
+  "readTime": 7,
+  "metaDescription": "Model Context Protocol (MCP) explained: how to build MCP servers, connect tools to Claude and other AI agents, and integrate MCP into production workflows.",
+  "tags": ["AI", "MCP", "AI agents", "Claude", "Tool Use", "2026 Trends"],
+  "relatedSlugs": [
+    "building-ai-agents-for-autonomous-workflows",
+    "building-with-the-claude-api-and-anthropic-sdk",
+    "multi-agent-systems-with-langgraph"
+  ],
+  "content": "<h2 id=\"introduction\">Introduction</h2><p>Model Context Protocol (MCP) is an open standard introduced by Anthropic that defines how AI assistants connect to external tools, data sources, and services. Think of it as USB-C for AI agents: a single, universal connector that works across models, IDEs, and orchestration platforms.</p><p>Before MCP, every team built bespoke integrations — custom tool schemas for each LLM, brittle API wrappers, and no way to share tools between projects. MCP replaces that fragmentation with a clean protocol that any compliant client (Claude, IDEs, agent frameworks) can use without changes.</p><h2 id=\"what-is-mcp\">What MCP Actually Is</h2><p>MCP defines three primitives: <strong>Tools</strong> (functions the model can call), <strong>Resources</strong> (data the model can read), and <strong>Prompts</strong> (reusable prompt templates). These are exposed by an MCP <em>server</em> — a lightweight process your code controls — and consumed by an MCP <em>client</em> such as Claude Desktop, the Claude API, or VS Code.</p><p>The protocol runs over JSON-RPC 2.0, transported over either stdio (for local servers) or HTTP+SSE (for remote servers). The transport is an implementation detail; as a server author, you declare your capabilities and the client handles discovery and invocation.</p><h2 id=\"building-an-mcp-server\">Building an MCP Server</h2><p>The official TypeScript and Python SDKs make server authorship straightforward. A minimal server exposes one tool:</p><pre><code>import { McpServer } from \"@modelcontextprotocol/sdk/server/mcp.js\"
+import { StdioServerTransport } from \"@modelcontextprotocol/sdk/server/stdio.js\"
+import { z } from \"zod\"
+
+const server = new McpServer({ name: \"data-lookup\", version: \"1.0.0\" })
+
+server.tool(
+  \"query_database\",
+  \"Run a read-only SQL query against the analytics database\",
+  { sql: z.string().describe(\"SQL SELECT statement\") },
+  async ({ sql }) => {
+    const rows = await db.query(sql)
+    return { content: [{ type: \"text\", text: JSON.stringify(rows) }] }
+  }
+)
+
+const transport = new StdioServerTransport()
+await server.connect(transport)</code></pre><p>Register this server in your Claude Desktop config or in your agent's MCP client, and the model can now query your database with natural language — safely, because the server enforces read-only access.</p><h2 id=\"resources\">Resources: Giving Agents Context</h2><p>Resources are read-only data sources — files, API endpoints, database records — that the model can request when forming a response. Unlike tools, resources do not trigger side effects. They're ideal for making documentation, code repositories, or knowledge bases available to an agent without bloating the system prompt.</p><pre><code>server.resource(
+  \"company-docs\",
+  \"Internal engineering documentation\",
+  async (uri) => {
+    const content = await fetchDoc(uri.toString())
+    return { contents: [{ uri: uri.toString(), text: content, mimeType: \"text/markdown\" }] }
+  }
+)</code></pre><h2 id=\"prompts\">Prompts: Reusable Templates</h2><p>MCP prompts are parameterized message sequences stored on the server. They let you standardize how agents approach common tasks — code review, incident triage, document summarization — so every caller gets the same battle-tested starting point without copy-pasting prompt strings across projects.</p><h2 id=\"security-considerations\">Security Considerations</h2><p>MCP servers run with the permissions of the process that executes them. For local servers this is usually fine, but remote HTTP servers need authentication, input validation, and rate limiting.</p><ul><li><strong>Tool scope:</strong> Expose only what the model needs. A customer support agent should not have write access to the billing database.</li><li><strong>Input validation:</strong> Use Zod (TypeScript) or Pydantic (Python) schema validation on every tool input. Never trust LLM-generated strings directly in SQL or shell commands.</li><li><strong>Secrets:</strong> Never put API keys in tool schemas. Inject them as environment variables on the server process.</li><li><strong>Audit logging:</strong> Log every tool invocation with the tool name, sanitized inputs, and calling user/agent identity.</li></ul><h2 id=\"mcp-in-production\">MCP in Production Agent Workflows</h2><p>For production agentic systems, remote MCP servers over HTTP+SSE scale better than local stdio. Deploy your MCP server as a containerized service behind your API gateway and share it across multiple agent deployments.</p><p>LangGraph, LlamaIndex, and the Claude API's tool-use feature are all MCP-aware. This means the same MCP server you register in Claude Desktop is also available to your CI/CD automation agent and your customer-facing support bot — no duplicate integrations.</p><h2 id=\"mcp-vs-custom-tools\">MCP vs. Custom Tool Schemas</h2><p>If you are already using the Claude API with a custom <code>tools</code> array, migration to MCP is incremental. Your tool logic moves into an MCP server; the schema stays the same. The payoff is portability: the same server now works with any MCP-compatible client without per-model wrapper code.</p><h2 id=\"conclusion\">Conclusion</h2><p>MCP is rapidly becoming the de-facto standard for connecting AI agents to the real world. By building your integrations as MCP servers, you get portability across models and frameworks, a security boundary around sensitive operations, and a reusable catalog of tools your whole organization can share.</p><p>Start with one tool that your agents use most frequently, wrap it in an MCP server, and validate the integration in Claude Desktop before wiring it into your production agent pipeline.</p>",
+  "cta": {
+    "title": "Need AI integration expertise?",
+    "description": "Mickiesoft engineers build production-ready MCP servers, AI agent pipelines, and LLM-powered features for enterprise products.",
+    "buttonText": "Get in Touch",
+    "buttonUrl": "/contact"
+  }
+}

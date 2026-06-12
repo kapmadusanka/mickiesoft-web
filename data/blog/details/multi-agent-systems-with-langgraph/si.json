@@ -1,0 +1,34 @@
+{
+  "id": "107",
+  "slug": "multi-agent-systems-with-langgraph",
+  "title": "Multi-Agent Systems with LangGraph: Orchestrating Complex AI Pipelines (Sinhala)",
+  "category": "AI",
+  "featuredImage": "/images/blog/ai-enterprise.png",
+  "author": {
+    "name": "Daniel Lee",
+    "avatar": "/images/blog/authors/daniel-lee.png",
+    "role": "Cloud Architect",
+    "bio": "Cloud architect specializing in distributed systems, AI infrastructure, and large-scale backend engineering.",
+    "socials": {
+      "linkedin": "https://linkedin.com/in/daniellee",
+      "github": "https://github.com/daniellee"
+    }
+  },
+  "publishedAt": "2026-06-10",
+  "updatedAt": "2026-06-10",
+  "readTime": 8,
+  "metaDescription": "LangGraph සමඟ multi-agent AI systems නිර්මාණය කිරීම පිළිබඳ ප්‍රායෝගික මාර්ගෝපදේශය.",
+  "tags": ["AI", "AI agents", "LangGraph", "LLM", "Multi-Agent", "2026 Trends"],
+  "relatedSlugs": [
+    "building-ai-agents-for-autonomous-workflows",
+    "rag-in-production-architecture-and-pitfalls",
+    "vector-databases-pinecone-vs-weaviate-vs-pgvector"
+  ],
+  "content": "<h2 id=\"introduction\">හැඳින්වීම</h2><p>Multi-agent systems යනු තනි LLM call එකකට ඔබ්බෙන් ඇති ඊළඟ පරිණාමයයි. LangGraph යනු මෙම systems graph-based state machines ලෙස නිර්මාණය කිරීම සඳහා ප්‍රමුඛ open-source framework ය.</p><p>මෙම ලිපිය LangGraph core primitives, agent handoffs සඳහා ප්‍රායෝගික patterns, සහ production multi-agent pipelines ක්‍රියාත්මකව දිවෙනු ලැබීමට ගතහැකි ක්‍රම විස්තර කරයි.</p><h2 id=\"summary\">සාරාංශය</h2><p>LangGraph graph primitives, state management, සහ interrupt mechanism සමඟ reliable multi-agent systems නිර්මාණය කිරීමට ඔබට අවශ්‍ය සෑම දෙයක්ම ලබා දෙයි. Supervisor pattern බොහෝ use cases cover කරයි. වැඩිදුර විස්තර සඳහා ඉංග්‍රීසි සංස්කරණය කියවන්න.</p>",
+  "cta": {
+    "title": "Multi-agent AI systems නිර්මාණය කිරීමට අවශ්‍යද?",
+    "description": "Mickiesoft engineers AI agent development, LLM integration, සහ production-grade agentic workflows සඳහා විශේෂඥ වේ.",
+    "buttonText": "අපේ Team සමඟ කතා කරන්න",
+    "buttonUrl": "/contact"
+  }
+}

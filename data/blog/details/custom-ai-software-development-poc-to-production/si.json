@@ -1,0 +1,34 @@
+{
+  "id": "113",
+  "slug": "custom-ai-software-development-poc-to-production",
+  "title": "Custom AI Software Development: From Proof of Concept to Production (Sinhala)",
+  "category": "AI",
+  "featuredImage": "/images/blog/ai-enterprise.png",
+  "author": {
+    "name": "James Carter",
+    "avatar": "/images/blog/authors/james-carter.png",
+    "role": "Senior Frontend Engineer",
+    "bio": "Senior engineer with experience taking AI features from prototype to production at scale.",
+    "socials": {
+      "linkedin": "https://linkedin.com/in/jamescarter",
+      "github": "https://github.com/jamescarter"
+    }
+  },
+  "publishedAt": "2026-06-09",
+  "updatedAt": "2026-06-09",
+  "readTime": 8,
+  "metaDescription": "Custom AI software development සඳහා සම්පූර්ණ roadmap: proof of concept සිට pilot හරහා production දක්වා — stages, pitfalls, සහ decision points.",
+  "tags": ["AI", "Custom AI", "Software Development", "LLM", "Production AI", "2026 Trends"],
+  "relatedSlugs": [
+    "how-ai-is-transforming-enterprise-software-development",
+    "building-ai-agents-for-autonomous-workflows",
+    "agentic-ai-in-production-observability-and-reliability"
+  ],
+  "content": "<h2 id=\"introduction\">හැඳින්වීම</h2><p>බොහෝ custom AI projects fail වන්නේ bad ideas නිසා නොව teams working demo production-ready system ලෙස confuse කරන නිසාය. Discovery, PoC, Pilot, සහ Production Hardening — සෑම සාර්ථක custom AI project ම මේ stages හරහා ගමන් කරයි.</p><p>PoC trap: leadership demo දකින විට work almost done ලෙස assume කරයි. Reality: PoC typically total production development effort 10-20%. Evaluation harness PoC phase හිදී build කරන්න — PoC ට පෙර ද.</p><h2 id=\"summary\">සාරාංශය</h2><p>PoC සිට production දක්වා custom AI development හි path deliberate stages හරහා predictable ය. Discovery scopes problem, PoC proves feasibility, pilot real-world failure modes discover කරයි, production hardening scale ලෙස reliable කරයි. වැඩිදුර විස්තර සඳහා ඉංග්‍රීසි සංස්කරණය කියවන්න.</p>",
+  "cta": {
+    "title": "AI project production ට take කිරීමට සූදානම්ද?",
+    "description": "Mickiesoft dozens of AI features proof of concept සිට production දක්වා guide කර ඇත. Engineers full stack handle කරයි — LLM integration, backend, frontend, සහ operations.",
+    "buttonText": "AI Project ගැන කතා කරන්න",
+    "buttonUrl": "/contact"
+  }
+}

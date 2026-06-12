@@ -1,0 +1,34 @@
+{
+  "id": "109",
+  "slug": "ai-agent-memory-systems-patterns",
+  "title": "AI Agent Memory Systems: Short-Term, Long-Term, and Episodic Patterns (Sinhala)",
+  "category": "AI",
+  "featuredImage": "/images/blog/ai-enterprise.png",
+  "author": {
+    "name": "Sophia Nguyen",
+    "avatar": "/images/blog/authors/sophia-nguyen.png",
+    "role": "DevOps Engineer",
+    "bio": "Engineer focused on AI infrastructure, platform reliability, and developer experience for ML teams.",
+    "socials": {
+      "linkedin": "https://linkedin.com/in/sophianguyen",
+      "github": "https://github.com/sophianguyen"
+    }
+  },
+  "publishedAt": "2026-06-08",
+  "updatedAt": "2026-06-08",
+  "readTime": 7,
+  "metaDescription": "AI agent memory systems පිළිබඳ සම්පූර්ණ මාර්ගෝපදේශය: in-context, external, episodic, සහ semantic memory architecture patterns.",
+  "tags": ["AI", "AI agents", "Memory", "RAG", "Vector Databases", "LLM", "2026 Trends"],
+  "relatedSlugs": [
+    "building-ai-agents-for-autonomous-workflows",
+    "rag-in-production-architecture-and-pitfalls",
+    "vector-databases-pinecone-vs-weaviate-vs-pgvector"
+  ],
+  "content": "<h2 id=\"introduction\">හැඳින්වීම</h2><p>Memory යනු stateless chatbot එකක් සහ capable AI agent යකක් අතර වෙනස කරන දෙයයි. නිවැරදි memory architecture සමඟ, agent කෙනෙකුට පසුගිය සතියේ conversation මතක් කරගෙන, accumulated domain knowledge භාවිතා කළ හැකිය.</p><p>Memory types හතරක් ඇත: in-context (working memory), external (long-term storage), episodic (session summaries), සහ semantic (structured facts). Production agents මේ ඒවා ඒකාබද්ධ කරයි.</p><h2 id=\"summary\">සාරාංශය</h2><p>Memory layered system එකක් — in-context memory සහ episodic summaries දී ආරම්භ කරන්න; knowledge base context window ඉක්මවූ විට vector retrieval add කරන්න; evolving structured facts track කිරීමට semantic memory add කරන්න. වැඩිදුර විස්තර සඳහා ඉංග්‍රීසි සංස්කරණය කියවන්න.</p>",
+  "cta": {
+    "title": "Memory-enabled AI agent build කරනවාද?",
+    "description": "Mickiesoft's AI team enterprise applications සඳහා robust memory architectures සහිත production agent systems design සහ build කරයි.",
+    "buttonText": "කතා කරමු",
+    "buttonUrl": "/contact"
+  }
+}

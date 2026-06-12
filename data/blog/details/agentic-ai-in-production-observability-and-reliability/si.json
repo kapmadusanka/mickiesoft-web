@@ -1,0 +1,34 @@
+{
+  "id": "110",
+  "slug": "agentic-ai-in-production-observability-and-reliability",
+  "title": "Agentic AI in Production: Observability, Reliability, and Cost Control (Sinhala)",
+  "category": "AI",
+  "featuredImage": "/images/blog/ai-enterprise.png",
+  "author": {
+    "name": "Alex Mercer",
+    "avatar": "/images/blog/authors/james-carter.jpg",
+    "role": "Security Engineer",
+    "bio": "Security and platform engineer with deep experience in production AI systems, observability pipelines, and incident response.",
+    "socials": {
+      "linkedin": "https://linkedin.com/in/alexmercer",
+      "github": "https://github.com/alexmercer"
+    }
+  },
+  "publishedAt": "2026-06-07",
+  "updatedAt": "2026-06-07",
+  "readTime": 8,
+  "metaDescription": "Production agentic AI reliability: LLM observability, latency budgets, cost guardrails, failure modes, සහ on-call runbooks පිළිබඳ ප්‍රායෝගික මාර්ගෝපදේශය.",
+  "tags": ["AI", "AI agents", "Observability", "Reliability", "Production", "LLM", "2026 Trends"],
+  "relatedSlugs": [
+    "building-ai-agents-for-autonomous-workflows",
+    "multi-agent-systems-with-langgraph",
+    "observability-with-opentelemetry"
+  ],
+  "content": "<h2 id=\"introduction\">හැඳින්වීම</h2><p>Production AI agent deploy කිරීම deterministic microservice deploy කිරීමට සමාන නොවේ. Agents LLM calls chains නිර්මාණය කරයි, external tools invoke කරයි, time over state accumulate කරයි, සහ identical inputs සඳහා wildly different outputs නිර්මාණය කළ හැකිය.</p><p>Infinite loops, hallucinated tool calls, context poisoning, latency tail explosion, සහ cost spikes — මේ ඒවා agentic failure modes. Observability stack, cost guardrails, සහ runbooks ඔබේ production launch කට පෙර සූදානම් කළ යුතුය.</p><h2 id=\"summary\">සාරාංශය</h2><p>Production agentic AI engineering discipline මෙන්ම operational discipline ද ය. Every LLM call trace කරන්න, launch කිරීමට පෙර hard cost limits set කරන්න, සහ runbooks ලියන්න. වැඩිදුර විස්තර සඳහා ඉංග්‍රීසි සංස්කරණය කියවන්න.</p>",
+  "cta": {
+    "title": "Production AI agents launch කරනවාද?",
+    "description": "Mickiesoft enterprise workloads සඳහා observable, reliable, සහ cost-efficient agentic AI systems design කිරීමට teams සහාය කරයි.",
+    "buttonText": "Engineers සමඟ කතා කරන්න",
+    "buttonUrl": "/contact"
+  }
+}

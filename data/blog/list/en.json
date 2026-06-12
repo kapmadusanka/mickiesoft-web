@@ -1,5 +1,133 @@
 [
   {
+    "id": "111",
+    "slug": "ai-development-services-how-to-choose-vendor",
+    "title": "AI Development Services: How to Choose the Right Vendor in 2026",
+    "excerpt": "A practical guide for enterprise buyers evaluating AI development services: key capabilities, red flags, pricing models, and a vendor scorecard.",
+    "category": "Outsourcing",
+    "featuredImage": "/images/blog/ai-enterprise.png",
+    "author": {
+      "name": "James Carter",
+      "avatar": "/images/blog/authors/james-carter.png",
+      "role": "Senior Frontend Engineer"
+    },
+    "publishedAt": "2026-06-11",
+    "readTime": 7,
+    "isFeatured": true
+  },
+  {
+    "id": "107",
+    "slug": "multi-agent-systems-with-langgraph",
+    "title": "Multi-Agent Systems with LangGraph: Orchestrating Complex AI Pipelines",
+    "excerpt": "Learn how to build multi-agent systems with LangGraph: graph-based orchestration, agent handoffs, human-in-the-loop, and production deployment patterns.",
+    "category": "AI",
+    "featuredImage": "/images/blog/ai-enterprise.png",
+    "author": {
+      "name": "Daniel Lee",
+      "avatar": "/images/blog/authors/daniel-lee.png",
+      "role": "Cloud Architect"
+    },
+    "publishedAt": "2026-06-10",
+    "readTime": 8,
+    "isFeatured": false
+  },
+  {
+    "id": "112",
+    "slug": "hiring-ai-development-team-skills-costs-models",
+    "title": "Hiring an AI Development Team: Skills, Costs, and Engagement Models",
+    "excerpt": "What skills does an AI development team need, what does it cost, and how should you engage them? A practical hiring guide for engineering leaders in 2026.",
+    "category": "Outsourcing",
+    "featuredImage": "/images/blog/hire-developers.png",
+    "author": {
+      "name": "James Carter",
+      "avatar": "/images/blog/authors/james-carter.png",
+      "role": "Senior Frontend Engineer"
+    },
+    "publishedAt": "2026-06-10",
+    "readTime": 8,
+    "isFeatured": false
+  },
+  {
+    "id": "108",
+    "slug": "model-context-protocol-mcp-for-ai-agents",
+    "title": "Model Context Protocol (MCP): The Standard for Tool-Using AI Agents",
+    "excerpt": "MCP explained: how to build MCP servers, connect tools to Claude and other AI agents, and integrate MCP into production workflows.",
+    "category": "AI",
+    "featuredImage": "/images/blog/ai-enterprise.png",
+    "author": {
+      "name": "Olivia Martin",
+      "avatar": "/images/blog/authors/olivia-martin.png",
+      "role": "Full-Stack Developer"
+    },
+    "publishedAt": "2026-06-09",
+    "readTime": 7,
+    "isFeatured": false
+  },
+  {
+    "id": "113",
+    "slug": "custom-ai-software-development-poc-to-production",
+    "title": "Custom AI Software Development: From Proof of Concept to Production",
+    "excerpt": "The complete roadmap for custom AI software development: stages, pitfalls, and decision points from PoC through pilot to production.",
+    "category": "AI",
+    "featuredImage": "/images/blog/ai-enterprise.png",
+    "author": {
+      "name": "James Carter",
+      "avatar": "/images/blog/authors/james-carter.png",
+      "role": "Senior Frontend Engineer"
+    },
+    "publishedAt": "2026-06-09",
+    "readTime": 8,
+    "isFeatured": false
+  },
+  {
+    "id": "109",
+    "slug": "ai-agent-memory-systems-patterns",
+    "title": "AI Agent Memory Systems: Short-Term, Long-Term, and Episodic Patterns",
+    "excerpt": "A complete guide to AI agent memory: in-context, external, episodic, and semantic memory systems with architecture patterns and implementation examples.",
+    "category": "AI",
+    "featuredImage": "/images/blog/ai-enterprise.png",
+    "author": {
+      "name": "Sophia Nguyen",
+      "avatar": "/images/blog/authors/sophia-nguyen.png",
+      "role": "DevOps Engineer"
+    },
+    "publishedAt": "2026-06-08",
+    "readTime": 7,
+    "isFeatured": false
+  },
+  {
+    "id": "114",
+    "slug": "llm-integration-enterprise-buyers-guide",
+    "title": "LLM Integration for Enterprise: A Practical Buyer's Guide",
+    "excerpt": "Model selection, data privacy architecture, cost modeling, vendor comparison, and integration patterns for enterprise LLM adoption in 2026.",
+    "category": "AI",
+    "featuredImage": "/images/blog/ai-enterprise.png",
+    "author": {
+      "name": "Daniel Lee",
+      "avatar": "/images/blog/authors/daniel-lee.png",
+      "role": "Cloud Architect"
+    },
+    "publishedAt": "2026-06-08",
+    "readTime": 9,
+    "isFeatured": false
+  },
+  {
+    "id": "110",
+    "slug": "agentic-ai-in-production-observability-and-reliability",
+    "title": "Agentic AI in Production: Observability, Reliability, and Cost Control",
+    "excerpt": "How to run agentic AI reliably in production: LLM observability, latency budgets, cost guardrails, failure modes, and runbook patterns for on-call engineers.",
+    "category": "AI",
+    "featuredImage": "/images/blog/ai-enterprise.png",
+    "author": {
+      "name": "Alex Mercer",
+      "avatar": "/images/blog/authors/james-carter.jpg",
+      "role": "Security Engineer"
+    },
+    "publishedAt": "2026-06-07",
+    "readTime": 8,
+    "isFeatured": false
+  },
+  {
     "id": "106",
     "slug": "software-outsourcing-for-us-uk-companies",
     "title": "Software Outsourcing for US and UK Companies from Sri Lanka",

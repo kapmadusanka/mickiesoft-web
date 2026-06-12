@@ -1,0 +1,58 @@
+{
+  "id": "109",
+  "slug": "ai-agent-memory-systems-patterns",
+  "title": "AI Agent Memory Systems: Short-Term, Long-Term, and Episodic Patterns",
+  "category": "AI",
+  "featuredImage": "/images/blog/ai-enterprise.png",
+  "author": {
+    "name": "Sophia Nguyen",
+    "avatar": "/images/blog/authors/sophia-nguyen.png",
+    "role": "DevOps Engineer",
+    "bio": "Engineer focused on AI infrastructure, platform reliability, and developer experience for ML teams.",
+    "socials": {
+      "linkedin": "https://linkedin.com/in/sophianguyen",
+      "github": "https://github.com/sophianguyen"
+    }
+  },
+  "publishedAt": "2026-06-08",
+  "updatedAt": "2026-06-08",
+  "readTime": 7,
+  "metaDescription": "A complete guide to AI agent memory: in-context, external, episodic, and semantic memory systems — with architecture patterns and implementation examples.",
+  "tags": ["AI", "AI agents", "Memory", "RAG", "Vector Databases", "LLM", "2026 Trends"],
+  "relatedSlugs": [
+    "building-ai-agents-for-autonomous-workflows",
+    "rag-in-production-architecture-and-pitfalls",
+    "vector-databases-pinecone-vs-weaviate-vs-pgvector"
+  ],
+  "content": "<h2 id=\"introduction\">Introduction</h2><p>Memory is what separates a stateless chatbot from a capable AI agent. Without memory, every interaction starts from scratch. With the right memory architecture, an agent can recall a conversation from last week, draw on accumulated domain knowledge, and learn from past failures.</p><p>There is no single \"memory\" solution — production agents combine multiple memory types, each with different latency, capacity, and persistence characteristics. This guide breaks them down and shows how to wire them together.</p><h2 id=\"memory-taxonomy\">The Four Memory Types</h2><h3 id=\"in-context\">1. In-Context Memory (Working Memory)</h3><p>In-context memory is whatever fits in the model's active context window. It is the fastest and simplest: no extra infrastructure, zero latency overhead, and the model has direct attention across every token.</p><p>Its limits are hard: context windows top out (even 200k tokens fills up in long agentic sessions), cost scales linearly with tokens, and nothing persists across sessions.</p><p>Use in-context memory for: the current session's message history, tool call results, and any documents retrieved for the immediate task.</p><h3 id=\"external-memory\">2. External Memory (Long-Term Storage)</h3><p>External memory lives outside the model — in databases, file systems, or object stores. The agent fetches relevant pieces at query time rather than loading everything at once.</p><p>This is the pattern most commonly called RAG (Retrieval-Augmented Generation). A retrieval step selects the most relevant chunks from a large corpus and injects them into the context for the current turn.</p><pre><code>async function retrieveMemories(query: string, topK = 5): Promise<string[]> {
+  const queryEmbedding = await embedder.embed(query)
+  const results = await vectorStore.query({
+    vector: queryEmbedding,
+    topK,
+    filter: { userId: currentUser.id }
+  })
+  return results.map(r => r.metadata.text)
+}
+
+// Before each LLM call:
+const memories = await retrieveMemories(userMessage)
+const systemPrompt = buildSystemPrompt({ memories })</code></pre><h3 id=\"episodic-memory\">3. Episodic Memory (Session Summaries)</h3><p>Episodic memory stores summaries of past sessions rather than raw transcripts. After each conversation ends, a summarization step condenses the key facts, decisions, and outcomes into a compact record tied to the user or task.</p><p>At the start of a new session, the agent retrieves recent episode summaries and injects them into the system prompt. This gives continuity without blowing up the context with unedited history.</p><pre><code>async function summarizeSession(messages: Message[]): Promise<Episode> {
+  const summary = await llm.invoke([
+    { role: \"system\", content: \"Extract key facts, decisions, and action items from this conversation. Be concise.\" },
+    { role: \"user\", content: formatMessages(messages) }
+  ])
+  return {
+    id: uuid(),
+    userId: currentUser.id,
+    createdAt: new Date(),
+    summary: summary.content,
+    embedding: await embedder.embed(summary.content)
+  }
+}</code></pre><h3 id=\"semantic-memory\">4. Semantic Memory (Knowledge Graphs and Structured Facts)</h3><p>Semantic memory stores structured, factual knowledge: user preferences, project parameters, entity relationships. Unlike episodic summaries (narrative), semantic memory is a queryable knowledge graph or key-value store of facts the agent should always know about a user or domain.</p><p>A CRM-integrated support agent might maintain semantic memory of each customer's plan tier, past issues, and product usage patterns — updated incrementally as new interactions occur.</p><h2 id=\"memory-write-patterns\">Memory Write Patterns</h2><p>When should an agent write to memory? The two common approaches are:</p><ul><li><strong>Synchronous (in-turn):</strong> The agent writes to memory as part of its tool-use loop. Simple but adds latency to every turn.</li><li><strong>Asynchronous (post-turn):</strong> Memory writing happens after the user-facing response is returned. Lower latency but introduces a brief consistency window where the new memory isn't available yet.</li></ul><p>For most applications, asynchronous writes are the right call. Write a brief immediate summary to in-context state, then kick off an async job to update vector storage and episode records.</p><h2 id=\"memory-forgetting\">Forgetting: Why It Matters</h2><p>Unbounded memory accumulation degrades retrieval quality — irrelevant old records score above fresh ones. Build retention policies:</p><ul><li>TTL-based expiry for low-value episodic summaries</li><li>Importance scoring to prioritize high-signal memories during retrieval</li><li>User-triggered deletion to satisfy privacy obligations (GDPR right to erasure)</li></ul><h2 id=\"architecture-reference\">Reference Architecture</h2><p>A production memory stack for an agent looks like this:</p><ul><li><strong>In-context:</strong> Last 20 messages + retrieved chunks, managed by the agent loop</li><li><strong>Episodic store:</strong> PostgreSQL table with a pgvector column, summarized nightly</li><li><strong>Semantic store:</strong> Redis hash per user for structured facts, updated on relevant tool calls</li><li><strong>Document store:</strong> Pinecone or Weaviate for large knowledge bases, retrieved by semantic similarity</li></ul><h2 id=\"conclusion\">Conclusion</h2><p>Memory is not one thing — it is a layered system where each tier has a different cost, capacity, and persistence trade-off. Start with in-context memory and episodic summaries; add vector retrieval when the knowledge base outgrows the context window; introduce semantic memory when the agent needs to track evolving structured facts.</p><p>Build forgetting into the design from the start. An agent that accumulates noise forever performs worse over time, not better.</p>",
+  "cta": {
+    "title": "Building a memory-enabled AI agent?",
+    "description": "Mickiesoft's AI team designs and builds production agent systems with robust memory architectures for enterprise applications.",
+    "buttonText": "Let's Talk",
+    "buttonUrl": "/contact"
+  }
+}

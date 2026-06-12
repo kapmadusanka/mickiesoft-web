@@ -1,0 +1,69 @@
+{
+  "id": "107",
+  "slug": "multi-agent-systems-with-langgraph",
+  "title": "Multi-Agent Systems with LangGraph: Orchestrating Complex AI Pipelines",
+  "category": "AI",
+  "featuredImage": "/images/blog/ai-enterprise.png",
+  "author": {
+    "name": "Daniel Lee",
+    "avatar": "/images/blog/authors/daniel-lee.png",
+    "role": "Cloud Architect",
+    "bio": "Cloud architect specializing in distributed systems, AI infrastructure, and large-scale backend engineering.",
+    "socials": {
+      "linkedin": "https://linkedin.com/in/daniellee",
+      "github": "https://github.com/daniellee"
+    }
+  },
+  "publishedAt": "2026-06-10",
+  "updatedAt": "2026-06-10",
+  "readTime": 8,
+  "metaDescription": "Learn how to build multi-agent systems with LangGraph: graph-based orchestration, agent handoffs, human-in-the-loop, and production deployment patterns.",
+  "tags": ["AI", "AI agents", "LangGraph", "LLM", "Multi-Agent", "2026 Trends"],
+  "relatedSlugs": [
+    "building-ai-agents-for-autonomous-workflows",
+    "rag-in-production-architecture-and-pitfalls",
+    "vector-databases-pinecone-vs-weaviate-vs-pgvector"
+  ],
+  "content": "<h2 id=\"introduction\">Introduction</h2><p>Multi-agent systems represent the next evolution beyond single-prompt LLM calls. Instead of one model handling everything, you decompose complex workflows into specialized agents that coordinate, delegate, and check each other's work. LangGraph is the leading open-source framework for building these systems as stateful graphs.</p><p>This guide covers LangGraph's core primitives, practical patterns for agent handoffs, and what it takes to run multi-agent pipelines reliably in production.</p><h2 id=\"why-multi-agent\">Why Multi-Agent Over Single-Agent?</h2><p>A single agent running in a loop can handle simple tasks, but breaks down when the problem space is wide or when different sub-tasks require different expertise, context windows, or tool sets.</p><ul><li><strong>Specialization:</strong> A research agent retrieves and summarizes; a code agent writes and tests; a review agent verifies. Each has focused prompts, tools, and context.</li><li><strong>Parallelism:</strong> Independent sub-tasks run concurrently, dramatically cutting end-to-end latency.</li><li><strong>Reliability:</strong> Explicit checkpoints and human-in-the-loop nodes prevent runaway pipelines and enable recovery.</li><li><strong>Cost control:</strong> Route cheap tasks to smaller models and expensive reasoning to frontier models only when needed.</li></ul><h2 id=\"langgraph-core-concepts\">LangGraph Core Concepts</h2><p>LangGraph models your workflow as a directed graph where nodes are Python functions (or agents) and edges define control flow. State flows through the graph as a typed dictionary.</p><h3 id=\"state\">State</h3><p>Every graph has a shared state schema. Nodes read from it, make decisions or LLM calls, and write updates back. TypedDict with <code>Annotated</code> fields and reducers (like <code>add_messages</code>) keeps concurrent updates safe.</p><pre><code>from typing import Annotated, TypedDict
+from langgraph.graph.message import add_messages
+
+class AgentState(TypedDict):
+    messages: Annotated[list, add_messages]
+    next_agent: str
+    artifacts: list[dict]</code></pre><h3 id=\"nodes\">Nodes</h3><p>A node is any callable that receives the current state and returns a partial state update. Nodes can invoke LLMs, call tools, run code, query databases, or delegate to sub-graphs.</p><h3 id=\"edges\">Edges and Conditional Routing</h3><p>Static edges always move to the same next node. Conditional edges call a router function that inspects state and returns the name of the next node — this is how you implement supervisor routing, tool dispatch, and loop control.</p><pre><code>def route_after_supervisor(state: AgentState) -> str:
+    last_message = state["messages"][-1]
+    if last_message.content == "FINISH":
+        return END
+    return state["next_agent"]
+
+graph.add_conditional_edges("supervisor", route_after_supervisor)</code></pre><h2 id=\"supervisor-pattern\">The Supervisor Pattern</h2><p>The most common multi-agent architecture has a supervisor node that reads the task, selects which worker agent to call next, and decides when the task is complete. Workers are isolated — they only see their portion of state.</p><p>The supervisor is typically an LLM call with a structured output that names the next agent. This keeps the routing logic readable and allows the supervisor to explain its decisions.</p><pre><code>from langchain_anthropic import ChatAnthropic
+from pydantic import BaseModel
+
+class RouterDecision(BaseModel):
+    next: str  # "researcher" | "coder" | "reviewer" | "FINISH"
+    reasoning: str
+
+supervisor_llm = ChatAnthropic(model="claude-sonnet-4-6").with_structured_output(RouterDecision)
+
+def supervisor_node(state: AgentState):
+    decision = supervisor_llm.invoke([
+        {"role": "system", "content": SUPERVISOR_PROMPT},
+        *state["messages"]
+    ])
+    return {"next_agent": decision.next}</code></pre><h2 id=\"agent-handoffs\">Agent Handoffs and Context Passing</h2><p>Each worker agent receives the full message history but has its own system prompt tuned for its role. Artifacts (code files, research summaries, test results) accumulate in the shared state so downstream agents can reference them.</p><p>Keep handoff context tight. Passing an entire conversation to a specialized agent is expensive and often counterproductive. Use a summary node to compress history before handoffs in long-running workflows.</p><h2 id=\"human-in-the-loop\">Human-in-the-Loop</h2><p>LangGraph's interrupt mechanism pauses graph execution at any node and surfaces the current state to a human reviewer. This is critical for high-stakes workflows: approving a deployment plan, reviewing generated contracts, or validating an AI-written PR.</p><pre><code>from langgraph.types import interrupt
+
+def approval_node(state: AgentState):
+    human_review = interrupt({
+        "question": "Does this plan look correct?",
+        "plan": state["artifacts"][-1]
+    })
+    if human_review["approved"]:
+        return {"next_agent": "executor"}
+    return {"next_agent": "planner", "messages": [{"role": "user", "content": human_review["feedback"]}]}</code></pre><h2 id=\"production-patterns\">Production Deployment Patterns</h2><p>Running LangGraph in production requires a persistence layer, a way to resume interrupted graphs, and observability on every node execution.</p><ul><li><strong>Checkpointers:</strong> Use <code>PostgresSaver</code> or <code>RedisSaver</code> to persist graph state between turns. This enables long-running workflows that survive restarts and async human review.</li><li><strong>LangGraph Platform:</strong> The managed cloud offering handles deployment, scaling, and the UI for human-in-the-loop. Useful for teams that want to skip the ops overhead.</li><li><strong>Streaming:</strong> Stream events with <code>graph.astream_events()</code> so frontends can show incremental progress. Buffer tool call results and emit agent-level milestones to keep UX responsive.</li><li><strong>Observability:</strong> Instrument every node with LangSmith traces or OpenTelemetry. Track token usage, latency per node, and failure modes across runs.</li></ul><h2 id=\"cost-and-latency\">Cost and Latency Optimization</h2><p>Multi-agent systems multiply LLM calls, so costs can escalate quickly without discipline. Assign model tiers to agents by task complexity. Use Claude Haiku for classification and routing; reserve Opus or Sonnet for deep reasoning nodes.</p><p>Cache deterministic sub-tasks. If a research agent pulls the same documentation page on every run, cache the retrieval result keyed by query hash. Prompt caching on Anthropic's API also reduces cost for long system prompts shared across many calls.</p><h2 id=\"conclusion\">Conclusion</h2><p>LangGraph gives you the graph primitives, state management, and interrupt mechanism needed to build reliable multi-agent systems. The supervisor pattern covers most use cases, and the platform handles persistence and deployment when you're ready to ship.</p><p>Start with two agents — a planner and an executor — wire in a human approval node for safety, and expand from there. Measure latency and cost per node from day one so you know where optimization is worth it.</p>",
+  "cta": {
+    "title": "Want to build multi-agent AI systems?",
+    "description": "Mickiesoft engineers specialize in AI agent development, LLM integration, and production-grade agentic workflows.",
+    "buttonText": "Talk to Our Team",
+    "buttonUrl": "/contact"
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "id": "110",
+  "slug": "agentic-ai-in-production-observability-and-reliability",
+  "title": "Agentic AI in Production: Observability, Reliability, and Cost Control",
+  "category": "AI",
+  "featuredImage": "/images/blog/ai-enterprise.png",
+  "author": {
+    "name": "Alex Mercer",
+    "avatar": "/images/blog/authors/james-carter.jpg",
+    "role": "Security Engineer",
+    "bio": "Security and platform engineer with deep experience in production AI systems, observability pipelines, and incident response.",
+    "socials": {
+      "linkedin": "https://linkedin.com/in/alexmercer",
+      "github": "https://github.com/alexmercer"
+    }
+  },
+  "publishedAt": "2026-06-07",
+  "updatedAt": "2026-06-07",
+  "readTime": 8,
+  "metaDescription": "How to run agentic AI reliably in production: LLM observability, latency budgets, cost guardrails, failure modes, and runbook patterns for on-call engineers.",
+  "tags": ["AI", "AI agents", "Observability", "Reliability", "Production", "LLM", "2026 Trends"],
+  "relatedSlugs": [
+    "building-ai-agents-for-autonomous-workflows",
+    "multi-agent-systems-with-langgraph",
+    "observability-with-opentelemetry"
+  ],
+  "content": "<h2 id=\"introduction\">Introduction</h2><p>Shipping an AI agent to production is not like deploying a deterministic microservice. Agents make chains of LLM calls, invoke external tools, accumulate state over time, and can produce wildly different outputs for identical inputs. Standard APM dashboards were not built for this.</p><p>This article covers what reliable agentic AI looks like in practice: the observability stack you need, the failure modes you will encounter, cost guardrails that prevent runaway spend, and the runbook patterns that let on-call engineers respond when things go wrong.</p><h2 id=\"failure-modes\">Agentic Failure Modes</h2><p>Before instrumentation, understand what can fail. Agentic systems have failure modes that don't exist in request/response APIs:</p><ul><li><strong>Infinite loops:</strong> An agent that cannot make progress keeps calling itself or cycling between nodes, burning tokens until a budget cap or timeout fires.</li><li><strong>Hallucinated tool calls:</strong> The model generates a tool name or parameter that doesn't exist, causing exceptions that the agent then tries to \"fix\" in ways that make things worse.</li><li><strong>Context poisoning:</strong> An earlier tool call returns malformed or adversarial content that skews subsequent model behavior for the rest of the session.</li><li><strong>Latency tail explosion:</strong> Most runs complete in 3 seconds; 1% of runs hit a reasoning loop that takes 2 minutes. p99 latency is meaningless without loop detection.</li><li><strong>Cost spikes:</strong> A single misbehaving agent run can consume more tokens than a thousand normal runs. Without spend guardrails, a production incident can become a billing incident simultaneously.</li></ul><h2 id=\"observability-stack\">The Observability Stack</h2><h3 id=\"traces\">Trace Every LLM Call</h3><p>Use LangSmith, Langfuse, or OpenTelemetry with a custom span schema to capture each LLM invocation: model, input token count, output token count, latency, finish reason, and the full prompt/response for debugging. Never log in production without truncation and PII scrubbing.</p><pre><code>import { trace, SpanStatusCode } from \"@opentelemetry/api\"
+
+const tracer = trace.getTracer(\"ai-agent\")
+
+async function callLLM(messages: Message[]) {
+  return tracer.startActiveSpan(\"llm.invoke\", async (span) => {
+    try {
+      span.setAttributes({
+        \"llm.model\": \"claude-sonnet-4-6\",
+        \"llm.input_tokens\": countTokens(messages),
+      })
+      const response = await anthropic.messages.create({ model: \"claude-sonnet-4-6\", messages })
+      span.setAttributes({ \"llm.output_tokens\": response.usage.output_tokens })
+      return response
+    } catch (err) {
+      span.setStatus({ code: SpanStatusCode.ERROR, message: String(err) })
+      throw err
+    } finally {
+      span.end()
+    }
+  })
+}</code></pre><h3 id=\"metrics\">Key Metrics to Track</h3><ul><li><code>agent.run.duration_ms</code> — histogram, alert at p99 &gt; 30s</li><li><code>agent.run.step_count</code> — histogram, alert if median exceeds expected; high step counts indicate loops</li><li><code>agent.llm.tokens_per_run</code> — histogram, alert at p95 to catch runaway sessions before they hit budget</li><li><code>agent.tool.error_rate</code> — counter by tool name; spikes indicate upstream breakage or model hallucination</li><li><code>agent.run.success_rate</code> — the headline reliability metric; track by agent type and user segment</li></ul><h3 id=\"logging\">Structured Logging</h3><p>Every agent step should emit a structured JSON log line with: run ID, step number, node name, tool called (if any), token counts, latency, and outcome. Attach the run ID to all downstream service calls so you can reconstruct the full agent trace from any service log.</p><h2 id=\"cost-guardrails\">Cost Guardrails</h2><p>Token costs compound across agent steps. A 10-step agent run that averages 2,000 tokens per step costs 10× a single call at the same input size. Implement hard limits at multiple layers:</p><ul><li><strong>Per-run budget:</strong> Reject any run that exceeds a max token limit. Return a graceful error rather than letting the agent continue.</li><li><strong>Per-user daily cap:</strong> Rate-limit token spend per user ID with a sliding window counter in Redis.</li><li><strong>Model routing:</strong> Route classification and routing steps to cheaper models (Haiku). Only invoke expensive frontier models for deep reasoning nodes.</li><li><strong>Prompt caching:</strong> Use Anthropic's prompt caching for long system prompts that are shared across many runs. Cache hits are billed at 10% of normal input token cost.</li></ul><pre><code>const MAX_TOKENS_PER_RUN = 100_000
+
+function checkBudget(state: AgentState): string {
+  if (state.totalTokensUsed > MAX_TOKENS_PER_RUN) {
+    return \"budget_exceeded\"  // route to terminal error node
+  }
+  return \"continue\"
+}</code></pre><h2 id=\"reliability-patterns\">Reliability Patterns</h2><h3 id=\"timeouts\">Timeouts at Every Layer</h3><p>Set explicit timeouts on LLM API calls (network timeout), on individual agent steps (step timeout), and on the full run (run timeout). The run timeout is your last line of defense against infinite loops.</p><h3 id=\"retries\">Retry with Exponential Backoff</h3><p>Transient API errors (rate limits, 529s) are normal. Retry with jitter and exponential backoff up to 3 attempts. Do not retry on agent logic failures — a hallucinated tool call will fail the same way on retry and waste tokens.</p><h3 id=\"circuit-breakers\">Circuit Breakers for Tool Dependencies</h3><p>If a downstream tool (database, external API) fails repeatedly, open a circuit breaker and return the agent to a graceful degraded state. An agent that can acknowledge missing tool availability is more reliable than one that loops indefinitely trying to use a broken tool.</p><h2 id=\"runbooks\">On-Call Runbooks</h2><p>Before launch, write runbooks for the failure modes you identified. At minimum:</p><ul><li><strong>High latency:</strong> Check step count metrics first. If steps are high, look for a routing loop. Check tool error rates for the failed-tool loop pattern.</li><li><strong>Cost spike:</strong> Identify the top-spending run IDs from your token metrics. Pull their traces. Look for the step where the token count jumped and determine if it was a legitimate workload or a hallucination loop.</li><li><strong>Low success rate:</strong> Segment by agent type and tool. A single broken tool often drives a disproportionate failure rate.</li></ul><h2 id=\"conclusion\">Conclusion</h2><p>Production agentic AI is an operational discipline, not just an engineering one. Trace every LLM call, set hard cost limits before launch, and write runbooks before you're paged at 2am. The teams that invest in this infrastructure ship agents that run reliably and stay within budget — the ones that don't spend most of their time firefighting.</p>",
+  "cta": {
+    "title": "Launching AI agents in production?",
+    "description": "Mickiesoft helps teams design observable, reliable, and cost-efficient agentic AI systems ready for enterprise workloads.",
+    "buttonText": "Talk to Our Engineers",
+    "buttonUrl": "/contact"
+  }
+}

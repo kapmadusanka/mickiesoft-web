@@ -56,7 +56,12 @@ function buildEntry(
 ): MetadataRoute.Sitemap[number] {
   const alternateLanguages = LOCALES.reduce<Record<Locale, string>>(
     (acc, locale) => {
-      acc[locale] = `${BASE_URL}/${locale}${path}`
+      if (locale === "en") {
+        acc[locale] = `${BASE_URL}${path}`
+      } else {
+        const cleanPath = path === "/" ? "" : path
+        acc[locale] = `${BASE_URL}/${locale}${cleanPath}`
+      }
       return acc
     },
     {} as Record<Locale, string>

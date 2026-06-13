@@ -11,13 +11,15 @@ export function proxy(request: NextRequest) {
   // Redirect section routes
   if (pathname === "/contact") {
     return NextResponse.redirect(
-      new URL("/#contact", request.url)
+      new URL("/#contact", request.url),
+      308
     )
   }
 
   if (pathname === "/about") {
     return NextResponse.redirect(
-      new URL("/#about", request.url)
+      new URL("/#about", request.url),
+      308
     )
   }
 

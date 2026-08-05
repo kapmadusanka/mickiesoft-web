@@ -1,0 +1,29 @@
+{
+  "id": "120",
+  "slug": "offshore-software-development-mickiesoft-scalable-solutions",
+  "title": "බාහිර මෘදුකාංග සංවර්ධනය: Mickiesoft පරිමාණය කළ හැකි විසඳුම් ලබා දෙන්නේ කෙසේද",
+  "category": "ව්‍යාපාරික උපාය මාර්ග",
+  "featuredImage": "/images/blog/offshore-software-development.png",
+  "author": {
+    "name": "James Carter",
+    "avatar": "/images/blog/authors/james-carter.png",
+    "role": "Senior Software Engineer",
+    "bio": "Passionate about building fast, scalable software solutions with modern technologies."
+  },
+  "publishedAt": "2026-08-05",
+  "readTime": 6,
+  "metaDescription": "ඔබේ මෘදුකාංග සංවර්ධනය ශ්‍රී ලංකාවට බාහිරින් ලබා දීමේ උපායමාර්ගික ප්‍රතිලාභ ගවේෂණය කරන්න.",
+  "tags": [
+    "ව්‍යාපාරික උපාය මාර්ග",
+    "Mickiesoft",
+    "Development"
+  ],
+  "relatedSlugs": [],
+  "content": "<h2>ගෝලීය ඉංජිනේරු හිඟය</h2>\n<p>උතුරු ඇමරිකාව, යුරෝපය සහ ඕස්ට්‍රේලියාවේ තාක්ෂණික නායකයින් සඳහා, ඉහළ දේශීය වැටුප් සහ දැවැන්ත දක්ෂතා හිඟය හේතුවෙන් අභ්‍යන්තර ඉංජිනේරු කණ්ඩායමක් ගොඩනැගීම දැඩි ලෙස බාධාවට ලක්ව ඇත.</p>\n<h2>ශ්‍රී ලංකාව ඇයි?</h2>\n<p>ශ්‍රී ලංකාව බාහිර තොරතුරු තාක්ෂණ සේවා සඳහා ප්‍රමුඛ ගමනාන්තයක් ලෙස වේගයෙන් ඉස්මතු වී ඇත. ඉහළ උගත්, ඉංග්‍රීසි චතුර ශ්‍රම බලකායක් මෙරට සතුව ඇත.</p>\n<h2>Mickiesoft වාසිය</h2>\n<p><strong>Mickiesoft</strong> හිදී, අපි කේතය ලියන්නේ පමණක් නොවේ; අපි ඔබේම සමාගමේ දිගුවක් ලෙස ක්‍රියා කරන කැපවූ කණ්ඩායම් ගොඩනඟමු.</p>\n<ul>\n<li><strong>Agile ක්‍රමවේද:</strong> දෛනික රැස්වීම් සහ ස්ප්‍රින්ට් සමාලෝචන හරහා සම්පූර්ණ විනිවිදභාවය.</li>\n<li><strong>ඉහළම දක්ෂතා:</strong> Next.js, React, Node, .NET, සහ Flutter සඳහා විශේෂිත වූ ඉහළම මෘදුකාංග ඉංජිනේරුවන් පමණක් බඳවා ගැනීමට අපි දැඩි ක්‍රියාවලි භාවිතා කරමු.</li>\n<li><strong>පිරිවැය කාර්යක්ෂමතාව:</strong> ඔබේ මෘදුකාංගයේ ගුණාත්මකභාවය අඩාල නොකර ඔබේ පිරිවැය සැලකිය යුතු ලෙස අඩු කරන්න.</li>\n</ul>\n<h2>විශ්වාසයෙන් යුතුව පරිමාණය කරන්න</h2>\n<p>ඔබට අභිරුචි වෙබ් යෙදුමක්, ERP හෝ කැපවූ ජංගම යෙදුම් කණ්ඩායමක් අවශ්‍ය වුවද, උසස් තත්ත්වයේ කේත සහ විසඳුම් ලබා දීමට ඔබට විශ්වාස කළ හැකි සහකරු <strong>Mickiesoft</strong> වේ.</p>",
+  "cta": {
+    "title": "Ready to accelerate your project?",
+    "description": "Contact Mickiesoft today for a free technical consultation.",
+    "buttonText": "Contact Us",
+    "buttonUrl": "/#contact"
+  }
+}

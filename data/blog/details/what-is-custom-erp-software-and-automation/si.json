@@ -1,0 +1,29 @@
+{
+  "id": "115",
+  "slug": "what-is-custom-erp-software-and-automation",
+  "title": "අභිරුචි ERP මෘදුකාංග යනු කුමක්ද සහ එයට ඔබේ ව්‍යාපාර මෙහෙයුම් ස්වයංක්‍රීය කළ හැක්කේ කෙසේද?",
+  "category": "ERP සංවර්ධනය",
+  "featuredImage": "/images/blog/custom-erp-software.png",
+  "author": {
+    "name": "James Carter",
+    "avatar": "/images/blog/authors/james-carter.png",
+    "role": "Senior Software Engineer",
+    "bio": "Passionate about building fast, scalable software solutions with modern technologies."
+  },
+  "publishedAt": "2026-08-05",
+  "readTime": 6,
+  "metaDescription": "අභිරුචි ERP මෘදුකාංගයේ පරිවර්තනීය බලය සොයා ගන්න. අභිරුචි ස්වයංක්‍රීයකරණය ඔබේ සමස්ත සංවිධානය සම්බන්ධ කරන්නේ කෙසේදැයි ඉගෙන ගන්න.",
+  "tags": [
+    "ERP සංවර්ධනය",
+    "Mickiesoft",
+    "Development"
+  ],
+  "relatedSlugs": [],
+  "content": "<h2>ERP පද්ධති අවබෝධ කර ගැනීම</h2>\n<p>Enterprise Resource Planning (ERP) මෘදුකාංග යනු ව්‍යාපාරයක මධ්‍යම ස්නායු පද්ධතියයි. එය ගිණුම්කරණය, මානව සම්පත්, ඉන්වෙන්ටරි කළමනාකරණය වැනි විවිධ කාර්යයන් ඒකාබද්ධ පද්ධතියකට සම්බන්ධ කරයි.</p>\n<h2>අභිරුචිකරණයේ අවශ්‍යතාවය</h2>\n<p>සාමාන්‍ය ERPs බොහෝ විට ඔබට අවශ්‍ය නොවන විශේෂාංග සමඟ පැමිණේ. අභිරුචි ERP සංවර්ධනය මඟින් ඔබට හරියටම අවශ්‍ය දේ ලබා ගැනීම සහතික කරයි.</p>\n<h2>ප්‍රධාන ස්වයංක්‍රීයකරණ ප්‍රතිලාභ</h2>\n<h3>1. ඒකාබද්ධ දත්ත ප්‍රවාහය</h3>\n<p>අභිරුචි ERP එකක් සමඟ, විකුණුමක් සිදු කළ විට, ඉන්වෙන්ටරි ස්වයංක්‍රීයව යාවත්කාලීන වන අතර, ගිණුම්කරණය ගනුදෙනුව වාර්තා කරයි.</p>\n<h3>2. තත්‍ය කාලීන වාර්තාකරණය</h3>\n<p>අභිරුචි උපකරණ පුවරු මඟින් දත්ත මත පදනම් වූ තීරණ ක්ෂණිකව ගැනීමට නායකත්වයට බලය ලබා දේ.</p>\n<h2>Mickiesoft සමඟ හවුල් වීම</h2>\n<p>ERP එකක් ගොඩනැගීම යනු ගැඹුරු තාක්ෂණික සහ ව්‍යාපාරික විශේෂඥ දැනුමක් අවශ්‍ය වන සංකීර්ණ කාර්යයකි. <strong>Mickiesoft</strong> පරිමාණය කළ හැකි අභිරුචි ERP විසඳුම් නිර්මාණය කිරීම සඳහා විශේෂීකරණය කරයි.</p>",
+  "cta": {
+    "title": "Ready to accelerate your project?",
+    "description": "Contact Mickiesoft today for a free technical consultation.",
+    "buttonText": "Contact Us",
+    "buttonUrl": "/#contact"
+  }
+}

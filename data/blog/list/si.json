@@ -1,5 +1,165 @@
 [
   {
+    "id": "111",
+    "slug": "why-every-growing-business-needs-custom-web-application-2026",
+    "title": "2026 දී සෑම වර්ධනය වන ව්‍යාපාරයකටම අභිරුචි වෙබ් යෙදුමක් අවශ්‍ය වන්නේ ඇයි?",
+    "excerpt": "2026 දී වර්ධනය වන ව්‍යාපාර සඳහා සාමාන්‍ය මෘදුකාංග තවදුරටත් ප්‍රමාණවත් නොවන්නේ මන්දැයි සොයා බලන්න.",
+    "category": "වෙබ් සංවර්ධනය",
+    "featuredImage": "/images/blog/custom-web-app.png",
+    "author": {
+      "name": "James Carter",
+      "avatar": "/images/blog/authors/james-carter.png",
+      "role": "Senior Software Engineer"
+    },
+    "publishedAt": "2026-08-05",
+    "readTime": 6,
+    "isFeatured": false
+  },
+  {
+    "id": "112",
+    "slug": "nextjs-vs-react-choosing-right-tech-stack",
+    "title": "Next.js vs React: පරිමාණය කළ හැකි වෙබ් යෙදුම් සඳහා නිවැරදි තාක්ෂණය තෝරා ගැනීම",
+    "excerpt": "Next.js සහ React අතර තීරණය කරනවාද? ඔබේ මීළඟ ව්‍යාපෘතිය සඳහා දැනුවත් තීරණයක් ගැනීමට ප්‍රධාන වෙනස්කම් ගවේෂණය කරන්න.",
+    "category": "වෙබ් සංවර්ධනය",
+    "featuredImage": "/images/blog/nextjs-vs-react.png",
+    "author": {
+      "name": "James Carter",
+      "avatar": "/images/blog/authors/james-carter.png",
+      "role": "Senior Software Engineer"
+    },
+    "publishedAt": "2026-08-05",
+    "readTime": 6,
+    "isFeatured": false
+  },
+  {
+    "id": "113",
+    "slug": "native-vs-cross-platform-app-development-for-business",
+    "title": "දේශීය එදිරිව හරස්-වේදිකා යෙදුම් සංවර්ධනය: ඔබේ ව්‍යාපාරයට ගැලපෙන්නේ කුමක්ද?",
+    "excerpt": "දේශීය සහ හරස් වේදිකා ජංගම යෙදුම් සංවර්ධනය අතර තෝරා ගැනීමට අපහසුද? අපි මෙහි වාසි සහ අවාසි විග්‍රහ කරමු.",
+    "category": "ජංගම යෙදුම් සංවර්ධනය",
+    "featuredImage": "/images/blog/native-vs-cross-platform.png",
+    "author": {
+      "name": "James Carter",
+      "avatar": "/images/blog/authors/james-carter.png",
+      "role": "Senior Software Engineer"
+    },
+    "publishedAt": "2026-08-05",
+    "readTime": 6,
+    "isFeatured": false
+  },
+  {
+    "id": "114",
+    "slug": "how-custom-mobile-app-boosts-customer-loyalty",
+    "title": "අභිරුචි ජංගම යෙදුමකට පාරිභෝගික පක්ෂපාතිත්වය සහ නියැලීම ඉහළ නැංවිය හැක්කේ කෙසේද",
+    "excerpt": "ඩිජිටල් යුගයේ ජංගම යෙදුමක් යනු ඔබේ ගනුදෙනුකරුවන්ට සෘජු නාලිකාවකි. අභිරුචි යෙදුම් වෙළඳ නාම පක්ෂපාතිත්වය ගෙන යන්නේ කෙසේදැයි ඉගෙන ගන්න.",
+    "category": "ජංගම යෙදුම් සංවර්ධනය",
+    "featuredImage": "/images/blog/mobile-customer-loyalty.png",
+    "author": {
+      "name": "James Carter",
+      "avatar": "/images/blog/authors/james-carter.png",
+      "role": "Senior Software Engineer"
+    },
+    "publishedAt": "2026-08-05",
+    "readTime": 6,
+    "isFeatured": false
+  },
+  {
+    "id": "115",
+    "slug": "what-is-custom-erp-software-and-automation",
+    "title": "අභිරුචි ERP මෘදුකාංග යනු කුමක්ද සහ එයට ඔබේ ව්‍යාපාර මෙහෙයුම් ස්වයංක්‍රීය කළ හැක්කේ කෙසේද?",
+    "excerpt": "අභිරුචි ERP මෘදුකාංගයේ පරිවර්තනීය බලය සොයා ගන්න. අභිරුචි ස්වයංක්‍රීයකරණය ඔබේ සමස්ත සංවිධානය සම්බන්ධ කරන්නේ කෙසේදැයි ඉගෙන ගන්න.",
+    "category": "ERP සංවර්ධනය",
+    "featuredImage": "/images/blog/custom-erp-software.png",
+    "author": {
+      "name": "James Carter",
+      "avatar": "/images/blog/authors/james-carter.png",
+      "role": "Senior Software Engineer"
+    },
+    "publishedAt": "2026-08-05",
+    "readTime": 6,
+    "isFeatured": false
+  },
+  {
+    "id": "116",
+    "slug": "erp-systems-for-smes-worth-investment",
+    "title": "කුඩා හා මධ්‍යම පරිමාණ ව්‍යවසාය (SME) සඳහා ERP පද්ධති: ආයෝජනය වටිනවාද?",
+    "excerpt": "බොහෝ SMEs විශ්වාස කරන්නේ ERPs ඇත්තේ දැවැන්ත සමාගම් සඳහා පමණක් බවයි. මධ්‍යම ප්‍රමාණයේ ව්‍යාපාර සඳහා ERP විසඳුමක ආයෝජනය කිරීම වැදගත් වන්නේ මන්දැයි අපි ගවේෂණය කරමු.",
+    "category": "ERP සංවර්ධනය",
+    "featuredImage": "/images/blog/erp-for-sme.png",
+    "author": {
+      "name": "James Carter",
+      "avatar": "/images/blog/authors/james-carter.png",
+      "role": "Senior Software Engineer"
+    },
+    "publishedAt": "2026-08-05",
+    "readTime": 6,
+    "isFeatured": false
+  },
+  {
+    "id": "117",
+    "slug": "role-of-modern-ui-ux-design-in-conversion-rates",
+    "title": "ඉහළ පරිවර්තන අනුපාතයන් ගෙන යාමේදී නවීන UI/UX නිර්මාණයේ කාර්යභාරය",
+    "excerpt": "විශිෂ්ට නිර්මාණයක් යනු සෞන්දර්යය පමණක් නොවේ; එය ආදායම ගැනයි. උපායමාර්ගික UI/UX මූලධර්ම පරිවර්තන අනුපාත ඉහළ නංවන්නේ කෙසේදැයි ඉගෙන ගන්න.",
+    "category": "UI/UX සහ නිර්මාණය",
+    "featuredImage": "/images/blog/modern-ui-ux-design.png",
+    "author": {
+      "name": "James Carter",
+      "avatar": "/images/blog/authors/james-carter.png",
+      "role": "Senior Software Engineer"
+    },
+    "publishedAt": "2026-08-05",
+    "readTime": 6,
+    "isFeatured": false
+  },
+  {
+    "id": "118",
+    "slug": "cloud-migration-strategies-secure-enterprise-applications",
+    "title": "වලාකුළු සංක්‍රමණ උපාය මාර්ග: ඔබේ ව්‍යවසාය යෙදුම් ආරක්ෂිතව ගෙන යන්නේ කෙසේද",
+    "excerpt": "ඔන්-ප්‍රේමිස් සේවාදායකවලින් වලාකුළට ගමන් කිරීම සංකීර්ණ වේ. ආරක්ෂිත සහ අක්‍රීය කාලයක් නොමැති සංක්‍රමණයක් සහතික කිරීම සඳහා හොඳම උපාය මාර්ග ඉගෙන ගන්න.",
+    "category": "වලාකුළු සහ ආරක්ෂාව",
+    "featuredImage": "/images/blog/cloud-migration.png",
+    "author": {
+      "name": "James Carter",
+      "avatar": "/images/blog/authors/james-carter.png",
+      "role": "Senior Software Engineer"
+    },
+    "publishedAt": "2026-08-05",
+    "readTime": 6,
+    "isFeatured": false
+  },
+  {
+    "id": "119",
+    "slug": "integrating-ai-into-modern-web-mobile-apps",
+    "title": "නවීන වෙබ් සහ ජංගම යෙදුම් වෙත AI ඒකාබද්ධ කිරීම: ප්‍රායෝගික භාවිතයන්",
+    "excerpt": "කෘතිම බුද්ධිය (AI) තවදුරටත් විද්‍යා ප්‍රබන්ධයක් නොවේ. තරඟකරුවන් අභිබවා යාමට ඔබේ අභිරුචි මෘදුකාංගයට AI විශේෂාංග ඒකාබද්ධ කිරීමට ප්‍රායෝගික ක්‍රම ගවේෂණය කරන්න.",
+    "category": "තාක්ෂණික ප්‍රවණතා",
+    "featuredImage": "/images/blog/ai-integration.png",
+    "author": {
+      "name": "James Carter",
+      "avatar": "/images/blog/authors/james-carter.png",
+      "role": "Senior Software Engineer"
+    },
+    "publishedAt": "2026-08-05",
+    "readTime": 6,
+    "isFeatured": false
+  },
+  {
+    "id": "120",
+    "slug": "offshore-software-development-mickiesoft-scalable-solutions",
+    "title": "බාහිර මෘදුකාංග සංවර්ධනය: Mickiesoft පරිමාණය කළ හැකි විසඳුම් ලබා දෙන්නේ කෙසේද",
+    "excerpt": "ඔබේ මෘදුකාංග සංවර්ධනය ශ්‍රී ලංකාවට බාහිරින් ලබා දීමේ උපායමාර්ගික ප්‍රතිලාභ ගවේෂණය කරන්න.",
+    "category": "ව්‍යාපාරික උපාය මාර්ග",
+    "featuredImage": "/images/blog/offshore-software-development.png",
+    "author": {
+      "name": "James Carter",
+      "avatar": "/images/blog/authors/james-carter.png",
+      "role": "Senior Software Engineer"
+    },
+    "publishedAt": "2026-08-05",
+    "readTime": 6,
+    "isFeatured": false
+  },
+  {
     "id": "107",
     "slug": "hire-flutter-developer-sri-lanka",
     "title": "ශ්‍රී ලංකාවේ Flutter සංවර්ධකයෙකු බඳවා ගැනීම: අවසාන මාර්ගෝපදේශය",

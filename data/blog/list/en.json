@@ -1,5 +1,165 @@
 [
   {
+    "id": "111",
+    "slug": "why-every-growing-business-needs-custom-web-application-2026",
+    "title": "Why Every Growing Business Needs a Custom Web Application in 2026",
+    "excerpt": "Discover why off-the-shelf software is no longer enough for growing businesses in 2026, and how custom web applications provide scalability, security, and a competitive edge.",
+    "category": "Web Development",
+    "featuredImage": "/images/blog/custom-web-app.png",
+    "author": {
+      "name": "James Carter",
+      "avatar": "/images/blog/authors/james-carter.png",
+      "role": "Senior Software Engineer"
+    },
+    "publishedAt": "2026-08-05",
+    "readTime": 6,
+    "isFeatured": false
+  },
+  {
+    "id": "112",
+    "slug": "nextjs-vs-react-choosing-right-tech-stack",
+    "title": "Next.js vs React: Choosing the Right Tech Stack for Scalable Web Apps",
+    "excerpt": "Deciding between Next.js and React? Explore the key differences, performance benefits, and SEO advantages to make an informed decision for your next project.",
+    "category": "Web Development",
+    "featuredImage": "/images/blog/nextjs-vs-react.png",
+    "author": {
+      "name": "James Carter",
+      "avatar": "/images/blog/authors/james-carter.png",
+      "role": "Senior Software Engineer"
+    },
+    "publishedAt": "2026-08-05",
+    "readTime": 6,
+    "isFeatured": false
+  },
+  {
+    "id": "113",
+    "slug": "native-vs-cross-platform-app-development-for-business",
+    "title": "Native vs Cross-Platform App Development: Which One Fits Your Business?",
+    "excerpt": "Struggling to choose between Native and Cross-Platform mobile app development? We break down the pros and cons of Swift, Kotlin, Flutter, and React Native.",
+    "category": "Mobile App Development",
+    "featuredImage": "/images/blog/native-vs-cross-platform.png",
+    "author": {
+      "name": "James Carter",
+      "avatar": "/images/blog/authors/james-carter.png",
+      "role": "Senior Software Engineer"
+    },
+    "publishedAt": "2026-08-05",
+    "readTime": 6,
+    "isFeatured": false
+  },
+  {
+    "id": "114",
+    "slug": "how-custom-mobile-app-boosts-customer-loyalty",
+    "title": "How a Custom Mobile App Can Boost Customer Loyalty and Engagement",
+    "excerpt": "In the digital age, a mobile app is a direct channel to your customers. Learn how custom mobile applications drive engagement and long-term brand loyalty.",
+    "category": "Mobile App Development",
+    "featuredImage": "/images/blog/mobile-customer-loyalty.png",
+    "author": {
+      "name": "James Carter",
+      "avatar": "/images/blog/authors/james-carter.png",
+      "role": "Senior Software Engineer"
+    },
+    "publishedAt": "2026-08-05",
+    "readTime": 6,
+    "isFeatured": false
+  },
+  {
+    "id": "115",
+    "slug": "what-is-custom-erp-software-and-automation",
+    "title": "What is Custom ERP Software and How Can It Automate Your Business Operations?",
+    "excerpt": "Discover the transformative power of custom Enterprise Resource Planning (ERP) software. Learn how tailored automation eliminates inefficiencies and connects your entire organization.",
+    "category": "ERP Development",
+    "featuredImage": "/images/blog/custom-erp-software.png",
+    "author": {
+      "name": "James Carter",
+      "avatar": "/images/blog/authors/james-carter.png",
+      "role": "Senior Software Engineer"
+    },
+    "publishedAt": "2026-08-05",
+    "readTime": 6,
+    "isFeatured": false
+  },
+  {
+    "id": "116",
+    "slug": "erp-systems-for-smes-worth-investment",
+    "title": "ERP Systems for Small and Medium Enterprises (SMEs): Is It Worth the Investment?",
+    "excerpt": "Many SMEs believe ERPs are only for massive corporations. We explore why investing in a custom ERP solution is critical for the growth and survival of mid-sized businesses.",
+    "category": "ERP Development",
+    "featuredImage": "/images/blog/erp-for-sme.png",
+    "author": {
+      "name": "James Carter",
+      "avatar": "/images/blog/authors/james-carter.png",
+      "role": "Senior Software Engineer"
+    },
+    "publishedAt": "2026-08-05",
+    "readTime": 6,
+    "isFeatured": false
+  },
+  {
+    "id": "117",
+    "slug": "role-of-modern-ui-ux-design-in-conversion-rates",
+    "title": "The Role of Modern UI/UX Design in Driving Higher Conversion Rates",
+    "excerpt": "Great design isn't just about aesthetics; it's about revenue. Learn how strategic UI/UX principles minimize friction and convert casual visitors into loyal customers.",
+    "category": "UI/UX & Design",
+    "featuredImage": "/images/blog/modern-ui-ux-design.png",
+    "author": {
+      "name": "James Carter",
+      "avatar": "/images/blog/authors/james-carter.png",
+      "role": "Senior Software Engineer"
+    },
+    "publishedAt": "2026-08-05",
+    "readTime": 6,
+    "isFeatured": false
+  },
+  {
+    "id": "118",
+    "slug": "cloud-migration-strategies-secure-enterprise-applications",
+    "title": "Cloud Migration Strategies: How to Securely Move Your Enterprise Applications",
+    "excerpt": "Moving from on-premise servers to the cloud is complex. Learn the best strategies (Rehosting, Refactoring) to ensure a secure, zero-downtime migration.",
+    "category": "Cloud & Security",
+    "featuredImage": "/images/blog/cloud-migration.png",
+    "author": {
+      "name": "James Carter",
+      "avatar": "/images/blog/authors/james-carter.png",
+      "role": "Senior Software Engineer"
+    },
+    "publishedAt": "2026-08-05",
+    "readTime": 6,
+    "isFeatured": false
+  },
+  {
+    "id": "119",
+    "slug": "integrating-ai-into-modern-web-mobile-apps",
+    "title": "Integrating AI into Modern Web and Mobile Apps: Practical Use Cases",
+    "excerpt": "Artificial Intelligence is no longer sci-fi. Explore practical ways to integrate AI features like LLMs and Machine Learning into your custom software to outpace competitors.",
+    "category": "Tech Trends",
+    "featuredImage": "/images/blog/ai-integration.png",
+    "author": {
+      "name": "James Carter",
+      "avatar": "/images/blog/authors/james-carter.png",
+      "role": "Senior Software Engineer"
+    },
+    "publishedAt": "2026-08-05",
+    "readTime": 6,
+    "isFeatured": false
+  },
+  {
+    "id": "120",
+    "slug": "offshore-software-development-mickiesoft-scalable-solutions",
+    "title": "Offshore Software Development: How Mickiesoft Delivers Scalable Solutions",
+    "excerpt": "Explore the strategic benefits of outsourcing your software development to Sri Lanka. Learn how Mickiesoft’s agile offshore teams deliver top-tier engineering talent and scalable solutions.",
+    "category": "Business Strategy",
+    "featuredImage": "/images/blog/offshore-software-development.png",
+    "author": {
+      "name": "James Carter",
+      "avatar": "/images/blog/authors/james-carter.png",
+      "role": "Senior Software Engineer"
+    },
+    "publishedAt": "2026-08-05",
+    "readTime": 6,
+    "isFeatured": false
+  },
+  {
     "id": "107",
     "slug": "hire-flutter-developer-sri-lanka",
     "title": "Hire a Flutter Developer in Sri Lanka: The Ultimate Guide",

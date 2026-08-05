@@ -1,0 +1,29 @@
+{
+  "id": "114",
+  "slug": "how-custom-mobile-app-boosts-customer-loyalty",
+  "title": "අභිරුචි ජංගම යෙදුමකට පාරිභෝගික පක්ෂපාතිත්වය සහ නියැලීම ඉහළ නැංවිය හැක්කේ කෙසේද",
+  "category": "ජංගම යෙදුම් සංවර්ධනය",
+  "featuredImage": "/images/blog/mobile-customer-loyalty.png",
+  "author": {
+    "name": "James Carter",
+    "avatar": "/images/blog/authors/james-carter.png",
+    "role": "Senior Software Engineer",
+    "bio": "Passionate about building fast, scalable software solutions with modern technologies."
+  },
+  "publishedAt": "2026-08-05",
+  "readTime": 6,
+  "metaDescription": "ඩිජිටල් යුගයේ ජංගම යෙදුමක් යනු ඔබේ ගනුදෙනුකරුවන්ට සෘජු නාලිකාවකි. අභිරුචි යෙදුම් වෙළඳ නාම පක්ෂපාතිත්වය ගෙන යන්නේ කෙසේදැයි ඉගෙන ගන්න.",
+  "tags": [
+    "ජංගම යෙදුම් සංවර්ධනය",
+    "Mickiesoft",
+    "Development"
+  ],
+  "relatedSlugs": [],
+  "content": "<h2>සෘජු සම්බන්ධතාවයේ බලය</h2>\n<p>වෙබ් අඩවියක් සොයාගැනීම් සඳහා අත්‍යවශ්‍ය වේ, නමුත් ජංගම යෙදුමක් යනු රඳවා තබා ගැනීම සඳහා වූ අවසාන මෙවලමයි. පාරිභෝගිකයෙකු ඔබේ යෙදුම ස්ථාපනය කරන විට, ඔබ ඔවුන්ගේ පුද්ගලික උපාංගයේ ප්‍රධාන ස්ථානයක් ලබා ගනී.</p>\n<h2>1. පුද්ගලීකරණය කළ පරිශීලක අත්දැකීම්</h2>\n<p>ඉතා පුද්ගලීකරණය කළ අත්දැකීම් සැපයීම සඳහා පරිශීලක දත්ත භාවිතා කිරීමට අභිරුචි ජංගම යෙදුම් විශිෂ්ටයි. මෙය පාරිභෝගිකයින්ට වටිනාකමක් දැනීමට සලස්වයි.</p>\n<h2>2. Push Notifications</h2>\n<p>Push දැනුම්දීම් විද්‍යුත් තැපැල් අලෙවිකරණයට වඩා ඉහළ විවෘත අනුපාතයක් ඇත. නිවැරදි වේලාවට යවන අදාළ දැනුම්දීමකට ක්ෂණික ගමනාගමනය සහ ආදායම ගෙන යා හැක.</p>\n<h2>3. බාධාවකින් තොරව පක්ෂපාතිත්ව වැඩසටහන්</h2>\n<p>ඩිජිටල් ත්‍යාග වැඩසටහනක් ඔබේ ජංගම යෙදුමට කෙලින්ම ඒකාබද්ධ කිරීම පාරිභෝගිකයින්ට ලකුණු ලුහුබැඳීම පහසු කරයි.</p>\n<h2>ඔබේ ඩිජිටල් වත්කම ගොඩනඟන්න</h2>\n<p><strong>Mickiesoft</strong> වැනි විශ්වාසදායක සංවර්ධන ආයතනයක් සමඟ හවුල් වීමෙන් ඔබේ යෙදුම අලංකාර ලෙස නිර්මාණය කර ඇති බව සහතික කරයි.</p>",
+  "cta": {
+    "title": "Ready to accelerate your project?",
+    "description": "Contact Mickiesoft today for a free technical consultation.",
+    "buttonText": "Contact Us",
+    "buttonUrl": "/#contact"
+  }
+}

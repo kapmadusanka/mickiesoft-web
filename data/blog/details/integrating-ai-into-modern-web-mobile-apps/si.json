@@ -1,0 +1,29 @@
+{
+  "id": "119",
+  "slug": "integrating-ai-into-modern-web-mobile-apps",
+  "title": "නවීන වෙබ් සහ ජංගම යෙදුම් වෙත AI ඒකාබද්ධ කිරීම: ප්‍රායෝගික භාවිතයන්",
+  "category": "තාක්ෂණික ප්‍රවණතා",
+  "featuredImage": "/images/blog/ai-integration.png",
+  "author": {
+    "name": "James Carter",
+    "avatar": "/images/blog/authors/james-carter.png",
+    "role": "Senior Software Engineer",
+    "bio": "Passionate about building fast, scalable software solutions with modern technologies."
+  },
+  "publishedAt": "2026-08-05",
+  "readTime": 6,
+  "metaDescription": "කෘතිම බුද්ධිය (AI) තවදුරටත් විද්‍යා ප්‍රබන්ධයක් නොවේ. තරඟකරුවන් අභිබවා යාමට ඔබේ අභිරුචි මෘදුකාංගයට AI විශේෂාංග ඒකාබද්ධ කිරීමට ප්‍රායෝගික ක්‍රම ගවේෂණය කරන්න.",
+  "tags": [
+    "තාක්ෂණික ප්‍රවණතා",
+    "Mickiesoft",
+    "Development"
+  ],
+  "relatedSlugs": [],
+  "content": "<h2>AI යනු නව ප්‍රමිතියයි</h2>\n<p>මෘදුකාංග යෙදුමකට AI එක් කිරීම තවදුරටත් අලෙවිකරණ උපක්‍රමයක් පමණක් නොවේ; තරඟකාරීව සිටීමට එය මූලික අවශ්‍යතාවයකි.</p>\n<h2>ව්‍යාපාර සඳහා ප්‍රායෝගික භාවිතයන්</h2>\n<h3>1. බුද්ධිමත් පාරිභෝගික සහාය</h3>\n<p>Large Language Models (LLMs) ඔබේ යෙදුම්වලට ඒකාබද්ධ කිරීම මඟින් සන්දර්භය සැබවින්ම තේරුම් ගන්නා චැට්බොට් (chatbots) යෙදවීමට ඔබට ඉඩ සලසයි.</p>\n<h3>2. පුරෝකථන විශ්ලේෂණ සහ පුද්ගලීකරණය</h3>\n<p>පරිශීලකයා සෙවීමට පෙර ඔවුන්ට අවශ්‍ය කුමක්දැයි අනාවැකි කීමට යන්ත්‍ර ඉගෙනුම් (Machine learning) ඇල්ගොරිතම භාවිත කළ හැක.</p>\n<h3>3. ස්වයංක්‍රීය දත්ත නිස්සාරණය</h3>\n<p>අභ්‍යන්තර ව්‍යවසාය මෙවලම් සඳහා, AI ඒකාබද්ධ කිරීම්වලට PDF වලින් දත්ත උකහා ගත හැකි අතර ස්වයංක්‍රීයව දත්ත සමුදායන් යාවත්කාලීන කළ හැක.</p>\n<h2>Mickiesoft සමඟ AI විසඳුම් නිර්මාණය කිරීම</h2>\n<p>AI ආරක්ෂිතව ඒකාබද්ධ කිරීම සඳහා API කළමනාකරණය සහ දෛශික දත්ත සමුදායන් (vector databases) පිළිබඳ විශේෂඥ දැනුමක් අවශ්‍ය වේ. <strong>Mickiesoft</strong> හි ඉංජිනේරුවන් ඔබේ පවතින යෙදුම් වලට AI බාධාවකින් තොරව එක් කරයි.</p>",
+  "cta": {
+    "title": "Ready to accelerate your project?",
+    "description": "Contact Mickiesoft today for a free technical consultation.",
+    "buttonText": "Contact Us",
+    "buttonUrl": "/#contact"
+  }
+}

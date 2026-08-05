@@ -1,0 +1,29 @@
+{
+  "id": "117",
+  "slug": "role-of-modern-ui-ux-design-in-conversion-rates",
+  "title": "ඉහළ පරිවර්තන අනුපාතයන් ගෙන යාමේදී නවීන UI/UX නිර්මාණයේ කාර්යභාරය",
+  "category": "UI/UX සහ නිර්මාණය",
+  "featuredImage": "/images/blog/modern-ui-ux-design.png",
+  "author": {
+    "name": "James Carter",
+    "avatar": "/images/blog/authors/james-carter.png",
+    "role": "Senior Software Engineer",
+    "bio": "Passionate about building fast, scalable software solutions with modern technologies."
+  },
+  "publishedAt": "2026-08-05",
+  "readTime": 6,
+  "metaDescription": "විශිෂ්ට නිර්මාණයක් යනු සෞන්දර්යය පමණක් නොවේ; එය ආදායම ගැනයි. උපායමාර්ගික UI/UX මූලධර්ම පරිවර්තන අනුපාත ඉහළ නංවන්නේ කෙසේදැයි ඉගෙන ගන්න.",
+  "tags": [
+    "UI/UX සහ නිර්මාණය",
+    "Mickiesoft",
+    "Development"
+  ],
+  "relatedSlugs": [],
+  "content": "<h2>නිර්මාණය යනු ව්‍යාපාරික උපාය මාර්ගයකි</h2>\n<p>අද අධි තරඟකාරී ඩිජිටල් වෙළඳපොල තුළ, පරිශීලකයින් ඔබගේ යෙදුම හෝ වෙබ් අඩවිය පූරණය වී මිලි තත්පර කිහිපයක් ඇතුළත ඔබේ ව්‍යාපාරයේ විශ්වසනීයත්වය විනිශ්චය කරයි. නවීන UI සහ UX නිර්මාණය අලංකාරය පමණක් නොව, එය පරිවර්තන අනුපාතයන්ගේ සෘජු ධාවකයකි.</p>\n<h2>ඝර්ෂණය අවම කිරීම</h2>\n<p>විශිෂ්ට UX නිර්මාණයේ මූලික අරමුණ වන්නේ සංජානන බර අඩු කිරීමයි. සෑම අමතර ක්ලික් කිරීමක් හෝ ව්‍යාකූල සංචාලන මෙනුවක් ගනුදෙනුකරුවෙකුට පිටවීමට හේතුවක් සපයයි.</p>\n<h2>විශ්වාසය සහ විශ්වසනීයත්වය</h2>\n<p>සෞන්දර්යාත්මකව ප්‍රසන්න, නවීන අතුරුමුහුණත් ක්ෂණික විශ්වාසය ගොඩනඟයි. පරිශීලකයින් වාරික සහ මනාව සකසන ලද යෙදුමකට ගෙවීම් තොරතුරු ඇතුළත් කිරීමට වැඩි ඉඩක් ඇත.</p>\n<h2>ජංගම-පළමු නිර්මාණය</h2>\n<p>වෙබ් ගමනාගමනයෙන් බහුතරයක් ස්මාර්ට්ෆෝන් වලින් ආරම්භ වන බැවින්, ජංගම-පළමු නිර්මාණය සාකච්ඡා කළ නොහැක.</p>\n<h2>Mickiesoft ප්‍රවේශය</h2>\n<p><strong>Mickiesoft</strong> හිදී, අපගේ නිර්මාණ කණ්ඩායම කලාව සහ මනෝවිද්‍යාව අතර පරතරය පියවයි. අමුත්තන් ගනුදෙනුකරුවන් බවට පත් කිරීම සඳහා අපි සෑම ඩිජිටල් නිෂ්පාදනයක්ම ප්‍රශස්ත කරමු.</p>",
+  "cta": {
+    "title": "Ready to accelerate your project?",
+    "description": "Contact Mickiesoft today for a free technical consultation.",
+    "buttonText": "Contact Us",
+    "buttonUrl": "/#contact"
+  }
+}

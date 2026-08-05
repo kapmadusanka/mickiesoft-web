@@ -1,0 +1,29 @@
+{
+  "id": "118",
+  "slug": "cloud-migration-strategies-secure-enterprise-applications",
+  "title": "වලාකුළු සංක්‍රමණ උපාය මාර්ග: ඔබේ ව්‍යවසාය යෙදුම් ආරක්ෂිතව ගෙන යන්නේ කෙසේද",
+  "category": "වලාකුළු සහ ආරක්ෂාව",
+  "featuredImage": "/images/blog/cloud-migration.png",
+  "author": {
+    "name": "James Carter",
+    "avatar": "/images/blog/authors/james-carter.png",
+    "role": "Senior Software Engineer",
+    "bio": "Passionate about building fast, scalable software solutions with modern technologies."
+  },
+  "publishedAt": "2026-08-05",
+  "readTime": 6,
+  "metaDescription": "ඔන්-ප්‍රේමිස් සේවාදායකවලින් වලාකුළට ගමන් කිරීම සංකීර්ණ වේ. ආරක්ෂිත සහ අක්‍රීය කාලයක් නොමැති සංක්‍රමණයක් සහතික කිරීම සඳහා හොඳම උපාය මාර්ග ඉගෙන ගන්න.",
+  "tags": [
+    "වලාකුළු සහ ආරක්ෂාව",
+    "Mickiesoft",
+    "Development"
+  ],
+  "relatedSlugs": [],
+  "content": "<h2>වලාකුළු පරිගණකයේ අත්‍යවශ්‍යතාව</h2>\n<p>2026 දී, පැරණි සේවාදායකයන් පවත්වාගෙන යාම මිල අධික ආරක්ෂක වගකීමකි. වලාකුළු සංක්‍රමණය මඟින් ව්‍යවසායන්ට අසමසම පරිමාණ හැකියාව සහ ආපදා ප්‍රතිසාධන හැකියාවන් සපයයි.</p>\n<h2>නිවැරදි සංක්‍රමණ උපාය මාර්ගය තෝරා ගැනීම</h2>\n<p>සියලුම යෙදුම් එකම ආකාරයකින් ගෙන නොයා යුතුය:</p>\n<ul>\n<li><strong>Rehosting:</strong> වේගවත්ම ප්‍රවේශය. කේතය වෙනස් නොකර ඔබේ වත්මන් යටිතල පහසුකම් වලාකුළු වෙත ගෙන යාම.</li>\n<li><strong>Refactoring:</strong> දිගුකාලීන ROI උපරිම කිරීම සඳහා සේවාදායක රහිත පරිගණකකරණය වැනි වලාකුළු-දේශීය විශේෂාංග භාවිතා කිරීම.</li>\n</ul>\n<h2>පළමුව ආරක්ෂාව</h2>\n<p>සංක්‍රමණයේදී ඇති ලොකුම සැලකිල්ල ආරක්ෂාවයි. දත්ත කාන්දුවීම් වලට තුඩු දෙන වැරදි වින්‍යාසයන් වළක්වා ගැනීම සඳහා දක්ෂ DevOps කණ්ඩායමක් සමඟ හවුල් වීම ඉතා වැදගත් වේ.</p>\n<h2>Mickiesoft හට මඟ පෙන්වීමට ඉඩ දෙන්න</h2>\n<p>වලාකුළු සංක්‍රමණය ව්‍යාපාරයට බාධාවක් නොවිය යුතුය. <strong>Mickiesoft</strong> හි විශේෂඥයින් AWS, Azure, සහ Google Cloud වෙත ආරක්ෂිත සහ මනාව සැලසුම් කළ සංක්‍රමණයක් සහතික කරයි.</p>",
+  "cta": {
+    "title": "Ready to accelerate your project?",
+    "description": "Contact Mickiesoft today for a free technical consultation.",
+    "buttonText": "Contact Us",
+    "buttonUrl": "/#contact"
+  }
+}

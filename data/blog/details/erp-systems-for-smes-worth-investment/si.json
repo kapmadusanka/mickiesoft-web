@@ -1,0 +1,29 @@
+{
+  "id": "116",
+  "slug": "erp-systems-for-smes-worth-investment",
+  "title": "කුඩා හා මධ්‍යම පරිමාණ ව්‍යවසාය (SME) සඳහා ERP පද්ධති: ආයෝජනය වටිනවාද?",
+  "category": "ERP සංවර්ධනය",
+  "featuredImage": "/images/blog/erp-for-sme.png",
+  "author": {
+    "name": "James Carter",
+    "avatar": "/images/blog/authors/james-carter.png",
+    "role": "Senior Software Engineer",
+    "bio": "Passionate about building fast, scalable software solutions with modern technologies."
+  },
+  "publishedAt": "2026-08-05",
+  "readTime": 6,
+  "metaDescription": "බොහෝ SMEs විශ්වාස කරන්නේ ERPs ඇත්තේ දැවැන්ත සමාගම් සඳහා පමණක් බවයි. මධ්‍යම ප්‍රමාණයේ ව්‍යාපාර සඳහා ERP විසඳුමක ආයෝජනය කිරීම වැදගත් වන්නේ මන්දැයි අපි ගවේෂණය කරමු.",
+  "tags": [
+    "ERP සංවර්ධනය",
+    "Mickiesoft",
+    "Development"
+  ],
+  "relatedSlugs": [],
+  "content": "<h2>ව්‍යවසාය මිථ්‍යාව බිඳ දැමීම</h2>\n<p>Enterprise Resource Planning (ERP) පද්ධති දැවැන්ත අයවැය සහිත විශාල සමාගම්වලට පමණක් සීමා වී ඇති බවට පොදු දුර්මතයක් පවතී. කෙසේ වෙතත්, අද තරඟකාරී භූ දර්ශනය තුළ කුඩා හා මධ්‍යම පරිමාණ ව්‍යවසායකයින් (SME) ද එම මෙහෙයුම් සංකීර්ණතාවලට මුහුණ දෙයි.</p>\n<h2>පැතුරුම්පත් වල අවුල් ජාලය</h2>\n<p>බොහෝ SMEs Excel පැතුරුම්පත් භාවිතයෙන් ක්‍රියාත්මක වේ. මෙය අනුපිටපත් දත්ත ඇතුළත් කිරීමට සහ ව්‍යාපාරයේ සමස්ත සෞඛ්‍යය පිළිබඳ පැහැදිලි දෘශ්‍යතාවක් නොමැතිකමට හේතු වේ.</p>\n<h2>ආයෝජනය ගෙවන්නේ ඇයි?</h2>\n<h3>1. පළමු දින සිට පරිමාණ හැකියාව</h3>\n<p>ඔබේ SME සඳහා ඉදිකරන ලද අභිරුචි ERP ඔබ සමඟ වර්ධනය වේ. ඔබ පුළුල් වන විට සෑම වසර කිහිපයකට වරක් පද්ධති සංක්‍රමණය කරනවා වෙනුවට, නව විශේෂාංග එකතු කිරීමට ඔබට ඉඩ සලසයි.</p>\n<h3>2. පිරිවැය අඩු කිරීම</h3>\n<p>අභිරුචි ERP සංවර්ධනය සඳහා ආරම්භක ආයෝජනය බියජනක ලෙස පෙනෙන්නට තිබුණත්, දිගු කාලීන ROI අතිශයින් විශාලය.</p>\n<h2>නිගමනය</h2>\n<p>ERP පද්ධතියක් යනු මෘදුකාංග වියදමක් පමණක් නොවේ; එය උපායමාර්ගික වත්කමකි. <strong>Mickiesoft</strong> හි ERP සංවර්ධන ප්‍රවීණයන් අමතන්න.</p>",
+  "cta": {
+    "title": "Ready to accelerate your project?",
+    "description": "Contact Mickiesoft today for a free technical consultation.",
+    "buttonText": "Contact Us",
+    "buttonUrl": "/#contact"
+  }
+}

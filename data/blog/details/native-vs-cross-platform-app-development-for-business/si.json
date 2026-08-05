@@ -1,0 +1,29 @@
+{
+  "id": "113",
+  "slug": "native-vs-cross-platform-app-development-for-business",
+  "title": "දේශීය එදිරිව හරස්-වේදිකා යෙදුම් සංවර්ධනය: ඔබේ ව්‍යාපාරයට ගැලපෙන්නේ කුමක්ද?",
+  "category": "ජංගම යෙදුම් සංවර්ධනය",
+  "featuredImage": "/images/blog/native-vs-cross-platform.png",
+  "author": {
+    "name": "James Carter",
+    "avatar": "/images/blog/authors/james-carter.png",
+    "role": "Senior Software Engineer",
+    "bio": "Passionate about building fast, scalable software solutions with modern technologies."
+  },
+  "publishedAt": "2026-08-05",
+  "readTime": 6,
+  "metaDescription": "දේශීය සහ හරස් වේදිකා ජංගම යෙදුම් සංවර්ධනය අතර තෝරා ගැනීමට අපහසුද? අපි මෙහි වාසි සහ අවාසි විග්‍රහ කරමු.",
+  "tags": [
+    "ජංගම යෙදුම් සංවර්ධනය",
+    "Mickiesoft",
+    "Development"
+  ],
+  "relatedSlugs": [],
+  "content": "<h2>ජංගම උභතෝකෝටිකය</h2>\n<p>ජංගම යෙදුමක් සැලසුම් කිරීමේදී, වඩාත් තීරණාත්මක තාක්ෂණික තීරණවලින් එකක් වන්නේ දේශීය සංවර්ධනය සහ හරස්-වේදිකා සංවර්ධනය අතර තේරීමයි.</p>\n<h2>දේශීය යෙදුම් සංවර්ධනය (Native)</h2>\n<p>දේශීය යෙදුම් විශේෂයෙන් එක් වේදිකාවක් සඳහා ගොඩනගා ඇත.</p>\n<ul>\n<li><strong>වාසි:</strong> අසමසම කාර්ය සාධනය සහ උපාංග දෘඩාංග වෙත බාධාවකින් තොරව ප්‍රවේශ වීම.</li>\n<li><strong>අවාසි:</strong> ඉහළ සංවර්ධන පිරිවැය සහ දිගු කාලයක් ගතවීම.</li>\n</ul>\n<h2>හරස්-වේදිකා සංවර්ධනය (Cross-Platform)</h2>\n<p>Flutter සහ React Native වැනි රාමු මඟින් කේතය එක් වරක් ලියා එය iOS සහ Android දෙකටම යෙදවීමට ඉඩ සලසයි.</p>\n<ul>\n<li><strong>වාසි:</strong> වේගවත් වෙළඳපල කාලය සහ සැලකිය යුතු ලෙස අඩු සංවර්ධන පිරිවැය.</li>\n<li><strong>අවාසි:</strong> ඉතා සංකීර්ණ සජීවිකරණ සමඟ අරගල කළ හැකිය.</li>\n</ul>\n<h2>Mickiesoft හට උදව් කළ හැකි ආකාරය</h2>\n<p>Mickiesoft හිදී, ප්‍රශස්ත තාක්ෂණික තොගය නිර්දේශ කිරීම සඳහා අපි ඔබේ ව්‍යාපාර ඉලක්ක ඇගයීමට ලක් කරමු.</p>",
+  "cta": {
+    "title": "Ready to accelerate your project?",
+    "description": "Contact Mickiesoft today for a free technical consultation.",
+    "buttonText": "Contact Us",
+    "buttonUrl": "/#contact"
+  }
+}

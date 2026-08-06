@@ -1,0 +1,290 @@
+[
+  {
+    "id": "1",
+    "question": "How much overlap can I expect with a Sri Lanka-based development team if my company is in the US?",
+    "answer": "Sri Lanka is roughly 9.5–13.5 hours ahead of US time zones depending on which coast you're on, so full real-time overlap is limited — most US-Sri Lanka collaboration works best asynchronously, with a short daily overlap window (typically your early morning / their evening) reserved for standups and blockers. Well-run offshore teams plan documentation, task handoff, and async check-ins around this rather than forcing real-time overlap all day.",
+    "categories": [
+      "Offshore Development"
+    ]
+  },
+  {
+    "id": "2",
+    "question": "What's the difference between nearshore and offshore software development?",
+    "answer": "Nearshore means outsourcing to a country in a similar or adjacent time zone (e.g., a US company working with Latin America), while offshore means a partner in a distant time zone (e.g., South Asia). Nearshore trades some cost savings for easier real-time collaboration; offshore, like Sri Lanka, typically offers lower rates and a large English-speaking technical talent pool in exchange for planning around limited time-zone overlap.",
+    "categories": [
+      "Offshore Development"
+    ]
+  },
+  {
+    "id": "3",
+    "question": "How do I set up an offshore development center for my company?",
+    "answer": "Setting up an offshore development center generally involves defining the roles and skills you need, choosing an engagement model (dedicated team vs. staff augmentation), agreeing on IP ownership and contract terms up front, and putting shared tooling in place (Git, project tracker, chat) before day one. Most companies start with a small pilot team of 2–3 engineers and scale up once the working relationship is proven.",
+    "categories": [
+      "Offshore Development"
+    ]
+  },
+  {
+    "id": "4",
+    "question": "How much does it cost to hire React developers in Sri Lanka?",
+    "answer": "Rates vary by seniority, but Sri Lankan React developers are typically priced well below US and Western European market rates while maintaining strong English proficiency and modern-stack experience. Get an exact quote based on your project scope — a discovery call is the fastest way to get a real number rather than a rough estimate.",
+    "categories": [
+      "Web Development",
+      "Offshore Development"
+    ]
+  },
+  {
+    "id": "5",
+    "question": "Why hire developers who specialise in Next.js rather than general React developers?",
+    "answer": "Next.js adds server-side rendering, routing, and performance optimisation on top of React, so a developer fluent in it can ship faster page loads and better SEO out of the box — both of which matter directly for a marketing site or e-commerce product. If your project needs strong Core Web Vitals and search visibility, Next.js-specific experience is worth asking for explicitly.",
+    "categories": [
+      "Web Development"
+    ]
+  },
+  {
+    "id": "6",
+    "question": "What does it cost to hire a dedicated .NET developer offshore?",
+    "answer": "Offshore .NET developer rates depend on seniority and whether you need a single specialist or a small backend team, but they generally run well below equivalent US or UK enterprise rates. A dedicated .NET engineer is typically engaged month-to-month, integrated directly into your existing team and tooling (Jira, GitHub, Slack).",
+    "categories": [
+      "Backend Development",
+      "Offshore Development"
+    ]
+  },
+  {
+    "id": "7",
+    "question": "Why hire a Flutter developer instead of building separate native iOS and Android apps?",
+    "answer": "Flutter lets one developer (or small team) ship a single codebase that runs natively on both iOS and Android, cutting development time and cost roughly in half compared with maintaining two native codebases. It's the right call when you need to launch on both platforms quickly and don't have a hard requirement for platform-specific native performance.",
+    "categories": [
+      "Mobile App Development"
+    ]
+  },
+  {
+    "id": "8",
+    "question": "How much does custom ERP software cost compared to off-the-shelf ERP?",
+    "answer": "Off-the-shelf ERP is cheaper upfront but often forces your business processes to fit the software; custom ERP costs more initially but is built around how your operations actually work, which pays off once you factor in workaround time and licensing fees over several years. Costs scale with the number of modules (finance, HR, inventory, logistics) and integrations you need — get a scoped estimate rather than assuming either option is automatically cheaper.",
+    "categories": [
+      "ERP Development"
+    ]
+  },
+  {
+    "id": "9",
+    "question": "What can a Microsoft Office add-in development company actually build for my business?",
+    "answer": "A Microsoft Office add-in development company can build custom functionality directly inside Excel, Word, or Outlook — for example, pulling live data into a spreadsheet, automating document generation, or adding approval workflows into email — so your team keeps working in the tools they already use daily instead of switching to a separate app.",
+    "categories": [
+      "Software Development"
+    ]
+  },
+  {
+    "id": "10",
+    "question": "How does staff augmentation from Sri Lanka work?",
+    "answer": "Staff augmentation means adding one or more Sri Lanka-based engineers directly into your existing team and workflows — they join your stand-ups, use your tools, and report to your leads — rather than working through a separate vendor-managed team. It's the right model when you already have a team and process in place and simply need more hands.",
+    "categories": [
+      "Staff Augmentation",
+      "Offshore Development"
+    ]
+  },
+  {
+    "id": "11",
+    "question": "How is a dedicated development team priced?",
+    "answer": "Dedicated team pricing is usually a monthly rate per engineer, based on seniority (junior, mid, senior) and role (frontend, backend, QA, PM), billed for as long as the team is engaged — there's no separate per-project markup. This differs from fixed-price projects, where you pay a set amount for a defined scope regardless of hours worked.",
+    "categories": [
+      "Dedicated Team",
+      "Offshore Development"
+    ]
+  },
+  {
+    "id": "12",
+    "question": "Can a Sri Lanka-based software company effectively serve European businesses?",
+    "answer": "Yes — Sri Lanka's time zone (GMT+5:30) overlaps well with UK and Central European working hours (roughly 3–5 hours of shared business time depending on the season), and Sri Lankan teams commonly work with European clients already. The main things to confirm with any partner are GDPR-aware data handling and clear IP ownership terms in the contract.",
+    "categories": [
+      "Offshore Development"
+    ]
+  },
+  {
+    "id": "13",
+    "question": "Should I outsource software development to Asia or to Eastern Europe?",
+    "answer": "Asia (including Sri Lanka) generally offers lower rates and a very large English-speaking technical talent pool, while Eastern Europe offers closer time-zone overlap with Western Europe and native-level cultural alignment with EU business norms — the right choice depends on whether cost efficiency or real-time collaboration matters more for your project.",
+    "categories": [
+      "Offshore Development"
+    ]
+  },
+  {
+    "id": "14",
+    "question": "What should a fixed-price software development contract include?",
+    "answer": "A solid fixed-price contract should spell out the exact scope and deliverables, a milestone-based payment schedule, an explicit IP ownership clause (ideally full ownership transferring to you), a defined change-request process for anything outside scope, and a post-launch warranty period for bug fixes.",
+    "categories": [
+      "Software Development"
+    ]
+  },
+  {
+    "id": "15",
+    "question": "How do I make sure my software outsourcing partner is GDPR compliant?",
+    "answer": "Check that the partner can commit to a Data Processing Agreement (DPA), knows where your data is stored and processed, follows data-minimisation practices, and can support your breach-notification obligations — ask these questions explicitly before signing, since GDPR compliance is a shared responsibility between you and any processor you engage, wherever they're based.",
+    "categories": [
+      "Software Development"
+    ]
+  },
+  {
+    "id": "16",
+    "question": "How much does it cost to hire a software developer in Sri Lanka in 2026?",
+    "answer": "Costs vary by seniority and specialisation, but Sri Lankan developer rates typically sit well below US, UK, and Western European market rates for comparable experience, while still offering strong English proficiency and modern tech-stack skills. The most reliable way to get an accurate number is a scoped quote rather than a generic rate card, since role mix (frontend/backend/QA/PM) changes the total significantly.",
+    "categories": [
+      "Offshore Development",
+      "Software Development"
+    ]
+  },
+  {
+    "id": "17",
+    "question": "Sri Lanka vs India: which is better for software outsourcing?",
+    "answer": "India has a larger overall talent pool and more large-scale enterprise vendors; Sri Lanka offers a smaller but highly educated talent pool, often more competitive rates, and — for many teams — an easier vendor relationship due to less market saturation and more direct access to senior engineers. Neither is universally \"better\" — it depends on project scale and whether you want a boutique partner or a large-scale vendor.",
+    "categories": [
+      "Offshore Development"
+    ]
+  },
+  {
+    "id": "18",
+    "question": "Sri Lanka vs the Philippines: which is better for software outsourcing?",
+    "answer": "The Philippines has traditionally been stronger for BPO/customer-support outsourcing and has closer time-zone alignment with US Pacific hours; Sri Lanka has a strong engineering education system and is increasingly competitive for software development specifically, with rates generally comparable or slightly lower. For pure software engineering work, compare portfolios and technical depth rather than assuming either country wins by default.",
+    "categories": [
+      "Offshore Development"
+    ]
+  },
+  {
+    "id": "19",
+    "question": "What are the best countries for software outsourcing in 2026?",
+    "answer": "Commonly cited options include India and Sri Lanka (South Asia — cost efficiency, large English-speaking talent pools), Poland and Ukraine (Eastern Europe — strong EU time-zone overlap), and the Philippines and Vietnam (Southeast Asia — growing technical talent, Pacific-hours overlap). The best fit depends on your budget, required overlap hours, and the complexity of what you're building — there is no single universal answer.",
+    "categories": [
+      "Offshore Development"
+    ]
+  },
+  {
+    "id": "20",
+    "question": "How do I vet an offshore development team before signing a contract?",
+    "answer": "Ask for named case studies with verifiable client references, review actual code samples or a small paid trial task, confirm their IP-ownership and warranty terms in writing, and check how they handle project management and communication (tools used, reporting cadence). A vendor that's reluctant to provide any of these is a red flag.",
+    "categories": [
+      "Offshore Development"
+    ]
+  },
+  {
+    "id": "21",
+    "question": "What's the difference between a dedicated team, staff augmentation, and project outsourcing?",
+    "answer": "A dedicated team is a vendor-assembled squad working exclusively on your product under your direction; staff augmentation adds individual engineers directly into your existing team and process; project outsourcing hands a fixed-scope deliverable entirely to the vendor to manage. Choose based on how much day-to-day control you want to retain versus how much you want the vendor to own.",
+    "categories": [
+      "Staff Augmentation",
+      "Dedicated Team"
+    ]
+  },
+  {
+    "id": "22",
+    "question": "How many working hours overlap between Sri Lanka and the US?",
+    "answer": "Sri Lanka (GMT+5:30) is roughly 9.5–10.5 hours ahead of US Eastern time and 12.5–13.5 hours ahead of US Pacific time, so there is little to no standard 9-to-5 overlap — most teams get a short window in the Sri Lankan evening / US early morning for live syncs and rely on async handoffs the rest of the day.",
+    "categories": [
+      "Offshore Development"
+    ]
+  },
+  {
+    "id": "23",
+    "question": "How many working hours overlap between Sri Lanka and the UK/EU?",
+    "answer": "Sri Lanka (GMT+5:30) is roughly 4.5–5.5 hours ahead of the UK and Central Europe depending on the season, which typically gives 3–4 hours of shared business time in the UK/EU morning and Sri Lankan afternoon — enough for a daily stand-up and real-time collaboration on anything urgent.",
+    "categories": [
+      "Offshore Development"
+    ]
+  },
+  {
+    "id": "24",
+    "question": "What's actually included in the cost of building an MVP?",
+    "answer": "A typical MVP quote covers product design/UX, frontend and backend development, basic QA testing, and project management — a simple MVP commonly starts around $5,000, while more complex builds with custom integrations or advanced features run higher. Ask for a line-item breakdown so you can see what's driving the total rather than accepting a single lump-sum figure.",
+    "categories": [
+      "MVP Development",
+      "Software Development"
+    ]
+  },
+  {
+    "id": "25",
+    "question": "Is a custom ERP worth the cost for a small or mid-sized business?",
+    "answer": "It can be — SMEs often assume ERPs are only for large enterprises, but a right-sized custom ERP can eliminate manual spreadsheet work and disconnected tools that quietly cost more in staff time than the software would. The trade-off is upfront cost and implementation time versus the ongoing licensing and workaround costs of generic off-the-shelf tools; run the comparison over a 3-year horizon, not just year one.",
+    "categories": [
+      "ERP Development"
+    ]
+  },
+  {
+    "id": "26",
+    "question": "How long does it take to build a mobile app from idea to launch?",
+    "answer": "A standard iOS and Android app built with a cross-platform framework like React Native or Flutter typically takes 2–4 months; apps with a custom backend and multiple third-party integrations can take 4–6 months. Working in 2-week agile sprints means you see working software throughout rather than waiting for one final delivery.",
+    "categories": [
+      "Mobile App Development"
+    ]
+  },
+  {
+    "id": "27",
+    "question": "What are the warning signs that your outsourcing vendor isn't working out?",
+    "answer": "Watch for missed sprint commitments with no clear explanation, reluctance to give you direct access to the codebase, vague or shifting IP-ownership language, poor responsiveness (more than a day or two to hear back), and a pattern of scope or budget creep without documented change requests. Any one of these alone may be manageable — several together is a sign to reassess the relationship.",
+    "categories": [
+      "Offshore Development"
+    ]
+  },
+  {
+    "id": "28",
+    "question": "How does agile actually work with an offshore development team?",
+    "answer": "Agile offshore development typically runs in 2-week sprints: the team commits to a defined set of work at the start of the sprint, holds a daily async or live stand-up depending on time-zone overlap, and delivers working software at the end of each sprint for you to review — so you see progress every two weeks rather than waiting months for a single delivery.",
+    "categories": [
+      "Offshore Development",
+      "Software Development"
+    ]
+  },
+  {
+    "id": "29",
+    "question": "What are the best practices for managing a remote, distributed development team?",
+    "answer": "Use shared tooling everyone works from directly — a task tracker (Jira), a code repository (GitHub), and a chat tool (Slack) — set clear async communication norms so work doesn't stall waiting for a live meeting, document decisions in writing rather than relying on verbal context, and hold a regular (even if brief) live sync to catch anything that async communication misses.",
+    "categories": [
+      "Offshore Development"
+    ]
+  },
+  {
+    "id": "30",
+    "question": "What are the biggest risks of software outsourcing, and how do you avoid them?",
+    "answer": "The most common risks are unclear IP ownership, scope creep without a change-request process, communication breakdowns across time zones, and vendor lock-in from undocumented or poorly structured code. Avoid them by getting IP terms in writing up front, defining scope and change process before work starts, agreeing on a communication cadence you can sustain, and requiring clean, well-documented code delivery throughout — not just at the end.",
+    "categories": [
+      "Offshore Development"
+    ]
+  },
+  {
+    "id": "31",
+    "question": "Does Mickiesoft work with US startups?",
+    "answer": "Yes — Mickiesoft builds MVPs and full products for startups in the US, typically starting engagements around $5,000 for a basic MVP and scaling up as the product and funding grow. Startups get full IP ownership from day one and can start with a small pilot team before committing to a larger build.",
+    "categories": [
+      "Software Development"
+    ]
+  },
+  {
+    "id": "32",
+    "question": "Do you support UK businesses, including time zone and communication needs?",
+    "answer": "Yes — Sri Lanka's time zone overlaps with UK business hours for several hours a day, which supports a live daily stand-up alongside async collaboration the rest of the day. Mickiesoft works with UK clients across fixed-price, dedicated-team, and staff-augmentation models.",
+    "categories": [
+      "Software Development"
+    ]
+  },
+  {
+    "id": "33",
+    "question": "Can you support German or wider DACH companies with data protection requirements?",
+    "answer": "Yes — Mickiesoft can work within GDPR-aware data handling practices and put a Data Processing Agreement in place for German and DACH clients; discuss your specific compliance requirements (data residency, breach notification process) during the initial scoping call so they're built into the contract from the start.",
+    "categories": [
+      "Software Development"
+    ]
+  },
+  {
+    "id": "34",
+    "question": "Do you have experience working with Australian businesses?",
+    "answer": "Yes — Mickiesoft has delivered projects for Australian clients, including local academic and business partners, and Sri Lanka's time zone (GMT+5:30) gives a workable overlap with Australian Eastern business hours for regular live collaboration alongside async work.",
+    "categories": [
+      "Software Development"
+    ]
+  },
+  {
+    "id": "35",
+    "question": "Do you work with companies in the Netherlands or the wider Benelux region?",
+    "answer": "Yes — Mickiesoft has delivered projects for clients in Belgium and works with Benelux and wider European businesses across fixed-price, dedicated-team, and staff-augmentation engagement models, with GDPR-aware data handling available on request.",
+    "categories": [
+      "Software Development"
+    ]
+  }
+]

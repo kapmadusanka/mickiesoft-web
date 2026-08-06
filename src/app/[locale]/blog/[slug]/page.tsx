@@ -11,6 +11,7 @@ import { BlogShareButtons } from "@/components/blog/BlogShareButtons"
 import { BlogCard } from "@/components/blog/BlogCard"
 import { BlogNewsletterCTA } from "@/components/blog/BlogNewsletterCTA"
 import { BlogSidebarNewsletter } from "@/components/blog/BlogSidebarNewsletter"
+import { BlogFaqSection } from "@/components/blog/BlogFaqSection"
 import { Typography } from "@/components/typography/Typography"
 import { ArrowLeft, Calendar, Clock, RefreshCw, ChevronRight } from "lucide-react"
 
@@ -247,6 +248,8 @@ export default async function BlogDetailPage({
               )}
 
               {/* Tags */}
+              <BlogFaqSection category={post.category} />
+              
               {post.tags.length > 0 && (
                 <div className="mt-10 pt-6 border-t border-border/50">
                   <div className="flex flex-wrap items-center gap-2">

@@ -1,32 +1,37 @@
 [
-    {
-        "id": "1",
-        "question": "How much does a custom web application cost to build with Mickiesoft?",
-        "answer": "Our custom web applications typically start at $5,000 for a basic Minimum Viable Product (MVP). For complex enterprise systems with advanced integrations, costs range from $15,000 to $50,000+. We provide a detailed, transparent breakdown after our initial discovery call."
-    },
-    {
-        "id": "2",
-        "question": "How long does it take from idea to launch for a mobile app?",
-        "answer": "For a standard mobile app (iOS & Android) built with React Native, the timeline is usually 2 to 4 months. Complex apps with custom backend infrastructure and third-party API integrations may take 4 to 6 months. We work in 2-week agile sprints, so you see working software regularly."
-    },
-    {
-        "id": "3",
-        "question": "Can Mickiesoft take over an existing codebase or rescue a failing project?",
-        "answer": "Yes, we specialize in project rescue and codebase modernization. We begin with a comprehensive technical audit to assess code quality, security, and scalability. Then, we formulate a step-by-step roadmap to stabilize, refactor, and add new features without breaking your live system."
-    },
-    {
-        "id": "4",
-        "question": "What technologies do you use for full-stack development?",
-        "answer": "We primarily use the modern TypeScript ecosystem: React and Next.js for high-performance frontend interfaces, and Node.js or Python for robust backend services. For databases, we leverage PostgreSQL, MongoDB, and Supabase. We host on scalable platforms like AWS, Vercel, and Google Cloud."
-    },
-    {
-        "id": "5",
-        "question": "Who will own the intellectual property (IP) and source code?",
-        "answer": "You do. Upon full payment for the project, all intellectual property rights and source code are entirely transferred to you. We provide full access to the Git repositories, deployment pipelines, and project documentation."
-    },
-    {
-        "id": "6",
-        "question": "Do you offer post-launch support and SLA (Service Level Agreement)?",
-        "answer": "Yes, every project comes with a 30-day warranty period for bug fixes. After that, we offer customized monthly retainer packages for continuous maintenance, security monitoring, server management, and iterative feature enhancements."
-    }
+  {
+    "id": "1",
+    "question": "What does it mean to hire dedicated developers, and how is that different from project-based outsourcing?",
+    "answer": "Hiring dedicated developers means one or more engineers work exclusively on your product, under your direction, for as long as you need them — unlike project outsourcing, where a vendor owns a fixed scope and deliverable. It suits teams that need ongoing capacity rather than a one-off build, and it scales up or down as your roadmap changes."
+  },
+  {
+    "id": "2",
+    "question": "Is outsourcing software development a good option for an early-stage startup?",
+    "answer": "Yes, for most startups outsourcing is a practical way to get a working product built without hiring a full in-house team before you've validated the idea — a typical MVP engagement starts around $5,000 and takes a matter of weeks to a few months. The key is choosing a partner who will hand over full IP ownership and work in short, visible sprints so you can course-correct as you learn."
+  },
+  {
+    "id": "3",
+    "question": "What are the real benefits of offshore software development, beyond just lower cost?",
+    "answer": "Beyond cost savings, offshore development gives you access to a larger pool of specialised skills than you may be able to hire locally, faster team scaling without long local hiring cycles, and — with the right time zone — near round-the-clock development coverage. Cost is usually the entry point, but talent access and flexibility are often the bigger long-term benefit."
+  },
+  {
+    "id": "4",
+    "question": "Who owns the intellectual property when I outsource software development?",
+    "answer": "That depends entirely on the contract — it is not automatic. Look for an explicit clause stating that all source code, designs, and IP transfer fully to you from day one; some vendors retain rights to reusable components or frameworks unless the contract says otherwise, so this should be confirmed in writing before work starts, not assumed."
+  },
+  {
+    "id": "5",
+    "question": "How do I choose the right software development partner?",
+    "answer": "Look for a partner with relevant case studies in your industry or tech stack, clear and favourable IP-ownership terms, a transparent pricing model, a real post-launch support/warranty commitment, and a communication process (tools, cadence, response time) that fits how your team works. Request references and, if the budget allows, start with a small paid pilot project before committing to a larger engagement."
+  },
+  {
+    "id": "6",
+    "question": "What exactly is a dedicated development team?",
+    "answer": "A dedicated development team is a group of engineers assembled by a vendor to work exclusively on your product, for as long as you need them, integrated into your workflow and reporting structure — functionally similar to an in-house team, but employed and managed by the outsourcing partner. It's distinct from a project-based engagement, where the vendor owns the deliverable rather than embedding with you."
+  },
+  {
+    "id": "7",
+    "question": "Should I buy off-the-shelf software or build something custom?",
+    "answer": "Off-the-shelf software is faster and cheaper to get started with and makes sense when your workflow is fairly standard; custom software costs more upfront but is worth it once you're paying for multiple disconnected tools, working around a platform's limitations, or handling a process specific enough that no off-the-shelf product fits it well."
+  }
 ]

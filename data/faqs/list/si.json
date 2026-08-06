@@ -1,32 +1,37 @@
 [
-    {
-        "id": "1",
-        "question": "Mickiesoft සමඟ අභිරුචි වෙබ් යෙදුමක් (Custom Web Application) ගොඩනැගීමට කොපමණ මුදලක් වැය වේද?",
-        "answer": "අපගේ අභිරුචි වෙබ් යෙදුම් සාමාන්‍යයෙන් මූලික MVP (Minimum Viable Product) එකක් සඳහා $5,000 කින් පමණ ආරම්භ වේ. උසස් අංගසහිත සංකීර්ණ ව්‍යවසාය පද්ධති සඳහා වියදම $15,000 සිට $50,000+ දක්වා විය හැකිය. මූලික සාකච්ඡාවෙන් පසු අපි පැහැදිලි, විනිවිදභාවයෙන් යුත් ඇස්තමේන්තුවක් ලබා දෙන්නෙමු."
-    },
-    {
-        "id": "2",
-        "question": "ජංගම යෙදුමක් (Mobile App) අදහසේ සිට දියත් කිරීම දක්වා කොපමණ කාලයක් ගතවේද?",
-        "answer": "React Native භාවිතයෙන් ගොඩනඟන සම්මත ජංගම යෙදුමක් (iOS සහ Android) සඳහා සාමාන්‍යයෙන් මාස 2 සිට 4 දක්වා කාලයක් ගතවේ. අභිරුචි පසුපෙළ (backend) සහ තුන්වන පාර්ශවීය API සහිත සංකීර්ණ යෙදුම් සඳහා මාස 4 සිට 6 දක්වා ගත විය හැකිය. අපි සති 2ක Agile ක්‍රමවේදයට වැඩ කරන බැවින්, ඔබට නිරන්තරයෙන් ක්‍රියාකාරී මෘදුකාංගය දැකගත හැක."
-    },
-    {
-        "id": "3",
-        "question": "Mickiesoft හට දැනට පවතින කේතයක් (codebase) භාරගැනීමට හෝ අසාර්ථක වන ව්‍යාපෘතියක් බේරා ගැනීමට හැකිද?",
-        "answer": "ඔව්, ව්‍යාපෘති බේරාගැනීම සහ කේත නවීකරණය කිරීම සම්බන්ධයෙන් අපට විශේෂඥ දැනුමක් ඇත. කේතයේ ගුණාත්මකභාවය, ආරක්ෂාව සහ පරිමාණය තක්සේරු කිරීම සඳහා අපි පළමුව සම්පූර්ණ තාක්ෂණික විගණනයකින් ආරම්භ කරමු. ඉන්පසු, ඔබේ සජීවී පද්ධතියට බාධාවක් නොවන පරිදි එය ස්ථාවර කිරීමට සහ නව අංග එක් කිරීමට පියවරෙන් පියවර සැලැස්මක් අපි සකස් කරමු."
-    },
-    {
-        "id": "4",
-        "question": "Full-stack සංවර්ධනය සඳහා ඔබ භාවිතා කරන තාක්ෂණයන් මොනවාද?",
-        "answer": "අපි ප්‍රධාන වශයෙන් නවීන TypeScript පරිසර පද්ධතිය භාවිතා කරමු: ඉහළ කාර්ය සාධනයක් සහිත ඉදිරිපෙළ (frontend) සඳහා React සහ Next.js ද, ශක්තිමත් පසුපෙළ (backend) සේවා සඳහා Node.js හෝ Python ද භාවිතා කරමු. දත්ත සමුදායන් සඳහා, අපි PostgreSQL, MongoDB සහ Supabase භාවිතා කරමු."
-    },
-    {
-        "id": "5",
-        "question": "බුද්ධිමය දේපල (IP) සහ මූල කේතයේ (source code) අයිතිය කාටද?",
-        "answer": "එය සම්පූර්ණයෙන්ම ඔබට හිමිවේ. ව්‍යාපෘතිය සඳහා සම්පූර්ණ ගෙවීම් කළ පසු, සියලුම බුද්ධිමය දේපල අයිතිවාසිකම් සහ මූල කේතය (source code) ඔබට පවරනු ලැබේ. Git ගබඩා (repositories) සහ ව්‍යාපෘති ලේඛන සඳහා අපි ඔබට සම්පූර්ණ ප්‍රවේශය ලබා දෙන්නෙමු."
-    },
-    {
-        "id": "6",
-        "question": "ඔබ දියත් කිරීමෙන් පසු (post-launch) සහාය සහ SLA (Service Level Agreement) ලබා දෙනවාද?",
-        "answer": "ඔව්, සෑම ව්‍යාපෘතියක්ම දෝෂ නිවැරදි කිරීම් සඳහා දින 30ක වගකීම් කාලයක් සමඟ පැමිණේ. ඉන් පසුව, අඛණ්ඩ නඩත්තුව, ආරක්ෂක නිරීක්ෂණ, සේවාදායක කළමනාකරණය සහ නව අංග එකතු කිරීම සඳහා අභිරුචිකරණය කළ මාසික පැකේජ (monthly retainers) අපි ලබා දෙන්නෙමු."
-    }
+  {
+    "id": "1",
+    "question": "What does it mean to hire dedicated developers, and how is that different from project-based outsourcing?",
+    "answer": "Hiring dedicated developers means one or more engineers work exclusively on your product, under your direction, for as long as you need them — unlike project outsourcing, where a vendor owns a fixed scope and deliverable. It suits teams that need ongoing capacity rather than a one-off build, and it scales up or down as your roadmap changes."
+  },
+  {
+    "id": "2",
+    "question": "Is outsourcing software development a good option for an early-stage startup?",
+    "answer": "Yes, for most startups outsourcing is a practical way to get a working product built without hiring a full in-house team before you've validated the idea — a typical MVP engagement starts around $5,000 and takes a matter of weeks to a few months. The key is choosing a partner who will hand over full IP ownership and work in short, visible sprints so you can course-correct as you learn."
+  },
+  {
+    "id": "3",
+    "question": "What are the real benefits of offshore software development, beyond just lower cost?",
+    "answer": "Beyond cost savings, offshore development gives you access to a larger pool of specialised skills than you may be able to hire locally, faster team scaling without long local hiring cycles, and — with the right time zone — near round-the-clock development coverage. Cost is usually the entry point, but talent access and flexibility are often the bigger long-term benefit."
+  },
+  {
+    "id": "4",
+    "question": "Who owns the intellectual property when I outsource software development?",
+    "answer": "That depends entirely on the contract — it is not automatic. Look for an explicit clause stating that all source code, designs, and IP transfer fully to you from day one; some vendors retain rights to reusable components or frameworks unless the contract says otherwise, so this should be confirmed in writing before work starts, not assumed."
+  },
+  {
+    "id": "5",
+    "question": "How do I choose the right software development partner?",
+    "answer": "Look for a partner with relevant case studies in your industry or tech stack, clear and favourable IP-ownership terms, a transparent pricing model, a real post-launch support/warranty commitment, and a communication process (tools, cadence, response time) that fits how your team works. Request references and, if the budget allows, start with a small paid pilot project before committing to a larger engagement."
+  },
+  {
+    "id": "6",
+    "question": "What exactly is a dedicated development team?",
+    "answer": "A dedicated development team is a group of engineers assembled by a vendor to work exclusively on your product, for as long as you need them, integrated into your workflow and reporting structure — functionally similar to an in-house team, but employed and managed by the outsourcing partner. It's distinct from a project-based engagement, where the vendor owns the deliverable rather than embedding with you."
+  },
+  {
+    "id": "7",
+    "question": "Should I buy off-the-shelf software or build something custom?",
+    "answer": "Off-the-shelf software is faster and cheaper to get started with and makes sense when your workflow is fairly standard; custom software costs more upfront but is worth it once you're paying for multiple disconnected tools, working around a platform's limitations, or handling a process specific enough that no off-the-shelf product fits it well."
+  }
 ]

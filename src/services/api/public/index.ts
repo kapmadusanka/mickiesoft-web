@@ -111,4 +111,6 @@ export const contactService = {
 export const faqsService = {
   getAll: () =>
     publicFetch<ApiResponse<Faqs[]>>("/faqs").then((r) => r.data),
+  getBlogFaqs: () =>
+    publicFetch<ApiResponse<Faqs[]>>("/faqs/blog").then((r) => r.data),
 }

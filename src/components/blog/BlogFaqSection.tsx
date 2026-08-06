@@ -11,14 +11,30 @@ interface BlogFaqSectionProps {
   category: string;
 }
 
+const shuffle = <T,>(array: T[]): T[] => {
+  const arr = [...array];
+  for (let i = arr.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [arr[i], arr[j]] = [arr[j], arr[i]];
+  }
+  return arr;
+};
+
 export async function BlogFaqSection({ category }: BlogFaqSectionProps) {
   const t = await getTranslations("faq")
-  
+
   // 1. Fetch data
   const allFaqs = await faqsService.getBlogFaqs().catch(() => [])
-  
+
   // 2. Filter FAQs based on category
-  const faqs = allFaqs.filter(faq => !faq.categories || faq.categories.includes(category));
+  const matchedFaqs = allFaqs.filter(faq => !faq.categories || faq.categories.includes(category));
+
+  const faqs = matchedFaqs.length > 5
+    ? shuffle(matchedFaqs).slice(0, 5)
+    : [
+      ...matchedFaqs,
+      ...shuffle(allFaqs.filter(faq => !matchedFaqs.includes(faq))).slice(0, 5 - matchedFaqs.length)
+    ];
 
   if (faqs.length === 0) {
     return null;

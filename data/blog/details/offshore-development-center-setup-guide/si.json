@@ -1,0 +1,28 @@
+{
+  "id": "125",
+  "slug": "offshore-development-center-setup-guide",
+  "title": "Offshore සංවර්ධන මධ්‍යස්ථානයක් පිහිටුවන ආකාරය",
+  "category": "බාහිරකරණය",
+  "featuredImage": "/images/blog/offshore-development-center.png",
+  "author": {
+    "name": "James Carter",
+    "avatar": "/images/blog/authors/james-carter.png",
+    "role": "Senior Software Engineer",
+    "bio": "Passionate about building fast, scalable software solutions with modern technologies."
+  },
+  "publishedAt": "2026-08-06",
+  "readTime": 6,
+  "metaDescription": "ඔබේ ව්‍යවසාය ඉංජිනේරු හැකියාවන් පුළුල් කිරීම සඳහා Offshore සංවර්ධන මධ්‍යස්ථානයක් පිහිටුවන ආකාරය ඉගෙන ගන්න.",
+  "tags": [
+    "බාහිරකරණය",
+    "Mickiesoft",
+    "Development"
+  ],
+  "relatedSlugs": [],
+  "cta": {
+    "title": "Ready to accelerate your project?",
+    "description": "Contact Mickiesoft today for a free technical consultation.",
+    "buttonText": "Contact Us",
+    "buttonUrl": "/#contact"
+  }
+}

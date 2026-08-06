@@ -1,0 +1,29 @@
+{
+  "id": "123",
+  "slug": "nearshore-vs-offshore-software-development",
+  "title": "Nearshore vs Offshore Software Development: Which Fits Your Project?",
+  "category": "Business Strategy",
+  "featuredImage": "/images/blog/nearshore-vs-offshore.png",
+  "author": {
+    "name": "James Carter",
+    "avatar": "/images/blog/authors/james-carter.png",
+    "role": "Senior Software Engineer",
+    "bio": "Passionate about building fast, scalable software solutions with modern technologies."
+  },
+  "publishedAt": "2026-08-06",
+  "readTime": 6,
+  "metaDescription": "Comparing nearshore vs offshore software development? We break down the costs, communication benefits, and how to choose the right model.",
+  "tags": [
+    "Business Strategy",
+    "Mickiesoft",
+    "Development"
+  ],
+  "relatedSlugs": [],
+  "content": "<h2>Understanding Your Outsourcing Options</h2>\n<p>When expanding your engineering team, the choice often comes down to <strong>nearshore vs offshore software development</strong>. Both models offer significant advantages, but choosing the right one depends heavily on your project's budget, complexity, and communication requirements.</p>\n<h2>What is Nearshore Development?</h2>\n<p>Nearshore outsourcing involves partnering with teams in neighboring countries (e.g., a US company hiring in Latin America). The primary benefit is shared time zones, allowing for synchronous communication throughout the entire workday.</p>\n<h2>What is Offshore Development?</h2>\n<p>Offshore development involves hiring teams in distant regions, such as Asia (e.g., Sri Lanka). When evaluating <strong>nearshore vs offshore software development</strong>, offshore typically offers the highest cost savings—often up to 40% cheaper than nearshore options—while providing access to a massive, highly skilled talent pool.</p>\n<h3>Which One Fits Your Project?</h3>\n<p>If your project requires constant, real-time collaboration 8 hours a day, nearshore might be preferable, albeit more expensive. However, if you utilize agile methodologies with strong asynchronous communication, offshore development provides unparalleled ROI. With strategic time-zone overlapping, offshore teams like Mickiesoft deliver high-quality code efficiently and cost-effectively.</p>",
+  "cta": {
+    "title": "Ready to accelerate your project?",
+    "description": "Contact Mickiesoft today for a free technical consultation.",
+    "buttonText": "Contact Us",
+    "buttonUrl": "/#contact"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "125",
+  "slug": "offshore-development-center-setup-guide",
+  "title": "How to Set Up an Offshore Development Center: Step-by-Step",
+  "category": "Outsourcing",
+  "featuredImage": "/images/blog/offshore-development-center.png",
+  "author": {
+    "name": "James Carter",
+    "avatar": "/images/blog/authors/james-carter.png",
+    "role": "Senior Software Engineer",
+    "bio": "Passionate about building fast, scalable software solutions with modern technologies."
+  },
+  "publishedAt": "2026-08-06",
+  "readTime": 6,
+  "metaDescription": "Learn the step-by-step process of an offshore development center setup to scale your enterprise engineering capabilities securely.",
+  "tags": [
+    "Outsourcing",
+    "Mickiesoft",
+    "Development"
+  ],
+  "relatedSlugs": [],
+  "content": "<h2>Scaling with an ODC</h2>\n<p>An Offshore Development Center (ODC) is a dedicated, extended software engineering team located in a different country. For enterprise companies, a proper <strong>offshore development center setup</strong> is a highly effective strategy to scale development capabilities, access top talent, and significantly lower operational costs.</p>\n<h2>Step-by-Step Offshore Development Center Setup</h2>\n<h3>Step 1: Define Objectives and Tech Stack</h3>\n<p>Before initiating an <strong>offshore development center setup</strong>, clearly document your goals. Are you looking to maintain legacy systems, or build a new Next.js product? Define the required roles: frontend engineers, backend developers, QA, and DevOps.</p>\n<h3>Step 2: Choose the Right Location</h3>\n<p>Countries like Sri Lanka offer an exceptional blend of high technical proficiency, English fluency, and cost-effectiveness. A strong IT ecosystem makes it an ideal location for your ODC.</p>\n<h3>Step 3: Partner with a Local Vendor</h3>\n<p>Setting up legal entities, HR, and payroll in a foreign country is complex. Partnering with an established local agency like Mickiesoft simplifies the <strong>offshore development center setup</strong>. We handle recruitment, office infrastructure, and compliance, while you retain complete control over the engineering process and team management.</p>\n<h3>Step 4: Establish Security and Communication Protocols</h3>\n<p>Implement strict VPNs, secure code repositories, and standardized agile workflows to ensure your remote center integrates flawlessly with your headquarters.</p>",
+  "cta": {
+    "title": "Ready to accelerate your project?",
+    "description": "Contact Mickiesoft today for a free technical consultation.",
+    "buttonText": "Contact Us",
+    "buttonUrl": "/#contact"
+  }
+}

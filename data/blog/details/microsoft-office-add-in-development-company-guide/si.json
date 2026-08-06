@@ -1,0 +1,28 @@
+{
+  "id": "131",
+  "slug": "microsoft-office-add-in-development-company-guide",
+  "title": "Microsoft Office Add-in සංවර්ධන මාර්ගෝපදේශය",
+  "category": "ව්‍යවසාය",
+  "featuredImage": "/images/blog/office-addin-guide.png",
+  "author": {
+    "name": "James Carter",
+    "avatar": "/images/blog/authors/james-carter.png",
+    "role": "Senior Software Engineer",
+    "bio": "Passionate about building fast, scalable software solutions with modern technologies."
+  },
+  "publishedAt": "2026-08-06",
+  "readTime": 6,
+  "metaDescription": "නිවැරදි Microsoft Office add-in සංවර්ධන සමාගම තෝරා ගැනීම ඉතා වැදගත් වේ. විකුණුම්කරුවන් සංසන්දනය කරන්නේ කෙසේදැයි ඉගෙන ගන්න.",
+  "tags": [
+    "ව්‍යවසාය",
+    "Mickiesoft",
+    "Development"
+  ],
+  "relatedSlugs": [],
+  "cta": {
+    "title": "Ready to accelerate your project?",
+    "description": "Contact Mickiesoft today for a free technical consultation.",
+    "buttonText": "Contact Us",
+    "buttonUrl": "/#contact"
+  }
+}

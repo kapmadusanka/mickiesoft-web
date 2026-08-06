@@ -1,0 +1,28 @@
+{
+  "id": "124",
+  "slug": "software-development-outsourcing-company-startups",
+  "title": "ආරම්භක ව්‍යාපාර සඳහා මෘදුකාංග සංවර්ධන බාහිරකරණය",
+  "category": "ව්‍යාපාරික උපාය මාර්ග",
+  "featuredImage": "/images/blog/startup-outsourcing.png",
+  "author": {
+    "name": "James Carter",
+    "avatar": "/images/blog/authors/james-carter.png",
+    "role": "Senior Software Engineer",
+    "bio": "Passionate about building fast, scalable software solutions with modern technologies."
+  },
+  "publishedAt": "2026-08-06",
+  "readTime": 6,
+  "metaDescription": "ඔබේ ආරම්භක ව්‍යාපාරය සඳහා මෘදුකාංග සංවර්ධනය බාහිරින් ලබා දීමට ප්‍රායෝගික පියවර ඉගෙන ගන්න.",
+  "tags": [
+    "ව්‍යාපාරික උපාය මාර්ග",
+    "Mickiesoft",
+    "Development"
+  ],
+  "relatedSlugs": [],
+  "cta": {
+    "title": "Ready to accelerate your project?",
+    "description": "Contact Mickiesoft today for a free technical consultation.",
+    "buttonText": "Contact Us",
+    "buttonUrl": "/#contact"
+  }
+}

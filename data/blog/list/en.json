@@ -1,5 +1,277 @@
 [
   {
+    "id": "121",
+    "slug": "hire-dedicated-developers-buyers-guide",
+    "title": "Hire Dedicated Developers: A Buyer's Guide for US Companies",
+    "excerpt": "Looking to hire dedicated developers? This buyer's guide helps US companies navigate the process of finding and vetting elite offshore talent.",
+    "category": "Outsourcing",
+    "featuredImage": "/images/blog/hire-dedicated-developers.png",
+    "author": {
+      "name": "James Carter",
+      "avatar": "/images/blog/authors/james-carter.png",
+      "role": "Senior Software Engineer"
+    },
+    "publishedAt": "2026-08-06",
+    "readTime": 6,
+    "isFeatured": false
+  },
+  {
+    "id": "122",
+    "slug": "hire-software-developers-usa-time-zone-overlap",
+    "title": "Hiring Software Developers With US Time Zone Overlap: What Actually Works",
+    "excerpt": "Discover how to effectively hire software developers with USA time zone overlap to ensure seamless communication and agile development.",
+    "category": "Outsourcing",
+    "featuredImage": "/images/blog/time-zone-overlap.png",
+    "author": {
+      "name": "James Carter",
+      "avatar": "/images/blog/authors/james-carter.png",
+      "role": "Senior Software Engineer"
+    },
+    "publishedAt": "2026-08-06",
+    "readTime": 6,
+    "isFeatured": false
+  },
+  {
+    "id": "123",
+    "slug": "nearshore-vs-offshore-software-development",
+    "title": "Nearshore vs Offshore Software Development: Which Fits Your Project?",
+    "excerpt": "Comparing nearshore vs offshore software development? We break down the costs, communication benefits, and how to choose the right model.",
+    "category": "Business Strategy",
+    "featuredImage": "/images/blog/nearshore-vs-offshore.png",
+    "author": {
+      "name": "James Carter",
+      "avatar": "/images/blog/authors/james-carter.png",
+      "role": "Senior Software Engineer"
+    },
+    "publishedAt": "2026-08-06",
+    "readTime": 6,
+    "isFeatured": false
+  },
+  {
+    "id": "124",
+    "slug": "software-development-outsourcing-company-startups",
+    "title": "Software Development Outsourcing for Startups: A Practical Guide",
+    "excerpt": "Finding the right software development outsourcing company for startups can make or break your MVP. Learn the practical steps to outsource successfully.",
+    "category": "Business Strategy",
+    "featuredImage": "/images/blog/startup-outsourcing.png",
+    "author": {
+      "name": "James Carter",
+      "avatar": "/images/blog/authors/james-carter.png",
+      "role": "Senior Software Engineer"
+    },
+    "publishedAt": "2026-08-06",
+    "readTime": 6,
+    "isFeatured": false
+  },
+  {
+    "id": "125",
+    "slug": "offshore-development-center-setup-guide",
+    "title": "How to Set Up an Offshore Development Center: Step-by-Step",
+    "excerpt": "Learn the step-by-step process of an offshore development center setup to scale your enterprise engineering capabilities securely.",
+    "category": "Outsourcing",
+    "featuredImage": "/images/blog/offshore-development-center.png",
+    "author": {
+      "name": "James Carter",
+      "avatar": "/images/blog/authors/james-carter.png",
+      "role": "Senior Software Engineer"
+    },
+    "publishedAt": "2026-08-06",
+    "readTime": 6,
+    "isFeatured": false
+  },
+  {
+    "id": "126",
+    "slug": "hire-react-developers-sri-lanka",
+    "title": "Hire React Developers From Sri Lanka: Rates, Vetting, Process",
+    "excerpt": "Looking to hire React developers Sri Lanka? Discover the rates, vetting process, and benefits of sourcing top frontend talent from Asia's tech hub.",
+    "category": "Web Development",
+    "featuredImage": "/images/blog/hire-react-developers.png",
+    "author": {
+      "name": "James Carter",
+      "avatar": "/images/blog/authors/james-carter.png",
+      "role": "Senior Software Engineer"
+    },
+    "publishedAt": "2026-08-06",
+    "readTime": 6,
+    "isFeatured": false
+  },
+  {
+    "id": "127",
+    "slug": "hire-nextjs-developers-guide",
+    "title": "Hire Next.js Developers: What to Look For and What It Costs",
+    "excerpt": "Looking to hire Next.js developers? Learn what technical skills to evaluate, the average costs, and how to find elite full-stack Next.js talent.",
+    "category": "Web Development",
+    "featuredImage": "/images/blog/hire-nextjs-developers.png",
+    "author": {
+      "name": "James Carter",
+      "avatar": "/images/blog/authors/james-carter.png",
+      "role": "Senior Software Engineer"
+    },
+    "publishedAt": "2026-08-06",
+    "readTime": 6,
+    "isFeatured": false
+  },
+  {
+    "id": "128",
+    "slug": "hire-dotnet-developer-offshore-guide",
+    "title": "Hire a Dedicated .NET Developer Offshore: Comprehensive Guide",
+    "excerpt": "Scale your enterprise backend securely. Learn how to hire .NET developer offshore teams for scalable C# and ASP.NET Core applications.",
+    "category": "Outsourcing",
+    "featuredImage": "/images/blog/hire-dotnet.png",
+    "author": {
+      "name": "James Carter",
+      "avatar": "/images/blog/authors/james-carter.png",
+      "role": "Senior Software Engineer"
+    },
+    "publishedAt": "2026-08-06",
+    "readTime": 6,
+    "isFeatured": false
+  },
+  {
+    "id": "129",
+    "slug": "hire-flutter-developer-offshore",
+    "title": "Hire a Flutter Developer Offshore: Cost, Timeline, Portfolio Checklist",
+    "excerpt": "Planning a mobile app? Discover the costs, timelines, and exactly what to look for when you hire Flutter developer offshore.",
+    "category": "Mobile App Development",
+    "featuredImage": "/images/blog/hire-flutter.png",
+    "author": {
+      "name": "James Carter",
+      "avatar": "/images/blog/authors/james-carter.png",
+      "role": "Senior Software Engineer"
+    },
+    "publishedAt": "2026-08-06",
+    "readTime": 6,
+    "isFeatured": false
+  },
+  {
+    "id": "130",
+    "slug": "custom-erp-software-development-company-costs",
+    "title": "Custom ERP Software Development: What It Costs and How Long It Takes",
+    "excerpt": "Looking for a custom ERP software development company? We break down the realistic costs, timelines, and phases of building an ERP from scratch.",
+    "category": "ERP Development",
+    "featuredImage": "/images/blog/erp-costs.png",
+    "author": {
+      "name": "James Carter",
+      "avatar": "/images/blog/authors/james-carter.png",
+      "role": "Senior Software Engineer"
+    },
+    "publishedAt": "2026-08-06",
+    "readTime": 6,
+    "isFeatured": false
+  },
+  {
+    "id": "131",
+    "slug": "microsoft-office-add-in-development-company-guide",
+    "title": "Microsoft Office Add-in Development: Company Comparison Guide",
+    "excerpt": "Choosing the right Microsoft Office add-in development company is critical. Learn how to compare vendors based on expertise, security, and Office.js experience.",
+    "category": "Enterprise",
+    "featuredImage": "/images/blog/office-addin-guide.png",
+    "author": {
+      "name": "James Carter",
+      "avatar": "/images/blog/authors/james-carter.png",
+      "role": "Senior Software Engineer"
+    },
+    "publishedAt": "2026-08-06",
+    "readTime": 6,
+    "isFeatured": false
+  },
+  {
+    "id": "132",
+    "slug": "staff-augmentation-company-sri-lanka",
+    "title": "Staff Augmentation From Sri Lanka: How It Works and What It Costs",
+    "excerpt": "Partnering with a staff augmentation company Sri Lanka offers incredible flexibility and cost savings. Learn how the model works for global tech teams.",
+    "category": "Business Strategy",
+    "featuredImage": "/images/blog/staff-augmentation.png",
+    "author": {
+      "name": "James Carter",
+      "avatar": "/images/blog/authors/james-carter.png",
+      "role": "Senior Software Engineer"
+    },
+    "publishedAt": "2026-08-06",
+    "readTime": 6,
+    "isFeatured": false
+  },
+  {
+    "id": "133",
+    "slug": "dedicated-development-team-pricing-breakdown",
+    "title": "Dedicated Development Team Pricing: A Transparent Breakdown",
+    "excerpt": "Confused about dedicated development team pricing? We provide a transparent breakdown of costs, hidden fees, and how to maximize your offshore budget.",
+    "category": "Business Strategy",
+    "featuredImage": "/images/blog/team-pricing.png",
+    "author": {
+      "name": "James Carter",
+      "avatar": "/images/blog/authors/james-carter.png",
+      "role": "Senior Software Engineer"
+    },
+    "publishedAt": "2026-08-06",
+    "readTime": 6,
+    "isFeatured": false
+  },
+  {
+    "id": "134",
+    "slug": "software-development-company-european-businesses",
+    "title": "Software Development for European Businesses: Why Sri Lanka Works",
+    "excerpt": "Looking for a software development company for European businesses? Discover why Sri Lanka is the ideal near-perfect time zone fit for the EU and UK.",
+    "category": "Business Strategy",
+    "featuredImage": "/images/blog/europe-sri-lanka.png",
+    "author": {
+      "name": "James Carter",
+      "avatar": "/images/blog/authors/james-carter.png",
+      "role": "Senior Software Engineer"
+    },
+    "publishedAt": "2026-08-06",
+    "readTime": 6,
+    "isFeatured": false
+  },
+  {
+    "id": "135",
+    "slug": "outsource-software-development-asia-vs-eastern-europe",
+    "title": "Outsourcing to Asia vs Eastern Europe: An Honest Comparison",
+    "excerpt": "Should you outsource software development to Asia vs Eastern Europe? We compare rates, technical skills, and time zones to help you decide.",
+    "category": "Business Strategy",
+    "featuredImage": "/images/blog/asia-vs-europe.png",
+    "author": {
+      "name": "James Carter",
+      "avatar": "/images/blog/authors/james-carter.png",
+      "role": "Senior Software Engineer"
+    },
+    "publishedAt": "2026-08-06",
+    "readTime": 6,
+    "isFeatured": false
+  },
+  {
+    "id": "136",
+    "slug": "fixed-price-software-development-contract-guide",
+    "title": "Fixed-Price Software Development Contracts: What to Include",
+    "excerpt": "Protect your project budget. Learn exactly what clauses and scopes to include in a fixed price software development contract.",
+    "category": "Business Strategy",
+    "featuredImage": "/images/blog/fixed-price-contracts.png",
+    "author": {
+      "name": "James Carter",
+      "avatar": "/images/blog/authors/james-carter.png",
+      "role": "Senior Software Engineer"
+    },
+    "publishedAt": "2026-08-06",
+    "readTime": 6,
+    "isFeatured": false
+  },
+  {
+    "id": "137",
+    "slug": "gdpr-compliant-software-outsourcing-partner",
+    "title": "GDPR-Compliant Software Outsourcing: A Practical Checklist",
+    "excerpt": "Don't risk massive fines. Use this practical checklist to ensure you select a fully GDPR compliant software outsourcing partner.",
+    "category": "Cloud & Security",
+    "featuredImage": "/images/blog/gdpr-compliance.png",
+    "author": {
+      "name": "James Carter",
+      "avatar": "/images/blog/authors/james-carter.png",
+      "role": "Senior Software Engineer"
+    },
+    "publishedAt": "2026-08-06",
+    "readTime": 6,
+    "isFeatured": false
+  },
+  {
     "id": "111",
     "slug": "why-every-growing-business-needs-custom-web-application-2026",
     "title": "Why Every Growing Business Needs a Custom Web Application in 2026",

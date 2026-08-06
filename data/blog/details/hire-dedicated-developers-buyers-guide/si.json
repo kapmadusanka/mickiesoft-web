@@ -1,0 +1,28 @@
+{
+  "id": "121",
+  "slug": "hire-dedicated-developers-buyers-guide",
+  "title": "කැපවූ සංවර්ධකයින් බඳවා ගැනීම: US සමාගම් සඳහා ගැනුම්කරුවන්ගේ මාර්ගෝපදේශයක්",
+  "category": "බාහිරකරණය",
+  "featuredImage": "/images/blog/hire-dedicated-developers.png",
+  "author": {
+    "name": "James Carter",
+    "avatar": "/images/blog/authors/james-carter.png",
+    "role": "Senior Software Engineer",
+    "bio": "Passionate about building fast, scalable software solutions with modern technologies."
+  },
+  "publishedAt": "2026-08-06",
+  "readTime": 6,
+  "metaDescription": "කැපවූ සංවර්ධකයින් බඳවා ගැනීමට බලාපොරොත්තු වෙනවාද? මෙම මාර්ගෝපදේශය US සමාගම්වලට උපකාරී වේ.",
+  "tags": [
+    "බාහිරකරණය",
+    "Mickiesoft",
+    "Development"
+  ],
+  "relatedSlugs": [],
+  "cta": {
+    "title": "Ready to accelerate your project?",
+    "description": "Contact Mickiesoft today for a free technical consultation.",
+    "buttonText": "Contact Us",
+    "buttonUrl": "/#contact"
+  }
+}

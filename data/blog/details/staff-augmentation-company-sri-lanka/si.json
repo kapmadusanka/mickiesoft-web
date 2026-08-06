@@ -1,0 +1,28 @@
+{
+  "id": "132",
+  "slug": "staff-augmentation-company-sri-lanka",
+  "title": "ශ්‍රී ලංකාවෙන් කාර්ය මණ්ඩල වර්ධනය",
+  "category": "ව්‍යාපාරික උපාය මාර්ග",
+  "featuredImage": "/images/blog/staff-augmentation.png",
+  "author": {
+    "name": "James Carter",
+    "avatar": "/images/blog/authors/james-carter.png",
+    "role": "Senior Software Engineer",
+    "bio": "Passionate about building fast, scalable software solutions with modern technologies."
+  },
+  "publishedAt": "2026-08-06",
+  "readTime": 6,
+  "metaDescription": "ශ්‍රී ලංකාවේ කාර්ය මණ්ඩල වර්ධක සමාගමක් සමඟ හවුල් වීම ඇදහිය නොහැකි නම්‍යශීලී බවක් ලබා දෙයි.",
+  "tags": [
+    "ව්‍යාපාරික උපාය මාර්ග",
+    "Mickiesoft",
+    "Development"
+  ],
+  "relatedSlugs": [],
+  "cta": {
+    "title": "Ready to accelerate your project?",
+    "description": "Contact Mickiesoft today for a free technical consultation.",
+    "buttonText": "Contact Us",
+    "buttonUrl": "/#contact"
+  }
+}

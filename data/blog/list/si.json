@@ -1,5 +1,277 @@
 [
   {
+    "id": "121",
+    "slug": "hire-dedicated-developers-buyers-guide",
+    "title": "කැපවූ සංවර්ධකයින් බඳවා ගැනීම: US සමාගම් සඳහා ගැනුම්කරුවන්ගේ මාර්ගෝපදේශයක්",
+    "excerpt": "කැපවූ සංවර්ධකයින් බඳවා ගැනීමට බලාපොරොත්තු වෙනවාද? මෙම මාර්ගෝපදේශය US සමාගම්වලට උපකාරී වේ.",
+    "category": "බාහිරකරණය",
+    "featuredImage": "/images/blog/hire-dedicated-developers.png",
+    "author": {
+      "name": "James Carter",
+      "avatar": "/images/blog/authors/james-carter.png",
+      "role": "Senior Software Engineer"
+    },
+    "publishedAt": "2026-08-06",
+    "readTime": 6,
+    "isFeatured": false
+  },
+  {
+    "id": "122",
+    "slug": "hire-software-developers-usa-time-zone-overlap",
+    "title": "US වේලා කලාපය සමඟ මෘදුකාංග සංවර්ධකයින් බඳවා ගැනීම",
+    "excerpt": "බාධාවකින් තොරව සන්නිවේදනය සහතික කිරීම සඳහා US වේලා කලාපය සමඟ සංවර්ධකයින් බඳවා ගන්නේ කෙසේදැයි සොයා බලන්න.",
+    "category": "බාහිරකරණය",
+    "featuredImage": "/images/blog/time-zone-overlap.png",
+    "author": {
+      "name": "James Carter",
+      "avatar": "/images/blog/authors/james-carter.png",
+      "role": "Senior Software Engineer"
+    },
+    "publishedAt": "2026-08-06",
+    "readTime": 6,
+    "isFeatured": false
+  },
+  {
+    "id": "123",
+    "slug": "nearshore-vs-offshore-software-development",
+    "title": "Nearshore එදිරිව Offshore මෘදුකාංග සංවර්ධනය",
+    "excerpt": "Nearshore සහ Offshore අතර තෝරා ගන්නේ කෙසේදැයි දැනගන්න.",
+    "category": "ව්‍යාපාරික උපාය මාර්ග",
+    "featuredImage": "/images/blog/nearshore-vs-offshore.png",
+    "author": {
+      "name": "James Carter",
+      "avatar": "/images/blog/authors/james-carter.png",
+      "role": "Senior Software Engineer"
+    },
+    "publishedAt": "2026-08-06",
+    "readTime": 6,
+    "isFeatured": false
+  },
+  {
+    "id": "124",
+    "slug": "software-development-outsourcing-company-startups",
+    "title": "ආරම්භක ව්‍යාපාර සඳහා මෘදුකාංග සංවර්ධන බාහිරකරණය",
+    "excerpt": "ඔබේ ආරම්භක ව්‍යාපාරය සඳහා මෘදුකාංග සංවර්ධනය බාහිරින් ලබා දීමට ප්‍රායෝගික පියවර ඉගෙන ගන්න.",
+    "category": "ව්‍යාපාරික උපාය මාර්ග",
+    "featuredImage": "/images/blog/startup-outsourcing.png",
+    "author": {
+      "name": "James Carter",
+      "avatar": "/images/blog/authors/james-carter.png",
+      "role": "Senior Software Engineer"
+    },
+    "publishedAt": "2026-08-06",
+    "readTime": 6,
+    "isFeatured": false
+  },
+  {
+    "id": "125",
+    "slug": "offshore-development-center-setup-guide",
+    "title": "Offshore සංවර්ධන මධ්‍යස්ථානයක් පිහිටුවන ආකාරය",
+    "excerpt": "ඔබේ ව්‍යවසාය ඉංජිනේරු හැකියාවන් පුළුල් කිරීම සඳහා Offshore සංවර්ධන මධ්‍යස්ථානයක් පිහිටුවන ආකාරය ඉගෙන ගන්න.",
+    "category": "බාහිරකරණය",
+    "featuredImage": "/images/blog/offshore-development-center.png",
+    "author": {
+      "name": "James Carter",
+      "avatar": "/images/blog/authors/james-carter.png",
+      "role": "Senior Software Engineer"
+    },
+    "publishedAt": "2026-08-06",
+    "readTime": 6,
+    "isFeatured": false
+  },
+  {
+    "id": "126",
+    "slug": "hire-react-developers-sri-lanka",
+    "title": "ශ්‍රී ලංකාවෙන් React සංවර්ධකයින් බඳවා ගැනීම",
+    "excerpt": "ශ්‍රී ලංකාවෙන් React සංවර්ධකයින් බඳවා ගැනීමේ ක්‍රියාවලිය සහ ප්‍රතිලාභ සොයා බලන්න.",
+    "category": "වෙබ් සංවර්ධනය",
+    "featuredImage": "/images/blog/hire-react-developers.png",
+    "author": {
+      "name": "James Carter",
+      "avatar": "/images/blog/authors/james-carter.png",
+      "role": "Senior Software Engineer"
+    },
+    "publishedAt": "2026-08-06",
+    "readTime": 6,
+    "isFeatured": false
+  },
+  {
+    "id": "127",
+    "slug": "hire-nextjs-developers-guide",
+    "title": "Next.js සංවර්ධකයින් බඳවා ගැනීම",
+    "excerpt": "Next.js සංවර්ධකයින් බඳවා ගැනීමට අවශ්‍යද? ඇගයීමට ලක් කළ යුතු තාක්ෂණික කුසලතා ඉගෙන ගන්න.",
+    "category": "වෙබ් සංවර්ධනය",
+    "featuredImage": "/images/blog/hire-nextjs-developers.png",
+    "author": {
+      "name": "James Carter",
+      "avatar": "/images/blog/authors/james-carter.png",
+      "role": "Senior Software Engineer"
+    },
+    "publishedAt": "2026-08-06",
+    "readTime": 6,
+    "isFeatured": false
+  },
+  {
+    "id": "128",
+    "slug": "hire-dotnet-developer-offshore-guide",
+    "title": "කැපවූ .NET සංවර්ධකයෙකු බඳවා ගැනීමේ මාර්ගෝපදේශය",
+    "excerpt": "ඔබේ ව්‍යවසාය පසුපෙළ ආරක්ෂිතව පරිමාණය කරන්න. බාහිර .NET සංවර්ධකයින් බඳවා ගන්නේ කෙසේදැයි ඉගෙන ගන්න.",
+    "category": "බාහිරකරණය",
+    "featuredImage": "/images/blog/hire-dotnet.png",
+    "author": {
+      "name": "James Carter",
+      "avatar": "/images/blog/authors/james-carter.png",
+      "role": "Senior Software Engineer"
+    },
+    "publishedAt": "2026-08-06",
+    "readTime": 6,
+    "isFeatured": false
+  },
+  {
+    "id": "129",
+    "slug": "hire-flutter-developer-offshore",
+    "title": "Offshore Flutter සංවර්ධකයෙකු බඳවා ගැනීම",
+    "excerpt": "ජංගම යෙදුමක් සැලසුම් කරනවාද? බාහිර Flutter සංවර්ධකයෙකු බඳවා ගැනීමේදී සොයා බැලිය යුතු දේ සොයා ගන්න.",
+    "category": "ජංගම යෙදුම් සංවර්ධනය",
+    "featuredImage": "/images/blog/hire-flutter.png",
+    "author": {
+      "name": "James Carter",
+      "avatar": "/images/blog/authors/james-carter.png",
+      "role": "Senior Software Engineer"
+    },
+    "publishedAt": "2026-08-06",
+    "readTime": 6,
+    "isFeatured": false
+  },
+  {
+    "id": "130",
+    "slug": "custom-erp-software-development-company-costs",
+    "title": "අභිරුචි ERP මෘදුකාංග සංවර්ධනය",
+    "excerpt": "අභිරුචි ERP මෘදුකාංග සංවර්ධන සමාගමක් සොයනවාද? අපි යථාර්ථවාදී පිරිවැය සහ කාලසීමාවන් බිඳ දමමු.",
+    "category": "ERP සංවර්ධනය",
+    "featuredImage": "/images/blog/erp-costs.png",
+    "author": {
+      "name": "James Carter",
+      "avatar": "/images/blog/authors/james-carter.png",
+      "role": "Senior Software Engineer"
+    },
+    "publishedAt": "2026-08-06",
+    "readTime": 6,
+    "isFeatured": false
+  },
+  {
+    "id": "131",
+    "slug": "microsoft-office-add-in-development-company-guide",
+    "title": "Microsoft Office Add-in සංවර්ධන මාර්ගෝපදේශය",
+    "excerpt": "නිවැරදි Microsoft Office add-in සංවර්ධන සමාගම තෝරා ගැනීම ඉතා වැදගත් වේ. විකුණුම්කරුවන් සංසන්දනය කරන්නේ කෙසේදැයි ඉගෙන ගන්න.",
+    "category": "ව්‍යවසාය",
+    "featuredImage": "/images/blog/office-addin-guide.png",
+    "author": {
+      "name": "James Carter",
+      "avatar": "/images/blog/authors/james-carter.png",
+      "role": "Senior Software Engineer"
+    },
+    "publishedAt": "2026-08-06",
+    "readTime": 6,
+    "isFeatured": false
+  },
+  {
+    "id": "132",
+    "slug": "staff-augmentation-company-sri-lanka",
+    "title": "ශ්‍රී ලංකාවෙන් කාර්ය මණ්ඩල වර්ධනය",
+    "excerpt": "ශ්‍රී ලංකාවේ කාර්ය මණ්ඩල වර්ධක සමාගමක් සමඟ හවුල් වීම ඇදහිය නොහැකි නම්‍යශීලී බවක් ලබා දෙයි.",
+    "category": "ව්‍යාපාරික උපාය මාර්ග",
+    "featuredImage": "/images/blog/staff-augmentation.png",
+    "author": {
+      "name": "James Carter",
+      "avatar": "/images/blog/authors/james-carter.png",
+      "role": "Senior Software Engineer"
+    },
+    "publishedAt": "2026-08-06",
+    "readTime": 6,
+    "isFeatured": false
+  },
+  {
+    "id": "133",
+    "slug": "dedicated-development-team-pricing-breakdown",
+    "title": "කැපවූ සංවර්ධන කණ්ඩායම් මිලකරණය",
+    "excerpt": "කැපවූ සංවර්ධන කණ්ඩායම් මිලකරණය ගැන ව්‍යාකූලද? අපි පිරිවැය පිළිබඳ විනිවිද පෙනෙන බිඳවැටීමක් සපයන්නෙමු.",
+    "category": "ව්‍යාපාරික උපාය මාර්ග",
+    "featuredImage": "/images/blog/team-pricing.png",
+    "author": {
+      "name": "James Carter",
+      "avatar": "/images/blog/authors/james-carter.png",
+      "role": "Senior Software Engineer"
+    },
+    "publishedAt": "2026-08-06",
+    "readTime": 6,
+    "isFeatured": false
+  },
+  {
+    "id": "134",
+    "slug": "software-development-company-european-businesses",
+    "title": "යුරෝපීය ව්‍යාපාර සඳහා මෘදුකාංග සංවර්ධනය",
+    "excerpt": "යුරෝපීය ව්‍යාපාර සඳහා මෘදුකාංග සංවර්ධන සමාගමක් සොයනවාද? ශ්‍රී ලංකාව කදිම ගැළපීමක් වන්නේ මන්දැයි සොයා බලන්න.",
+    "category": "ව්‍යාපාරික උපාය මාර්ග",
+    "featuredImage": "/images/blog/europe-sri-lanka.png",
+    "author": {
+      "name": "James Carter",
+      "avatar": "/images/blog/authors/james-carter.png",
+      "role": "Senior Software Engineer"
+    },
+    "publishedAt": "2026-08-06",
+    "readTime": 6,
+    "isFeatured": false
+  },
+  {
+    "id": "135",
+    "slug": "outsource-software-development-asia-vs-eastern-europe",
+    "title": "ආසියාව එදිරිව නැගෙනහිර යුරෝපයට බාහිරකරණය කිරීම",
+    "excerpt": "ඔබ මෘදුකාංග සංවර්ධනය ආසියාවට හෝ නැගෙනහිර යුරෝපයට බාහිරින් ලබා දිය යුතුද? අපි සංසන්දනය කරමු.",
+    "category": "ව්‍යාපාරික උපාය මාර්ග",
+    "featuredImage": "/images/blog/asia-vs-europe.png",
+    "author": {
+      "name": "James Carter",
+      "avatar": "/images/blog/authors/james-carter.png",
+      "role": "Senior Software Engineer"
+    },
+    "publishedAt": "2026-08-06",
+    "readTime": 6,
+    "isFeatured": false
+  },
+  {
+    "id": "136",
+    "slug": "fixed-price-software-development-contract-guide",
+    "title": "ස්ථාවර මිල මෘදුකාංග සංවර්ධන ගිවිසුම්",
+    "excerpt": "ඔබේ ව්‍යාපෘති අයවැය ආරක්ෂා කරන්න. ස්ථාවර මිල ගිවිසුමකට ඇතුළත් කළ යුතු දේ ඉගෙන ගන්න.",
+    "category": "ව්‍යාපාරික උපාය මාර්ග",
+    "featuredImage": "/images/blog/fixed-price-contracts.png",
+    "author": {
+      "name": "James Carter",
+      "avatar": "/images/blog/authors/james-carter.png",
+      "role": "Senior Software Engineer"
+    },
+    "publishedAt": "2026-08-06",
+    "readTime": 6,
+    "isFeatured": false
+  },
+  {
+    "id": "137",
+    "slug": "gdpr-compliant-software-outsourcing-partner",
+    "title": "GDPR-අනුකූල මෘදුකාංග බාහිරකරණය",
+    "excerpt": "දැවැන්ත දඩ මුදල් අවදානමට ලක් නොකරන්න. සම්පූර්ණ GDPR-අනුකූල හවුල්කරුවෙකු තෝරා ගැනීමට මෙම පිරික්සුම් ලැයිස්තුව භාවිතා කරන්න.",
+    "category": "වලාකුළු සහ ආරක්ෂාව",
+    "featuredImage": "/images/blog/gdpr-compliance.png",
+    "author": {
+      "name": "James Carter",
+      "avatar": "/images/blog/authors/james-carter.png",
+      "role": "Senior Software Engineer"
+    },
+    "publishedAt": "2026-08-06",
+    "readTime": 6,
+    "isFeatured": false
+  },
+  {
     "id": "111",
     "slug": "why-every-growing-business-needs-custom-web-application-2026",
     "title": "2026 දී සෑම වර්ධනය වන ව්‍යාපාරයකටම අභිරුචි වෙබ් යෙදුමක් අවශ්‍ය වන්නේ ඇයි?",

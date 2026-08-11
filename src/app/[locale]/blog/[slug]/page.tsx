@@ -226,7 +226,7 @@ export default async function BlogDetailPage({
                   prose-pre:bg-slate-950 prose-pre:text-slate-100 prose-pre:rounded-xl prose-pre:border prose-pre:border-border/20
                   prose-ul:text-muted-foreground prose-ol:text-muted-foreground
                   prose-li:marker:text-primary/60"
-                dangerouslySetInnerHTML={{ __html: post.content }}
+                dangerouslySetInnerHTML={{ __html: post.content || "" }}
               />
 
               {/* CTA Block (if available) */}
@@ -249,7 +249,7 @@ export default async function BlogDetailPage({
 
               {/* Tags */}
               <BlogFaqSection category={post.category} />
-              
+
               {post.tags.length > 0 && (
                 <div className="mt-10 pt-6 border-t border-border/50">
                   <div className="flex flex-wrap items-center gap-2">
